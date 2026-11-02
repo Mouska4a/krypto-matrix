@@ -1,0 +1,85 @@
+ERSTBEWERTUNG AXIS ROBOTICS (AXIS)
+Stand: 2. November 2026, Regelwerk Version 1.2.30, Modus A (Neubewertung eines neuen Markts nach Q-18)
+Datenstand: Abruf 2. November 2026, 20:20 bis 20:40 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh
+
+
+1. KURZURTEIL
+
+Status: „Kein Kandidat“. Qualitätsnote 19, Klasse D. Bewertungsnote leer, weil kein Umsatz belegt ist. Gesamtwert leer. Belegsicherheit C. Angebots-Gate: Investment-Sperre. Ein Neukauf ist ausgeschlossen; Sie halten den Coin nicht.
+
+Zusätzlich liegt ein möglicher dauerhafter Ausschlussgrund vor, den ich Ihnen zur Entscheidung vorlege (Abschnitt 5). Am Ergebnis für Sie ändert er nichts, denn kaufen lässt sich der Coin in beiden Fällen nicht.
+
+Zur Frist: Der Markt AXIS-EUR handelt bei Bitvavo seit dem 21. Oktober 2026, nicht erst seit dem 2. November. Aufgefallen ist er erst beim Listungsabgleich am 2. November, weil seit dem vorigen Abgleich im Oktober keiner mehr stattgefunden hatte. Nach Q-18 hätte die Erstbewertung bei wöchentlichem Abgleich bis etwa 28. Oktober vorliegen sollen. Die Lücke liegt im fehlenden wöchentlichen Abgleich, nicht in der Bewertung; sie spricht dafür, den Abgleich als geplante Aufgabe einzurichten.
+
+
+2. IDENTITÄT
+
+Bitvavo führt „Axis Robotics“ mit Netz Base. CoinGecko führt unter der Kennung „axis-robotics“ genau einen Vertrag auf Base: 0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea. Kurs Bitvavo 0,107483 Euro, CoinGecko 0,1079 Euro, Abweichung 0,4 Prozent. CoinPaprika kennt den Coin noch nicht. Bei DefiLlama gibt es ein Protokoll „Axis“, das ist aber ein anderes Projekt aus dem Bereich Basis-Handel ohne Bezug zu Axis Robotics; es wurde nicht zugeordnet.
+
+Klasse: Compute, künstliche Intelligenz und DePIN. Axis Robotics sammelt Trainingsdaten für Roboter: Freiwillige steuern Roboter in Simulationen, daraus entstehen Datensätze für Modelle künstlicher Intelligenz. Verdient werden soll mit dem Verkauf dieser Daten.
+
+
+3. BEGRÜNDUNG F1 BIS F7
+
+F1 Bedarf, Note 4: Trainingsdaten für Robotik und sogenannte physische künstliche Intelligenz sind ein großer, deutlich wachsender Markt außerhalb der Kryptowelt.
+F2 Beleg, Note 1: Es gibt Aktivität, nach Angaben des Projekts über 94.000 Mitwirkende und 2,1 Millionen aufgezeichnete Abläufe bis Juli 2026. Die Mitwirkenden werden aber mit Punkten und Token belohnt; zahlende Abnehmer der Daten und Umsätze sind nicht belegt. Das einzige Umsatzziel ist ein Fahrplanwert von 1 Million Dollar wiederkehrendem Jahresumsatz bis Ende 2026.
+F3 Burggraben, Note 1.
+F4 Token-Notwendigkeit, Note 1: AXIS dient als Belohnung für Mitwirkende; eine Pflicht, den Token zu erwerben oder zu sperren, ist nicht belegt.
+F5 Wertrückfluss, Note 0: kein Rückkauf, keine Verbrennung aus Erträgen, keine Ausschüttung.
+F6 Angebotsentwicklung, Note 0: Von 1 Milliarde AXIS liefen beim Start 165 Millionen um (16,5 Prozent). Die übrigen 835 Millionen sollen nach einer Fachveröffentlichung in 35 Monatsraten von November 2026 bis September 2029 frei werden. Diese Reihenfolge ist aber nicht durch den Vertrag erzwungen; eine Mehrfachunterschrift von vier aus sechs Berechtigten kann den gesamten Bestand jederzeit abziehen. Nach D-04 zählt die vertraglich mögliche Menge. Das sind weit über 30 Prozent Wachstum im Jahr.
+F7 Widerstandsfähigkeit, Note 1: Auf der Base-Kette selbst geprüft: Der Token ist ein aktualisierbarer Vertrag. Der Eigentümer, ein Vertrag mit der Adresse 0x811915f1cc3fc50ead05a845c9302520bbca4e6a, angelegt vom selben Absender wie der Token, kann neue Token prägen (bis zur Höchstmenge), und er kann die Programmlogik des Tokens jederzeit austauschen. Damit ließe sich auch die Höchstmenge aufheben. Die Eigentümerschaft wurde seit der Erstellung nicht abgegeben. Das ist starke Zentralisierung.
+
+Qualitätsnote: (4 mal 10 plus 1 mal 20 plus 1 mal 15 plus 1 mal 10 plus 0 plus 0 plus 1 mal 10) geteilt durch 5 ergibt 19, Klasse D.
+
+Bewertungsnote: Die Hauptkennzahl ist die voll verwässerte Bewertung geteilt durch den externen Umsatz. Die Bewertung beträgt 0,107483 Euro mal 1 Milliarde gleich 107,5 Millionen Euro. Ein Umsatz ist weder bei DefiLlama gelistet noch an anderer Stelle belegt. Er ist nicht nachweislich null, sondern nicht messbar; das Feld bleibt nach § 9 Absatz 6 leer. Selbst wenn das Umsatzziel von rund 0,9 Millionen Euro erreicht würde, läge der Multiplikator beim 120-Fachen und ergäbe höchstens 20 Punkte.
+
+
+4. ANGEBOT
+
+Freier Umlauf rund 165 Millionen AXIS. Zuwachs in zwölf Monaten nach D-04: bis zu 835 Millionen, weil die Freigaben nicht vertraglich gebunden sind; nach dem veröffentlichten Plan allein immer noch rund 250 Millionen bis Oktober 2027, das sind rund 150 Prozent des Umlaufs. Absorption: keine. Gate: Investment-Sperre, robust in beiden Rechnungen. Größte Einzelfreigabe: Monatsraten ab November 2026, rund 20 Millionen AXIS aus dem Ökosystemtopf; ab Oktober 2027 rund 25 Millionen je Monat mit Team und Investoren.
+
+Kursverlauf auf Bitvavo als Information: Erster Tagesschluss am 21. Oktober 2026 bei 0,245 Euro, heute 0,107 Euro, also minus 56 Prozent in zwölf Tagen.
+
+
+5. MÖGLICHER DAUERHAFTER AUSSCHLUSSGRUND, VORLAGE ZUR ENTSCHEIDUNG
+
+Kanon § 6 Absatz 1 Buchstabe c schließt Coins mit „einseitig änderbaren oder enteignungsfähigen Token-Rechten, etwa einer unbegrenzten Prägung durch eine Firma“ dauerhaft aus. Bei AXIS kann der Eigentümer die Programmlogik des Tokens jederzeit austauschen. Nach dem Wortlaut ist das ein einseitig änderbares Token-Recht.
+
+Ich habe den Ausschluss trotzdem nicht gesetzt, aus zwei Gründen. Erstens enthält die Kalibrierung dafür keinen Ankerfall; bisher wurde bei keinem Coin geprüft, ob sein Token-Vertrag aktualisierbar ist. Aktualisierbare Verträge sind verbreitet, auch bei bekannten Projekten. Würde ich die Regel nur hier anwenden, wären gleiche Fälle ungleich behandelt. Zweitens ist das Ergebnis für Sie dasselbe: Weder „Kein Kandidat“ noch „Ausschluss (permanent)“ erlaubt einen Kauf, und Sie halten den Coin nicht.
+
+Vorschlag als Beobachtung für die Kalibrierung: Auslegung von § 6 Absatz 1 c für aktualisierbare Token-Verträge. Drei Möglichkeiten:
+Erstens, jeder aktualisierbare Vertrag unter Kontrolle eines Teams ist ein Ausschlussgrund. Folge: sehr streng, voraussichtlich viele Ausschlüsse, auch bei bisherigen Kandidaten, die erst geprüft werden müssten.
+Zweitens, ein Ausschlussgrund nur, wenn die Aktualisierung ohne Zeitsperre und ohne Abstimmung der Tokenhalter möglich ist. Sonst wirkt das Recht nur in F7. Folge: unterscheidet Projekte mit Schutzmechanismen von solchen ohne.
+Drittens, aktualisierbare Verträge wirken grundsätzlich nur in F7 und nie als Ausschluss. Folge: einfachste Lösung, aber die Regel § 6 c liefe für diesen Fall leer.
+Ich würde vorsichtig die zweite Möglichkeit empfehlen, weil sie dem Zweck der Regel am nächsten kommt. Für jede Möglichkeit wäre eine Prüfung der bisherigen Kandidaten nötig. Das ist eine Regelfrage nach Modus K; ohne Ihre Entscheidung ändere ich nichts.
+
+
+6. DATENLÜCKEN UND KENNZEICHEN
+
+Umsatz: nicht gelistet, nicht belegt. Zuteilung und Freigabeplan: Sekundärquelle (S/E). Höchstmenge, Prägerecht, Aktualisierbarkeit und Eigentümer: P/V (Etherscan, Base, Block 49772806). Umlauf: M/E (CoinGecko). Offen: ob der Eigentümervertrag eine Mehrfachunterschrift mit Zeitsperre ist.
+
+Wiedervorlage: keine regelmäßige Wiedervorlage bei „Kein Kandidat“. Neubewertung bei Anlass, etwa ersten belegten Umsätzen oder Abgabe der Eigentümerrechte.
+
+
+7. QUELLEN
+
+Bitvavo: https://api.bitvavo.com/v2/assets?symbol=AXIS und https://api.bitvavo.com/v2/AXIS-EUR/candles?interval=1d
+CoinGecko: https://api.coingecko.com/api/v3/coins/axis-robotics
+Etherscan (Base): https://basescan.org/address/0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea
+Tokenomics, Freigaben und Mehrfachunterschrift (Sekundärquelle): https://phemex.com/academy/axis-robotics-robotics-data-token-base
+Tokenverkauf (Sekundärquelle): https://www.bitrue.com/blog/axis-robotics-tokenomics
+
+
+EINFÜGEZEILEN (Erfassungsbogen, tabulatorgetrennt, Dezimalkomma)
+
+Block A bis M:
+AXIS	Axis Robotics	Compute / KI / DePIN	nein	ja	02.11.2026	4	1	1	1	0	0	1
+Spalte Q: leer (Umsatz nicht belegt). Spalte T: leer.
+Block X bis AD:
+C	Umsatz nicht belegt; Freigabeplan nur aus zweiter Hand; Eigentümervertrag nicht geprüft	0,165	1,52	0	Monatsraten ab 11/2026 rund 20 Mio. AXIS (Ökosystem); gesamter Bestand durch Mehrfachunterschrift jederzeit abziehbar	
+Block AF bis AG:
+nein	möglicher Grund § 6 Abs. 1 c (aktualisierbarer Vertrag, Prägerecht des Eigentümers) zur Entscheidung vorgelegt
+Block AL bis AX:
+Daten für physische künstliche Intelligenz	Zahlende Abnehmer der Daten; Abgabe der Eigentümerrechte	Erste belegte Umsätze; Änderung der Eigentümerrechte		F1 Robotik-Trainingsdaten, großer wachsender Markt; F3 kein Vorsprung belegt; F7 aktualisierbarer Vertrag mit Prägerecht des Eigentümers (Basescan)	Claude, Neuzugang Q-18	Umsatz nicht gelistet; Zuteilung S/E; Vertragsrechte P/V; Umlauf M/E				keine	stabil
+
+Erwartetes Formelergebnis: Qualitätsnote 19, Klasse D, Bewertungsnote leer, Gate Investment-Sperre, Status „Kein Kandidat“.

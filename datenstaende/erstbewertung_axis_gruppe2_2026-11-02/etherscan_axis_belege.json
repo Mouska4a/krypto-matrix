@@ -1,0 +1,6 @@
+{"abruf_utc":"2026-11-02T20:30Z","chainid":8453,
+"token_proxy":{"address":"0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea","ContractName":"ERC1967Proxy","Proxy":"1","Implementation":"0x24eb5084f83bea9f0eda8d53130bad9b62e08788","creator":"0x0b3b207f34c3c4ae1d7b08258c4fd8e8e5ea6b24","creation_tx":"0xb87addeeb02e7e10641d7639713d986a40dec49974e603a09d6667311c86e1a7","creation_block":49772806},
+"implementation_abi_functions":["MAX_SUPPLY","mint(address,uint256) onlyOwner, Fehler CapExceeded","burn(uint256)","owner","transferOwnership","renounceOwnership","upgradeToAndCall(address,bytes) UUPS","permit"],
+"OwnershipTransferred":{"from":"0x0000000000000000000000000000000000000000","to":"0x811915f1cc3fc50ead05a845c9302520bbca4e6a","tx":"0xb87addeeb02e7e10641d7639713d986a40dec49974e603a09d6667311c86e1a7","block":"0x2f77906"},
+"owner_contract":{"address":"0x811915f1cc3fc50ead05a845c9302520bbca4e6a","creator":"0x0b3b207f34c3c4ae1d7b08258c4fd8e8e5ea6b24","creation_tx":"0xf06cc75fcf678f955b2a08bd950d8e42587fce5021ae2ef7d487dc51268c3229","creation_block":49772801},
+"hinweis":"Weitere OwnershipTransferred-Ereignisse seit Erstellung: keine (Abfrage ab Block 49772806)."}

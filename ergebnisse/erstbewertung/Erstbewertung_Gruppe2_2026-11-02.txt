@@ -1,0 +1,129 @@
+ERSTBEWERTUNG GRUPPE 2 DER NEUEN ANWÄRTER
+Fuel (FUEL), Katana (KAT), Merlin Chain (MERL), Definitive (EDGE), Aevo (AEVO)
+Stand: 2. November 2026, Regelwerk Version 1.2.30, Modus A (Neubewertung)
+Datenstand: Abruf 2. November 2026, 20:20 bis 20:50 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh
+
+
+1. KURZÜBERSICHT
+
+Ergebnis: Keiner der fünf wird Kandidat; alle fünf erhalten den Status „Kein Kandidat“. Eine Zweitprüfung ist nicht nötig.
+
+Fuel: Qualitätsnote 29, Klasse D; Bewertungsnote leer; Gate ok; „Kein Kandidat“.
+Katana: Qualitätsnote 31, Klasse D; Bewertungsnote höchstens 24; Gesamtwert 29; Gate Investment-Sperre; „Kein Kandidat“.
+Merlin Chain: Qualitätsnote 35, Klasse D; Bewertungsnote 20; Gesamtwert 31; Gate Investment-Sperre; „Kein Kandidat“.
+Definitive: Qualitätsnote 40, Klasse D; Bewertungsnote 52; Gesamtwert 43; Gate Investment-Sperre; „Kein Kandidat“.
+Aevo: Qualitätsnote 43, Klasse D; Bewertungsnote 20; Gesamtwert 37; Gate ok; „Kein Kandidat“, knapp unter der Optionsliste.
+
+Belegsicherheit bei allen fünf C.
+
+Das Muster ist dasselbe wie in Gruppe 1: Die drei Zusatznetze Fuel, Katana und Merlin haben Token ohne Wertrückfluss, und bei Katana und Merlin sind die Gebühren im Jahresverlauf eingebrochen. Definitive und Aevo haben echte Rückkäufe, scheitern aber an großen Freigaben (Definitive) beziehungsweise an einem Sicherheitsvorfall und fehlenden Ertragsdaten (Aevo).
+
+Zwei Berichtigungen gegenüber der Vorprüfung: Fuel hat keine Höchstmenge, die Menge wächst um rund 3 Prozent im Jahr; die Gesamtmenge beträgt 10,6 Milliarden statt 10 Milliarden. Und die Gebührenreihe von Fuel beginnt bei DefiLlama erst im März 2026; sie ist also kein Zwölfmonatswert.
+
+
+2. FUEL (FUEL)
+
+Identität: Fuel Network, Ethereum-Zusatznetz „Fuel Ignition“; CoinGecko-Kennung „fuel-network“; Kurs Bitvavo 0,0006534 Euro, CoinGecko 0,000652 Euro. Klasse: Plattform, Layer 1 oder Layer 2.
+
+F1 4, wie Arbitrum. F2 2: Gebühren von rund 961.000 Euro seit März 2026, also in acht Monaten; die Messreihe ist unvollständig, Nettoerträge weist DefiLlama mit null aus. F3 1. F4 3: Die Gebühren werden in Ether gezahlt; FUEL wird von den Betreibern der Transaktionsreihung eingesetzt. F5 0: Die Gebühren erreichen die Tokenhalter nicht. F6 0, vorläufig: Die Ausgabe von 3 Prozent im Jahr wird nach der Dokumentation „von den Betreibern der Reihung festgelegt“; eine vertragliche Obergrenze ist nicht belegt, deshalb nach D-17 Note 0. Wäre die Rate vertraglich begrenzt, ergäbe sich Note 3. F7 2.
+
+Qualitätsnote 29, Klasse D; mit F6 3 wären es 38. Bewertungsnote leer, weil die Nettogebühren nicht messbar und die Messreihe kürzer als zwölf Monate ist. Gate ok: Selbst wenn alle noch nicht umlaufenden 0,87 Milliarden und die Ausgabe eines Jahres frei würden, wären es rund 12 Prozent. Status: „Kein Kandidat“.
+
+
+3. KATANA (KAT)
+
+Identität: Katana, Zusatznetz von Polygon und GSR; CoinGecko-Kennung „katana-network-token“; Kurs Bitvavo 0,003397 Euro. Klasse: Plattform.
+
+F1 4. F2 2: Gebühren rund 329.000 Euro in zwölf Monaten, zwei Drittel davon im April und Mai 2026; das dritte Quartal mal vier liegt 82 Prozent unter dem Jahreswert. Die Aktivität wird stark über Belohnungen in KAT gesteuert. F3 1. F4 2: KAT ist nicht das Gebührenmittel (das ist Ether) und regelt keine Netzänderungen; gesperrt als vKAT soll er über die Verteilung von Belohnungen abstimmen. F5 1: Ein Anteil an Pool-Gebühren für vKAT-Halter ist angekündigt, ein laufender Rückfluss ist nicht belegt; die Einnahmen aus der Reihung fließen in eigene Liquidität des Netzes. F6 0: 3,36 von 10 Milliarden laufen um; an jedem Jahrestag der Übertragbarkeit ab März 2027 werden rund 1,67 Milliarden frei. F7 2.
+
+Qualitätsnote 31, Klasse D. Bewertungsnote höchstens 24: Bewertung 34,0 Millionen Euro, mindestens das 103-Fache der Gebühren, 40 Punkte; keine Verbrennung, Kontrollkennzahl 0. Gate: Investment-Sperre, Freigabe im März 2027 rund 50 Prozent des Umlaufs. Status: „Kein Kandidat“.
+
+
+4. MERLIN CHAIN (MERL)
+
+Identität: Merlin Chain, Zusatznetz für Bitcoin; CoinGecko-Kennung „merlin-chain“; Kurs Bitvavo 0,025292 Euro. Klasse: Plattform.
+
+F1 4. F2 2: Gebühren rund 201.000 Euro in zwölf Monaten, seit April 2026 nur noch rund 2.000 Euro im Monat; drittes Quartal minus 90 Prozent. F3 1. F4 3: MERL dient für Gebühren auf einer Unterkette und zum Einsatz durch die Betreiber. F5 0. F6 2: 1,43 von 2,1 Milliarden laufen um; die restlichen Freigaben laufen bis April 2028, rund 14 Prozent im Jahr. F7 2.
+
+Qualitätsnote 35, Klasse D. Bewertungsnote 20: Bewertung 53,1 Millionen Euro, das 264-Fache der Gebühren, 20 Punkte; Kontrollkennzahl nicht bestimmbar, weil es weder Ausgabe noch Verbrennung gibt. Gate: Investment-Sperre, rund 30 Prozent Zuwachs in zwölf Monaten ohne Absorption. Status: „Kein Kandidat“.
+
+
+5. DEFINITIVE (EDGE)
+
+Identität: Definitive, Handelsplattform und Zusammenführer von Börsen; Token auf Base; CoinGecko-Kennung „definitive“; Kurs Bitvavo 0,066583 Euro. Klasse: DeFi und Cashflow.
+
+F1 3: Handel, nach D-18 höchstens 3. F2 3: Gebühren 2,71 Millionen Euro in zwölf Monaten, reale zahlende Nutzung. F3 2. F4 2: Staking senkt die eigenen Handelsgebühren.
+F5 2: Seit dem 1. Oktober 2025 fließen 20 Prozent der Erträge an EDGE: 10 Prozent in Rückkäufe zur Verringerung des Umlaufs, 10 Prozent in Rückkäufe, die als gestakte EDGE verteilt werden, davon 2,5 Prozent an alle Staker und 7,5 Prozent an Staker nach ihrem eigenen Handelsvolumen. Die letzten 7,5 Prozent sind eher ein Nachlass für Handelnde als ein Rückfluss an passive Halter. Die Zahlen bei DefiLlama sind aus dem angekündigten Anteil berechnet, nicht gemessen; ob die zurückgekauften Token verbrannt oder gehalten werden, ist nicht belegt. Nach § 7 Absatz 9 und D-16 deshalb Note 2.
+F6 0: 274 Millionen von 1 Milliarde laufen um; Team (27 Prozent) und Investoren (14,5 Prozent) werden seit dem Frühjahr 2026 über 24 Monate freigegeben, dazu kommen Gemeinschaftsbelohnungen von 33 Prozent ohne Plan. F7 2: Abhängigkeit von der Betreiberfirma.
+
+Qualitätsnote 40, Klasse D. Bewertungsnote 52: Bewertung 66,6 Millionen Euro, das 123-Fache der Halter-Erträge von 541.000 Euro, 20 Punkte; das Wachstum der Halter-Erträge ergibt 100 Punkte. Beobachtung dazu: Das Wachstum von über 900 Prozent entsteht nur, weil der Mechanismus erst am Ende des Vorjahreszeitraums begann. Regelgerecht gerechnet; die Note überzeichnet aber die Lage. Am Status ändert das nichts. Gate: Investment-Sperre, rund 207 Millionen Freigaben in zwölf Monaten gegen 274 Millionen Umlauf. Status: „Kein Kandidat“.
+
+
+6. AEVO (AEVO)
+
+Identität: Aevo, Börse für Optionen und Termingeschäfte, früher Ribbon Finance; Token auf Ethereum; Kurs Bitvavo 0,017459 Euro. Klasse: DeFi und Cashflow.
+
+F1 3: Derivate, nach D-18 höchstens 3. F2 2: DefiLlama führt für Aevo keine Gebühren; der einzige wirtschaftliche Beleg sind aus Gebühren bezahlte Rückkäufe von rund 1 Million AEVO im Monat, das sind rund 210.000 Euro im Jahr. Dem stehen Handelsbelohnungen von rund 1 Million AEVO alle zwei Wochen gegenüber. Ohne Ertragsdaten ist eine überwiegend selbst getragene Nutzung nicht belegt. F3 1. F4 2: Staking für Belohnungen und Nachlässe.
+F5 2: Rückkäufe werden seit 2026 verbrannt; das Projekt meldet bis September 2026 insgesamt 77 Millionen verbrannte AEVO, davon 69 Millionen in einem Vorgang im Januar 2026, dessen Herkunft aus Erträgen nicht belegt ist. Weil die Erträge selbst unbekannt sind, lässt sich der Anteil nicht berechnen (D-07), deshalb vorläufig höchstens 2.
+F6 4: Rund 93 Prozent der Höchstmenge laufen um, die Freigabepläne sind abgeschlossen; die Verbrennung wirkt dem entgegen.
+F7 1: Im Dezember 2025 wurden die alten Ribbon-Tresore des Projekts nach einer Änderung der Preisquelle um rund 2,7 Millionen Dollar ausgenutzt. Das ist ein schwerer Vorfall in den letzten zwölf Monaten.
+
+Qualitätsnote 43, Klasse D. Empfindlichkeit: Mit F2 3 wären es 47 und damit Optionsliste; mit F7 2 statt 1 ebenfalls 45. Beides setzt Belege voraus, die fehlen: belastbare Ertragszahlen und, für F7, dass der Vorfall die heutige Börse nicht betrifft. Bewertungsnote 20: Bewertung höchstens 17,5 Millionen Euro bei rund 210.000 Euro Verbrennung im Jahr, das 83-Fache, 20 Punkte; Kontrollkennzahl nicht bestimmbar. Gate ok: Freigaben abgeschlossen, Verteilungen aus der Gemeinschaftskasse rund 3 Prozent im Jahr. Status: „Kein Kandidat“.
+
+
+7. DATENLÜCKEN UND KENNZEICHEN
+
+Fuel: Obergrenze der Ausgabe im Vertrag; Nettogebühren; Gebührenreihe vor März 2026. Katana: Start des vKAT-Rückflusses; Kosten der Hauptkette. Merlin: keine. Definitive: gemessene Rückkäufe auf Base und deren Verbleib. Aevo: Erträge der Börse; Herkunft der Verbrennung vom Januar 2026; aktuelle Gesamtmenge nach Verbrennung (Datenanbieter widersprechen sich).
+Kennzeichen: Gebühren A/E/vollständig (Fuel: Messreihe unvollständig); Halter-Erträge Definitive M/E; Verbrennung Aevo S/E; Mengen M/E; Zuteilungen S/E.
+
+
+8. QUELLEN
+
+DefiLlama: https://api.llama.fi/summary/fees/fuel-ignition, /katana, /merlin, /definitive (jeweils mit dataType dailyFees, dailyRevenue, dailyHoldersRevenue)
+CoinGecko: https://api.coingecko.com/api/v3/coins/fuel-network, /katana-network-token, /merlin-chain, /definitive
+Bitvavo: https://api.bitvavo.com/v2/ticker/price
+Fuel Tokenomics: https://docs.fuel.network/docs/fuel-token-overview/tokenomics/
+Katana Token: https://katana.network/blog/the-network-is-katana-the-token-is-kat
+Merlin Tokenomics (zweite Hand): https://bitget.cloud/news/detail/12560603970180
+Definitive Rückkäufe: https://docs.definitive.fi/edge/edge-rewards-flywheel
+Definitive Start und Zuteilung: https://blog.definitive.fi/definitive-edge-is-live-dd1e19a8cfb9
+Aevo Verbrennung Januar 2026: https://www.kucoin.com/news/flash/aevo-burns-6-9-of-total-aevo-supply-announces-lp-fee-distribution-in-2026
+Aevo Meldungen 2026 (Hinweis): https://coinmarketcap.com/cmc-ai/aevo/latest-updates/
+Aevo Umlauf: https://www.tokenomist.ai/aevo-exchange und https://app.tokenomics.com/tokenomics/aevo/unlocks
+Aevo Vorfall Dezember 2025: https://www.theblock.co/post/382461/aevos-legacy-ribbon-dov-vaults-exploited-for-2-7-million-following-oracle-upgrade
+
+
+EINFÜGEZEILEN (Erfassungsbogen, tabulatorgetrennt, Dezimalkomma; bei Zeilen mit Kürzel am Anfang ab dem ersten Tabulator kopieren)
+
+Block A bis M:
+FUEL	Fuel Network	Plattform (L1/L2)	nein	ja	02.11.2026	4	2	1	3	0	0	2
+KAT	Katana	Plattform (L1/L2)	nein	ja	02.11.2026	4	2	1	2	1	0	2
+MERL	Merlin Chain	Plattform (L1/L2)	nein	ja	02.11.2026	4	2	1	3	0	2	2
+EDGE	Definitive	DeFi / Cashflow	nein	ja	02.11.2026	3	3	2	2	2	0	2
+AEVO	Aevo	DeFi / Cashflow	nein	ja	02.11.2026	3	2	1	2	2	4	1
+
+Spalten Q und T:
+FUEL	Q: leer	T: leer
+KAT	Q: 103	T: 0
+MERL	Q: 264	T: leer
+EDGE	Q: 123	T: 9,05
+AEVO	Q: 83,3	T: leer
+
+Block X bis AD:
+FUEL	C	Nettogebühren nicht messbar, Gebührenreihe erst ab 03/2026; Obergrenze der Ausgabe nicht belegt	0,918	0,12		laufend (Mitwirkende 48 Monate, Ausgabe 3 %)
+KAT	C	Kosten der Hauptkette nicht abgezogen; vKAT-Rückfluss nicht belegt	0,336	0,50	0	rund 1,67 Mrd. KAT (Team, Kasse, Airdrop, LST)	18.03.2027
+MERL	C	Freigabeplan nur aus zweiter Hand	0,681	0,31	0	laufende Monatsfreigaben bis 04/2028
+EDGE	C	Halter-Erträge modelliert; Verbleib der Rückkäufe nicht belegt	0,274	0,76	0,02	Team und Investoren monatlich bis Frühjahr 2028
+AEVO	C	Erträge der Börse nicht gelistet; Herkunft der Verbrennung 01/2026 offen; Gesamtmenge widersprüchlich	0,933	0,03		keine (Freigaben abgeschlossen)
+
+Block AF bis AG: bei allen fünf „nein“ und leer.
+
+Block AL bis AX:
+FUEL	Eigene Ausführungsumgebung, Gebührenwachstum	Wertrückfluss an FUEL; Obergrenze der Ausgabe	Neuer Tokenomics-Rahmen (Tokenomics 2.0)		F1 wie Arbitrum; F3 austauschbar; F7 Abhängigkeit von Fuel Labs	Claude, Gruppe 2 Anwärter	Gebühren A/E/Messreihe unvollständig; Menge M/E; Ausgabe S/E			1,907		keine	stabil
+KAT	Kettenweite Stimmrechte über Belohnungen (vKAT)	Laufender Rückfluss an vKAT; Gebühren ohne Belohnungen	Start vKAT; Freigabe 03/2027		F1 wie Arbitrum; F3 austauschbar; F7 Abhängigkeit von Polygon und GSR	Claude, Gruppe 2 Anwärter	Gebühren A/E/TTM vollständig; Zuteilung P (Projektblog)/E; Umlauf M/E	-0,82	1,862		geplant	stabil
+MERL	Bitcoin-Zusatznetz	Erholung der Gebühren	Gebührenentwicklung		F1 wie Arbitrum; F3 austauschbar; F7 Abhängigkeit vom Projektteam	Claude, Gruppe 2 Anwärter	Gebühren A/E/TTM vollständig; Zuteilung S/E; Umlauf M/E	-0,898	-0,925		keine	stabil
+EDGE	Wachstum institutioneller Handel auf der Kette	Gemessene, verbrannte Rückkäufe; geringere Verwässerung	Änderung des Rückkaufanteils; Freigaben		F1 Handel nach D-18; F3 Nische Handelsterminal; F7 Abhängigkeit von der Betreiberfirma	Claude, Gruppe 2 Anwärter	Gebühren A/E/TTM vollständig; Halter-Erträge M/E; Zuteilung P (Projektblog)/E	0,711	-0,152		Rückkauf (Verbleib offen) und Verteilung an Staker	verbessert	01.10.2025
+AEVO	Rückkauf und Verbrennung aus Gebühren	Ertragsdaten der Börse; vorfallfreie zwölf Monate	Ertragsdaten; Ende 12/2026 des Zwölfmonatsfensters nach dem Vorfall		F1 Derivate nach D-18; F3 kleiner Anbieter; F7 Vorfall 12/2025 (The Block)	Claude, Gruppe 2 Anwärter	Verbrennung S/E; Umlauf M/W; Vorfall S/V				Burn	verbessert	09.01.2026
+
+Erwartete Formelergebnisse: FUEL 29 D, VS leer, Gate ok, Kein Kandidat; KAT 31 D, VS 24, Gate Investment-Sperre, Kein Kandidat; MERL 35 D, VS 20, Gate Investment-Sperre, Kein Kandidat; EDGE 40 D, VS 52, Gate Investment-Sperre, Kein Kandidat; AEVO 43 D, VS 20, Gate ok, Kein Kandidat.
+Hinweis zu den Gates: Die Tabelle setzt „Investment-Sperre“ nur, wenn Zuwachs über 0,15 und Absorption unter 0,25 eingetragen sind; bei MERL ist sie mit 0 eingetragen.
