@@ -24,3 +24,6 @@ Mengen stammen von CoinPaprika, Erträge von DefiLlama, beide einfach belegt. De
 
 Nächste Schritte
 Erstens die Nacherhebung der bekannten Protokolle ohne DefiLlama-Daten aus Projektberichten, Dashboards und Blockchain-Abfragen. Zweitens die Datenklärung der 14 offenen Fälle. Drittens die Erstbewertung der 30 weitergeleiteten Coins in Gruppen, damit sie mit gleich frischen Daten in die Zweitprüfung gehen. Die Übernahme der Ergebnisse in das Blatt „Vorfilter Universum“ der Arbeitsfassung erfolgt in einem Zug nach der Nacherhebung.
+
+NACHTRAG NACH NACHERHEBUNG UND KLÄRUNG (02.11.2026, abends)
+Endstand der 260 Coins: besteht 10, grenznah 16, Klassenfrage 5 (XRP, XLM, ETC, DGB, XVG; XVG mit Kurs ÷ 200-Wochen-Durchschnitt 0,46 aus 200 Bitvavo-Wochenkerzen), weiter aus der Nacherhebung 3 (AEVO, ME, TNSR), Daten klären 3 (FLOCK, XDP, DATAIP), scheidet aus 59 (zusätzlich ALT, BABY, BLEND, CT), keine Ertragsdaten vorläufig 164 (darunter VELO, AIOZ, ACH, TRAC, GAS, AXIS). Weiter zur Erstbewertung damit 34 Coins. Erstbewertung AXIS nach Q-18 fällig bis 09.11.2026. Die Zahlen oben im Text sind der Zwischenstand vor der Klärung.

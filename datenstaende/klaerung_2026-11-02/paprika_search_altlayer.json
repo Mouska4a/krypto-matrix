@@ -1,0 +1,1 @@
+{"currencies":[{"id":"alt-altlayer","name":"AltLayer","symbol":"ALT","rank":639,"is_new":false,"is_active":true,"type":"token","rev":11128079,"contract_address":[{"type":"ERC20","address":"0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb"},{"type":"BEP20","address":"0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb"}]}]}

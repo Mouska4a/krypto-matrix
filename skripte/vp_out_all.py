@@ -10,7 +10,9 @@ for i,s in enumerate(rest): blocks[s]=2+i//52
 for s,r in o2.items():
     th=r.get('schwelle'); mu=r.get('mult_upper'); mm=r.get('mult_metric'); pre=r.get('grund') or ''
     r['maß']={'Plattform':'Gesamtgebühren der Kette (Obergrenze der Nettogebühren)','DeFi':'Halter-Erträge; Obergrenze: Erträge','Umsatz':'Erträge; Obergrenze: Gesamtgebühren','offen':'Klasse offen; großzügigstes Maß, Schwelle 400'}.get(r.get('typ'),'')
-    if r['ergebnis']=='scheidet aus (robust)':
+    if r['ergebnis']=='scheidet aus (robust)' and pre.startswith('Klärung'):
+        pass
+    elif r['ergebnis']=='scheidet aus (robust)':
         r['grund']=pre+f"Voll verwässerte Bewertung das {de(mu)}-Fache der Obergrenze des Ertrags; Punkte erst bis zum {th}-Fachen, robust ausgeschlossen ab dem {de(1.25*th)}-Fachen."
     elif r['ergebnis']=='besteht → Erstbewertung':
         r['grund']=pre+f"Voll verwässerte Bewertung das {de(mm)}-Fache des Ertrags; Schwelle {th}. Mindestbedingung erfüllt; Nettogebühren und alle Noten erst in der Erstbewertung."

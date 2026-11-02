@@ -1,0 +1,170 @@
+BERICHT ZUR VORAUSWAHL IM BITVAVO-UNIVERSUM
+Auswahl, Begründung und Rangfolge
+Stand: 2. November 2026, Regelwerk Version 1.2.30
+
+
+EINLEITUNG
+
+Dieser Bericht fasst zusammen, was die Durchsicht aller Kryptowährungen ergeben hat, die bei Bitvavo gegen Euro gehandelt werden können. Er ist zum Anhören geschrieben und dauert etwa zwanzig bis dreißig Minuten.
+
+Worum es geht, in einem Satz: Aus mehr als vierhundert handelbaren Coins sollen diejenigen herausgefiltert werden, die nach unseren Regeln überhaupt als Kauf in Frage kommen, und diese sollen in eine nachvollziehbare Reihenfolge gebracht werden.
+
+Das Regelwerk beurteilt jeden Coin nach zwei Größen. Die erste ist die Qualität: Gibt es echten Bedarf, echte zahlende Nutzung, einen Vorsprung vor Konkurrenten, und kommt der erwirtschaftete Wert beim Token an? Daraus entsteht die Qualitätsnote von null bis hundert. Die zweite Größe ist der Preis im Verhältnis zum Ertrag, die Bewertungsnote, ebenfalls von null bis hundert. Ein Coin wird nur dann Kaufkandidat, wenn die Qualität ausreicht und die Bewertungsnote mindestens dreißig erreicht. Ein guter Coin zum überhöhten Preis wird also nicht gekauft, ein billiger Coin ohne Substanz ebenso wenig.
+
+Die heutige Arbeit war eine Vorprüfung. Sie beantwortet nur die Frage, ob ein Coin die Bewertungsnote von mehr als null überhaupt erreichen kann. Wer daran scheitert, kann nie Kandidat werden, egal wie gut er sonst ist. Wer sie besteht, wird anschließend vollständig bewertet. Die Vorprüfung vergibt deshalb keine Noten und keinen Status. Die Rangfolge der neuen Anwärter in diesem Bericht ist ausdrücklich vorläufig.
+
+
+GLIEDERUNG
+
+Erstens: Was geprüft wurde und wie.
+Zweitens: Das Ergebnis in Zahlen.
+Drittens: Die bestehenden Kaufkandidaten und ihre Rangfolge.
+Viertens: Die Wartekandidaten, also gute Coins zum derzeit zu hohen Preis.
+Fünftens: Die neuen Anwärter aus der Vorprüfung, in vier Gruppen.
+Sechstens: Was ausgeschieden ist und warum.
+Siebtens: Schwachstellen und offene Punkte.
+Achtens: Empfohlene Reihenfolge der nächsten Schritte.
+
+
+ERSTENS: WAS GEPRÜFT WURDE UND WIE
+
+Bitvavo führt heute 427 Märkte gegen Euro. Neu hinzugekommen ist am 2. November Axis Robotics.
+
+Für jeden dieser Märkte gibt es jetzt ein datengestütztes Ergebnis. Es stammt aus drei Quellen. 94 Coins wurden schon im Oktober vollständig bewertet. 73 Coins schieden schon damals mit Daten aus: 32 als reine Meme- oder Markencoins ohne jede Ertragsfunktion, darunter Dogecoin, Shiba Inu und Pepe; 5 als Stablecoins, also an den Dollar oder Euro gebundene Token; 26, weil bei ihnen nichts bei den Tokenhaltern ankommt oder die Erträge nachweislich null sind; und 10, weil die Bewertung im Verhältnis zu den Erträgen zu hoch ist, darunter Avalanche mit rund dem 2.300-Fachen der Netzgebühren. Und 260 Coins waren bis heute nie mit Daten geprüft worden. Diese 260 Coins habe ich heute in fünf Blöcken durchgerechnet. Das ist die Antwort auf Ihre Frage: In der Vorauswahl wurden heute 260 Coins geprüft. Zusammen mit den 94 bewerteten und den 73 früher ausgeschiedenen ergibt das genau die 427 Märkte. Damit ist erstmals das gesamte Bitvavo-Universum abgedeckt.
+
+Wie wurde gerechnet? Für jeden Coin wird zuerst die Identität geklärt, also ob das Kürzel bei Bitvavo wirklich dasselbe Projekt meint wie in den Datenquellen. Das klingt banal, ist es aber nicht. Viele Kürzel sind mehrfach vergeben. Dann wird die voll verwässerte Bewertung bestimmt, auf Englisch Fully Diluted Valuation, abgekürzt FDV. Das ist der Kurs mal der höchsten möglichen Menge an Token. Diese Bewertung wird durch den Jahresertrag geteilt. Heraus kommt ein Vielfaches, wie das Kurs-Gewinn-Verhältnis bei Aktien.
+
+Je nach Art des Projekts gilt eine andere Obergrenze. Bei Plattformen, also eigenen Blockchains, gibt es Punkte nur bis zum Vierhundertfachen der Gebühren. Bei DeFi-Protokollen, das sind dezentrale Finanzdienste wie Börsen oder Kreditplattformen, gibt es Punkte nur bis zum Hundertfünfzigfachen dessen, was tatsächlich bei den Tokenhaltern ankommt. Bei Oracle-, Daten-, Rechen- und Realwerteprojekten liegt die Grenze beim Zweihundertfachen des Umsatzes. Für Geldwerte wie Bitcoin gilt ein anderer Maßstab, der sogenannte MVRV. Das ist das Verhältnis des Marktwerts zum realisierten Wert, also zu dem Preis, zu dem die Coins im Durchschnitt zuletzt bewegt wurden. Ein Wert um eins bedeutet, dass der Markt etwa zum Einstandspreis seiner Halter bewertet ist.
+
+Zwei Vorsichtsregeln waren mir wichtig. Erstens scheidet ein Coin nur aus, wenn selbst das großzügigste Ertragsmaß die Grenze um mehr als ein Viertel überschreitet. Dann kann auch eine genauere Zahl das Ergebnis nicht mehr kippen. Zweitens wurde die Prüfvorschrift jeweils schriftlich und mit Uhrzeit festgelegt, bevor gerechnet wurde. So kann das Ergebnis die Regeln nicht nachträglich beeinflussen.
+
+Bei der Zuordnung der Ertragsdaten sind Verwechslungen aufgefallen und berichtigt worden. Die Datenbank DefiLlama ordnete zum Beispiel dem Coin Flux die Erträge eines ganz anderen Projekts namens Flux Finance zu, dem Coin Nexus die Erträge von Nexus Mutual, dem Coin Gravity die Erträge von Gravity Finance, Chromia die Erträge eines Projekts namens Chronos, Mask Network die Erträge von Nullmask und dem Gas-Token des Neo-Netzes die Erträge eines Spiels gleichen Namens. Hätte man diese Zahlen übernommen, wären mehrere Coins falsch bewertet worden. Zugeordnet wird deshalb nur noch über die eindeutige Kennung oder über Kürzel und passenden Namen zusammen.
+
+
+ZWEITENS: DAS ERGEBNIS IN ZAHLEN
+
+Von den 260 heute geprüften Coins gehen 34 in die vollständige Erstbewertung. 59 scheiden mit Daten belegt aus. 164 haben bei DefiLlama keine Ertragsdaten und bleiben vorläufig offen. Bei 3 Coins fehlen noch Angaben zur Menge oder zur Identität.
+
+Zusammen mit den Ergebnissen vom Oktober sieht das Gesamtbild so aus. Es gibt derzeit zehn Kaufkandidaten mit abgeschlossener Zweitprüfung. Es gibt neun Wartekandidaten mit guter Qualität und zu hohem Preis. Und es gibt 34 neue Anwärter, deren vollständige Bewertung noch aussteht.
+
+Wichtig für die Einordnung: Die Zahl der Anwärter sagt nichts darüber, wie viele davon am Ende Kandidaten werden. Im Oktober wurden aus 94 vollständig bewerteten Coins zehn Kandidaten. Bei den neuen Anwärtern dürfte die Quote eher niedriger liegen, weil viele kleine und junge Projekte darunter sind, bei denen die Qualitätsnote schwächer ausfallen wird.
+
+
+DRITTENS: DIE BESTEHENDEN KAUFKANDIDATEN UND IHRE RANGFOLGE
+
+Die Rangfolge innerhalb der Kandidaten richtet sich nach dem Gesamtwert. Er setzt sich zu drei Vierteln aus der Qualitätsnote und zu einem Viertel aus der Bewertungsnote zusammen. Er begründet keine Kaufberechtigung, sondern ordnet nur.
+
+Platz eins: Bitcoin, Kernkandidat, Gesamtwert 92. Höchste Qualitätsnote von hundert, Bewertungsnote 68, Belegsicherheit A, also beste Datenlage. Der MVRV lag am 1. November bei 1,45 und damit knapp unter der Grenze von 1,5, bis zu der die Kaufprüfung bei Bitcoin das Bewertungssignal „günstig“ setzt. Bitcoin liegt über seinem 200-Tage-Durchschnitt. Bei der heutigen Kaufprüfung erhielt Bitcoin drei Teilkäufe.
+
+Platz zwei: Ethereum, Kernkandidat, Gesamtwert 77. Qualitätsnote 87, Bewertungsnote 48, also neutral. Die Schwäche: Die verbrannten Gebühren gleichen nur etwa zwei Prozent der neu ausgegebenen Ether aus. Ethereum hat sich zuletzt minimal schwächer entwickelt als Bitcoin, deshalb gab es heute nur den ersten Teilkauf.
+
+Platz drei, gleichauf: Litecoin und Bitcoin Cash, beide Ergänzungskandidaten mit Gesamtwert 75. Beide haben die volle Bewertungsnote von hundert, sind also nach dem Maßstab für Geldwerte sehr günstig. Ihre Schwäche liegt in der Qualität: wenig wirtschaftlicher Beleg und kaum Vorsprung vor Konkurrenten. Die Belegsicherheit ist nur C, deshalb ist ihre Positionsgrenze halbiert. Bitcoin Cash lag heute nur hauchdünn über seinem 200-Tage-Durchschnitt.
+
+Platz fünf: Kaspa, Satellit, Gesamtwert 71. Bewertungsnote hundert, Qualitätsnote 61. Sie halten Kaspa bereits, die Positionsgrenze ist erreicht, ein Zukauf ist daher nicht möglich.
+
+Platz sechs: Tron, Ergänzungskandidat, Gesamtwert 70. Bewertungsnote 68, günstig. Die Schwäche liegt in der Machtkonzentration: 18 der 27 gewählten Blockproduzenten, der sogenannten Super Representatives, können die Ausgabe neuer Token jederzeit ändern. Deshalb steht die Note für die Angebotsdisziplin auf null. Tron liegt unter seinem 200-Tage-Durchschnitt; wegen der günstigen Bewertung gab es trotzdem drei Teilkäufe mit weiten Abständen.
+
+Platz sieben: Polygon, Ergänzungskandidat, Gesamtwert 68, Bewertungsnote 72. Schwächen: Die Vernichtung von Gebühren wurde erst im September 2026 vollzogen und läuft noch nicht automatisch, und rund zwei Drittel der eingesetzten Token liegen bei zehn Validatoren, also Netzbetreibern. Die Belegsicherheit ist nur C, die Positionsgrenze daher halbiert.
+
+Platz acht bis zehn: Uniswap mit 63, PancakeSwap mit 62 und Sky, früher Maker, mit 62. Uniswap schüttet erst seit Ende Dezember 2025 an die Halter aus, deshalb ist der Jahreswert aus neunzig Tagen hochgerechnet. Bei PancakeSwap und Sky sind die Erträge für die Halter gegenüber dem Vorjahr um mehr als vierzig Prozent gesunken. Sky ist zudem nach unserem Maßstab teuer bewertet und hat sich schwächer als Bitcoin entwickelt; es erhielt heute nur den ersten Teilkauf.
+
+Eine wichtige Einschränkung: Die Bewertungsdaten dieser Kandidaten stammen vom 17. Oktober. Nach unseren Datenregeln gelten Gebühren- und Ertragszahlen einen Monat. Wer nach dem 17. November kaufen will, braucht vorher eine Wiedervorlage dieser Kandidaten.
+
+
+VIERTENS: DIE WARTEKANDIDATEN
+
+Wartekandidaten sind Coins mit guter Qualität, deren Preis derzeit zu hoch ist. Ihr Status heißt „Qualität ja, Bewertung abwarten“. Sie dürfen gehalten, aber nicht zugekauft werden. Sinkt der Kurs oder steigen die Erträge stark genug, können sie Kandidaten werden. Hier lohnt die Beobachtung. Die Reihenfolge richtet sich nach der Qualitätsnote.
+
+BNB, Qualitätsnote 83, Klasse A. Die Gebühren des Netzes betragen etwa 157 Millionen Euro bei einer Bewertung von 89 Milliarden Euro. Der Abstand zur Bewertungsgrenze ist groß.
+
+Solana, Qualitätsnote 75, Klasse A. Würde Solana Kandidat, wäre es Kernkandidat mit der höchsten Positionsgrenze. Die Bewertungsnote liegt aber nur bei 12. Die Gebühren sind gegenüber dem Vorjahr um rund drei Viertel gefallen, und die verbrannten Gebühren decken nur etwa ein Prozent der neuen Token. Die Bewertung lag beim Stand vom 17. Oktober beim 277-Fachen der Netzgebühren. Für die Kandidatenschwelle müsste sie auf höchstens das Hundertfache sinken. Das heißt: Bei gleichem Kurs müssten sich die Gebühren fast verdreifachen, oder bei gleichen Gebühren müsste der Kurs auf gut ein Drittel des damaligen Standes fallen. Heute steht Solana bei Bitvavo bei rund 83 Euro.
+
+Aave, Qualitätsnote 75, Klasse A, Bewertungsnote 28 und damit knapp unter der Grenze von 30. Aave ist der Wartekandidat, der am nächsten an der Kandidatenschwelle liegt. Die Rückkäufe von Aave-Token laufen seit Ende Juni 2026 wieder, nachdem sie gut zwei Monate ausgesetzt waren. Weil sie im letzten Jahr unterbrochen waren, zählen sie noch nicht voll.
+
+Chainlink, Qualitätsnote 73. Die Bewertung liegt knapp über dem Zweihundertfachen des Umsatzes; ab etwa 54 Millionen Euro Jahresumsatz wäre die Grenze unterschritten. Chainlink veröffentlicht aber selbst keine Umsatzzahlen, und für rund 252 Millionen nicht umlaufende Token gibt es keinen Freigabeplan. Das Angebots-Gate, die Prüfung künftiger Tokenfreigaben, ist deshalb offen.
+
+Near, Qualitätsnote 68. Netzgebühren von etwa 1,1 Millionen Euro bei einer Bewertung von 5,9 Milliarden Euro; der Abstand ist sehr groß.
+
+Pendle und Arweave mit je 61, Render mit 60 und Injective mit 59 folgen mit deutlichem Abstand.
+
+Ich schlage vor, für die vorderen Wartekandidaten Schwellenkurse zu berechnen und als Kursalarm bei Bitvavo zu hinterlegen. Dann meldet sich der Markt bei Ihnen, statt dass Sie ihn beobachten müssen.
+
+
+FÜNFTENS: DIE NEUEN ANWÄRTER AUS DER VORPRÜFUNG
+
+Für die 34 neuen Anwärter gibt es noch keine Qualitätsnote. Die folgende Rangfolge beruht allein auf dem Abstand zur Bewertungsgrenze. Sie zeigt, wo die Erstbewertung am ehesten lohnt, nicht, welcher Coin besser ist. Ein günstig bewerteter Coin kann an der Qualität scheitern.
+
+Gruppe eins: Mindestbedingung klar erfüllt, zehn Coins. Geordnet nach dem Abstand zur Grenze, vom größten zum kleinsten.
+
+Fuel, eine Ethereum-nahe Ausführungsschicht, mit dem etwa siebenfachen der Gebühren bei einer Grenze von 400. Die Bewertung liegt bei nur rund 7 Millionen Euro. Hier ist Vorsicht geboten: So hohe Gebühren bei so kleiner Bewertung sind ungewöhnlich und müssen aus Primärquellen bestätigt werden. Außerdem sind bei solchen Netzen die Kosten an die Ethereum-Hauptkette abzuziehen.
+
+Osmosis, eine dezentrale Börse mit eigener Blockchain im Cosmos-Ökosystem, mit dem etwa Achtzehnfachen der Gebühren.
+
+Scroll, eine sogenannte Layer-2-Kette, also ein Zusatznetz auf Ethereum, mit dem etwa Neunzigfachen. Auch hier sind die Kosten an die Hauptkette noch abzuziehen.
+
+Katana, ebenfalls eine Kette, mit dem etwa Hundertfünffachen.
+
+USD.AI mit dem Token CHIP, ein Projekt für Kredite in Dollar-Stablecoins. Es liegt beim etwa Zweiundfünfzigfachen der Erträge bei einer Grenze von 200. Zu beachten ist, dass ein großer Teil der Gebühren als Zinsen an die Einleger weitergereicht wird. Diese zählen nicht als Ertrag des Protokolls.
+
+Livepeer, ein dezentrales Netz für Videoverarbeitung, mit dem etwa Einundachtzigfachen des Umsatzes.
+
+Linea, ein Ethereum-Zusatznetz, mit dem etwa Hundertdreiundsiebzigfachen der Gebühren.
+
+OpenEden, ein Anbieter tokenisierter Staatsanleihen, also ein Realwerte-Projekt, mit dem etwa Neunundachtzigfachen der Erträge.
+
+Merlin Chain, ein Zusatznetz für Bitcoin, mit dem etwa Zweihundertfünfundsiebzigfachen.
+
+Definitive, eine Handelsplattform mit dem Token EDGE, mit dem etwa Hundertvierundzwanzigfachen der Erträge für die Halter bei einer Grenze von 150. Das ist der knappste Fall dieser Gruppe.
+
+Gruppe zwei: grenznah, sechzehn Coins. Hier lässt die Datenlage kein sicheres Urteil zu, meist weil unklar ist, welcher Teil der Erträge wirklich bei den Tokenhaltern ankommt. Dazu gehören Grove, Tria, Sport.Fun, Treehouse, o1.exchange, Solstice, SoSoValue, Derive, Enzyme, Threshold, Superform, Immunefi, Frax, Swell, API3 und Re Protocol.
+
+Vorsicht ist bei den Vermögensverwaltern und Anbietern sogenannter Basis-Strategien geboten, also Grove, Solstice, SoSoValue und Re. Dort erscheinen sehr hohe Gebühren, die zum größten Teil an die Anleger weitergereicht werden. Nach unseren Regeln zählt nur, was beim Protokoll bleibt. Bei Grove etwa stehen rund 50 Millionen Euro Gebühren, aber null Euro Ertrag für das Protokoll. Viele dieser Fälle dürften in der Erstbewertung ausscheiden.
+
+Bei Frax wurde die Identität geklärt: Bitvavo führt den Steuerungs-Token, früher FXS genannt, nicht den gleichnamigen früheren Stablecoin. Das ließ sich am Kurs eindeutig erkennen.
+
+Gruppe drei: die Klassenfrage, fünf Coins. Das sind XRP, Stellar, Ethereum Classic, DigiByte und Verge. Als Plattformen gemessen scheiden alle weit aus. XRP etwa wird mit rund 111 Milliarden Euro bewertet und erzielt rund 250.000 Euro Gebühren im Jahr, also mehr als das Vierhunderttausendfache. Als Geldwert betrachtet sähe es anders aus. Der MVRV liegt bei XRP bei 0,85, bei Stellar bei 1,31, bei Ethereum Classic bei 0,66 und bei DigiByte bei 0,25. Für Verge gibt es keinen MVRV; der Ersatzmaßstab, der Kurs im Verhältnis zum Durchschnitt der letzten 200 Wochen, liegt bei 0,46. Alle wären damit punktfähig.
+
+Welche Klasse richtig ist, entscheidet nach unseren Regeln, womit das Projekt tatsächlich Wert schafft. Das muss in der Erstbewertung begründet und von der Zweitprüfung blind, also ohne Kenntnis des Ergebnisses, nachgeprüft werden. Ehrlich gesagt kenne ich die günstigen Werte bereits. Gerade deshalb darf die Klassenwahl nicht vom erwünschten Ergebnis her begründet werden. Bei XRP kämen außerdem schwierige Fragen zur Konzentration der Bestände bei der Firma Ripple und zu deren Treuhandfreigaben hinzu.
+
+Gruppe vier: aus der Nacherhebung, drei Coins. Aevo, eine Börse für Optionen und Termingeschäfte, kauft laut einem angenommenen Beschluss vom Mai 2025 monatlich eigene Token aus Überschüssen zurück. Daraus ergibt sich eine belegte Untergrenze des Ertrags, mit der die Mindestbedingung erfüllt ist. Allerdings behält die Gemeinschaftskasse die zurückgekauften Token, statt sie zu vernichten. Das mindert voraussichtlich die Qualitätsnote. Magic Eden, ein NFT-Marktplatz, und Tensor, ebenfalls aus dem NFT- und Handelsbereich, haben laut Fachberichten Jahresumsätze in der Größenordnung ihrer gesamten Bewertung oder darüber. Bei Magic Eden waren es im Jahr 2024 rund 60 Millionen Dollar Gebühren bei heute rund 46 Millionen Euro Bewertung. Diese Zahlen sind aber alt oder nur Hinweise und müssen aus Primärquellen bestätigt werden. Bei Tensor fließt die Hälfte des Ertrags der Handels-App in die Kasse einer Stiftung und nicht unmittelbar an die Halter.
+
+
+SECHSTENS: WAS AUSGESCHIEDEN IST UND WARUM
+
+59 Coins sind mit Daten belegt ausgeschieden. Darunter sind bekannte Namen: Cardano, Polkadot, Cosmos, Aptos, Internet Computer, Filecoin, Celestia, The Graph, Cronos, Worldcoin, Tezos, Algorand, Gram auf der TON-Blockchain sowie die Zusatznetze ZKsync, Manta, Metis und Taiko. Der Grund ist überall derselbe: Die Bewertung übersteigt die Erträge so stark, dass selbst eine großzügige Rechnung keine Bewertungsnote über null ergibt. Bei Cardano etwa liegt das Vielfache bei rund 8.700, bei Polkadot bei über 300.000. Das sagt nichts über die Technik aus, wohl aber darüber, dass der Preis nicht durch messbare Erträge gedeckt ist.
+
+164 Coins haben bei DefiLlama keine Ertragsdaten. Die meisten davon haben kein erkennbares Ertragsmodell: Spiele, Meme-nahe Projekte, Projekte für künstliche Intelligenz ohne zahlende Kunden, ältere Netze. Dieses Ergebnis ist aber ausdrücklich vorläufig. Darunter stehen auch bekannte Protokolle mit echten Erträgen, die DefiLlama nur nicht erfasst, etwa Hashflow, Loopring, UMA, 0x und SuperRare. Bei einigen gibt es Hinweise, die gegen sie sprechen: Die Arkham-Börse soll laut einem Bericht vom Februar 2026 schließen, und Loopring wurde bei großen Börsen aus dem Handel genommen. Ohne Primärbeleg wird aber niemand ausgeschlossen.
+
+Drei Fälle sind noch offen. Bei FLock und Doppler Finance fehlt die Angabe zur Gesamtmenge der Token; bei FLock wäre die Mindestbedingung erfüllt, wenn höchstens etwa 1,4 Milliarden Token existieren. Bei DataIP kennt keine der freien Datenquellen den Coin; die Identität muss beim Projekt oder bei Bitvavo erfragt werden.
+
+
+SIEBTENS: SCHWACHSTELLEN UND OFFENE PUNKTE
+
+Erstens die Datenqualität. Die Mengenangaben stammen von einem Datenanbieter und sind nur einfach belegt. Die Jahreserträge sind eine Näherung über 365 Tage; eine Stichprobe mit genauen Kalendermonaten wich höchstens drei Prozent ab. Die Vorprüfung ist ein Sieb, kein Urteil.
+
+Zweitens die Lücke bei DefiLlama. Für Protokolle, die dort nicht erfasst sind, lassen sich frei zugängliche Zahlen kaum finden. Ein kostenloser Zugang zur Datenbank Dune, mit der man Rückkäufe und Gebühren direkt aus der Blockchain abfragen kann, würde das deutlich verbessern. Den Schlüssel dafür müssten Sie anlegen.
+
+Drittens der Anteil außerhalb der Matrix. In Ihrem Depot liegen derzeit rund 69 Prozent außerhalb der Matrix. Das sperrt Käufe außerhalb der Matrix vollständig. Käufe von Kandidaten bleiben erlaubt und senken diesen Anteil.
+
+Viertens drei Bestände mit Handelsproblem. Für Arweave, Polymesh und IoTeX lieferte die Bitvavo-Schnittstelle keinen Kurs; die Werte stammen aus Ihrem Bildschirmfoto, und dort sind die Märkte im Pro-Modus als nicht verfügbar gekennzeichnet. Ob ein Verkauf in der normalen App möglich ist, sollten Sie prüfen.
+
+Fünftens der Aufwand der Zweitprüfung. Jeder neue Kandidat braucht ein eigenes Datenpaket und eine blinde Zweitprüfung im ChatGPT-Projekt. Bei 34 Anwärtern ist das, auch wenn nur ein Teil Kandidat wird, ein erheblicher Aufwand auf Ihrer Seite.
+
+Sechstens die Fortschreibung des Regelwerks. Für Version 1.2.31 liegen vier formale Punkte bereit: die Erweiterung des Blatts für die Kaufhistorie, eine Spalte für die noch gehaltene Menge je Kauf, die Ausnahme von Vorgängen ohne Kursbezug bei der Nachschau und ein eigener Protokollvorgang für den Listungsabgleich. Keiner davon ändert eine Bewertung.
+
+
+ACHTENS: EMPFOHLENE REIHENFOLGE
+
+Meine vorsichtige Empfehlung:
+
+Zuerst, falls Sie noch in diesem Monat kaufen möchten, die Wiedervorlage der zehn bestehenden Kandidaten vor dem 17. November. Sonst sind ihre Bewertungsdaten abgelaufen.
+
+Dann die Erstbewertung der neuen Anwärter in Gruppen von fünf bis sechs Coins. Ich würde mit der Gruppe der klar erfüllten beginnen, mit Osmosis, Livepeer, OpenEden, USD.AI, Scroll und Linea. Danach folgen die Klassenfragen um XRP und Stellar, weil sie grundsätzlicher Natur sind, und dann die grenznahen Fälle. Die Erstbewertung von Axis Robotics ist nach unseren Regeln bis zum 9. November fällig.
+
+Parallel dazu Schwellenkurse und Kursalarme für die vorderen Wartekandidaten Aave, Solana und BNB.
+
+Und schließlich die Übernahme aller Ergebnisse der Vorprüfung in die Arbeitsfassung, in einem Zug, damit Sie die Datei nur einmal ersetzen müssen.
+
+Alle Rohdaten, die Prüfvorschrift mit Uhrzeiten und die Rechenskripte liegen im Ordner „Belege“ und im GitHub-Archiv krypto-matrix. Damit ist jeder Schritt dieses Berichts nachprüfbar.
+
+Ende des Berichts.

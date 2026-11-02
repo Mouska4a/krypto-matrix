@@ -1205,8 +1205,8 @@
   "hold": null,
   "quellen": [],
   "flag": "VELO",
-  "ergebnis": "Daten klären",
-  "grund": "Identität der Ertragsdaten widersprüchlich: DefiLlama ordnet die Kennung „velo“ dem Protokoll „Velo Finance“ zu, Bitvavo führt Velo (Velo Labs) – bekannter Fehlerfall aus Q-01",
+  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
+  "grund": "Klärung: Der Treffer „Velo Finance“ bei DefiLlama ist ein anderes Projekt und wurde verworfen; für Velo (Velo Labs) gibt es keine Ertragsdaten.",
   "maß": ""
  },
  "AIOZ": {
@@ -1225,8 +1225,8 @@
   "hold": null,
   "quellen": [],
   "flag": "NODATA",
-  "ergebnis": "Daten klären",
-  "grund": "Keine Ertragsdaten bei DefiLlama; Primärquellen der Projekterträge sind einzeln zu prüfen (Grundsatz 7)",
+  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
+  "grund": "Klärung: Bei DefiLlama weder unter Kennung noch Name erfasst; Erträge des Speicher- und Streaming-Netzes wären aus Primärquellen nachzuerheben.",
   "maß": ""
  },
  "ACH": {
@@ -1245,8 +1245,8 @@
   "hold": null,
   "quellen": [],
   "flag": "NODATA",
-  "ergebnis": "Daten klären",
-  "grund": "Keine Ertragsdaten bei DefiLlama; Primärquellen der Projekterträge sind einzeln zu prüfen (Grundsatz 7)",
+  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
+  "grund": "Klärung: Alchemy Pay ist ein Zahlungsdienstleister; Firmenumsatz zählt nach D-12 nur, soweit er nachweislich über das Netzwerk läuft. Ein solcher Ertrag ist nicht belegt.",
   "maß": ""
  },
  "TRAC": {
@@ -1265,8 +1265,8 @@
   "hold": null,
   "quellen": [],
   "flag": "NODATA",
-  "ergebnis": "Daten klären",
-  "grund": "Keine Ertragsdaten bei DefiLlama; Primärquellen der Projekterträge sind einzeln zu prüfen (Grundsatz 7)",
+  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
+  "grund": "Klärung: Bei DefiLlama nicht erfasst; die Veröffentlichungsgebühren im OriginTrail-Netz wären aus der Blockchain nachzuerheben.",
   "maß": ""
  },
  "AXIS": {
@@ -1285,8 +1285,8 @@
   "hold": null,
   "quellen": [],
   "flag": "NODATA",
-  "ergebnis": "Daten klären",
-  "grund": "Keine Ertragsdaten bei DefiLlama; Primärquellen der Projekterträge sind einzeln zu prüfen (Grundsatz 7)",
+  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
+  "grund": "Klärung: Neu gelistet am 02.11.2026; weder Ertragsdaten noch Mengenangaben frei abrufbar (CoinGecko drosselte zweimal). Nach Q-18 ist die vollständige Erstbewertung bis 09.11.2026 fällig.",
   "maß": ""
  },
  "0G": {
@@ -1524,7 +1524,7 @@
   "pdev": null,
   "menge": null,
   "mengenart": null,
-  "fdv": null,
+  "fdv": 50650000.0,
   "quellen": [
    "Alt Fun (Launchpad)"
   ],
@@ -1534,8 +1534,11 @@
   "rev": 252964.20292439367,
   "hold": 0.0,
   "weak": false,
-  "ergebnis": "Daten klären",
-  "grund": "Ertrag vorhanden, aber Menge nicht belegt (keine Mengenangabe bei CoinPaprika)",
+  "ergebnis": "scheidet aus (robust)",
+  "grund": "Klärung: Menge jetzt belegt (CoinPaprika: Höchstmenge 10 Mrd. ALT; Firmenumsatz des Rollup-Geschäfts zählt nach D-12 nicht). Voll verwässerte Bewertung rund 50,6 Mio. € gleich dem 225-Fachen der Obergrenze des Ertrags (Erträge von „Alt Fun“, dem Launchpad von AltLayer); Punkte erst bis zum 150-Fachen, robust ausgeschlossen ab dem 188-Fachen.",
+  "mult_upper": 224.57361521797566,
+  "mult_metric": null,
+  "schwelle": 150,
   "maß": "Halter-Erträge; Obergrenze: Erträge"
  },
  "AMP": {
@@ -1773,7 +1776,7 @@
   "pdev": null,
   "menge": null,
   "mengenart": null,
-  "fdv": null,
+  "fdv": 105464652.25023,
   "quellen": [
    "Babylon Genesis (Chain)"
   ],
@@ -1783,8 +1786,11 @@
   "rev": 0.0,
   "hold": 0.0,
   "weak": false,
-  "ergebnis": "Daten klären",
-  "grund": "Ertrag vorhanden, aber Menge nicht belegt (keine Mengenangabe bei CoinPaprika)",
+  "ergebnis": "scheidet aus (robust)",
+  "grund": "Klärung: Menge jetzt belegt (CoinPaprika: Gesamtmenge rund 10,0 Mrd. BABY). Voll verwässerte Bewertung rund 105,5 Mio. € gleich dem 187.463-Fachen der Obergrenze des Ertrags (Gebühren der Kette Babylon Genesis); Punkte erst bis zum 400-Fachen, robust ausgeschlossen ab dem 500-Fachen.",
+  "mult_upper": 187463.00152750866,
+  "mult_metric": 187463.00152750866,
+  "schwelle": 400,
   "maß": "Gesamtgebühren der Kette (Obergrenze der Nettogebühren)"
  },
  "BAND": {
@@ -1978,7 +1984,7 @@
   "pdev": null,
   "menge": null,
   "mengenart": null,
-  "fdv": null,
+  "fdv": 44640000.0,
   "quellen": [
    "Fluent (Chain)"
   ],
@@ -1988,8 +1994,11 @@
   "rev": null,
   "hold": null,
   "weak": false,
-  "ergebnis": "Daten klären",
-  "grund": "Ertrag vorhanden, aber Menge nicht belegt (keine Mengenangabe bei CoinPaprika)",
+  "ergebnis": "scheidet aus (robust)",
+  "grund": "Klärung: Menge jetzt belegt (CoinPaprika: Höchstmenge 1 Mrd. BLEND). Voll verwässerte Bewertung rund 44,6 Mio. € gleich dem 41.933-Fachen der Obergrenze des Ertrags (Gebühren der Kette Fluent); Punkte erst bis zum 400-Fachen, robust ausgeschlossen ab dem 500-Fachen.",
+  "mult_upper": 41933.18592964824,
+  "mult_metric": 41933.18592964824,
+  "schwelle": 400,
   "maß": "Gesamtgebühren der Kette (Obergrenze der Nettogebühren)"
  },
  "BOB": {
@@ -2348,7 +2357,7 @@
   "pdev": null,
   "menge": null,
   "mengenart": null,
-  "fdv": null,
+  "fdv": 113480000.0,
   "quellen": [
    "Concrete (Onchain Capital Allocator)"
   ],
@@ -2358,8 +2367,11 @@
   "rev": 155999.38480741798,
   "hold": 0.0,
   "weak": false,
-  "ergebnis": "Daten klären",
-  "grund": "Ertrag vorhanden, aber Menge nicht belegt (keine Mengenangabe bei CoinPaprika)",
+  "ergebnis": "scheidet aus (robust)",
+  "grund": "Klärung: Menge jetzt belegt (CoinPaprika: Höchstmenge 1 Mrd. CT). Voll verwässerte Bewertung rund 113,5 Mio. € gleich dem 816-Fachen der Obergrenze des Ertrags (Erträge von Concrete); Punkte erst bis zum 150-Fachen, robust ausgeschlossen ab dem 188-Fachen.",
+  "mult_upper": 815.8973326752094,
+  "mult_metric": null,
+  "schwelle": 150,
   "maß": "Halter-Erträge; Obergrenze: Erträge"
  },
  "CTC": {
@@ -2518,7 +2530,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "Daten klären",
-  "grund": "Identität nicht eindeutig: Zwei Einträge mit dem Kürzel DATA (Streamr und Data Network) liegen beide innerhalb von 1 % des Bitvavo-Kurses (Q-01).",
+  "grund": "Klärung offen: Bitvavo führt „DataIP“ mit eigenem Netz „DATAIP“, Ein- und Auszahlungen in Wartung; weder CoinGecko-Liste noch CoinPaprika kennen den Coin. Identität beim Projekt oder bei Bitvavo erfragen (Q-01).",
   "maß": ""
  },
  "DGB": {
@@ -2849,7 +2861,7 @@
   "hold": 0.0,
   "weak": false,
   "ergebnis": "Daten klären",
-  "grund": "Ertrag bei DefiLlama vorhanden (FLock.io, rund 240.000 € in 365 Tagen), aber keine Mengenangabe bei CoinPaprika; voll verwässerte Bewertung nicht bestimmbar.",
+  "grund": "Klärung: Ertrag belegt (FLock.io, rund 240.000 € in 365 Tagen), Menge weiterhin bei keinem frei abrufbaren Anbieter angegeben. Die Mindestbedingung (Schwelle 200) wäre erfüllt, wenn die Gesamtmenge höchstens rund 1,43 Mrd. FLOCK beträgt; robust ausgeschlossen erst ab rund 1,79 Mrd. Menge aus dem Vertrag erheben.",
   "maß": "Erträge; Obergrenze: Gesamtgebühren"
  },
  "FLUX": {
@@ -3042,8 +3054,8 @@
   "mult_upper": 1657.8301116539421,
   "mult_metric": 7004.267540535767,
   "schwelle": 200,
-  "ergebnis": "Daten klären",
-  "grund": "Bitvavo führt den Gas-Token des Neo-Netzes; der Treffer „Gas (Gaming)“ bei DefiLlama ist ein anderes Projekt (Q-01). Gebühren des Neo-Netzes sind bei DefiLlama nicht erfasst; Klasse und Ertragszuordnung klären.",
+  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
+  "grund": "Klärung: Bitvavo führt den Gas-Token des Neo-Netzes (Höchstmenge 100 Mio. GAS, voll verwässerte Bewertung rund 104 Mio. €). Bei DefiLlama ist nur das Nebennetz Neo X mit rund 1.900 € Gebühren erfasst, das Hauptnetz Neo N3 nicht. Ohne Gebühren des Hauptnetzes kein belegtes Ausscheiden.",
   "maß": "Erträge; Obergrenze: Gesamtgebühren"
  },
  "GLM": {
@@ -5816,7 +5828,7 @@
   "hold": null,
   "weak": true,
   "ergebnis": "Daten klären",
-  "grund": "Ertrag vorhanden, aber Menge nicht belegt (keine Mengenangabe bei CoinPaprika)",
+  "grund": "Klärung: Doppler Finance (Ertragsprodukt auf dem XRP Ledger) mit rund 2,3 Mio. € Gebühren in 365 Tagen, aber 0 € Erträgen für das Protokoll laut DefiLlama; Menge bei keinem frei abrufbaren Anbieter. Menge aus dem Vertrag erheben.",
   "maß": "Klasse offen; großzügigstes Maß, Schwelle 400"
  },
  "XMN": {
@@ -5861,8 +5873,8 @@
   "weak": false,
   "mvrv": null,
   "mvrv_datum": null,
-  "ergebnis": "Daten klären",
-  "grund": "Klassenfrage Geldwert vorab festgelegt; Coin Metrics liefert für Verge derzeit keinen MVRV. Ersatz nach § 5 Absatz 3: Kurs zum 200-Wochen-Durchschnitt, in der Erstbewertung zu erheben.",
+  "ergebnis": "Klassenfrage → Erstbewertung",
+  "grund": "Klärung: Coin Metrics liefert keinen MVRV. Ersatzkennzahl nach § 5 Absatz 3 aus 200 abgeschlossenen Bitvavo-Wochenkerzen (02.01.2023 bis 26.10.2026, ohne Lücke): Kurs 0,0019768 € zum 200-Wochen-Durchschnitt 0,0043133 €, Verhältnis 0,46 und damit punktfähig. Klasse in der Erstbewertung begründen, Zweitprüfung blind.",
   "maß": ""
  },
  "YGG": {

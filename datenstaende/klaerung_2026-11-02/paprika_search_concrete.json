@@ -1,0 +1,1 @@
+{"currencies":[{"id":"ct-concrete","name":"Concrete","symbol":"CT","rank":5258,"is_new":false,"is_active":true,"type":"token","rev":3388977168,"contract_address":[{"type":"ERC20","address":"0x0a092e544da31150b439a1aaa1a3a2214a867f46"},{"type":"BEP20","address":"0x0a092e544da31150b439a1aaa1a3a2214a867f46"}]}]}
