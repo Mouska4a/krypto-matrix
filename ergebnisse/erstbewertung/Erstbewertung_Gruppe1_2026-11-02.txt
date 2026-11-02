@@ -1,0 +1,200 @@
+ERSTBEWERTUNG GRUPPE 1 DER NEUEN ANWÄRTER
+Osmosis (OSMO), Livepeer (LPT), OpenEden (EDEN), USD.AI (CHIP), Scroll (SCR), Linea (LINEA)
+Stand: 2. November 2026, Regelwerk Version 1.2.30, Modus A (Neubewertung)
+Datenstand: Abruf 2. November 2026, 19:30 bis 20:10 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh_2026-11-02
+
+
+1. KURZÜBERSICHT
+
+Ergebnis in einem Satz: Keiner der sechs Coins wird Kandidat. Fünf erhalten den Status „Kein Kandidat“, Osmosis kommt auf die Optionsliste. Eine Zweitprüfung ist damit nicht nötig, denn sie ist nach Kanon § 16 Absatz 1 nur bei einem Kandidatenstatus vorgeschrieben.
+
+Osmosis: Qualitätsnote 52, Klasse Option; Bewertungsnote höchstens 24; Gesamtwert höchstens 45; Belegsicherheit C; Angebots-Gate offen; Status „Optionsliste“.
+Livepeer: Qualitätsnote 38, Klasse D; Bewertungsnote 12; Gesamtwert 32; Belegsicherheit C; Gate „Investment-Sperre“; Status „Kein Kandidat“.
+OpenEden: Qualitätsnote 37, Klasse D; Bewertungsnote 24; Gesamtwert 34; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+USD.AI: Qualitätsnote 31, Klasse D; Bewertungsnote 0; Gesamtwert 23; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+Scroll: Qualitätsnote 25, Klasse D; Bewertungsnote 40; Gesamtwert 29; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+Linea: Qualitätsnote 36, Klasse D; Bewertungsnote höchstens 40; Gesamtwert höchstens 37; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+
+Der gemeinsame Grund: Alle sechs haben eine Bewertung, die im Verhältnis zu den Erträgen niedrig ist. Daran sind sie in der Vorprüfung nicht gescheitert. Sie scheitern an der Qualität, vor allem an zwei Kriterien: Beim Token kommt vom erwirtschafteten Wert wenig oder nichts an (F5, Wertrückfluss), und die Menge der Token wächst in den nächsten Jahren stark (F6, Angebotsentwicklung). Bei vier der sechs sind außerdem die Erträge im letzten Quartal stark eingebrochen. Die Vorprüfung hat damit getan, was sie soll: Sie hat nur ausgeschlossen, was rechnerisch chancenlos war. Ob der günstige Preis auch eine gute Anlage bedeutet, entscheidet erst die Erstbewertung.
+
+Positionsgrenzen: Für die fünf Coins mit „Kein Kandidat“ ist ein Neukauf ausgeschlossen (A2). Für Osmosis gilt als Optionsliste ein Kauf nur nach A6, also nach Ihrer Einzelentscheidung mit These, höchstens 5 Prozent des Kryptodepots. Ein solcher Kauf ist derzeit aus zwei Gründen gesperrt: Das Angebots-Gate ist offen, und Ihr Anteil außerhalb der Matrix liegt mit rund 69 Prozent über dem Höchstanteil von 20 Prozent (A10).
+
+
+2. OSMOSIS (OSMO)
+
+Identität: Osmosis, eigene Blockchain im Cosmos-Netz, Coin „uosmo“; CoinGecko-Kennung „osmosis“; Kurs Bitvavo 0,039888 Euro, Gegenprobe CoinGecko 0,0398 Euro.
+
+Klasse: DeFi und Cashflow. Osmosis ist zwar eine eigene Blockchain, verdient sein Geld aber fast vollständig als dezentrale Börse: Gebühren für Tauschgeschäfte, sogenannte Taker-Gebühren. Die Gebühren der Kette selbst betrugen in zwölf Monaten nur rund 17.000 Euro. Nach Kanon § 5 Absatz 1 zählt, womit das Projekt sein Geld verdient. Deshalb ist es keine Plattform, wie die Vorprüfung noch angenommen hatte.
+
+F1 Bedarf, Note 3: Handel und dezentrale Börsen erhalten nach D-18 höchstens 3. Bewertet wird der Markt, nicht der Marktanteil von Osmosis.
+F2 Beleg, Note 3: Reale zahlende Nutzung ist belegt. Die Gesamtgebühren der Börse betrugen in den zwölf Monaten November 2025 bis Oktober 2026 rund 2,37 Millionen Euro, die beim Protokoll verbleibenden Erträge rund 815.000 Euro. Gegenüber dem Vorjahr sind die Erträge aber um 85 Prozent gefallen. Note 2 wäre vertretbar; am Status ändert das nichts.
+F3 Burggraben, Note 2: Führend unter den Börsen im Cosmos-Netz, aber angreifbar und mit sinkender Bedeutung.
+F4 Token-Notwendigkeit, Note 4: Wer die Kette betreibt, muss OSMO einsetzen. Gebühren können Nutzer auch in anderen Coins zahlen.
+F5 Wertrückfluss, Note 2, vorläufig: Seit dem Netz-Update Version 31 vom 3. November 2025 (Beschluss Nummer 990) werden 70 Prozent der in OSMO gezahlten Taker-Gebühren automatisch verbrannt. Von den Gebühren in anderen Coins gehen nach Beschluss 1052 vom Oktober 2026 47,5 Prozent an die Staker und 52,5 Prozent in Rückkauf und Verbrennung. Ein Anteil von mehr als 30 Prozent der Erträge wäre damit wahrscheinlich, was Note 4 ergäbe. Die tatsächlich verbrannte Menge ist aber nicht gemessen; DefiLlama weist für Osmosis keine Halter-Erträge aus, und die einzige Zahl, rund 11.500 verbrannte OSMO am Tag, stammt aus einem Beschlusstext vom August 2025. Nach Kanon § 7 Absatz 9 gilt für einen beschlossenen Mechanismus ohne gemessenes Volumen höchstens Note 2.
+F6 Angebotsentwicklung, Note 2: Die Ausgabe neuer OSMO wurde mit Beschluss 1053 zum 26. Oktober 2026 eingestellt, ist aber per Abstimmung wieder änderbar. Die Höchstmenge von 1 Milliarde OSMO ist hart begrenzt. Nach D-17 gilt deshalb die Restmenge bis zur Höchstmenge als in 36 Monaten möglich. Der freie Umlauf beträgt rund 749 Millionen; einschließlich Gemeinschaftskasse und gesperrter Entwicklerzuteilung könnten bis zu 1 Milliarde umlaufen. Das ergibt rund 10 Prozent Wachstum im Jahr und damit Note 2. Auch ohne die Restmenge bliebe es bei Note 2.
+F7 Widerstandsfähigkeit, Note 3: seit 2021 in Betrieb, viele unabhängige Netzbetreiber, ein Vorfall mit Verlusten im Juni 2022 liegt mehr als zwölf Monate zurück. Abhängigkeit von der Entwicklerfirma Osmo Labs. Die Prüfliste ist nicht vollständig abgearbeitet; offen sind die Anteile der zehn größten Adressen und die Reichweite der Gemeinschaftskasse.
+
+Qualitätsnote: (3 mal 10 plus 3 mal 20 plus 2 mal 15 plus 4 mal 10 plus 2 mal 20 plus 2 mal 15 plus 3 mal 10) geteilt durch 5 ergibt 52, Klasse Option.
+
+Bewertungsnote: Die Hauptkennzahl ist die voll verwässerte Bewertung geteilt durch die Halter-Erträge. Die Bewertung beträgt 0,039888 Euro mal 1 Milliarde gleich 39,9 Millionen Euro. Die Halter-Erträge sind nicht gemessen, aber nach oben begrenzt: Sie können nicht höher sein als die gesamten Erträge von 815.000 Euro. Der Multiplikator ist also mindestens das 49-Fache; das ergibt höchstens 40 Punkte. Die Kontrollkennzahl, das Wachstum der Halter-Erträge, ergibt 0 Punkte: Die Erträge sind um 85 Prozent gefallen, und selbst wenn der Anteil der Halter sich verdoppelt hätte, bliebe der Rückgang über 40 Prozent. Bewertungsnote damit höchstens 0,6 mal 40 gleich 24. Diese Obergrenze genügt nach Q-04, weil jeder zulässige Wert unter der Mindestbewertung von 30 bleibt.
+
+Angebots-Gate: offen. Die neue Ausgabe der letzten zwölf Monate, die nach D-19 zählt, lag je nach Quelle bei 14,6 bis 33 Millionen OSMO, also 2 bis 4 Prozent des Umlaufs. Nicht gemessen sind die Auszahlungen aus der Gemeinschaftskasse in den letzten zwölf Monaten (D-11). Eine Sperre käme nur, wenn daraus zusätzlich mehr als rund 80 Millionen OSMO verteilt worden wären; das ist unwahrscheinlich, aber nicht belegt.
+
+Belegsicherheit C: Mehrere entscheidungsrelevante Werte stammen aus zweiter Hand (Beschlusstexte, Fachmedien), die Halter-Erträge sind nicht gemessen.
+
+Status nach § 14: Regel 7, „Optionsliste“.
+
+Empfindlichkeit: Ist die Verbrennung auf der Kette belegt und liegt sie über 30 Prozent der Erträge, steigt F5 auf 4 und die Qualitätsnote auf 60, Klasse C. Der Status wäre dann „Qualität ja – Bewertung abwarten“, weil die Bewertungsnote unter 30 bleibt. Kandidat wird Osmosis also auch dann nicht, solange die Erträge nicht wieder steigen.
+
+Run-Rate: Das dritte Quartal 2026 mal vier liegt 55 Prozent unter dem Zwölfmonatswert, das Vorquartal 58 Prozent darunter. Damit liegen zwei Quartale in Folge außerhalb von minus 50 Prozent. Nach D-09 und § 10 Absatz 2 wäre das ein Anlass zur sofortigen Neubewertung, der hier mit der Erstbewertung zusammenfällt.
+
+Unbewertetes Potenzial: Seit dem 26. Oktober 2026 zahlt Osmosis die Staker nur noch aus Erträgen, nicht mehr aus neuen Token. Steigt der Handel wieder, kommt ein größerer Anteil beim Token an.
+Fehlender Beweis: gemessene Verbrennung über zwölf Monate; Erholung der Erträge.
+Wiedervorlage: vierteljährlich nach § 15, also bis 2. Februar 2027; früher, sobald die Verbrennung auf der Kette gemessen ist.
+
+
+3. LIVEPEER (LPT)
+
+Identität: Livepeer, Token auf Arbitrum und Ethereum; CoinGecko-Kennung „livepeer“; Kurs Bitvavo 1,2052 Euro.
+
+Klasse: Compute, künstliche Intelligenz und DePIN. Livepeer ist ein Netz für Videoverarbeitung und Bildberechnung mit künstlicher Intelligenz; Kunden zahlen in Ether für Rechenleistung.
+
+Berichtigung gegenüber der Vorprüfung: Die Vorprüfung hatte eine Höchstmenge von 38,7 Millionen LPT angenommen (CoinPaprika). LPT hat aber keine Höchstmenge; die Gesamtmenge beträgt nach CoinGecko 49,7 Millionen. Die beiden Angaben widersprechen sich; nach Grundsatz 4 gilt der ungünstigere Wert.
+
+F1 Bedarf, Note 5: globaler Markt für Rechenleistung und Videoverarbeitung, wie bei Render und Bittensor in der Kalibrierung.
+F2 Beleg, Note 2: Kunden zahlten in zwölf Monaten rund 593.000 Euro, 22 Prozent mehr als im Vorjahr. Den Betreibern fließt aber über neue Token ein Vielfaches davon zu, rund 15 Millionen Euro im Jahr. Die Nutzung ist damit überwiegend durch Belohnungen getragen.
+F3 Burggraben, Note 2: Nischenführer für dezentrale Videoverarbeitung, angreifbar.
+F4 Token-Notwendigkeit, Note 4: Betreiber müssen LPT einsetzen, um Aufträge zu erhalten.
+F5 Wertrückfluss, Note 0: Die Gebühren gehen an die Betreiber und über deren Anteil an die Delegierenden. Das ist nach D-01 Vergütung der Netzbetreiber und kein Wertrückfluss. Es gibt keinen Rückkauf und keine Verbrennung. DefiLlama zählt die gesamten Gebühren als Halter-Erträge; das widerspricht D-01 und wird nicht übernommen.
+F6 Angebotsentwicklung, Note 0: Die Ausgabe beträgt nach den Protokollparametern 0,056 Prozent je Runde, bei rund 411 Runden im Jahr etwa 26 Prozent jährlich. Sie passt sich nach der Stake-Quote an und hat keine vertragliche Obergrenze (D-17).
+F7 Widerstandsfähigkeit, Note 3: seit 2018 in Betrieb, ohne schweren Vorfall; Abhängigkeit von der Livepeer-Stiftung und der Firma Livepeer Inc.
+
+Qualitätsnote: (50 plus 40 plus 30 plus 40 plus 0 plus 0 plus 30) geteilt durch 5 ergibt 38, Klasse D.
+
+Bewertungsnote: Bewertung 1,2052 Euro mal 49,7 Millionen gleich 59,9 Millionen Euro, das 101-Fache des Umsatzes von 593.000 Euro; das ergibt 20 Punkte. Die Kontrollkennzahl, externer Umsatz geteilt durch Token-Anreize, liegt bei 0,04 und ergibt 0 Punkte. Bewertungsnote 12. Mit der niedrigeren Mengenangabe wären es 24; beides liegt unter 30.
+
+Angebots-Gate: Investment-Sperre. Zuwachs rund 26 Prozent bei einer Absorption von null.
+
+Status: Regel 5, „Kein Kandidat“, weil die Qualitätsklasse D ist.
+
+Empfindlichkeit und Beobachtung zu einer Regel: Würde man den Anteil der Delegierenden an den Gebühren als Ausschüttung an passive Halter werten, stiege F5 auf bis zu 4 und die Qualitätsnote auf 54, Klasse Option. Wegen der Sperre lautete der Status dann „Investment-Sperre bis Wiedervorlage“. Kandidat würde Livepeer in keinem Fall. Die Abgrenzung in D-01 zwischen Netzbetreibern und Delegierenden ist für Netze mit Delegation nicht ausdrücklich geregelt. Ich schlage vor, das als Beobachtung K in die Kalibrierung aufzunehmen; eine Änderung wäre eine Regelentscheidung von Ihnen.
+
+Run-Rate: drittes Quartal minus 17 Prozent, Vorquartal minus 39 Prozent; keine Warnung.
+
+
+4. OPENEDEN (EDEN)
+
+Identität: OpenEden, Token auf Ethereum und BNB Chain; CoinGecko-Kennung „openeden“; Kurs Bitvavo 0,050714 Euro.
+
+Klasse: RWA-Infrastruktur. OpenEden gibt tokenisierte Staatsanleihen aus (TBILL) und einen daran gekoppelten Dollar-Token (USDO).
+
+F1 Bedarf, Note 5: Tokenisierte reale Vermögenswerte erhalten nach D-18 4 bis 5 nach Marktgröße; wie bei Ondo in der Kalibrierung.
+F2 Beleg, Note 3: reale zahlende Nutzung, Protokollerträge rund 571.000 Euro in zwölf Monaten. Die Gesamtgebühren sind um 58 Prozent gefallen, weil der Dollar-Token USDO stark geschrumpft ist.
+F3 Burggraben, Note 1: viele Wettbewerber, darunter große Vermögensverwalter; geringer Vorsprung.
+F4 Token-Notwendigkeit, Note 2: EDEN dient für Staking, Abstimmungen und mögliche Gebührennachlässe; für die Produkte ist er nicht nötig.
+F5 Wertrückfluss, Note 1: Ein Rückkauf mit Verbrennung steht in der Projektdokumentation nur als mögliche künftige Verwendung, ausdrücklich „vorbehaltlich rechtlicher Prüfung“. Staking-Belohnungen aus neuen Token sind kein Wertrückfluss.
+F6 Angebotsentwicklung, Note 0: Rund 400 Millionen von 1 Milliarde EDEN laufen um. Team und Berater (20 Prozent) und Investoren (18 Prozent) werden nach einer Sperrfrist über 24 Monate freigegeben, die Gemeinschaftszuteilung (38,5 Prozent) ohne veröffentlichten Plan. In 36 Monaten ist praktisch die gesamte Menge möglich; das sind über 30 Prozent Wachstum im Jahr.
+F7 Widerstandsfähigkeit, Note 2: deutliche Abhängigkeit von der Ausgeberfirma.
+
+Qualitätsnote: (50 plus 60 plus 15 plus 20 plus 20 plus 0 plus 20) geteilt durch 5 ergibt 37, Klasse D.
+
+Bewertungsnote: Bewertung 50,7 Millionen Euro, das 89-Fache der Protokollerträge; 40 Punkte. Der Anteil des Tokens an den Erträgen ist null; 0 Punkte. Bewertungsnote 24.
+
+Angebots-Gate: offen. Der Beginn der Freigaben für Team und Investoren ist nicht genau belegt; nach dem veröffentlichten Rahmen wäre eine Sperre wahrscheinlich.
+
+Status: Regel 5, „Kein Kandidat“.
+
+Hinweis zu den Daten: Die Erträge der Staatsanleihe-Tokens führt DefiLlama erst ab Juni 2026 als Protokollerträge; vorher nur als Gebühren. Der Zwölfmonatswert ist deshalb eher zu niedrig. Am Status ändert das nichts, weil er an der Qualitätsnote hängt und nicht an der Bewertung.
+
+
+5. USD.AI (CHIP)
+
+Identität: USD.AI, Token auf Arbitrum, Ethereum und Base; CoinGecko-Kennung „chip-2“; Kurs Bitvavo 0,035776 Euro; erste Kursdaten April 2026.
+
+Klasse: DeFi und Cashflow. USD.AI vergibt Kredite an Betreiber von Rechenzentren für künstliche Intelligenz, besichert mit Grafikprozessoren, und finanziert sie über einen Dollar-Token. Es verdient also mit Kreditzinsen. Die Vorprüfung hatte es als Umsatzklasse geführt; nach § 5 Absatz 1 ist es ein Kreditprotokoll.
+
+F1 Bedarf, Note 5: Kredit erhält nach D-18 4 bis 5; wie Maple in der Kalibrierung.
+F2 Beleg, Note 3: reale Zinszahlungen von Kreditnehmern; Protokollerträge 6,8 Millionen Euro in zwölf Monaten. Davon stammen allerdings rund 2,6 Millionen Euro aus einem einzigen Tag, dem 4. Juni 2026; das dritte Quartal mal vier liegt 67 Prozent unter dem Zwölfmonatswert.
+F3 Burggraben, Note 1: junges Nischenangebot.
+F4 Token-Notwendigkeit, Note 1: CHIP dient für Abstimmungen; weitere Funktionen sind nicht belegt.
+F5 Wertrückfluss, Note 0: DefiLlama weist null Halter-Erträge aus; ein Rückkauf ist nicht belegt.
+F6 Angebotsentwicklung, Note 0: 2 Milliarden von 10 Milliarden CHIP laufen um. Team und Investoren erhalten ein Drittel nach zwölf Monaten und den Rest über weitere 24 Monate; dazu kommen Gemeinschaftszuteilung und Reserve. In 36 Monaten ist fast die gesamte Menge möglich.
+F7 Widerstandsfähigkeit, Note 2: junges Protokoll mit Kreditrisiko einzelner großer Schuldner und Abhängigkeit vom Gründerteam.
+
+Qualitätsnote: (50 plus 60 plus 15 plus 10 plus 0 plus 0 plus 20) geteilt durch 5 ergibt 31, Klasse D.
+
+Bewertungsnote: Die Halter-Erträge sind nachweislich null; der Multiplikator wird nach § 9 Absatz 6 mit 9999 eingetragen, Bewertungsnote 0. Auch als Umsatzklasse gerechnet wären es nur 24 gewesen.
+
+Angebots-Gate: offen; Anteile von Team und Investoren und das genaue Datum des Startzeitpunkts sind nicht veröffentlicht. Die erste große Freigabe ist voraussichtlich im April 2027 fällig.
+
+Status: Regel 5, „Kein Kandidat“. Dieses Ergebnis ist robust: Selbst mit den günstigsten vertretbaren Noten bliebe die Qualitätsnote unter 45.
+
+
+6. SCROLL (SCR)
+
+Identität: Scroll, Ethereum-Zusatznetz, Token auf Scroll; CoinGecko-Kennung „scroll“; Kurs Bitvavo 0,017953 Euro.
+
+Klasse: Plattform, Layer 1 oder Layer 2.
+
+F1 Bedarf, Note 4: wie Arbitrum und Starknet in der Kalibrierung.
+F2 Beleg, Note 2: Gebühren von rund 199.000 Euro in zwölf Monaten, 70 Prozent weniger als im Vorjahr. Rund 113.000 Euro der Nettoerträge entfielen auf wenige Tage Anfang April 2026; seit Juli 2026 sind die Nettoerträge praktisch null.
+F3 Burggraben, Note 1.
+F4 Token-Notwendigkeit, Note 1: Die Gebühren werden in Ether gezahlt; SCR dient heute nur für Abstimmungen. Rollen beim Erzeugen von Beweisen und bei der Reihung der Transaktionen sind angekündigt, aber nicht in Betrieb.
+F5 Wertrückfluss, Note 0: Die Einnahmen des Netzes gehen nicht an die Tokenhalter.
+F6 Angebotsentwicklung, Note 0: Rund 190 Millionen von 1 Milliarde laufen um; Investoren, Kernteam und Stiftung werden über vier Jahre ab Oktober 2024 freigegeben.
+F7 Widerstandsfähigkeit, Note 2: zentraler Betreiber der Transaktionsreihung.
+
+Qualitätsnote 25, Klasse D. Bewertungsnote 40: Bewertung 18,0 Millionen Euro, das 104-Fache der Nettogebühren von 173.000 Euro, 40 Punkte; eine Kontrollkennzahl ist nicht bestimmbar, weil es weder Verbrennung noch Ausgabe neuer Token gibt, deshalb gilt die Hauptkennzahl allein (§ 9 Absatz 5). Ohne die Erträge der wenigen Apriltage wäre die Bewertung das rund 300-Fache.
+
+Run-Rate: drittes Quartal minus 98 Prozent; Warnung nach D-09.
+Status: Regel 5, „Kein Kandidat“.
+
+
+7. LINEA (LINEA)
+
+Identität: Linea, Ethereum-Zusatznetz von Consensys, Token auf Linea und Ethereum; CoinGecko-Kennung „linea“; Kurs Bitvavo 0,0020335 Euro.
+
+Klasse: Plattform, Layer 1 oder Layer 2.
+
+F1 Bedarf, Note 4. F2 Beleg, Note 2: Gebühren rund 887.000 Euro in zwölf Monaten, 71 Prozent weniger als im Vorjahr, Aktivität stark durch Belohnungsprogramme getragen. F3 Burggraben, Note 2: Vertrieb über MetaMask, sonst austauschbar.
+F4 Token-Notwendigkeit, Note 0: Die Gebühren werden in Ether gezahlt, und LINEA hat keine Stimmrechte.
+F5 Wertrückfluss, Note 1: Seit dem 4. November 2025 soll der Überschuss nach Kosten zu 20 Prozent als Ether und zu 80 Prozent als LINEA verbrannt werden. Auf der Ethereum-Kette ist das nachprüfbar: Die Verbrennungsadresse hat zwischen dem 5. November und dem 2. Dezember 2025 in fünf Vorgängen zusammen rund 38 Millionen LINEA vernichtet. Danach gab es bis heute nur noch einen Vorgang am 10. März 2026 über 378 Millionen LINEA, dessen Herkunft nicht belegt ist; aus den laufenden Erträgen stammt er wahrscheinlich nicht, denn sein Wert entspräche schon zum heutigen Kurs fast den gesamten Jahresgebühren, von denen noch die Kosten der Hauptkette abgehen. Der laufende Mechanismus ist damit seit elf Monaten praktisch nicht in Betrieb, vermutlich weil die Kosten die Gebühren übersteigen. Nach § 7 Absatz 9 höchstens Note 1.
+F6 Angebotsentwicklung, Note 2: rund 24,5 von 72 Milliarden laufen um; der Ökosystemfonds (75 Prozent) wird über zehn Jahre verteilt, die Consensys-Zuteilung ist fünf Jahre gesperrt.
+F7 Widerstandsfähigkeit, Note 2: deutliche Abhängigkeit von Consensys.
+
+Qualitätsnote 36, Klasse D. Bewertungsnote höchstens 40: Die Bewertung von 146 Millionen Euro ist mindestens das 165-Fache der Gebühren; DefiLlama zieht die Kosten für die Hauptkette nicht ab, die Nettogebühren sind also niedriger und der Multiplikator höher.
+
+Angebots-Gate: offen; nach dem Verteilrahmen des Ökosystemfonds wäre eine Sperre wahrscheinlich.
+Status: Regel 5, „Kein Kandidat“.
+
+
+8. DATENLÜCKEN, PRÜFAUFTRÄGE UND KENNZEICHEN
+
+Osmosis: gemessene Verbrennung über zwölf Monate auf der Kette (Prüfauftrag, entscheidet über F5 2 oder 4); Auszahlungen der Gemeinschaftskasse in zwölf Monaten (entscheidet über das Gate); Prüfliste F7. Kennzeichen: Erträge A/E/zwölf Monate vollständig; Halter-Erträge nicht gelistet, Obergrenze R aus A; Verbrennungsanteile P (Beschluss)/E; tatsächliche Verbrennung S/E; Menge M/E.
+Livepeer: Widerspruch bei der Gesamtmenge (CoinGecko 49,7 Millionen, CoinPaprika 38,7 Millionen), gelöst nach dem ungünstigeren Wert, Status unberührt. Kennzeichen: Gebühren A/E/vollständig; Menge M/W; Ausgabe P (Parameterangabe der Dokumentation, Stand 1. Juli 2026)/E.
+OpenEden: genaue Freigabedaten; Erträge der Anleihe-Tokens vor Juni 2026. Kennzeichen: Erträge A/E/Messreihe unvollständig; Zuteilung S/E.
+USD.AI: Anteile von Team und Investoren, Startdatum der Freigaben. Kennzeichen: Erträge A/E/vollständig; Halter-Erträge A/E/null nachgewiesen.
+Scroll: aktueller freier Umlauf; Freigabeplan nur aus zweiter Hand.
+Linea: Herkunft der Verbrennung vom 10. März 2026; Kosten der Hauptkette. Kennzeichen: Verbrennung P/V (Etherscan, Blockhöhen 23730380 bis 24628939); Gebühren A/E/vollständig.
+
+Selbstprüfung nach Teil C 5: Netzbetreiber-Vergütung nicht als Wertrückfluss gezählt (Livepeer, Osmosis-Staker nur in der Empfindlichkeit); keine Werte von 30 Tagen hochgerechnet; Anbieter-Umlauf nicht ungeprüft übernommen; Arithmetik nachgerechnet; Identität je Coin über Kürzel, Kennung, Netz und Vertrag geprüft; Abweichungen von der Vorprüfung offen benannt (Klasse bei Osmosis und USD.AI, Menge bei Livepeer).
+
+Vergleich mit der Kalibrierung: Arbitrum kam mit Qualitätsnote 48 auf die Optionsliste, Starknet mit 44 auf D, Ondo mit 40 auf D. Scroll und Linea liegen darunter, weil ihre Gebühren viel kleiner sind und ihr Token keinen Zweck hat; OpenEden liegt nahe bei Ondo. Osmosis liegt mit 52 knapp unter Injective (59), vor allem wegen des noch nicht gemessenen Wertrückflusses.
+
+
+9. QUELLEN
+
+DefiLlama, Gebühren und Erträge: https://api.llama.fi/summary/fees/osmosis-dex, /osmosis, /livepeer, /openeden, /usd-ai, /scroll, /linea (jeweils mit dataType dailyFees, dailyRevenue, dailyHoldersRevenue, dailySupplySideRevenue)
+CoinGecko, Mengen: https://api.coingecko.com/api/v3/coins/osmosis, /livepeer, /openeden, /chip-2, /scroll, /linea
+Bitvavo, Kurse: https://api.bitvavo.com/v2/ticker/price
+Osmosis Beschluss 990: https://osmosis.valopers.com/proposals/990
+Osmosis Beschluss 967: https://osmosis.valopers.com/proposals/967
+Osmosis Beschlüsse 1052 und 1053 (Hinweis): https://www.hokanews.com/2026/10/osmosis-ends-osmo-inflation-shifting.html und https://www.gncrypto.news/news/osmosis-ends-osmo-inflation-after-91-percent-governance-vote/
+Livepeer Protokollparameter: https://docs.livepeer.org/network/reference/protocol-parameters.md
+OpenEden Token-Funktionen: https://docs.openeden.com/openeden-foundation/eden/token-utility
+OpenEden Zuteilung (zweite Hand): https://www.bitget.cloud/price/openeden/whitepaper
+USD.AI Tokenomics: https://docs.usd.ai/governance/tokenomics
+Scroll Zuteilung (zweite Hand): https://www.kucoin.com/research/project-reports/scroll-scr
+Linea Verbrennung: https://docs.linea.build/protocol/burn
+Linea Tokenomics: https://linea.build/blog/linea-tokenomics
+Etherscan, Verbrennungsadresse Linea: https://etherscan.io/address/0x5Ad9369254F29b724d98F6ce98Cb7bAD729969F3

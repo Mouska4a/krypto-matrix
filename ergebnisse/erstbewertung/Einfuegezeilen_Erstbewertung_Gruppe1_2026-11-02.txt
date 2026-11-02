@@ -1,0 +1,39 @@
+EINFÜGEZEILEN ERSTBEWERTUNG GRUPPE 1 VOM 02.11.2026
+Nur Eingabespalten nach Betriebsdokument C 4, tabulatorgetrennt, Dezimalkomma. Zeilen im Blatt „Erfassungsbogen“ jeweils an die Zeile des Coins (oder eine neue Zeile) einfügen; Formelspalten nicht überschreiben.
+
+Block A bis M (Token, Name, Klasse, Im Bestand, Bitvavo, Stichtag, F1 bis F7):
+OSMO	Osmosis	DeFi / Cashflow	nein	ja	02.11.2026	3	3	2	4	2	2	3
+LPT	Livepeer	Compute / KI / DePIN	nein	ja	02.11.2026	5	2	2	4	0	0	3
+EDEN	OpenEden	RWA-Infrastruktur	nein	ja	02.11.2026	5	3	1	2	1	0	2
+CHIP	USD.AI	DeFi / Cashflow	nein	ja	02.11.2026	5	3	1	1	0	0	2
+SCR	Scroll	Plattform (L1/L2)	nein	ja	02.11.2026	4	2	1	1	0	0	2
+LINEA	Linea	Plattform (L1/L2)	nein	ja	02.11.2026	4	2	2	0	1	2	2
+
+Spalte Q (Wert Hauptkennzahl) und Spalte T (Wert Kontrollkennzahl), je Coin:
+OSMO	Q: 48,9	T: -0,846
+LPT	Q: 101	T: 0,038
+EDEN	Q: 88,8	T: 0
+CHIP	Q: 9999	T: leer
+SCR	Q: 104	T: leer
+LINEA	Q: 165	T: leer
+
+Block X bis AD (Belegsicherheit, Datenlücken, MK geteilt durch FDV, Angebotswachstum 12 M, Absorptionsquote, größte Freigabe, Datum):
+OSMO	C	Halter-Erträge nicht gemessen (Obergrenze = Erträge); Verbrennung nicht auf der Kette gemessen; Abflüsse Gemeinschaftskasse 12 M fehlen; Prüfliste F7 offen	0,749			keine Einzelfreigabe bekannt (Entwicklerzuteilung pausiert)	
+LPT	C	Gesamtmenge widersprüchlich (CoinGecko 49,7 Mio., CoinPaprika 38,7 Mio.; ungünstigerer Wert); Ausgabe aus Parameterangabe 01.07.2026	1	0,26	0	laufende Ausgabe, kein Einzelereignis	
+EDEN	C	Freigabedaten Team und Investoren nur aus zweiter Hand; Erträge TBILL vor 06/2026 nicht als Protokollerträge erfasst	0,400			Team und Investoren linear über 24 Monate (Beginn nicht belegt)	
+CHIP	C	Anteile und Startdatum der Freigaben Team und Investoren nicht veröffentlicht	0,200			Team und Investoren: ein Drittel nach 12 Monaten (voraussichtlich 04/2027)	
+SCR	C	Freier Umlauf und Freigabeplan nur aus zweiter Hand; Nettoerträge seit 07/2026 praktisch null	0,190			Investoren, Kernteam und Stiftung laufend bis 10/2028	
+LINEA	C	Kosten der Hauptkette nicht abgezogen (Multiplikator Untergrenze); Herkunft der Verbrennung vom 10.03.2026 offen; Verteilung Ökosystemfonds nur als Rahmen	0,341			Ökosystemfonds über 10 Jahre; Consensys gesperrt bis 2030	
+
+Block AF bis AG (Permanentes K.O., Grund): bei allen sechs „nein“ und leer.
+
+Block AL bis AX (Thesis Upside, Thesis Gap, Anlässe, Wiedervorlage, Quellen F1/F3/F7, Bewerter, Kennzeichen, Run-Rate, Run-Rate Vorquartal, Nutzerwachstum, Art des Wertrückflusses, Tokenomics-Richtung, Datum der Änderung):
+OSMO	Staking seit 26.10.2026 nur aus Erträgen; bei Erholung des Handels höherer Wertrückfluss	Gemessene Verbrennung über 12 Monate; Erholung der Erträge	Messung Verbrennung; Änderung Taker-Gebühren-Aufteilung; Wiederaufnahme der Ausgabe	02.02.2027	F1 Handel nach D-18 höchstens 3; F3 Führung im Cosmos-Netz, angreifbar; F7 seit 2021, Vorfall 06/2022, Abhängigkeit Osmo Labs (Beschlüsse 967, 990, 1052, 1053)	Claude, Gruppe 1 Anwärter	Erträge A/E/TTM vollständig; Halter-Erträge nicht gelistet, Obergrenze R aus A; Verbrennungsanteile P/E; Verbrennungsmenge S/E; Menge M/E	-0,545	-0,584		Burn (beschlossen, nicht gemessen) und Ausschüttung an Staker	verbessert	26.10.2026
+LPT	KI-Bildberechnung als neuer Nachfragemarkt	Externer Umsatz im Verhältnis zur Ausgabe; Wertrückfluss an Nicht-Betreiber	Senkung der Ausgabe; Gebührenanteil für Halter		F1 globaler Rechenmarkt wie Render; F3 Nischenführer Videoverarbeitung; F7 seit 2018 ohne schweren Vorfall, Abhängigkeit Livepeer Inc.	Claude, Gruppe 1 Anwärter	Gebühren A/E/TTM vollständig; Menge M/W; Ausgabe P/E	-0,167	-0,394		keine (Gebühren an Betreiber, D-01)	stabil	
+EDEN	Wachstum tokenisierter Staatsanleihen	Rückkauf aus Erträgen; geringere Verwässerung	Beschluss eines Rückkaufs		F1 reale Vermögenswerte nach D-18; F3 viele Wettbewerber; F7 Abhängigkeit von der Ausgeberfirma	Claude, Gruppe 1 Anwärter	Erträge A/E/Messreihe unvollständig; Zuteilung S/E	0,167	-0,535		keine (Rückkauf nur geplant)	stabil	
+CHIP	Kreditbedarf für Rechenzentren künstlicher Intelligenz	Wertrückfluss an CHIP; gleichmäßige Erträge	Einführung eines Rückkaufs; große Freigabe 2027		F1 Kredit nach D-18; F3 junges Nischenangebot; F7 Kreditrisiko einzelner Schuldner	Claude, Gruppe 1 Anwärter	Erträge A/E/TTM vollständig, Einmalbetrag 04.06.2026; Halter-Erträge A/E/null nachgewiesen	-0,668	2,015		keine	stabil	
+SCR	Dezentrale Beweiserzeugung und Reihung mit SCR (angekündigt)	Token-Funktion in Betrieb; Erträge	Inbetriebnahme Token-Funktionen		F1 wie Arbitrum; F3 austauschbar; F7 zentraler Betreiber der Reihung	Claude, Gruppe 1 Anwärter	Gebühren und Nettoerträge A/E/TTM vollständig; Menge M/E	-0,978	1,253		keine	stabil	
+LINEA	Verbrennung von LINEA aus Überschüssen bei steigender Nutzung	Laufende, gemessene Verbrennung aus Erträgen	Wiederaufnahme der Verbrennung; Änderung Verteilplan Ökosystemfonds		F1 wie Arbitrum; F3 Vertrieb über MetaMask; F7 Abhängigkeit von Consensys	Claude, Gruppe 1 Anwärter	Verbrennung P/V (Etherscan, Blöcke 23730380 bis 24628939); Gebühren A/E/TTM vollständig; Menge M/E	-0,532	-0,855		Burn (derzeit nicht laufend)	stabil	
+
+Erwartete Formelergebnisse zur Kontrolle: OSMO FQS 52 Option, VS 24, IPS 45, Gate offen, Status Optionsliste; LPT 38 D, VS 12, IPS 32, Gate Investment-Sperre, Kein Kandidat; EDEN 37 D, VS 24, IPS 34, Kein Kandidat; CHIP 31 D, VS 0, IPS 23, Kein Kandidat; SCR 25 D, VS 40, IPS 29, Kein Kandidat; LINEA 36 D, VS 40, IPS 37, Kein Kandidat.
+Hinweis: Bei den Blöcken mit Kürzel am Zeilenanfang wird das Kürzel nicht mit eingefügt; kopieren Sie ab dem ersten Tabulator.
