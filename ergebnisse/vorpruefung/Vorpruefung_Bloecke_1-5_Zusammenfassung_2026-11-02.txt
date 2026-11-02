@@ -1,0 +1,26 @@
+VORPRÜFUNG DES BITVAVO-UNIVERSUMS, BLÖCKE 1 BIS 5 – ZUSAMMENFASSUNG
+Stand 02.11.2026; ein gemeinsamer Datenstand für alle Blöcke, abgerufen um 17:16 Uhr Weltzeit. Prüfvorschrift festgeschrieben um 17:20 Uhr Weltzeit, Nachtrag für die Blöcke 2 bis 5 um 17:45 Uhr Weltzeit, jeweils vor der Rechnung.
+
+Worum es geht
+Die Vorprüfung ist die erste Stufe des Gesamtlaufs über alle 427 Euro-Märkte von Bitvavo. Geprüft wurden die 260 Coins, die bisher nie anhand von Daten untersucht waren: 46 frühere grobe Einschätzungen, 183 nie einzeln abgefragte und 30 Coins mit dem Vermerk „keine Ertragsdaten“ (einer davon doppelt erfasst), dazu der neu gelistete Markt AXIS. Je Coin wird nur geklärt, ob er nach den Regeln der Matrix eine Bewertungsnote über null erreichen kann. Noten und Status vergibt erst die Erstbewertung.
+
+Ergebnis in Zahlen
+Weiter zur Erstbewertung: 30 Coins. Davon erfüllen 10 die Mindestbedingung klar, 16 liegen grenznah, und bei 4 entscheidet die Klasse (Geldwert oder Plattform).
+Datenklärung: 14 Coins, vor allem wegen nicht eindeutiger Identität oder fehlender Mengenangabe.
+Belegt ausgeschieden: 55 Coins; selbst mit dem großzügigsten Ertragsmaß ist keine Bewertungsnote über null erreichbar.
+Keine Ertragsdaten bei DefiLlama: 161 Coins. Dieses Ergebnis ist ausdrücklich vorläufig. Die meisten dieser Coins haben kein erkennbares Ertragsmodell. Es stehen aber auch bekannte Protokolle mit echten Erträgen darunter, die DefiLlama derzeit nicht erfasst, etwa Aevo, Tensor, Magic Eden, Loopring, UMA, 0x und Hashflow. Für sie ist nach Grundsatz 7 eine Nacherhebung aus anderen Quellen nötig.
+
+Die 30 Coins für die Erstbewertung
+Mindestbedingung erfüllt: EDEN (OpenEden), LPT (Livepeer), SCR (Scroll), LINEA, CHIP (USD.AI), EDGE (Definitive), FUEL, KAT (Katana), MERL (Merlin), OSMO (Osmosis).
+Grenznah: API3, SWELL, FRAX, DRV (Derive), FUN (Sport.Fun), GROVE, IMU (Immunefi), MLN (Enzyme), O (o1.exchange), RE (Re Protocol), SLX (Solstice), SOSO (SoSoValue), T (Threshold), TREE (Treehouse), TRIA, UP (Superform).
+Klassenfrage Geldwert: XRP, XLM, ETC, DGB.
+Bei den Layer-2-Netzen (Scroll, Linea, Merlin, Katana, Fuel) sind in der Erstbewertung die Kosten an die Hauptkette abzuziehen; bei Vermögensverwaltern und Basis-Handel (Grove, Solstice, SoSoValue, USD.AI) sind die an Einleger durchgereichten Zinsen keine Protokollerträge (D-02). Beides kann Ergebnisse noch kippen.
+
+Was beim Abgleich auffiel und berichtigt wurde
+Die Zuordnung der Ertragsdaten über Kürzel oder Namen allein führte mehrfach zu Verwechslungen, zum Beispiel „Flux Finance“ statt Flux, „Nexus Mutual“ statt Nexus, „Gravity Finance“ statt Gravity, „Chronos“ statt Chromia, „Nullmask“ statt Mask Network und „Gas (Gaming)“ statt des Neo-Gas-Tokens. Diese Treffer wurden verworfen; zugeordnet wird nur über die eindeutige Kennung, über Kürzel zusammen mit passendem Namen oder über das Gas-Token einer Kette. Ein Ausscheiden auf Grundlage einer bloßen Namenszuordnung gibt es nicht. Die Identität von IOTA, Terra Classic, Terra und ONEchain wurde über Name und Kurs belegt.
+
+Grenzen
+Mengen stammen von CoinPaprika, Erträge von DefiLlama, beide einfach belegt. Der Jahresertrag ist eine Näherung über 365 Tage; die Gegenprobe mit zwölf Kalendermonaten wich bei drei Stichproben höchstens 3 Prozent ab. Die Vorprüfung ersetzt keine Erstbewertung.
+
+Nächste Schritte
+Erstens die Nacherhebung der bekannten Protokolle ohne DefiLlama-Daten aus Projektberichten, Dashboards und Blockchain-Abfragen. Zweitens die Datenklärung der 14 offenen Fälle. Drittens die Erstbewertung der 30 weitergeleiteten Coins in Gruppen, damit sie mit gleich frischen Daten in die Zweitprüfung gehen. Die Übernahme der Ergebnisse in das Blatt „Vorfilter Universum“ der Arbeitsfassung erfolgt in einem Zug nach der Nacherhebung.

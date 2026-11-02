@@ -1,0 +1,50 @@
+PRÜFVORSCHRIFT DER MASCHINELLEN VORPRÜFUNG (STUFE 1 DES GESAMTLAUFS)
+Festgeschrieben am 02.11.2026 um 18:20 Uhr Ortszeit (17:20 Uhr Weltzeit), vor der ersten Rechnung des Blocks 1.
+Bezug: Regelkanon Version 1.2.30 (§ 4, § 5, § 9, § 14), Datenquellen-Verfassung Version 1.2.30 (Grundsatz 7, Q-01, Q-04, Q-07, Q-12, Q-18), Betriebsdokument Erstprüfung Version 1.2.30 (Modus F).
+
+1. Zweck und Grenze
+Die Vorprüfung klärt je Coin nur, ob eine Bewertungsnote über null nach der Matrix überhaupt möglich ist (Mindestbedingung). Sie vergibt keine Qualitätsnoten, kein Gate und keinen Status und ändert den Erfassungsbogen nicht. Sie ersetzt die bisherigen Einschätzungen im Blatt „Vorfilter Universum“ durch belegte Ergebnisse. Ein Coin scheidet nur aufgrund von Daten aus (Grundsatz 7).
+
+2. Identität (Q-01)
+Bitvavo-Kürzel und Bitvavo-Name (Schnittstelle /v2/assets) werden der CoinGecko-Kennung aus der Liste /coins/list zugeordnet, bei mehrfach vergebenem Kürzel über den Namen. Eine nicht eindeutige Zuordnung wird nicht geraten, sondern als „Identität klären“ geführt. Die Daten von DefiLlama werden über die CoinGecko-Kennung des Protokolls oder der Kette zugeordnet.
+
+3. Klasse (§ 5)
+Vorschlag mit Begründung nach dem, womit das Projekt tatsächlich Wert schafft. Hilfsmittel ist die Kategorie bei DefiLlama: Kette → Plattform; Handelsplätze, Kredit, Derivate, Ertrag, Liquid Staking und Ähnliches → DeFi und Cashflow; Oracle → Oracle, Daten und Infrastruktur; RWA → RWA-Infrastruktur; Gaming → Gaming und Konsum; KI, DePIN, Rechenleistung → Compute. Coins ohne Eintrag bei DefiLlama werden als Geldwert geprüft, wenn Coin Metrics für sie einen MVRV führt und sie keine Plattform sind; sonst „Klasse offen“. Die Klasse wird vor Ansicht der Kennzahl festgelegt; ein Klassenvorschlag ist keine Zuordnung im Sinne der Erstbewertung.
+
+4. Kennzahl (Näherung, nur für die Vorprüfung)
+Jahreswert: Summe der letzten 365 Tage bis zum Abruf laut DefiLlama (total1y), als Näherung der zwölf abgeschlossenen Kalendermonate nach D-03; gekennzeichnet als Herkunft A, einfach belegt.
+Plattform: Gesamtgebühren der Kette. Sie sind eine Obergrenze der Nettogebühren nach D-02, weil Abzüge den Wert nur senken.
+DeFi und Cashflow: Halter-Erträge; fehlen sie, gilt der Coin bei nachweislichem Ertrag als „Klärung“, ohne jede Ertragsangabe als „Daten klären“.
+Umsatzklassen: Erträge (Revenue).
+Voll verwässerte Bewertung (D-05): Kurs in Euro mal Höchstmenge, ohne Höchstmenge mal Gesamtmenge; Kurs von Bitvavo (/v2/ticker/price), Mengen von CoinPaprika (Herkunft M oder S, einfach belegt).
+Geldwert: MVRV aus der Community-Schnittstelle von Coin Metrics, letzter abgeschlossener Tag.
+
+5. Mindestbedingung und Robustheit (§ 9 Absatz 2 und 3, Q-04)
+Punkte über null gibt es nur bei: Plattform höchstens das 400-Fache, DeFi höchstens das 150-Fache, Umsatzklassen höchstens das 200-Fache, Geldwert MVRV höchstens 5.
+Ergebnis „besteht → Erstbewertung“: Wert höchstens an der Schwelle.
+Ergebnis „grenznah → Erstbewertung“: Wert über der Schwelle, aber höchstens das 1,25-Fache der Schwelle; die Näherungen nach Nummer 4 lassen dort kein sicheres Urteil zu.
+Ergebnis „scheidet aus, robust“: Wert über dem 1,25-Fachen der Schwelle; bei Plattformen und DeFi auf Grundlage einer Obergrenze des Ertrags, sodass genauere Zahlen das Ergebnis nicht ändern können.
+Ergebnis „Daten klären“: Identität, Klasse, Menge oder Ertrag nicht belegt; kein Ausscheiden.
+Ergebnis „Meme und Marke“: nur, wenn keine Ertragsfunktion und kein Bedarf außerhalb der Kryptowelt erkennbar sind und die Erstbewertung nach § 14 Nummer 5 sicher „Kein Kandidat“ ergäbe; im Zweifel „Klasse offen“.
+
+6. Archivierung (Q-07)
+Alle Rohantworten werden mit Abrufzeit in Weltzeit und SHA-256-Prüfsumme gespeichert und an den Anleger für den Ordner „Belege“ geliefert.
+
+7. Block 1
+Die 46 Coins mit bisheriger Einschätzung „Erträge gering im Verhältnis zur Marktgröße“, die ungeprüften Coins der Watchlist PEAQ, VELO, AIOZ, ACH und TRAC sowie der am 02.11.2026 neu gelistete Markt AXIS (Q-18).
+
+NACHTRAG FÜR DIE BLÖCKE 2 BIS 5
+Festgeschrieben am 02.11.2026 um 18:45 Uhr Ortszeit (17:45 Uhr Weltzeit), vor der Rechnung dieser Blöcke. Die Blöcke 2 bis 5 umfassen die 208 übrigen Coins mit den bisherigen Vorfilter-Ergebnissen „nicht einzeln abgefragt“ und „keine Ertragsdaten“. Sie werden auf demselben Datenstand wie Block 1 gerechnet (Abruf 17:16 Uhr Weltzeit), damit alle Blöcke vergleichbar sind (Q-02, Grundsatz 6).
+
+8. Identität, erweitert
+Ist die CoinGecko-Kennung über Kürzel und Namen nicht eindeutig, entscheidet der Kurs: Zugeordnet wird der Eintrag bei CoinPaprika mit gleichem Kürzel, dessen Euro-Kurs höchstens 10 Prozent vom Kurs bei Bitvavo abweicht. Bleibt es mehrdeutig oder fehlt jeder Eintrag: „Identität klären“.
+
+9. Zuordnung der Ertragsdaten, erweitert
+Gesucht wird bei DefiLlama über die CoinGecko-Kennung (Protokolle, Elternprotokolle, Ketten), über das Kürzel des Gas-Tokens einer Kette und über den Namen bei Bitvavo (gleicher Name oder Name als Anfang des Protokollnamens). Jeder Treffer wird mit Namen ausgewiesen.
+
+10. Klasse nach Kategorie bei DefiLlama
+Kette → Plattform (Schwelle 400). Dexs, DEX Aggregator, Derivatives, Lending, CDP, Yield, Liquid Staking, Restaking, Bridge, Prediction Market, Basis Trading, Indexes, Onchain Capital Allocator, Launchpad, NFT Marketplace, Services → DeFi und Cashflow (Schwelle 150). Oracle, Developer Tools, Data → Oracle, Daten und Infrastruktur (200). RWA → RWA-Infrastruktur (200). Gaming → Gaming und Konsum (200). Decentralized AI, AI Agents, DePIN, Storage → Compute (200). Jede andere Kategorie: „Klasse offen“; ausgeschieden wird dann nur, wenn selbst die großzügigste Schwelle (400) um mehr als das 1,25-Fache überschritten ist.
+Klassenfrage Geldwert vorab festgelegt für die Proof-of-Work-Zahlungscoins DGB (DigiByte) und XVG (Verge); geprüft wird der MVRV bei Coin Metrics.
+
+11. Coins ohne auffindbaren Ertrag
+Findet sich bei DefiLlama kein Ertrag, lautet das Ergebnis „kein messbarer Ertrag“. Folge nach dem Kanon: Ohne Hauptkennzahl bleibt die Bewertungsnote leer (§ 9 Absatz 4); ein solcher Coin kann nach § 14 höchstens „Bewertung ausstehend“ werden, aber kein Kandidat, solange kein Ertrag aus einer Primärquelle belegt ist. Das Ergebnis ist vorläufig, weil Quellen außerhalb von DefiLlama (Projektberichte, Token Terminal) in der Vorprüfung nicht abgefragt werden. Ausnahme: Geldwerte nach Nummer 10.
