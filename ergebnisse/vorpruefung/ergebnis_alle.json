@@ -1400,8 +1400,8 @@
   "rev": null,
   "hold": null,
   "weak": false,
-  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "ergebnis": "weiter zur Erstbewertung (Nacherhebung)",
+  "grund": "Primärbeleg Governance AGP-2 (angenommen am 03.05.2025): Rückkäufe von 1 Mio. AEVO je Monat aus Überschusserlösen; zurückgekaufte Token bleiben bei der DAO (D-16: gehalten). Untergrenze des Ertrags: 12 Mio. AEVO zum heutigen Kurs, rund 210.000 € im Jahr; voll verwässerte Bewertung höchstens das 84-Fache dieser Untergrenze, also unter der Schwelle von 150. Ob die Rückkäufe nach Juli 2025 fortgesetzt wurden, klärt die Erstbewertung.",
   "maß": ""
  },
  "AGLD": {
@@ -1557,7 +1557,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "ARK": {
@@ -1601,7 +1601,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung: Laut Invezz (11.02.2026, nach CoinDesk) soll die Arkham-Börse schließen; Tagesvolumen zuletzt rund 620.000 US-Dollar. Hinweis spricht gegen einen messbaren Wertrückfluss an ARKM; ausgeschlossen wird nur mit Primärbeleg.",
   "maß": ""
  },
  "ARPA": {
@@ -1694,7 +1694,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "AUDIO": {
@@ -1965,7 +1965,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "BLEND": {
@@ -2193,7 +2193,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "CHIP": {
@@ -2759,7 +2759,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung ohne Zahl: Laut Projektdokumentation erhalten Validatoren und Delegierende „Validation Revenue“ ohne Angabe von Herkunft und Höhe; Inflation zunächst 8 % im Jahr.",
   "maß": ""
  },
  "EPIC": {
@@ -3278,7 +3278,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung ohne Zahl: Hashflow hat einen Gebührenschalter mit Beteiligung der Staker und einen Vorschlag zu Rückkauf und Burn; Beträge waren nicht abrufbar. Volumen über Hashflow laut DefiLlama rund 3,5 Mrd. € im Jahr; ein dokumentierter Gebührensatz für eine belegte Schranke fehlt.",
   "maß": ""
  },
  "HMSTR": {
@@ -3662,7 +3662,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung ohne Zahl; Hinweis auf Delistings bei Upbit und Binance (2026) spricht gegen das Projekt.",
   "maß": ""
  },
  "LSK": {
@@ -3889,8 +3889,8 @@
   "rev": null,
   "hold": null,
   "weak": false,
-  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "ergebnis": "weiter zur Erstbewertung (Nacherhebung)",
+  "grund": "Hinweis Stufe 4: Gebührenumsatz rund 59,9 Mio. US-Dollar im Jahr 2024 (NFT-Pulse-Auswertung, berichtet von Blockmedia); bei einer voll verwässerten Bewertung von rund 46 Mio. € wäre die Mindestbedingung selbst bei einem Bruchteil davon erfüllt. Rückkäufe von ME aus Erträgen für 2026 angekündigt. Zahl veraltet und nicht primär belegt; Erhebung aus Primärquellen in der Erstbewertung.",
   "maß": ""
  },
  "MERL": {
@@ -4675,7 +4675,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "RE": {
@@ -4746,7 +4746,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "REQ": {
@@ -4768,7 +4768,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "ROBO": {
@@ -5302,8 +5302,8 @@
   "rev": null,
   "hold": null,
   "weak": false,
-  "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "ergebnis": "weiter zur Erstbewertung (Nacherhebung)",
+  "grund": "Hinweis Stufe 4: Die Handels-App Vector erzielte laut Blockworks hochgerechnet über 90 Mio. US-Dollar im Jahr, die Hälfte geht an die Kasse der Tensor Foundation; der NFT-Marktplatz rund 9 Mio. US-Dollar. Zahlen und Datum nicht primär belegt. Achtung: Ein Übertrag an die Kasse gilt nach Q-10 als gehalten, nicht als Wertrückfluss.",
   "maß": ""
  },
  "TOWNS": {
@@ -5906,7 +5906,7 @@
   "hold": null,
   "weak": false,
   "ergebnis": "keine Ertragsdaten bei DefiLlama (vorläufig)",
-  "grund": "Bei DefiLlama kein Ertrag auffindbar (Kennung, Kürzel und Name geprüft). Ohne Hauptkennzahl keine Bewertungsnote (§ 9 Absatz 4); derzeit höchstens „Bewertung ausstehend“. Vorläufig: Quellen außerhalb DefiLlama nicht abgefragt.",
+  "grund": "Nacherhebung in Tranche 1 ohne belastbare Zahl; frei zugängliche Quellen nennen keine Ertragsbeträge.",
   "maß": ""
  },
  "ZEN": {

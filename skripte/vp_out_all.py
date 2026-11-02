@@ -28,7 +28,7 @@ ws.append(['Maschinelle Vorprüfung des Bitvavo-Universums, Blöcke 1 bis 5 (260
 ws.append(['Keine Status- oder Notenvergabe. „Scheidet aus (robust)“: Eine Bewertungsnote über null ist mit keinem zulässigen Wert erreichbar. „Keine Ertragsdaten bei DefiLlama“: vorläufig; ohne belegten Ertrag aus anderer Quelle bliebe die Bewertungsnote leer und der Status höchstens „Bewertung ausstehend“. Mehrere bekannte Protokolle mit echten Erträgen stehen hier, weil DefiLlama sie nicht erfasst; sie werden nacherhoben. Euro-Beträge aus US-Dollar mit dem EZB-Referenzkurs vom 02.11.2026 (1,1216).'])
 hdr=['Block','Kürzel','Name (Bitvavo)','Ergebnis','Begründung','Klassenvorschlag','Kurs Bitvavo (€)','Abweichung zu CoinPaprika','Menge','Mengenart','Voll verwässerte Bewertung (€)','Gebühren 365 Tage (€)','Erträge 365 Tage (€)','Halter-Erträge 365 Tage (€)','Maß','Multiplikator Obergrenze','Multiplikator Klassenmaß','Schwelle','MVRV (Geldwert)','DefiLlama-Einträge']
 ws.append(hdr)
-order={'besteht → Erstbewertung':0,'grenznah → Erstbewertung':1,'Klassenfrage → Erstbewertung':2,'Daten klären':3,'scheidet aus (robust)':4,'keine Ertragsdaten bei DefiLlama (vorläufig)':5}
+order={'besteht → Erstbewertung':0,'grenznah → Erstbewertung':1,'Klassenfrage → Erstbewertung':2,'weiter zur Erstbewertung (Nacherhebung)':2.5,'Daten klären':3,'scheidet aus (robust)':4,'keine Ertragsdaten bei DefiLlama (vorläufig)':5}
 rows=sorted(ALL.items(),key=lambda kv:(order[kv[1]['ergebnis']],kv[0]))
 for i,(s,r) in enumerate(rows):
     n=4+i
@@ -50,9 +50,10 @@ cnt=collections.Counter((blocks[s],r['ergebnis']) for s,r in ALL.items())
 w2.append(['Ergebnis']+[f'Block {b}' for b in range(1,6)]+['Gesamt'])
 for e in order:
     w2.append([e]+[cnt[(b,e)] for b in range(1,6)]+[f'=SUM(B{w2.max_row+1}:F{w2.max_row+1})'])
-w2.append(['Summe']+[f'=SUM({get_column_letter(c)}2:{get_column_letter(c)}7)' for c in range(2,8)])
+last=w2.max_row
+w2.append(['Summe']+[f'=SUM({get_column_letter(c)}2:{get_column_letter(c)}{last})' for c in range(2,8)])
 for row in w2.iter_rows():
-    for c in row: c.font=Font(name='Arial',size=10,bold=(c.row in (1,8)))
+    for c in row: c.font=Font(name='Arial',size=10,bold=(c.row in (1,w2.max_row)))
 w2.column_dimensions['A'].width=32
 ws3=wb.create_sheet('Prüfvorschrift')
 for line in open('/home/claude/work/vp/Pruefvorschrift_Vorpruefung_Stufe1_2026-11-02.txt',encoding='utf-8').read().split('\n'):

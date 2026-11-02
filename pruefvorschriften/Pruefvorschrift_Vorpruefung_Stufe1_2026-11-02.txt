@@ -48,3 +48,14 @@ Klassenfrage Geldwert vorab festgelegt für die Proof-of-Work-Zahlungscoins DGB 
 
 11. Coins ohne auffindbaren Ertrag
 Findet sich bei DefiLlama kein Ertrag, lautet das Ergebnis „kein messbarer Ertrag“. Folge nach dem Kanon: Ohne Hauptkennzahl bleibt die Bewertungsnote leer (§ 9 Absatz 4); ein solcher Coin kann nach § 14 höchstens „Bewertung ausstehend“ werden, aber kein Kandidat, solange kein Ertrag aus einer Primärquelle belegt ist. Das Ergebnis ist vorläufig, weil Quellen außerhalb von DefiLlama (Projektberichte, Token Terminal) in der Vorprüfung nicht abgefragt werden. Ausnahme: Geldwerte nach Nummer 10.
+
+NACHTRAG 2: NACHERHEBUNG BEI FEHLENDEN ERTRAGSDATEN
+Festgeschrieben am 02.11.2026 um 18:50 Uhr Ortszeit (17:50 Uhr Weltzeit), vor der Auswertung.
+12. Einteilung der Coins ohne Ertragsdaten bei DefiLlama
+Gruppe A: Der Coin ist bei DefiLlama als Protokoll geführt (gebundenes Kapital, Handels-, Options- oder Aggregatorvolumen), über die Kennung oder über Kürzel mit passendem Namen nach Nummer 9. Bei ihm ist wirtschaftliche Tätigkeit belegt, nur der Ertrag fehlt; er wird nacherhoben.
+Gruppe B: keine Präsenz bei DefiLlama. Er bleibt vorläufig ohne Ertragsdaten; nacherhoben wird nur auf ausdrücklichen Wunsch des Anlegers oder bei einem Hinweis auf eine Ertragsquelle.
+13. Nacherhebung für Gruppe A
+Zulässig sind in dieser Reihenfolge: Primärbelege des Projekts (Gebührenordnung, Berichte zur Projektkasse, Rückkauf- oder Burn-Adressen), veröffentlichte Auswertungen mit nachvollziehbarer Methode (Dune-Dashboards, Projekt-Dashboards) und belegte Schranken nach Q-04, etwa gemessenes Volumen mal dokumentierter höchster Gebührensatz als Obergrenze des Ertrags. Eine Schranke darf nur ausschließen, wenn sie eine Obergrenze ist, und nur zulassen, wenn sie eine Untergrenze ist. Schätzungen ohne Beleg sind ausgeschlossen. Jede Quelle wird mit Abrufzeit archiviert.
+14. Asymmetrie in der Nacherhebung (festgeschrieben 18:55 Uhr Ortszeit, vor der Auswertung)
+Für die Vorprüfung genügt zum Weiterleiten in die Erstbewertung ein Hinweis nach Quellenstufe 4 (Fachmedien, veröffentlichte Ertragsangaben), wenn er die Mindestbedingung mit großzügiger Auslegung erreichbar erscheinen lässt: voll verwässerte Bewertung höchstens das 1,25-Fache der Klassenschwelle, bezogen auf den berichteten Jahresertrag des Protokolls. Die Kennzahl selbst wird erst in der Erstbewertung aus Primärquellen erhoben. Ausschließen darf ein Hinweis nie; ohne Primärbeleg bleibt ein Coin „vorläufig ohne Ertragsdaten“, auch wenn der Hinweis gegen ihn spricht.
+15. Erste Tranche der Nacherhebung: die Coins der Gruppe A mit gebührenbasiertem Geschäftsmodell nach der Kategorie bei DefiLlama (Derivate, Aggregatoren, NFT-Marktplätze, Handelsplätze, Brücken, Börse, Oracle, Basis-Handel, Zahlungsverkehr, Launchpad, Entwicklerwerkzeuge): AEVO, ENSO, HFT, ME, TNSR, RARE, LRC, CELR, ARKM, RED, ZBT, AMP, BIO, REQ, AUCTION.
