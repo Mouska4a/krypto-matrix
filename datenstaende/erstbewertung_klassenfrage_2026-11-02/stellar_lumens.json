@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-11-02T22:22:57.232Z",
+  "originalSupply": "100000000000",
+  "inflationLumens": "5443902087.3472865",
+  "burnedLumens": "55442115249.9502152",
+  "totalSupply": "50001786837.3970713",
+  "upgradeReserve": "258885847.5135992",
+  "feePool": "10967163.1117103",
+  "sdfMandate": "14472680436.733994",
+  "circulatingSupply": "35259253390.0377678",
+  "_details": "https://www.stellar.org/developers/guides/lumen-supply-metrics.html"
+}
