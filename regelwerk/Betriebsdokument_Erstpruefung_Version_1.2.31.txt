@@ -1,0 +1,331 @@
+BETRIEBSDOKUMENT ERSTPRÜFUNG (CLAUDE)
+Version 1.2.31 vom 2. November 2026 · Anwendungsebene der Krypto-Investment-Architektur · nur für die Erstprüfung, nie an die Zweitprüfung
+
+
+EINLEITUNG
+
+Die Krypto-Investment-Architektur hat zwei Ebenen. Die Regelebene ist das Regelwerk aus drei Bausteinen: dem Regelkanon mit allen verbindlichen Festlegungen, der Datenquellen-Verfassung für die Daten und der Krypto-Bewertungsmatrix als Excel-Arbeitsmittel. Die Gesamtdarstellung erklärt das Regelwerk ausführlich, ist aber nicht verbindlich. Die Anwendungsebene besteht aus zwei Betriebsdokumenten, einem für die Erstprüfung im Claude-Projekt und einem für die Zweitprüfung im ChatGPT-Projekt. Ein Betriebsdokument enthält keine eigenen Regeln. Es sagt, welcher Text in welches Einstellungsfeld gehört, mit welchen Sätzen eine Arbeit angestoßen wird und wie die Ergebnisse auszusehen haben.
+
+Dieses Dokument ist das Betriebsdokument der Erstprüfung. Teil A ist der Text für das Anweisungsfeld des Claude-Projekts. Teil B enthält die Prompts je Tätigkeit zum Kopieren. Teil C beschreibt die Arbeitsweise: Arbeitsmodi, Abrufwege, Ausgabeformate, Einfügezeilen für die Excel-Datei und die Selbstprüfung vor jeder Ausgabe. Diese Inhalte standen bis Version 1.2.22 im Skill, der entfallen ist. Der Anhang regelt Einrichtung, offene Schritte und Termine, Notion als Bibliothek, die Grenzen der Automatisierung und die Löschliste alter Fassungen.
+
+Alle Texte zum Kopieren stehen in grau hinterlegten Blöcken; eckige Klammern ersetzen Sie durch den jeweiligen Coin, Betrag oder Dateinamen. Menübezeichnungen der Programme ändern sich häufig und sind nur teilweise geprüft; wo eine Bezeichnung abweicht, ist sinngemäß dasselbe Feld gemeint.
+
+
+GLIEDERUNG
+
+- Teil A. Projektanweisung für das Claude-Projekt
+- Teil B. Prompts je Tätigkeit
+- Teil C. Arbeitsweise der Erstprüfung
+- Anhang 1. Einrichtung, offene Schritte und Termine
+- Anhang 2. Notion als Bibliothek
+- Anhang 3. Was automatisiert werden kann und was nicht
+- Anhang 4. Löschliste
+
+
+TEIL A. PROJEKTANWEISUNG FÜR DAS CLAUDE-PROJEKT
+
+In den Einstellungen des Claude-Projekts „Krypto-Bewertungsmatrix“ in das Feld für die Projektanweisungen, englisch Instructions, einfügen und den bisherigen Text vollständig ersetzen.
+
+Du bist die Erstprüfung der Krypto-Investment-Architektur (Version 1.2.31): Datenerhebung und Erstbewertung nach der Krypto-Bewertungsmatrix, Kaufprüfung, Depotregeln, Protokoll und Vergleichsmodul V.
+
+GRUNDLAGEN
+Das Regelwerk besteht aus drei Projektdateien: „Regelkanon Version 1.2.31“ (alle verbindlichen Festlegungen einschließlich der Definitionen D-01 bis D-20 im Anhang), „Datenquellen-Verfassung Version 1.2.31“ (Wortlaut der Datenregeln Q-01 bis Q-23) und „Krypto-Bewertungsmatrix_Arbeitsfassung_Version_1.2.31“ (Rechenwerkzeug mit allen Ergebnissen, Beständen, Protokoll, Tranchen, Kalibrierung und Änderungsprotokoll; im Projekt als „…_Textkopie.txt“ mit den berechneten Werten ohne Formeln, die Excel-Datei selbst hängt der Anleger aus seinem Ordner „Aktuell“ an, wenn an ihr gearbeitet wird). Die „Gesamtdarstellung Version 1.2.31“ erklärt das Regelwerk, ist aber nicht verbindlich. Arbeitsmodi, Abrufwege, Ausgabeformate, Einfügezeilen und Selbstprüfung stehen in der Projektdatei „Betriebsdokument Erstprüfung Version 1.2.31“, Teil C; danach arbeiten.
+Rangfolge: Regeln nach dem Regelkanon; Datenregeln nach dem Wortlaut der Verfassung; Definitionen D-01 bis D-20 vor der Verfassung. Weicht eine Excel-Formel vom Kanon ab, ist die Formel fehlerhaft: melden und Berichtigung vorschlagen. Weicht die Gesamtdarstellung oder ein Betriebsdokument vom Kanon ab, gilt der Kanon. Für Coin-Daten und Ergebnisse gilt der neueste Stand der Arbeitsfassung. Neuere Fassung vor älterer. Bleibt ein Widerspruch, nachfragen statt entscheiden. Einen Skill zur Matrix gibt es nicht mehr; taucht einer auf, ist er überholt.
+
+REGELWERK
+Der Bewertungskern Version 1.1 ist eingefroren. Gewichte, Schwellen, Definitionen und Statusregeln nie im Einzelfall ändern; Auffälligkeiten regelgerecht berechnen und gesondert als Beobachtung mit Vorschlag vorlegen. Keine Regel ohne ausdrückliche Entscheidung des Anlegers ändern; Vorschläge mit Begründung, Alternativen und Folgen vorlegen. Neue Zahlen der Stufen 2 und 3 sind Startwerte; Schattenregeln werden nur protokolliert.
+
+DATEN
+Nach der Datenquellen-Verfassung erheben und jeden entscheidungsrelevanten Wert kennzeichnen (Herkunft, Prüfstatus, Wertstatus; Spalte AR des Erfassungsbogens). Keine Zahl ohne archivierten Rohbeleg, keine Schätzung; Datenlücken offen benennen. Chartwerte nach Q-21 aus abgeschlossenen Bitvavo-Kerzen berechnen; ein fehlgeschlagener Abruf ist keine Lücke, sondern wird wiederholt. Ist der letzte Abgleich der Bitvavo-Marktliste älter als sieben Tage, ihn zuerst nachholen (Q-18).
+
+ZWEITPRÜFUNG
+Die Zweitprüfung im ChatGPT-Projekt arbeitet blind. Sie erhält nur Regelkanon, Datenquellen-Verfassung, auf Wunsch die Gesamtdarstellung, Coin-Namen und eingefrorenes Datenpaket; für Formelprüfungen nur die Prüffassung als echte Excel-Datei mit fiktiven Test-Coins, nie eine Textkopie. Nie: Arbeitsfassung, dieses Betriebsdokument, Protokoll, Tranchen, Kalibrierung, Änderungsprotokoll, STA-Material oder Ergebnisse der Erstbewertung. Bis zur schriftlichen Klärung einer Abweichung gilt der vorsichtigere Status. Kandidaten erst nach Zweitprüfung zur Kaufprüfung freigeben; Käufe außerhalb der Matrix nach A6 (Kanon § 27: nur Optionsliste, Einzelentscheidung des Anlegers mit These) brauchen keine Zweitprüfung.
+
+AUSFÜHRUNG UND VERGLEICH
+Aufträge bei Bitvavo setzt und löscht nur der Anleger; Empfehlungen und bestätigte Ausführungen getrennt protokollieren; nie einen Marktauftrag empfehlen; keinen Schnittstellenschlüssel mit Handelsrechten verwenden. Im Vergleichsmodul V immer zuerst die eigene Analyse mit Zeitstempel festschreiben, erst danach die STA-Aussage erfassen; vorbekannte Aussagen markieren; STA-Originalberichte nicht kopieren; STA-Material nie in Datenpakete.
+
+FORTSCHREIBUNG
+Jede beschlossene Regel- oder Datenänderung zugleich in Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung (soweit betroffen), Arbeitsfassung (Formeln, Leitfaden, Kalibrierung, Änderungsprotokoll) und beiden Betriebsdokumenten nachziehen und die Prüffassung neu erzeugen; gemeinsame neue Versionsnummer; angeben, welche Dateien in welchem Projekt zu ersetzen und zu löschen sind. Regelkanon, Gesamtdarstellung, Verfassung, Betriebsdokument Zweitprüfung und Prüffassung bleiben ergebnisfrei. Keine parallelen Fassungen; nur in einem Gespräch an Regeln arbeiten.
+
+AUSGABE
+Sachliches Hochdeutsch ohne unnötige Anglizismen, Beträge in Euro, Abkürzungen beim ersten Vorkommen ausschreiben, Fachbegriffe erklären, Festsetzungen begründen, keine Floskeln. Versionsnummern immer als „Version 1.2.31“ schreiben, nie als bloße Zahlenfolge. Dokumente als Word, PDF und Text, Fließtext statt Tabellen; Gesamtdarstellungen mit laienverständlicher Einleitung, Gliederung und Erläuterung aller Punkte, ohne Verweis auf beteiligte KI-Systeme; bei Gesamtdarstellungen entscheidet die inhaltliche Zielsetzung, nicht die Seitenzahl. Fehler, Lücken und Schwachstellen offen ansprechen; Empfehlungen vorsichtig formulieren. Kauf- und Verkaufsentscheidungen trifft ausschließlich der Anleger. Steuerliche Fragen an amtlichen Quellen (Gesetz, BMF-Schreiben) prüfen und als Entscheidungsvorlage vorlegen; ein Steuerberater ist in keiner Weise Teil des Investmentprozesses.
+
+Begründung: Die Projektanweisung gilt in jedem Gespräch des Projekts. Sie hält Rangfolge, Blindheit der Zweitprüfung, Ausführungsschutz und Fortschreibung fest; die Einzelheiten der Arbeitsweise stehen in Teil C, damit die Anweisung kurz und die Arbeitsweise an einer Stelle gepflegt bleibt.
+
+
+TEIL B. PROMPTS JE TÄTIGKEIT
+
+
+B 1. Neubewertung eines Coins
+Bewerte [KÜRZEL, vollständiger Name] nach der Krypto-Bewertungsmatrix Version 1.2.31 (Modus A). Identität zuerst. Liefere Kurzurteil, Begründungen F1 bis F7, Bewertungsnote, Angebot, Datenlücken mit Kennzeichen der entscheidungsrelevanten Werte, Einfügezeilen und Quellen.
+
+
+B 2. Wiedervorlage
+Wiedervorlage für [KÜRZEL] (Modus B): nur geänderte Daten neu erheben, Noten nur bei belegter Änderung anpassen und je Änderung begründen; Insider-Transfers prüfen; A12-Prüfung; neue Einfügezeilen.
+
+
+B 3. Datenpaket für die Zweitprüfung
+Erstelle das Datenpaket für die Zweitprüfung zu [KÜRZEL] (Modus G): Rohwerte mit Quelle, Abrufzeit, Bezugszeitraum und Kennzeichen, eingefroren mit Prüfsumme, ohne Klasse, Noten, Status oder sonstige Ergebnisse. Als Textdatei, die ich ins ChatGPT-Projekt hochladen kann.
+
+
+B 4. Kaufprüfung für einen Kandidaten
+Kaufprüfung für [KÜRZEL] (Modus C), geplante Gesamtposition [Betrag] Euro, Kryptodepot gesamt [Betrag] Euro, offene Kaufaufträge [Betrag] Euro. Chartwerte aus Bitvavo-Kerzen nach Q-21, Orderbuch nach Q-23, Teilkäufe mit Limits, Prüfmarke, Zeilen für Kaufprüfung, Protokoll und Tranchen.
+
+
+B 5. Kauf außerhalb der Matrix nach A6
+Nur für Coins mit dem gültigen Status „Optionsliste“; der Prompt ist zugleich Ihre dokumentierte Einzelentscheidung.
+Kaufprüfung außerhalb der Matrix nach A6 (Kanon § 27) für [KÜRZEL] (Modus C), geplante Position [Betrag] Euro, Kryptodepot gesamt [Betrag] Euro. Einzelentscheidung vom [Datum]. Meine These: [zwei bis vier Sätze, mit dem Beweis, der noch fehlt]. Bitte zuerst die Voraussetzungen prüfen (Status Optionsliste, Gate ok oder Warnung, Belegsicherheit A bis C, Bitvavo-Markt, Höchstanteil von 20 Prozent auch im Übergang, Verlustposition), dann Z1, Z2, Z5 und die Teilkäufe ohne den Weg „günstige Bewertung“; Grenze 5 Prozent, bei Angebotswarnung 2,5 Prozent; Zeilen für Kaufprüfung (These in Spalte AQ, Datum in Spalte AR), Protokoll und Tranchen.
+
+
+B 6. Gültigkeitsprüfung offener Aufträge
+Gültigkeitsprüfung (Modus I) für meine offenen Kaufaufträge: [Coin, Teilkauf, Limit, Betrag je Auftrag]. Je Auftrag: bleibt, Löschung empfohlen oder Neusetzung empfohlen, mit Grund; Ereignisse einschließlich Insider-Transfers; Prüfmarken; Protokollzeilen.
+Nach der Ausführung bei Bitvavo:
+Bestätigung: [Coin, Teilkauf] bei Bitvavo [gelöscht / neu gesetzt zu Limit … / ausgeführt zu … Euro, Menge …, Gebühr …] am [Datum, Uhrzeit]. Bitte Protokoll und Tranchen ergänzen.
+
+
+B 7. Depot-Check mit Verkaufsregeln
+Depot-Check (Modus D) mit beigefügter Bestandsliste in Euro: Grenzen, Liquiditätsobergrenze, A4, A7, A12, Schattenregel A13, Notfallregeln N1 bis N6, Steuerhinweise A9 und A9a bis A9e mit aktuellem Gesetzgebungsstand an amtlichen Quellen.
+
+
+B 8. Abgleich mit der Zweitprüfung
+Abgleich mit der Zweitprüfung (Modus E) für [KÜRZEL]. Ergebniszeile und Begründung der Zweitprüfung: [einfügen]. Jede Abweichung auf Daten, Definition oder Deutung zurückführen; Vorschlag für „Ergebnis nach Abgleich“ mit Begründung; bei Bedarf eine Rückfrage an die Zweitprüfung formulieren, die keine Ergebnisse der Erstbewertung verrät. Ist der Abgleich abgeschlossen, danach Prompt B 13.
+
+
+B 9. Vergleichsmodul V
+Schritt 1, vor dem Lesen der neuen STA-Analyse:
+Vergleichseintrag (Modus J) für [KÜRZEL], Horizont [zum Beispiel 30 Tage]: eigene Analyse im Wochen- und Tagesbild mit Haupt- und Alternativszenario, Zielzonen, Unterstützungen, Widerständen, Ungültigkeitsmarke, RSI, MACD und RS90; mit Zeitstempel festschreiben.
+Schritt 2, danach:
+STA-Aussage zu [KÜRZEL] vom [Datum], eigene Notiz: [Hauptszenario, Ziele, Marken, Kursquelle, Zeitrahmen]. Vorbekannt: [ja/nein]. Bitte im Blatt „STA-Vergleich“ erfassen und Unterschiede benennen.
+
+
+B 10. Neuzugänge und Gesamtlauf
+Neuzugänge prüfen (Modus H): Listungsabgleich Bitvavo und, wenn fällig, Ertragsradar; neue Märkte erstbewerten.
+Gesamtlauf (Modus F) über alle Bitvavo-Euro-Märkte zum Stichtag [Datum], mit Ertragsradar; Ranking nach gültigem Status; Grenzen des Laufs offen ausweisen.
+
+
+B 11. Regeländerung und Fortschreibung
+Regelfrage (Modus K): [Beobachtung oder Wunsch]. Bitte als Entscheidungsvorlage: heutige Regel mit Fundstelle, Problem, zwei bis drei Alternativen mit Folgen, Empfehlung. Noch nichts ändern.
+Nach der Entscheidung:
+Ich entscheide: [Alternative]. Bitte alle Bausteine fortschreiben (Modus K), Prüffassung neu erzeugen (Modus L), neue Version nennen und sagen, welche Dateien in welchem Projekt zu ersetzen und zu löschen sind.
+
+
+B 12. Steuerliche Prüfung vor dem ersten Kauf 2027
+A9e-Prüfung: Rechtsstand zur Kryptobesteuerung an amtlichen Quellen (Bundesgesetzblatt, BMF-Schreiben), Entscheidungsvorlage zu Verwendungsreihenfolge, Wallet-Begriff, Verlustverrechnung und Nachweisen; Offenes mit der vorsichtigeren Annahme kennzeichnen.
+
+
+B 13. Abschlussbericht nach dem Abgleich
+Abschlussbericht (Modus M) für [KÜRZEL] nach C 6: Ergebnis, Fundamentdaten, Einordnung, Abgleich, Ausblick mit Bewertung zum heutigen Kurs, Schwellenkursen in Euro und Einordnung des Kursantriebs, Einstiegsszenario, Ausstiegsszenario, Datenlücken und Quellen; in ganzen Sätzen als Textdatei; dazu die Protokollzeile „Abschluss Abgleich“.
+
+
+B 14. Übernahme des Bitvavo-Exports
+Übernahme des Bitvavo-Exports (Modus N) nach C 7. Angehängt: der vollständige Transaktionsverlauf als CSV-Datei vom [Datum], unverändert; die Arbeitsfassung aus dem Ordner „Aktuell“; ein Bildschirmfoto meiner Bestände bei Bitvavo vom selben Tag. Coins außerhalb von Bitvavo: [keine / Coin, Wallet oder Börse, Menge]. Bitte Prüfsumme nennen, Tranchen und Portfolioübersicht füllen, Bestände gegenprüfen, Lücken nennen und die Protokollzeile „Datenübernahme“ anlegen; die fertige Arbeitsfassung als Excel-Datei zurückgeben.
+
+
+B 15. Prüfauftrag Kauf- und Verkaufs-Setups
+Prüfauftrag zu Kauf- und Verkaufs-Setups (Modus K) nach Kanon § 34 und Gesamtdarstellung Kapitel 16, erst nach der Freischaltung des Netzwerkzugriffs. Vor jeder Rechnung Definitionen und Erfolgsmaß festschreiben und mit Zeitstempel nennen. Auf den abgeschlossenen Tageskerzen von Bitvavo nach Q-21 für die Kandidaten und Bestände der Arbeitsfassung nachrechnen, wie die Teilkäufe nach Kanon § 19 und § 20 abgeschnitten hätten, und genau zwei Abwandlungen: erstens Divergenz zwischen Kurs und RSI über 14 Tage, Tief oder Hoch bestätigt durch je fünf Tage davor und danach, erster RSI-Wert unter 30 beziehungsweise über 70; zweitens dieselbe mit Bestätigung durch den MACD 12/26/9 als Prozent-Preis-Oszillator. Wirkungen: zweiter und dritter Teilkauf erst nach bullischem Signal; Löschung des dritten Teilkaufs nach bärischem Signal. Schwerpunkt: günstige Bewertung ohne Aufwärtstrend (§ 19 Nr. 9). Maßstäbe: durchschnittlicher Kaufkurs, Ausführungsquote, entgangene Käufe, Kursentwicklung nach 90 und 365 Tagen gegen den Coin und gegen Bitcoin, nach Gebühren und Spread, Test- und Prüfzeitraum getrennt. Ergebnis als Beobachtung mit Grenzen; keine Regeländerung ohne Entscheidung.
+
+
+TEIL C. ARBEITSWEISE DER ERSTPRÜFUNG
+
+Dieser Teil enthält keine Regeln. Die Regeln stehen im Regelkanon und in der Datenquellen-Verfassung; hier steht, wie sie angewandt und wie Ergebnisse ausgegeben werden.
+
+
+C 1. Arbeitsmodi
+Zuerst erkennen, was verlangt ist.
+- A, Neubewertung („Bewerte X nach der Matrix“): Stufe 1 vollständig nach Kanon § 4 bis § 15: Daten erheben, Klasse wählen und begründen, Ausschlussgründe, F1 bis F7, Bewertungsnote, Belegsicherheit, Gate, Gesamtwert, Status, These und Wiedervorlage. Ausgabe nach C 3.
+- B, Wiedervorlage: nur geänderte Daten neu erheben (Erträge der letzten zwölf Monate, Freigaben, Vorfälle, Insider-Transfers), Noten nur bei belegter Änderung anpassen und je Note begründen, Art des Wertrückflusses und Tokenomics-Richtung (Spalten AV bis AX) aktualisieren, neue Einfügezeilen.
+- C, Kaufprüfung: Stufe 2 nach Kanon § 17 bis § 22 für Kandidaten mit Zweitprüfung und für Käufe außerhalb der Matrix nach A6 (Kanon § 27); Chartwerte nach Q-21 berechnen (Werte des Anlegers oder eines Bildschirmfotos nur, wenn der Abruf auch nach Wiederholung scheitert, Vermerk „Nutzerwert“); Ergebnis, Teilkaufplan, Prüfmarke, Orderbuch-Beobachtung nach Q-23 und Zeilen für die Blätter „Kaufprüfung (Stufe 2)“, „Protokoll“ und „Tranchen“.
+- D, Depot-Check: Stufe 3 nach Kanon § 23 bis § 30: Anteil außerhalb der Matrix gegen Höchstanteil, Überhang, Liquiditätsobergrenze, Abbaureihenfolge A11, A4, A7, A12, Schattenregel A13 nur protokollieren, Notfallregeln N1 bis N6, Steuerhinweise A9 und A9a bis A9e; Protokollzeilen.
+- E, Abgleich mit der Zweitprüfung: jede Abweichung einzeln auf Daten, Definition oder Deutung zurückführen, Quellen beider Seiten vergleichen, eigene Noten nicht verteidigen, sondern korrigieren, wenn die Gegenseite besser belegt ist. Ergebnis je Abweichung: „Erstbewertung korrigiert“, „Zweitprüfung korrigiert“ oder „offen – Datenlücke“. Spalte AF „Ergebnis nach Abgleich“ nur setzen, wenn die Abweichung schriftlich aufgelöst ist; sonst bleibt sie leer, und der vorsichtigere Status gilt. Begründung in Spalte AG. Danach Abschlussbericht nach C 6 und Protokollzeile „Abschluss Abgleich“. Bis zur Auflösung rechnen die Grenzen mit der vorsichtigeren Belegsicherheit und Gate-Warnung beider Prüfungen (Kanon § 16 Absatz 6); nach der Auflösung die betroffenen Werte der Erstbewertung im Erfassungsbogen berichtigen.
+- F, Gesamtlauf: alle Euro-Märkte des Stichtags laden und abgleichen (Q-18), Beobachtungsuniversum aus dem Ertragsradar hinzunehmen (Q-19), für jeden Markt alle in Frage kommenden Quellen abfragen (Q-12), Vollbewertung aller Coins mit Hauptkennzahl über null und aller Bestände, Ranking nach gültigem Status.
+- G, Datenerhebung und Datenpaket: nach der Verfassung; Identität zuerst (Q-01), Rohwerte mit Quelle, Abrufzeit, Bezugszeitraum und Prüfsumme (Q-07), Kennzeichen je Wert, Konsistenzprüfungen (Q-16), Stand einfrieren; das Datenpaket enthält keine Klasse, keine Noten und keinen Status.
+- H, Neuzugänge: nach Teil I der Verfassung: Listungsabgleich, Ertragsradar, Wiedervorlage junger Historie am 90. Tag.
+- I, Gültigkeitsprüfung: für jeden Coin mit offenen Teilkäufen Z7a bis Z7d anwenden, einschließlich der Prüfung auf Insider-Transfers nach Q-11; je Auftrag „bleibt“, „Löschung empfohlen“ oder „Neusetzung empfohlen (Limit, Betrag)“ mit Grund; der Anleger führt aus und bestätigt.
+- J, Vergleichsmodul V: eigene Analyse zuerst mit Zeitstempel, danach die Aussage des Dienstes; Zeile für das Blatt „STA-Vergleich“. Das Modul beeinflusst weder Noten noch Status noch Kaufprüfung. Das Blatt „STA-Vergleich“ dient nur dem Vergleichsmodul; für Prüfungen von Chartkonstellationen nach Prompt B 15 wird es nicht verwendet und nicht ergänzt.
+- K, Regelfrage und Fortschreibung: Entscheidungsvorlage; nach der Entscheidung alle Bausteine gemeinsam fortschreiben, Änderungsprotokoll und Kalibrierung ergänzen, neue gemeinsame Version.
+- M, Abschlussbericht nach dem Abgleich: nach C 6; nach jedem abgeschlossenen Abgleich und auf Wunsch nach einer Wiedervorlage.
+- N, Übernahme des Bitvavo-Exports: nach C 7; einmal für die bisherige Kaufhistorie, danach nach Bedarf und für den Stichtagsbestand zum 31. Dezember 2026.
+- L, Prüffassung erzeugen: aus der Arbeitsfassung eine Kopie ohne die Blätter „Ranking“, „Vorfilter Universum“, „Kalibrierung“ und „Änderungsprotokoll“, alle Eingaben geleert, fiktive Test-Coins TESTA bis TESTU eingesetzt, festes Berechnungsdatum in Zeitpunkt & Portfolio B24, Beispiele mit echten Coins neutralisiert, Formeln unverändert; neu berechnen und auf Fehler prüfen. Das Erzeugungsprogramm liegt in der Sicherungsdatei; fehlt es, die Schritte von Hand ausführen und das Ergebnis vor der Weitergabe auf echte Coin-Namen durchsuchen.
+
+
+C 2. Abrufwege
+Die Quellenwahl regelt die Verfassung in Teil C; hier stehen nur die technischen Wege, die sich bewährt haben.
+- Bitvavo: Markt und Handelbarkeit https://api.bitvavo.com/v2/markets?market=[SYMBOL]-EUR (Fehlermeldung bedeutet nicht handelbar); Kurs /v2/ticker/price; Tagesumsatz des laufenden Tages /v2/ticker/24h; bester Kauf- und Verkaufskurs /v2/ticker/book?market=[SYMBOL]-EUR; Orderbuch /v2/[SYMBOL]-EUR/book?depth=1000; Tageskerzen https://api.bitvavo.com/v2/[SYMBOL]-EUR/candles?interval=1d&limit=400, Wochenkerzen mit interval=1W. Eine Kerze ist [Beginn in Millisekunden Weltzeit, Eröffnung, Hoch, Tief, Schluss, Volumen in Coin-Einheiten], neueste zuerst. Rechenregeln nach Q-21.
+- DefiLlama: https://api.llama.fi/summary/fees/[slug]?dataType=dailyFees, ebenso dailyRevenue und dailyHoldersRevenue; Feld total1y für die letzten zwölf Monate, total30d für 30 Tage. Bei Entscheidungsrelevanz das Abfrageskript mit Pfad und Versionsstand archivieren (Q-09).
+- CoinGecko: Konnektor ohne Schlüssel https://mcp.api.coingecko.com/mcp oder Demo-Schlüssel; Identität und Mengen nur zur Plausibilisierung.
+- Etherscan-Konnektor für Vertragsrechte, Gesamtmenge, Burns und Übertragungen auf Ethereum-kompatiblen Ketten; für andere Ketten deren Explorer.
+- Ist eine Seite nicht erreichbar, das offen sagen und eine andere Quelle des Kanons nutzen; keine Umgehung über Spiegelseiten oder Zwischenspeicher.
+
+
+C 3. Ausgabeformat
+Neubewertung und Wiedervorlage:
+1. Kurzurteil: Status, Qualitätsnote und Klasse, Bewertungsnote, Gesamtwert, Belegsicherheit, Gate mit Zuwachs und Absorption, Positionsobergrenze.
+2. Begründung F1 bis F7 je mit Note, Beleg und Quelle; Bewertungsnote mit Kennzahlen und Punkten.
+3. Angebot: freier Umlauf, Zuwachs zwölf Monate, Absorption, F6-Rate, größte Freigabe mit Menge, Empfänger und Datum.
+4. Datenlücken und Prüfaufträge; Kennzeichen der entscheidungsrelevanten Werte, etwa „Halter-Erträge: M / E / zwölf Monate vollständig“, und Schwellenrobustheit; gegebenenfalls eine Beobachtung zu einer Regel, ohne das Ergebnis anzupassen.
+5. Einfügezeilen nach C 4.
+6. Quellenliste mit Links.
+Bei mehreren Coins zuerst eine Übersicht (Coin, Qualitätsnote und Klasse, Bewertungsnote, Gesamtwert, Belegsicherheit, Gate, Status), dann die Einzelheiten. Am Ende erinnern: Einfügezeilen, Protokoll- und Tranchenzeilen in die Arbeitsfassung übernehmen, die Datei im Projekt ersetzen, bei Kandidaten die Zweitprüfung anstoßen.
+
+Kaufprüfung: Ergebnis; Prüfwerte Z1 bis Z5 mit Median und Spread; bei A6 zusätzlich die Bedingungen von A6; Positionsgröße als kleinste Grenze einschließlich Liquiditätsobergrenze, abzüglich Bestand und offener Aufträge; die drei Teilkäufe mit Limit und Betrag in Euro; Prüfmarke; Orderbuch-Beobachtung; Hinweise; Einfügezeilen.
+
+
+C 4. Einfügezeilen für die Arbeitsfassung
+Nur Eingabespalten ausgeben, je Block tabulatorgetrennt, damit keine Formelspalten überschrieben werden.
+
+Erfassungsbogen:
+- Block A bis M: Token, Name, Klasse, Im Bestand (ja/nein), Bitvavo Euro handelbar (ja/nein), Stichtag (TT.MM.JJJJ), F1 bis F7.
+- Block Q: Wert der Hauptkennzahl; Block T: Wert der Kontrollkennzahl (Quoten als Dezimalzahl, 0,25 für 25 Prozent).
+- Block X bis AD: Belegsicherheit, Datenlücken, Marktkapitalisierung geteilt durch voll verwässerte Bewertung, Angebotswachstum zwölf Monate, Absorptionsquote, größte Freigabe (Menge, Empfänger), Datum der größten Freigabe.
+- Block AF bis AG: Permanentes K.O. (ja/nein), K.O.-Grund.
+- Block AL bis AX: Thesis Upside, Thesis Gap, Anlässe der Neubewertung, Wiedervorlage, Quellen und Begründung F1, F3, F7, Bewerter, Kennzeichen der entscheidungsrelevanten Werte, Run-Rate-Abweichung, Run-Rate-Abweichung Vorquartal, Nutzerwachstum zwölf Monate (Information, Quelle nennen), Art des Wertrückflusses, Tokenomics-Richtung (verbessert, stabil, verschlechtert), Datum der Tokenomics-Änderung.
+
+Zweitprüfung: Spalte A Coin, N Prüfdatum, O bis U F1 bis F7, V Bewertungsnote, W Belegsicherheit, X Gate (Wortlaut „Investment-Sperre“; die Kurzform „Sperre“ wird erkannt), Y Status, AF Ergebnis nach Abgleich (eine Zweitprüfung gilt erst mit eingetragenem Status in Y als vorliegend; nur bei schriftlicher Auflösung, nur zusammen mit AG und im Wortlaut eines Status wirksam), AG Begründung, AH Kommentar. AI und AJ sind Formeln: Belegsicherheit und Gate der Zweitprüfung, mit denen die Grenzen bis zur Auflösung rechnen.
+
+Kaufprüfung (Stufe 2): Block A und D bis M (Coin, Kurs, 50-Tage-Durchschnitt, 200-Tage-Durchschnitt oder „n. b.“, Veränderung 30 Tage, Umsatz aller Börsen nur zur Information, geplante Gesamtposition, RS90, MVRV nur Bitcoin, Szenario, Ungültigkeitsmarke); Block AA bis AD (Median-Tagesumsatz Bitvavo in Euro, Spread, Kaufvolumen bis 1 Prozent unter dem Mittelkurs, Abschlag der größten Teilposition); Block AJ bis AK (Datum und Ergebnis der Gültigkeitsprüfung); AN offene Kaufaufträge in Euro; AP Orderbuch-Abruf (Zeit in Weltzeit, Folgenummer); AQ These und AR Datum der Einzelentscheidung (TT.MM.JJJJ), nur bei A6; ohne Datum gibt die Tabelle nichts frei. Marktfilter einmal je Prüftag in H5 und H6; ohne diese Werte lautet das Ergebnis „Werte eintragen“. Alle übrigen Spalten rechnet die Tabelle, auch die Hilfsspalten AS und AT; im Text trotzdem nennen.
+
+Zeitpunkt und Portfolio, Portfolioübersicht ab Zeile 67: A Coin, B Wert, D Kaufdatum der ältesten Tranche, E Einstand gesamt, M Bemerkung, N Kurs aktuell, O bis Q A12-Bezugsdatum, -Bewertungsnote und -Kurs, U A12-Status, V A13-Verhältnis, X Notfall, Y Median-Tagesumsatz Bitvavo.
+
+Protokoll: Spalten A bis AA und AF (Datum und Uhrzeit, Coin, Vorgang, Regel, gültiger Status, Bewertungsnote, Ergebnis oder Empfehlung, Begründung, Kurs am Prüftag, Limits 1 bis 3, Betrag, Prüf- oder Ungültigkeitsmarke, Datenstand, empfohlen am, vom Anleger bestätigt am, ausgeführte Teilkäufe, Durchschnittskurs, Kurse nach 14, 30, 60, 90, 180 und 365 Tagen, gelöschtes Limit, Tiefstkurs seit Löschung, Bemerkung); AB bis AE sind Formeln. Käufe außerhalb der Matrix mit dem Vorgang „Kauf A6“ und der These in der Bemerkung; Abruffehler mit dem Vorgang „Abruffehler“; die Übernahme eines Exports mit dem Vorgang „Datenübernahme“.
+
+Tranchen: Spalten A bis E, G, H, M und N (Datum, Coin, Art, Menge, Preis je Einheit, Gebühr, Börse oder Wallet, Protokoll-Bezug, Bemerkung); Art „Kauf“, „Verkauf“, „Zugang ohne Kauf“ oder „Abgang ohne Verkauf“; F und I bis L sind Formeln. Ein Coin steht in der Kaufprüfung nur in einer Zeile; eine Doppelzeile sperrt alle Zeilen dieses Coins.
+
+STA-Vergleich ab Zeile 21: Eingabespalten A, B, D bis R, T bis AG, AI bis AO; C, S, AH und AP sind Formeln.
+
+
+C 5. Selbstprüfung vor jeder Ausgabe
+- Vergütung der Validatoren oder Betreiber als Wertrückfluss gezählt? (D-01)
+- Burn geteilt durch Emission mit F5 verwechselt? Durchleitungen im Nenner von F5? (D-02)
+- Wert von 30 Tagen oder 24 Stunden als Jahreswert verwendet? (D-03)
+- Umlaufangabe eines Anbieters ungeprüft als freier Umlauf übernommen? Brücken doppelt gezählt? (D-14)
+- Tatsächliche Abrufe statt Vertragsobergrenze verwendet? Anbietermodell als Vertrag ausgegeben? (D-04, D-10)
+- Firmenumsatz als Protokollumsatz gezählt? (D-12) Geplantes als laufend gewertet? Beschlossenen Rückkauf ohne Volumen höher als 2 bewertet?
+- Rückkauf und Burn derselben Token in der Absorptionsquote doppelt gezählt?
+- Arithmetik nachgerechnet (Qualitätsnote, Bewertungsnote, Gesamtwert, Gate-Quote, Teilkäufe)? Statusreihenfolge eingehalten?
+- Ergebnis nahe einer Schwelle? Empfindlichkeit nennen, etwa „F6 kippt bei 2 Prozent geringerem Umlauf“.
+- Halter-Erträge mit Run-Rate geprüft (D-09)? Art des Wertrückflusses angegeben? Gehaltene Rückkäufe ohne Sperre mit einer Stufe Abzug (D-16)? Prüfliste F7 abgearbeitet?
+- Token-Vertrag geprüft (Kanon § 6 Abs. 3): aktualisierbar? Eigentümer oder Berechtigte, Zeitsperre von mindestens 48 Stunden, Abstimmung der Tokenhalter oder gewähltes Gremium; Prägerecht bis Höchstmenge nur in Gate und F6; Beleg im Explorer mit Blockhöhe?
+- Identität geprüft (Kürzel, CoinGecko-Kennung, Netz, Vertrag; VELO war Velo Labs, nicht Velodrome)? Ertrag dem richtigen Token zugeordnet (Q-13)? „Revenue“ eines Datensammlers nicht ungeprüft als Nettogebühren übernommen?
+- Junge Historie richtig angewandt, Beginn am belegten Inkrafttreten, unvollständige Messreihe nicht mit junger Historie verwechselt?
+- Jeder entscheidungsrelevante Wert mit Kennzeichen und Schwellenrobustheit (Q-04), Kennzeichen in Spalte AR?
+- Abgleich mit der Zweitprüfung: AF nur bei schriftlicher Auflösung; Ranking und Portfolioübersicht zeigen den gültigen Status?
+- Kaufprüfung: Chartwerte nur aus abgeschlossenen Kerzen, laufende Kerze verworfen, Rohdaten archiviert? Abruffehler wiederholt und nicht als Lücke gezählt? Lücken als „Durchschnitt über n von N Tagen“ ausgewiesen? Fehlende 200-Tage-Historie als „n. b.“? Liquidität mit Bitvavo-Median und Spread? RS90 mit (1 + Rendite Coin) geteilt durch (1 + Rendite Bitcoin) minus 1, nur im Aufwärtstrend begrenzend und dort vorhanden (sonst „Werte fehlen“)? Positionsgröße als kleinste Grenze mit der vorsichtigeren Belegsicherheit und Gate-Warnung beider Prüfungen, Zukauf abzüglich Bestand und offener Aufträge? Prüfmarke berechnet? Orderbuch mit Abrufzeit und Folgenummer?
+- A6: gültiger Status Optionsliste (Kein Kandidat nie), Einzelentscheidung mit Datum und These, Gate „ok“ oder „Warnung“ in beiden Prüfungen, Belegsicherheit A bis C, Bitvavo-Markt, Höchstanteil von 20 Prozent nicht erreicht (auch im Übergang) und Position höchstens bis zum Höchstanteil, keine Verlustposition, kein Weg „günstige Bewertung“, Grenze 5 Prozent, bei Warnung 2,5 Prozent, Datum in Spalte AR?
+- Marktfilter: Bitcoin-Kurs und -Durchschnitt am Prüftag eingetragen; fehlende Werte nie als Aufwärtstrend?
+- Z7: Insider-Transfers nur mit vom Projekt veröffentlichter Adresse und Explorer-Beleg? Empfehlung und bestätigte Ausführung getrennt? Keine Marktorder empfohlen?
+- Depotregeln: A12 nur bei Bewertungsnote 0, Bezugsnote mindestens 30 und Kurs mindestens 100 Prozent höher, einmal je Bezugszeitpunkt, Notfälle und A4 vorher? A13 nur protokolliert und höchstens einmal je 90 Tage? Gesetzgebungsstand zu A9a bis A9e aktuell an amtlichen Quellen geprüft, Entwurf nicht als geltendes Recht behandelt, Freigrenze als „weniger als 1.000 Euro“, Verkaufsmenge nur aus abgelaufener Haltefrist (FIFO)? Keine Abhängigkeit von einer Steuerberatung?
+- Vergleichsmodul V: eigene Analyse vor der Aussage des Dienstes festgeschrieben, vorbekannte Aussagen markiert, kein Einfluss auf Noten, Status oder Kaufprüfung?
+- Konsistenz: Weicht ein neuer Coin stark von einem vergleichbaren Ankerwert im Blatt „Kalibrierung“ ab, die Begründung ausdrücklich darlegen.
+- Abschlussbericht: gültiger Status statt Erststatus? Schwellenkurse als Rechnung bei unveränderten Erträgen bezeichnet? Kursantrieb als Deutung gekennzeichnet, ohne Wirkung auf Note, Status oder Kauf? Einstiegsteil mit Datenstand? Kein STA-Material?
+
+
+C 6. Abschlussbericht nach dem Abgleich
+Nach jedem abgeschlossenen Abgleich mit der Zweitprüfung je Coin eine Kurzfassung in ganzen Sätzen, etwa ein bis zwei Seiten, als Textdatei, auf Wunsch zusätzlich Word und PDF. Der Bericht ist ein Arbeitsergebnis, keine Regel; er ändert weder Note noch Status noch Kaufprüfung. Maßgeblich ist der gültige Status, nicht das Ergebnis der Erstbewertung allein.
+1. Ergebnis: gültiger Status, Qualitätsnote und Klasse, Bewertungsnote, Gesamtwert, Belegsicherheit, Gate, Positionsgrenze in Euro; ob Erst- und Zweitprüfung übereinstimmten.
+2. Fundamentdaten: Klasse und Geschäftsmodell, Erträge der letzten zwölf Monate, Anteil des Wertrückflusses, voll verwässerte Bewertung und Multiplikator, Angebot (freier Umlauf, Zuwachs zwölf Monate, Rate über 36 Monate, größte Freigabe); jeweils mit Kennzeichen und Quelle.
+3. Einordnung: Stärken und Schwächen nach F1 bis F7, Nähe zu Schwellen und Empfindlichkeit, Vergleich mit Ankerwerten im Blatt „Kalibrierung“.
+4. Abgleich: jede Abweichung mit Ursache (Daten, Definition, Deutung), Auflösung oder Grund, warum sie offen ist.
+5. Ausblick, in drei Teilen. Erstens die Bewertung zum heutigen Kurs: Bewertungssignal im Wortlaut des Kanons (günstig, neutral, teuer) und seine Übersetzung (eher unterbewertet, angemessen, eher überbewertet), Multiplikator und Punkte; dazu Schwellenkurse in Euro, bei denen das Signal bei unveränderten Erträgen und unveränderter Kontrollkennzahl in die nächste Stufe wechselt, ausdrücklich als Rechnung bezeichnet. Nicht oder eingeschränkt beurteilbar bei Meme und Marke, leerer Hauptkennzahl und junger Historie; bei Belegsicherheit C oder D mit Vorbehalt. Zweitens der Kursantrieb nach festen Anzeichen ohne Schwellen: RS90 und Gleichlauf mit Bitcoin (marktgetrieben); Kursveränderung über 90 Tage und zwölf Monate gegen die Veränderung der Erträge, Run-Rate-Abweichung nach D-09 und Entwicklung des Multiplikators (fundamental gestützt oder bewertungsgetrieben); Abstand zum 50-Tage-Durchschnitt, Verhältnis zum 200-Tage-Durchschnitt und Umsatzsprung auf Bitvavo (Hinweis auf Hype). Narrativ nur aus Hinweisquellen der Stufe 4 und als Deutung gekennzeichnet. Die Einordnung wirkt nie auf Note, Status, Kaufprüfung oder Positionsgröße und steht in der Bemerkung der Protokollzeile. Fehlen Kerzen oder Ertragsreihen, die Lücke nennen statt zu schätzen. Drittens unbewertetes Potenzial, fehlender Beweis, Anlässe einer Neubewertung, Freigabetermine und Wiedervorlage.
+6. Einstiegsszenario: nur bei gültigem Kandidatenstatus mit Kaufprüfung oder bei Einzelentscheidung nach A6; Ergebnis der Kaufprüfung, zulässige Position, Teilkäufe mit Limits und Beträgen, Prüfmarke, gegebenenfalls festgeschriebenes Szenario mit Ungültigkeitsmarke; Datenstand angeben, Kurswerte gelten einen Handelstag (Q-11). Ohne Kauffreigabe: Grund und frühester Anlass für eine neue Prüfung.
+7. Ausstiegsszenario: kein Kursziel und kein Preis-Stop (A8), sondern die geltenden Auslöser mit Euro-Werten: Kürzungsschwelle nach A4, Bedingungen von A12 mit Bezugskurs, gegebenenfalls A7, Notfallregeln N1 bis N6, Haltefrist und steuerlicher Hinweis nach A9.
+8. Datenlücken, Prüfaufträge und Quellen mit Links.
+Ablage: Datei „Abschluss_[KÜRZEL]_[JJJJ-MM-TT].txt“ im Ordner „Krypto-Matrix/Berichte“; Protokollzeile „Abschluss Abgleich“ mit Datum, gültigem Status, Ablageort und der Einordnung des Kursantriebs in der Bemerkung. In Notion nur ein Verweis auf den Ablageort, keine Noten (Anhang 2). Nie an die Zweitprüfung, auch nicht bei späteren Wiedervorlagen; kein STA-Material.
+Begründung: Die Excel-Zeile sagt, was gilt; der Bericht sagt, warum, und macht die Lage eines Coins schnell verständlich. Schwellenkurse und Kursantrieb geben Orientierung für den Zeitpunkt, ohne die eingefrorenen Regeln zu berühren.
+
+
+C 7. Übernahme des Bitvavo-Exports
+Zweck: die Kaufhistorie im Blatt „Tranchen“ belegen (Kanon § 31 Absatz 3, A9a) und die Portfolioübersicht mit Werten, Kaufdatum und Einstand füllen. Ohne diese Werte sind der Anteil außerhalb der Matrix (A10), die Grenzen nach A6 und die Haltefristen nicht bestimmbar.
+1. Eingang: die vom Anleger angehängte, unveränderte CSV-Datei des vollständigen Transaktionsverlaufs, die echte Arbeitsfassung aus „Aktuell“ und ein Bildschirmfoto der Bestände vom selben Tag. Prüfsumme SHA-256 des Exports berechnen und nennen; der Anleger legt die Datei unverändert im Ordner „Krypto-Matrix/Belege“ ab (Rohbeleg nach Q-07).
+2. Lesen: Trennzeichen, Spaltennamen, Zahlenformat und Zeitzone feststellen und nennen, nichts raten. Fehlt eine nötige Angabe, etwa Preis oder Gebühr, die Lücke nennen, nicht schätzen.
+3. Zuordnung je Zeile: ausgeführter Kauf als „Kauf“, Verkauf als „Verkauf“, Zugang in Coin ohne Kauf (Staking-Ertrag, Einlieferung, Prämie) als „Zugang ohne Kauf“, Abgang in Coin ohne Verkauf (Auslieferung, in Coin bezahlte Gebühr) als „Abgang ohne Verkauf“; Ein- und Auszahlungen in Euro werden nicht übernommen; Teilausführungen einzeln. Je Zeile Datum der Ausführung, Coin, Menge, Preis je Einheit in Euro, Gebühr in Euro, „Bitvavo“ als Börse, Bemerkung „Bitvavo-Export [Datum], Kennung [Transaktionsnummer]“. Bereits gebuchte Kennungen nicht erneut buchen.
+4. Gegenprobe: Bestand je Coin gleich Zugänge minus Abgänge, verglichen mit dem Bildschirmfoto. Abweichungen über Rundung hinaus nennen und klären lassen, nicht ausgleichen. Coins in anderen Wallets oder von anderen Börsen fehlen im Export; sie werden erfragt und mit ihrer Wallet getrennt geführt.
+5. Portfolioübersicht ab Zeile 67: A Coin; D Kaufdatum der ältesten noch gehaltenen Tranche nach der Reihenfolge „zuerst angeschafft, zuerst veräußert“ (BMF-Schreiben vom 6. März 2025, Randnummern 61 und 62; vorsichtige Annahme: das Bitvavo-Konto ist eine Wallet); E Einstand der noch gehaltenen Menge nach derselben Reihenfolge einschließlich Kaufgebühren; N Kurs aktuell aus https://api.bitvavo.com/v2/ticker/price mit Abrufzeit; B Wert gleich Bestand mal Kurs. Für Zugänge ohne Kauf gilt als Einstand nur ein Euro-Wert, den der Export selbst nennt; sonst bleibt er als Lücke vermerkt, und die steuerliche Einordnung folgt nach Prompt B 12.
+6. Ausgabe: Einfügezeilen für „Tranchen“ und die Portfolioübersicht nach C 4, eine Protokollzeile „Datenübernahme“ mit Datum, Prüfsumme, Zahl der Zeilen und Ablageort, auf Wunsch die fertige Arbeitsfassung als Excel-Datei; danach ersetzt der Anleger die Datei in „Aktuell“, und die Textkopie im Projekt wird erneuert.
+7. Schutz: Export, Tranchen und Bestände gehen nie an die Zweitprüfung und nie in ein Datenpaket. Für diesen Weg ist kein Schnittstellenschlüssel nötig, auch keiner nur mit Leserechten.
+Begründung: Der Transaktionsverlauf ist der einzige vollständige Beleg der Käufe; aus ihm folgen Altbestand, Haltefristen und die Euro-Werte, ohne die Höchstanteil und Positionsgrenzen nicht bestimmbar sind. Die Gegenprobe mit dem Bildschirmfoto deckt fehlende oder doppelte Zeilen auf.
+
+
+ANHANG 1. EINRICHTUNG, OFFENE SCHRITTE UND TERMINE
+
+
+Was in welches Projekt gehört
+Claude-Projekt „Krypto-Bewertungsmatrix“: Projektanweisung aus Teil A. Projektdateien, jeweils nur die neueste Fassung: Regelkanon Version 1.2.31, Datenquellen-Verfassung Version 1.2.31, Gesamtdarstellung Version 1.2.31, dieses Betriebsdokument und das Betriebsdokument Zweitprüfung Version 1.2.31 (für die Fortschreibung), jeweils als Textfassung, dazu „Krypto-Bewertungsmatrix_Arbeitsfassung_Version_1.2.31_Textkopie.txt“. Die Arbeitsfassung liegt im Claude-Projekt nur als Textkopie ihrer berechneten Werte, ohne Formeln, weil das Projekt keine Excel-Dateien annimmt; von Claude geschriebene Dateien stehen dort im Unterordner „claude/“. Die Prüffassung gehört nicht ins Claude-Projekt; sie geht als echte Excel-Datei nur in das Gespräch einer Formelprüfung der Zweitprüfung. Für jede Arbeit an einer Excel-Datei die echte Datei aus dem Ordner „Aktuell“ im Gespräch anhängen; nie eine Projektkopie herunterladen und als Excel-Datei verwenden oder weitergeben.
+ChatGPT-Projekt „Krypto Zweitprüfung“: nach dem Betriebsdokument Zweitprüfung.
+Ihr Rechner: Ordner „Krypto-Matrix“ mit den Unterordnern „Aktuell“, „Archiv“, „Belege“, „Berichte“, „Datenpakete“ und „Sicherungen“. Sicherungsdateien gehören in „Sicherungen“, in kein Projekt. Exporte und Kontoauszüge der Börse gehören nach „Belege“, nie nach „Datenpakete“, weil Bestände und Käufe nie an die Zweitprüfung gehen.
+Begründung: Liegen alte und neue Fassungen nebeneinander, ist nicht eindeutig, welche gilt.
+
+
+Sofort, am PC
+1. Den Skill „krypto-bewertungsmatrix“ unter Anpassen, Skills löschen oder ausschalten. Er ist eine überholte zweite Kopie der Regeln. Erledigt: am 27.10.2026 deaktiviert, Archivkopie im Ordner „Archiv“.
+2. Claude-Projekt: Projektanweisung aus Teil A ersetzen, die Projektdateien nach dem Abschnitt „Was in welches Projekt gehört“ ersetzen, alles nach Anhang 4 löschen.
+3. ChatGPT-Projekt nach dem Betriebsdokument Zweitprüfung umstellen.
+4. Excel-Datei: die Arbeitsfassung ersetzt jede frühere Fassung „Krypto-Bewertungsmatrix_v1.2.xlsx“ im Projekt und im Ordner „Aktuell“.
+
+
+Diese Woche, am PC
+5. Netzwerkzugriff der Arbeitsumgebung freischalten, nach Anhang 1 und 2 der Datenquellen-Verfassung.
+6. Dauerhafte Ablage: privates GitHub-Repository anlegen und unter Einstellungen, Konnektoren verbinden.
+7. CoinGecko-Konnektor als eigenen Konnektor eintragen.
+8. Begonnene Konnektoren bereinigen: Notion abschließen (Anhang 2); CoinMarketCap abschließen oder entfernen.
+9. Bitvavo: offene Kaufaufträge mit Prompt B 6 prüfen lassen; für jeden offenen dritten Teilkauf einen Kursalarm auf die Prüfmarke setzen, sofern angeboten; Benachrichtigungen über Ausführungen einschalten; keinen Schnittstellenschlüssel mit Handelsrechten anlegen.
+10. Kaufhistorie aus Bitvavo exportieren und nach C 7 mit Prompt B 14 übernehmen lassen; damit ist der heutige Bestand als Altbestand belegt, und die Portfolioübersicht erhält Werte, Kaufdatum und Einstand.
+
+
+Termine
+11. 15. Dezember 2026: Zwischenbericht Vergleichsmodul V; Entscheidung über das Abonnement; Erkenntnisse zu RSI und MACD für den Prüfauftrag B 15 festhalten. Bis 31. Dezember 2026 außerdem die Zweitprüfungen für NEAR, INJ, RENDER und AAVE nachholen (Status „Qualität ja – Bewertung abwarten“, Übergang nach Kanon § 16 Absatz 6); ohne Zweitprüfung zählen sie danach nicht mehr zur Matrix.
+12. Bis 10. Januar 2027: Stichtagsbestand zum 31. Dezember 2026 aus dem Bitvavo-Export archivieren (A9a), auf dem Weg nach C 7; zusätzlich die Jahresübersicht 2026 der Bitvavo-App als PDF in „Belege“ ablegen, sobald sie angeboten wird.
+13. Vor dem ersten Kauf 2027: Prompt B 12.
+14. 22. April 2027: Halbjahresauswertung aller Startwerte nach Kanon § 35, der Schattenregel A13, der Insider-Schwelle, der Wirkung von RS90 und der Käufe nach A6.
+
+
+Nach der Freischaltung
+15. Test aller Zugänge, Validierungslauf mit 32 Testfällen, erster Gesamtlauf, erster Ertragsradar, maschinelle Nachprüfung der bisherigen Kandidaten, Zweitprüfung auf dem neuen Datenstand; danach der Prüfauftrag zu Kauf- und Verkaufs-Setups mit Prompt B 15.
+16. Geplante Aufgaben: wöchentlich Gültigkeitsprüfung und Listungsabgleich (der Listungsabgleich ist seit 2. November 2026 als geplante Aufgabe eingerichtet, montags 7:47 Uhr, Skript und Stände im Archiv krypto-matrix unter datenstaende/listung), täglich Prüfmarken-Überwachung, monatlich Ertragsradar und A12-Prüfung.
+
+
+Laufend
+17. Wöchentlich Prompt B 6; bis 15. Dezember ein Vergleichseintrag je Stichprobencoin (Prompt B 9).
+18. Nach jeder Ausführung bei Bitvavo die Bestätigung aus B 6.
+19. Nach jeder Änderung der Arbeitsfassung: neue Datei herunterladen, alte nach „Archiv“, Projektdatei ersetzen. Auf dem Smartphone nur lesen, nicht parallel bearbeiten.
+
+
+Am Smartphone
+Gespräche immer im Projekt beginnen, nicht außerhalb, sonst fehlen Anweisung und Dateien. Bestätigungen und Vergleichsnotizen gehen gut unterwegs; Einstellungen, Konnektoren und Dateiaustausch am PC.
+
+
+ANHANG 2. NOTION ALS BIBLIOTHEK
+
+Notion ist Bibliothek und Notizbuch, nicht Rechenstelle. Zahlen, Noten und Status stehen verbindlich in der Arbeitsfassung; Notion verweist darauf. Begründung: Eine zweite Stelle mit Noten würde früher oder später von der Excel-Datei abweichen.
+Aufbau: eine Hauptseite „Krypto-Matrix“ mit fünf Datenbanken. „Regelwerk“: je Dokument eine Zeile mit Name, Art, Version, gültig ab, Status (gültig oder abgelöst), Freigabe für die Zweitprüfung (ja oder nein) und angehängter Datei; je Art genau eine Zeile „gültig“. „Beschlüsse“: jede Regelentscheidung mit Datum, Kennung, Inhalt in einem Satz, Begründung und Version. „Coins“: je Coin These, offene Beweise, Wiedervorlage und der Hinweis „Zahlen: Arbeitsfassung, Stand [Datum]“ sowie der Ablageort des letzten Abschlussberichts; keine Noten. „STA-Notizen“: je Analyse eine knappe eigene Notiz, keine kopierten Originalberichte; das Anlagedatum belegt die Reihenfolge im Vergleichsmodul. „Datenpakete und Sicherungen“: Stichtag, Prüfsumme, Ablageort.
+Schutz der Zweitprüfung: Notion nicht mit dem ChatGPT-Projekt verbinden; wenn doch, dann nur eine eigene Seite „Für die Zweitprüfung freigegeben“ mit ausschließlich ergebnisfreien Dokumenten und Datenpaketen.
+Lege die Dokumente der Version 1.2.31 in Notion unter „Krypto-Matrix / Regelwerk“ ab, setze die älteren auf „abgelöst“ und trage die Beschlüsse vom 24. bis 27.10.2026 in „Beschlüsse“ ein.
+
+
+ANHANG 3. WAS AUTOMATISIERT WERDEN KANN UND WAS NICHT
+
+Stand heute läuft nichts automatisch. Prüfungen, Abrufe und Auftragskontrollen finden statt, wenn sie im Gespräch angestoßen werden oder wenn geplante Aufgaben mit Netzwerkzugriff und dauerhafter Ablage eingerichtet sind.
+Automatisierbar danach: Abruf und Archivierung von Kursen, Kerzen, Umsätzen und Orderbüchern; Berechnung der Chartwerte und Prüfwerte Z1 bis Z5; wöchentliche Gültigkeitsprüfung mit Empfehlungen; tägliche Überwachung der Prüfmarken; Listungsabgleich und Ertragsradar; monatliche A12-Prüfung; Nachschau im Protokoll; Kennzahlen des Vergleichsmoduls; Ablage in Notion.
+Bewusst beim Anleger: Setzen, Ändern und Löschen von Aufträgen; Anstoßen der Zweitprüfung; Eingabe der STA-Aussagen; Wahl der Vergleichsstichprobe; jede Regeländerung, jede steuerliche Entscheidung, jeder Kauf und Verkauf, jede Einzelentscheidung mit These nach A6.
+Begründung: Was Geld bewegt oder Regeln ändert, soll eine bewusste Entscheidung bleiben; was sich wiederholt und prüfen lässt, erledigt eine Maschine zuverlässiger.
+
+
+ANHANG 4. LÖSCHLISTE
+
+In beiden Projekten, im Ordner „Aktuell“ und in Notion löschen oder nach „Archiv“ verschieben:
+- alle Dateien der Version 1.2.30 vom 1. November 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.30 in beiden Projekten;
+- alle Dateien der Version 1.2.29 vom 1. November 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.29 in beiden Projekten;
+- alle Dateien der Version 1.2.28 vom 31. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.28 in beiden Projekten;
+- alle Dateien der Version 1.2.27 vom 28. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.27 in beiden Projekten;
+- alle Dateien der Version 1.2.26 vom 27. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.26 in beiden Projekten;
+- im Claude-Projekt die Textkopie der Prüffassung „Krypto-Bewertungsmatrix_Prueffassung_Version_1.2.26_Textkopie.txt“ ersatzlos; eine Prüffassung gehört nicht ins Claude-Projekt;
+- alle Dateien der Version 1.2.25 vom 25. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.25 in beiden Projekten;
+- alle Dateien der Version 1.2.24 vom 24. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.24 in beiden Projekten;
+- alle Dateien der Version 1.2.23 vom 24. Oktober 2026: Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente;
+- den Skill „krypto-bewertungsmatrix“ in jeder Fassung und alle Skill-Druckfassungen; in Claude am 27.10.2026 deaktiviert, die Archivkopie liegt nur im Ordner „Archiv“, nie in einem Projekt; endgültig löschen, sobald die Version 1.2.31 sich bewährt hat;
+- alle Fassungen 1.2.21 und 1.2.22 von Gesamtdarstellung, Excel-Datei, Projektanweisungen, Betriebshandbuch, Änderungsbericht und Regelwerk für die Zweitprüfung;
+- die Prüfmappe „Pruefmappe_1.2.22_synthetisch.xlsx“ und die Blind-Arbeitsmappe 1.2.20;
+- das Regelwerk blind 1.2.20, das Regelwerk Stufe 1 1.2.20 und die Anleitung zum Prüfprojekt;
+- die Datenquellen-Verfassung 1.0, 1.0.1, 1.1 und 1.2;
+- die Gesamtdarstellungen 1.2.18 bis 1.2.22 einschließlich der erklärenden Ausgabe vom 24. Oktober 2026;
+- das Kalibrierungs- und Entscheidungsarchiv vom 24. Oktober 2026; sein Inhalt steht vollständig im Blatt „Kalibrierung“ der Arbeitsfassung Version 1.2.31.
+Gültig sind danach nur: Regelkanon, Datenquellen-Verfassung, Arbeitsfassung und Prüffassung der Krypto-Bewertungsmatrix, die beiden Betriebsdokumente und die erklärende Gesamtdarstellung, jeweils in der Version 1.2.31.

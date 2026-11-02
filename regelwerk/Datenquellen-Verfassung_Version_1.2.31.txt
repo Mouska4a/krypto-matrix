@@ -1,0 +1,760 @@
+DATENQUELLEN-VERFASSUNG DER KRYPTO-BEWERTUNGSMATRIX
+Version 1.2.31 vom 2. November 2026 · Baustein des Regelwerks der Krypto-Investment-Architektur · ergebnisfrei
+
+
+EINLEITUNG: WORUM ES IN DIESEM DOKUMENT GEHT
+Eine Bewertung ist nur so gut wie die Zahlen, auf denen sie beruht. Diese Verfassung legt deshalb fest, woher die Zahlen der Krypto-Bewertungsmatrix kommen dürfen, wie jede einzelne Zahl gekennzeichnet und geprüft wird und wann sie gut genug belegt ist, um eine Kaufentscheidung zu tragen.
+Sie ist einer von drei Bausteinen des Regelwerks. Der Regelkanon legt die Bewertung, die Kaufprüfung und die Depotregeln verbindlich fest; diese Verfassung regelt die Daten; die Excel-Datei der Matrix rechnet. Die Gesamtdarstellung erklärt alles ausführlich, ist aber nicht verbindlich. Für die Datenregeln Q-01 bis Q-23 ist der Wortlaut dieser Verfassung maßgeblich. Bei einem Widerspruch zu den Definitionen D-01 bis D-20 im Anhang des Regelkanons gehen diese vor. Weicht eine Formel der Excel-Datei vom Text ab, ist die Formel fehlerhaft und wird berichtigt.
+Der Aufbau folgt dem Weg einer Zahl. Nach den Grundbegriffen und sieben Grundsätzen kommt in Teil C das Verzeichnis aller genutzten Quellen: wofür jede Quelle dient, wie verlässlich sie ist, was sie kostet, was für und gegen sie spricht und warum sie ihre Rolle hat. Danach folgen die Kennzeichnung jedes Rohwerts in Teil D und die 23 Gültigkeitsregeln in Teil E. Die Teile F bis K regeln Datenstrecke, Zweitprüfung, Neuzugänge, Kurs- und Ausführungsdaten und die nächsten Schritte.
+Diese Verfassung enthält keine Bewertungsergebnisse. Coin-Namen erscheinen nur als Beispiele für Datenfehler, die tatsächlich aufgetreten sind, oder als Testfälle der Datenstrecke.
+
+
+GLIEDERUNG
+Teil A. Zweck, Geltung und Grundbegriffe
+Teil B. Sieben Grundsätze
+Teil C. Quellen: Beurteilung und Verzeichnis
+C 1. Neun Kriterien
+C 2. Vier Quellenstufen
+C 3. Ausgeschlossene Quellen
+C 4. Marktdaten und Identität
+C 5. Wirtschaftliche Kennzahlen
+C 6. Angebot, Emission und Freigaben
+C 7. Daten direkt aus der Blockchain
+C 8. Bewertungsdaten für Geldwerte
+C 9. Zuordnung von Wallets
+C 10. Governance
+C 11. Sicherheit
+C 12. Regulierung und Wechselkurs
+C 13. Hinweisquellen
+C 14. Welche Quelle für welchen Datenpunkt
+Teil D. Kennzeichnung jedes Rohwerts
+Teil E. Gültigkeitsregeln Q-01 bis Q-23
+Teil F. Datenstrecke, Datenpaket und Abnahme
+Teil G. Rollen und Umfang der Zweitprüfung
+Teil H. Ergänzungen der Bewertungsmatrix
+Teil I. Neuzugänge und Beobachtung über Bitvavo hinaus
+Teil J. Kurs-, Ausführungs- und Vergleichsdaten
+Teil K. Nächste Schritte
+Anhang 1. Anleitung zur Freischaltung
+Anhang 2. Domainliste
+Änderungsvermerk
+
+
+
+TEIL A. ZWECK, GELTUNG UND GRUNDBEGRIFFE
+
+
+A 1. Zweck
+Diese Verfassung legt fest, welche Datenquellen die Bewertungsmatrix verwenden darf, wie jeder einzelne Wert gekennzeichnet und geprüft wird und wann ein Wert gut genug belegt ist, um eine Kaufentscheidung zu tragen.
+Begründung: Die Ergebnisse der Matrix sind nur so verlässlich wie ihre Daten. In der bisherigen Arbeit sind mehrere Fehler nicht in der Bewertungslogik entstanden, sondern in der Datengrundlage: ein Kürzel wurde dem falschen Projekt zugeordnet, Erträge wurden dem falschen Token zugerechnet, und Coins wurden übersehen, weil sie nie einzeln abgefragt wurden.
+
+
+A 2. Geltungsbereich und Verhältnis zur Bewertungsmatrix
+Die Verfassung gilt für alle Daten, die in die Bewertungsmatrix einfließen. Sie ändert weder Gewichte noch Schwellen noch den eingefrorenen Kern der Matrix in der Version 1.1. Ihre Gültigkeitsregeln stehen als eigene Reihe Q-01 bis Q-23 neben den Definitionen der Matrix, die mit D beginnen. Bei einem Widerspruch gehen die Definitionen der Matrix vor. Der Regelkanon in der Version 1.2.31 verweist auf die Gültigkeitsregeln, die Gesamtdarstellung erklärt sie; für den Wortlaut gilt diese Verfassung. Die Excel-Datei der Matrix ist das Rechenwerkzeug; weicht sie ab, wird sie berichtigt.
+Begründung: Die Bewertungsregeln wurden in mehreren Kalibrierungsläufen abgestimmt und eingefroren. Die Datenverfassung soll diese Regeln besser bedienen, nicht still verändern. Die drei Ergänzungen der Matrix, die mit dieser Verfassung beschlossen wurden, stehen deshalb gesondert in Teil H.
+
+
+A 3. Grundbegriffe
+Abkürzungen werden beim ersten Vorkommen ausgeschrieben. Die wichtigsten Begriffe vorab:
+Schnittstelle, englisch Application Programming Interface, kurz API: ein Zugang, über den ein Programm Daten eines Anbieters in maschinenlesbarer Form abruft, statt eine Webseite zu lesen.
+Blockchain, auch Kette: das öffentliche Buchungssystem eines Kryptonetzwerks. Daten, die direkt aus ihr gelesen werden, heißen On-Chain-Daten.
+Smart Contract, deutsch Vertrag: ein Programm auf der Blockchain, das zum Beispiel festlegt, wer neue Token prägen darf.
+Explorer: eine Webseite oder Schnittstelle, mit der man Transaktionen, Kontostände und Verträge einer Blockchain einsehen kann, etwa Etherscan für Ethereum.
+Blockhöhe: die laufende Nummer eines Blocks. Wer einen Wert mit Blockhöhe angibt, ermöglicht jedem, genau diesen Stand erneut abzufragen.
+Token: eine digitale Einheit auf einer Blockchain. Coin wird hier gleichbedeutend verwendet.
+FDV, Fully Diluted Valuation, deutsch voll verwässerte Bewertung: Kurs mal Höchstmenge, oder ohne Höchstmenge Kurs mal Gesamtmenge (Definition D-05 der Matrix).
+TTM, Trailing Twelve Months: die letzten zwölf abgeschlossenen Kalendermonate.
+Burn: das endgültige Vernichten von Token. Rückkauf: Kauf eigener Token durch das Protokoll, der anschließend verbrannt, gesperrt, ausgeschüttet oder gehalten werden kann.
+Treasury: die Kasse eines Projekts oder seiner dezentralen Organisation.
+DAO, Decentralized Autonomous Organization: eine Organisation, die über Abstimmungen der Tokenhalter gesteuert wird.
+Governance: die Entscheidungsverfahren eines Projekts, etwa Abstimmungen über Gebühren oder Emissionen.
+Emission: die laufende Ausgabe neuer Token. Freigabe, englisch Unlock: das Ende einer Sperre, nach dem bisher gesperrte Token handelbar werden. Vesting-Plan: der Zeitplan solcher Freigaben.
+Halter-Erträge, englisch Holders Revenue: der Teil der Einnahmen eines Protokolls, der über Rückkauf, Burn oder Ausschüttung bei den Tokenhaltern ankommt.
+Wertrückfluss, englisch Value Capture: wie viel des erzeugten Wertes nachweislich beim Token ankommt.
+MVRV, Market Value to Realized Value: das Verhältnis von Marktwert zu realisiertem Wert. Der realisierte Wert bewertet jede Einheit zu dem Kurs, zu dem sie zuletzt bewegt wurde. Ein Wert um 1 bedeutet, dass der Markt im Durchschnitt zum Einstandspreis seiner Halter bewertet ist.
+Aggregator: ein Anbieter, der Daten vieler Projekte sammelt und vereinheitlicht, etwa DefiLlama.
+Abfrageskript, bei DefiLlama Adapter genannt: das veröffentlichte Programm, mit dem der Anbieter die Zahlen eines Projekts berechnet.
+Prüfsumme: ein kurzer Fingerabdruck einer Datei. Ändert sich ein einziges Zeichen, ändert sich die Prüfsumme. So lässt sich beweisen, dass ein Datenstand unverändert ist.
+Datenstand, auch Snapshot: eine eingefrorene, datierte Gesamtheit aller abgerufenen Rohdaten.
+Rohwert: ein Wert so, wie ihn die Quelle geliefert hat, vor jeder eigenen Berechnung.
+FQS, Fundamental-Qualitätsscore: die Qualitätsnote der Matrix von 0 bis 100. VS, Valuation Score: die Bewertungsnote, also ob der Preis angemessen ist. IPS, Investment-Priority-Score: der Gesamtwert aus beiden. EC, Evidence Class: die Belegsicherheit in den Stufen A bis D.
+Gate, genauer Angebots-Gate: die Sperrprüfung der Matrix, ob in den nächsten zwölf Monaten zu viele neue Token auf den Markt kommen.
+Entscheidungsrelevant: ein Wert, der innerhalb seiner möglichen Fehlerbreite ein Ergebnis der Matrix ändern könnte.
+Listung: die Aufnahme eines Coins in den Handel einer Börse. Die Einstellung des Handels heißt Delisting.
+Universum: die Gesamtheit der Coins, die erfasst und bewertet werden. Teil I unterscheidet ein Kernuniversum und ein Beobachtungsuniversum.
+Ertragsradar: die monatliche Suche nach Protokollen mit belegten Erträgen außerhalb des Bitvavo-Angebots nach Teil I.
+Kerze, englisch Candle: die Zusammenfassung des Handels eines Zeitraums, etwa eines Tages, in Eröffnungs-, Höchst-, Tiefst- und Schlusskurs sowie gehandelter Menge.
+Orderbuch: die Liste aller offenen Kauf- und Verkaufsaufträge eines Marktes. Spread: der Abstand zwischen dem besten Verkaufsangebot (Briefkurs, englisch Ask) und dem besten Kaufgebot (Geldkurs, englisch Bid).
+Median: der mittlere Wert einer der Größe nach geordneten Reihe; einzelne Ausreißertage verzerren ihn weniger als den Durchschnitt.
+Relative Stärke, kurz RS90: wie sich ein Coin über 90 Tage im Verhältnis zu Bitcoin entwickelt hat.
+Abruffehler: ein fehlgeschlagener oder unvollständiger Abruf einer Schnittstelle. Er ist keine Aussage über den Markt und keine Lücke im Sinne von Q-21.
+Insider-Transfer: Übertragung von Token aus Beständen des Teams, der Investoren oder der Projektkasse an eine Börse außerhalb eines veröffentlichten Freigabeplans; Anlass für den Ereignisvorbehalt Z7a der Kaufprüfung, wenn innerhalb von 30 Tagen zusammen mindestens 1 Prozent des frei verfügbaren Umlaufs übertragen werden.
+
+
+TEIL B. SIEBEN GRUNDSÄTZE
+
+Grundsatz 1. Vier getrennte Schritte. Daten werden beschafft, geprüft, bewertet und unabhängig zweitgeprüft. Wer bewertet, ändert keine Rohdaten. Jede Korrektur führt zu einem neuen Datenstand.
+Begründung: Werden Daten während der Bewertung angepasst, lässt sich später nicht mehr nachvollziehen, ob ein Ergebnis aus den Daten oder aus der Anpassung stammt.
+
+Grundsatz 2. Datenqualität ist nicht Bewertungsqualität. Jeder Rohwert trägt eigene Kennzeichen über Herkunft, Prüfstand und Aussagekraft.
+Begründung: Eine exakt gerechnete Note ist wertlos, wenn der Ertrag dem falschen Token zugeordnet wurde. Die Kennzeichen machen solche Schwächen sichtbar, bevor sie in eine Note einfließen.
+
+Grundsatz 3. Prüfaufwand nach Entscheidungsrelevanz. Streng geprüft wird, was ein Ergebnis ändern kann. Was das nicht kann, darf einfach belegt bleiben.
+Begründung: Eine doppelte Prüfung aller Werte von über 400 Coins wäre unverhältnismäßig. Der Aufwand gehört dorthin, wo ein Fehler eine Entscheidung kippen würde.
+
+Grundsatz 4. Vorsicht bei Widerspruch. Weichen zwei Quellen voneinander ab, werden beide Werte aufbewahrt. Bis zur Klärung wird im ungünstigeren zulässigen Fall entschieden, ohne dass dieser Fall zum Messwert erklärt wird. Ist der Widerspruch entscheidungsrelevant, gilt der vorsichtigere Status.
+Begründung: Wer bei Widerspruch einfach den günstigeren Wert nimmt, kauft im Zweifel zu teuer. Wer den ungünstigeren als Wahrheit festschreibt, verliert dagegen die Information, die eine spätere Klärung braucht.
+
+Grundsatz 5. Keine Zahl aus Zusammenfassungen. Eine Zahl gilt nur, wenn der Rohwert der Quelle archiviert ist. Zahlen aus Zusammenfassungen von Webseiten, auch aus früheren Arbeitsständen dieser Matrix, gelten bis zu ihrer Neuerhebung als Sekundärdaten.
+Begründung: Beim Zusammenfassen gehen Einheiten, Zeiträume und Nachkommastellen verloren, und beim Übertragen von Hand entstehen Fehler. Nur der archivierte Rohwert lässt sich nachprüfen.
+
+Grundsatz 6. Wiederholbarkeit. Jeder Datenstand wird eingefroren, versioniert und mit einer Prüfsumme versehen. Erstbewertung und Zweitprüfung arbeiten auf demselben Stand.
+Begründung: Nur so lassen sich Abweichungen zwischen zwei Prüfungen auf ihre Ursache zurückführen, nämlich auf Daten, Definition oder Deutung.
+
+Grundsatz 7. Vollständige Quellenabfrage für jeden Coin. Für jeden Markt des Bitvavo-Angebots und für jeden Coin des Beobachtungsuniversums nach Teil I werden alle Quellen abgefragt, die für ihn in Frage kommen, unabhängig davon, wie aussichtsreich er erscheint oder wie jung er ist. Ein Coin scheidet erst aufgrund von Daten aus, nie aufgrund einer Vermutung.
+Begründung: Schon die Möglichkeit einer Investitionschance rechtfertigt die Abfrage. Ein früherer Vorfilter hat 183 Coins ohne Einzelabfrage als chancenlos eingestuft, und eine Gegenprobe hat zwei übersehene Fälle aufgedeckt. Maschinelle Abfragen kosten wenig; ein übersehener Kandidat kostet eine Chance.
+
+
+TEIL C. QUELLEN: BEURTEILUNG UND VERZEICHNIS
+
+C 1. Neun Kriterien
+Jede Quelle wird an neun Fragen beschrieben.
+Erstens, Nähe zum Ursprung: Stammt der Wert direkt aus der Blockchain, aus einem Vertrag oder einem Beschluss, oder ist er abgeleitet?
+Zweitens, offengelegte Methode: Lässt sich nachvollziehen, wie der Wert entsteht?
+Drittens, maschineller Abruf: Gibt es eine Schnittstelle, die den Rohwert mit Stichtag liefert, sodass er archiviert werden kann?
+Viertens, Historie und Aktualität: Reicht die Historie für zwölf Monate plus Vorjahr, wie es die Wachstumsdefinition D-06 verlangt, und für 200 Wochen Kursverlauf?
+Fünftens, Abdeckung: Welcher Anteil der Bitvavo-Märkte und der relevanten Blockchains ist erfasst?
+Sechstens, Unabhängigkeit: Hat der Anbieter ein Interesse am Ergebnis?
+Siebtens, bekannte Fehlerbilder: Sind Schwächen dokumentiert und beherrschbar?
+Achtens, Zugang und Kosten: Ist die Quelle frei, braucht sie einen kostenlosen Schlüssel oder ein Abonnement?
+Neuntens, Zugang für die Zweitprüfung: Kann auch die Zweitprüfung die Quelle selbst öffnen?
+Begründung: Die Kriterien trennen, was eine Quelle verlässlich macht, von dem, was sie nur bequem macht. Die Unabhängigkeit wird gesondert beurteilt, weil ein Vertrag eines Projekts maßgeblich sein kann, obwohl das Projekt selbstverständlich ein Interesse an seinem Erfolg hat.
+
+
+C 2. Vier Quellenstufen
+Die maßgebliche Quelle wird für jeden Datenpunkt einzeln bestimmt.
+Stufe 1, maßgeblicher Primärbeleg: der Zustand der Blockchain, ein ausführbarer Vertrag, ein gültiger Beschluss oder eine ursprüngliche, überprüfbare Dokumentation genau dieses Sachverhalts. Unabhängigkeit ist nicht erforderlich, wo der Beleg selbst wirkt, also bei Vertrag und Transaktion. Behauptet ein Projekt dagegen eine Tatsache, etwa dass Rückkäufe verbrannt werden, braucht es dafür einen Transaktionsbeleg.
+Stufe 2, nachvollziehbare Auswertung: eine offengelegte und überprüfbare Aggregation oder Berechnung, etwa DefiLlama mit geprüftem Abfrageskript. Sie ist die Referenz, wo kein Primärbeleg maschinell verfügbar ist, und sonst die Gegenprobe.
+Stufe 3, unterstützender Beleg: eine unabhängige Auswertung, ein Projektbericht oder eine Analyse mit nachvollziehbaren Rohdaten, auch kostenpflichtige Daten. Sie dient als Gegenprobe, nie als alleinige Grundlage eines entscheidungsrelevanten Wertes.
+Stufe 4, Hinweis: Medien, Börsenblogs und Zusammenfassungen ohne nachprüfbare Rohdaten. Sie dienen nur dazu, Ereignisse und Primärquellen zu finden.
+Begründung: Für Rechte ist der Vertrag besser als jede Übersicht eines Anbieters. Für tatsächlich erfolgte Rückkäufe sind die Transaktionen besser als der Beschluss, der sie ankündigt. Eine starre Rangfolge der Anbieter würde diese Unterschiede verwischen.
+
+
+C 3. Ausgeschlossene Quellen
+Ausgeschlossen sind bezahlte Werbung, gesponserte Beiträge, nicht überprüfbare Behauptungen, Beiträge in sozialen Medien ohne Verweis auf eine Primärquelle und Ausgaben künstlicher Intelligenz ohne Rohbeleg. Kostenpflichtige Daten sind dagegen zugelassen.
+Begründung: Ausgeschlossen wird, was sich nicht prüfen lässt oder einem Verkaufsinteresse dient. Ob für Daten bezahlt wird, sagt nichts über ihre Qualität.
+
+Vorbemerkung zum Verzeichnis: Jede Quelle wird in derselben Reihenfolge beschrieben: Zweck, Quellenstufe nach C 2, Zugang und Kosten, Vorteile, Nachteile, Begründung ihrer Rolle sowie Erreichbarkeit und nächster Schritt des Anlegers. Zur Erreichbarkeit: Die Rechenumgebung, in der die Datenstrecke laufen soll, darf derzeit nur Software-Paketquellen erreichen. Alle unten genannten Schnittstellen sind dort gesperrt, bis die Domains freigeschaltet sind; Anhang 1 beschreibt das Vorgehen. Bis dahin sind einzelne Seiten nur über Einzelabrufe erreichbar, die jeweils eine Zugriffsfreigabe in der App erfordern; diese Anfragen verfallen, wenn sie nicht rasch bestätigt werden. Preise in US-Dollar sind grob mit 0,89 Euro je Dollar umgerechnet. Als ungeprüft gekennzeichnete Angaben werden nach der Freischaltung bestätigt, bevor ein Abonnement abgeschlossen wird.
+
+
+C 4. Marktdaten und Identität
+
+Bitvavo-Schnittstelle
+- Zweck: Liste aller Euro-Märkte, auch für den wöchentlichen Listungsabgleich nach Teil I; Kurse in Euro; historische Kurskerzen in Tages-, Wochen- und Vierstundenauflösung; Tagesumsätze in Euro; Orderbuch für die Kaufprüfung nach Teil J.
+- Quellenstufe: 1 für Handelbarkeit, Euro-Kurs, Kerzen, Umsatz und Orderbuch.
+- Zugang und Kosten: frei, kein Schlüssel nötig. Ein Schlüssel mit Handelsrechten wird ausdrücklich nicht verwendet.
+- Vorteile: Sie ist der Ausführungsort; was sie meldet, ist genau der Markt, auf dem gekauft und verkauft wird. Die Rohdaten sind maschinell abrufbar und archivierbar.
+- Nachteile: Sie zeigt nur den Handel auf Bitvavo, keine anderen Börsen; die Umsatzhistorie in Euro ist eine Näherung aus Menge mal Schlusskurs (Q-21).
+- Begründung der Rolle: Nur Bitvavo kann verbindlich sagen, was dort handelbar ist und zu welchem Preis.
+- Erreichbarkeit und nächster Schritt: Einzelabrufe funktionieren, geprüft am 22. Oktober 2026; maschinell nach Freischaltung der Domain api.bitvavo.com. Schritt des Anlegers: Domain freischalten.
+
+CoinGecko
+- Zweck: eindeutige Kennung je Coin, Vertragsadressen je Blockchain, Mengen, Kurse.
+- Quellenstufe: 2 für Identität; Gegenprobe für Kurse und Mengen.
+- Zugang und Kosten: kostenloser Demo-Zugang mit Registrierung, Schlüssel und nach Anbieterangaben rund 10.000 Abrufen im Monat; bezahlte Tarife nach vorliegenden Angaben rund 31 und 115 Euro im Monat, ungeprüft. Zusätzlich ein eigener Konnektor des Anbieters ohne Schlüssel mit geteilten Abrufgrenzen, Adresse https://mcp.api.coingecko.com/mcp.
+- Vorteile: breiteste Abdeckung von Kennungen und Vertragsadressen; macht mehrfach vergebene Kürzel unterscheidbar.
+- Nachteile: Mengenangaben übernehmen teils die Zählweise der Projekte und führen gesperrte Token als umlaufend (siehe D-14); die bisherigen Seitenabrufe wurden vom Anbieter blockiert.
+- Begründung der Rolle: Identität ist die Voraussetzung jeder weiteren Zahl (Q-01); dafür ist eine breite Kennungsdatenbank nötig, für Mengen dagegen nur als Plausibilisierung.
+- Erreichbarkeit und nächster Schritt: Konnektor sofort nach Einrichtung; Schnittstelle nach Freischaltung von api.coingecko.com, mit Schlüssel stabiler. Schritt des Anlegers: Konnektor einrichten, Domain freischalten, optional Demo-Schlüssel als geschütztes Geheimnis hinterlegen.
+
+CoinPaprika
+- Zweck: wie CoinGecko, als unabhängige Gegenprobe.
+- Quellenstufe: 3.
+- Zugang und Kosten: freie Grundnutzung ohne Schlüssel.
+- Vorteile: frei und ohne Konto; eigene Datenerhebung, daher als Gegenprobe tauglich.
+- Nachteile: geringere Tiefe bei Vertragsadressen.
+- Begründung der Rolle: Eine Gegenprobe muss nach Q-14 eine eigene Herkunft haben.
+- Erreichbarkeit und nächster Schritt: Einzelabrufe funktionieren bereits; maschinell nach Freischaltung von api.coinpaprika.com. Schritt des Anlegers: Domain freischalten.
+
+CoinMarketCap
+- Zweck: weitere Gegenprobe für Kennung und Mengen, nur bei Widerspruch nach Q-06.
+- Quellenstufe: 3.
+- Zugang und Kosten: kostenloser Basiszugang mit Konto und Schlüssel, nach Anbieterangaben 15.000 Abrufe im Monat; ein Teil der Konnektor-Werkzeuge verlangt einen bezahlten Tarif.
+- Vorteile: weit verbreitet, hilfreich zum Auflösen von Widersprüchen.
+- Nachteile: greift oft auf dieselben Vorquellen zurück wie andere Anbieter.
+- Begründung der Rolle: Zwei übereinstimmende Anbieter heben die Belegsicherheit nach D-20 nicht; deshalb nur als Schiedsquelle bei Widerspruch.
+- Erreichbarkeit und nächster Schritt: Konnektor begonnen, aber nicht abgeschlossen (Stand 23. Oktober 2026). Schritt des Anlegers: keiner; die begonnene Verbindung kann abgeschlossen oder entfernt werden.
+
+
+C 5. Wirtschaftliche Kennzahlen
+
+DefiLlama, freie Schnittstelle
+- Zweck: Gebühren, Erträge, Halter-Erträge und Anteile der Kapitalgeber als Tagesreihen; Kurse und Kursverläufe; Übersicht aller Protokolle mit Gebühren für den Ertragsradar nach Teil I.
+- Quellenstufe: 2.
+- Zugang und Kosten: frei.
+- Vorteile: offengelegte Abfrageskripte, große Abdeckung, lange Historie, maschinell abrufbar.
+- Nachteile: Einige Werte werden modelliert statt gemessen, etwa Rückkäufe einzelner Projekte; die Bezeichnung „Erträge“ entspricht nicht automatisch den Nettogebühren der Matrix.
+- Begründung der Rolle: Für Gebühren und Erträge gibt es meist keinen maschinell verfügbaren Primärbeleg; eine Auswertung mit offengelegtem Rechenweg ist die beste verfügbare Referenz (C 2).
+- Erreichbarkeit und nächster Schritt: Einzelabrufe mit Zugriffsfreigabe; maschinell nach Freischaltung von api.llama.fi und coins.llama.fi. Schritt des Anlegers: beide Domains freischalten.
+
+DefiLlama-Abfrageskripte auf GitHub
+- Zweck: nachlesen, wie DefiLlama eine Zahl berechnet.
+- Quellenstufe: 2, als Methodenbeleg.
+- Zugang und Kosten: frei.
+- Vorteile: macht den Rechenweg nachprüfbar (Q-09).
+- Nachteile: Skripte ändern sich laufend; die Übersichtsseiten von GitHub sind für Einzelabrufe gesperrt, die Rohdateien nicht.
+- Begründung der Rolle: Ein Wert ist nur nachvollziehbar, wenn bekannt ist, mit welchem Rechenweg er entstand.
+- Erreichbarkeit und nächster Schritt: Rohdateien funktionieren; maschinell nach Freischaltung von raw.githubusercontent.com. Schritt des Anlegers: Domain freischalten.
+
+DefiLlama Pro
+- Zweck: höhere Abfragegrenzen und zusätzliche Datenreihen.
+- Zugang und Kosten: nach vorliegenden Angaben rund 267 Euro im Monat, ungeprüft.
+- Vorteile: mehr Abrufe und Reihen.
+- Nachteile: ungünstiges Preis-Leistungs-Verhältnis für diesen Zweck.
+- Begründung der Rolle: Die freie Schnittstelle reicht nach bisherigem Stand. Empfehlung: nicht abschließen.
+
+Token Terminal
+- Zweck: standardisierte Finanzkennzahlen als unabhängige Zweitquelle für Erträge.
+- Quellenstufe: 3.
+- Zugang und Kosten: eingeschränkte Webnutzung kostenlos; Pro-Zugang nach vorliegenden Angaben rund 311 Euro im Monat, ungeprüft; Schnittstelle nur in bezahlten Tarifen.
+- Vorteile: eigene Berechnung, daher echte Gegenprobe zu DefiLlama.
+- Nachteile: hoher Preis.
+- Begründung der Rolle: Gegenprobe für strittige, entscheidungsrelevante Erträge; bei Bedarf ein einzelner Monat für solche Fälle. Alternativen: Projektberichte und eigene Blockchain-Abfragen.
+- Erreichbarkeit und nächster Schritt: vorerst keiner.
+
+Artemis
+- Zweck: Nutzungs- und Ertragskennzahlen als Hinweis.
+- Quellenstufe: 4.
+- Zugang und Kosten: Webnutzung kostenlos, Schnittstelle ungeprüft.
+- Vorteile: schnelle Übersicht.
+- Nachteile: Methode nicht durchgängig nachprüfbar.
+- Begründung der Rolle: nur zum Finden von Auffälligkeiten. Schritt des Anlegers: keiner.
+
+Projektberichte
+- Zweck: Quartalsberichte, Berichte über die Projektkasse, Dashboards der Projekte.
+- Quellenstufe: 3, bei überprüfbaren Rohdaten auch 2.
+- Zugang und Kosten: frei.
+- Vorteile: oft die einzige Quelle für Aufteilungen, die kein Datensammler kennt.
+- Nachteile: Interessenkonflikt des Projekts; Dashboards, die nur im Browser rechnen, sind ohne Browser nicht lesbar.
+- Begründung der Rolle: Gegenprobe und Ergänzung, nie alleinige Grundlage eines entscheidungsrelevanten Wertes ohne Transaktionsbeleg.
+- Erreichbarkeit und nächster Schritt: Einzelabrufe; gelegentlich die Desktop-App öffnen, damit der eingebaute Browser genutzt werden kann.
+
+
+C 6. Angebot, Emission und Freigaben
+
+Verträge und Projektdokumentation
+- Zweck: Höchstmenge, Prägerechte, Emissionsregeln, Vesting-Pläne.
+- Quellenstufe: 1.
+- Zugang und Kosten: frei.
+- Vorteile: Der Vertrag ist die Regel selbst; er bindet, eine Ankündigung nicht (D-04).
+- Nachteile: Verträge müssen über einen Explorer gelesen werden; Dokumentationen sind teils veraltet.
+- Begründung der Rolle: Das Gate und F6 verlangen die vertraglich mögliche Menge.
+- Erreichbarkeit und nächster Schritt: über die Explorer in C 7.
+
+Tokenomist
+- Zweck: Freigabepläne, Emissionen, Rückkäufe und Burns in Übersichten.
+- Quellenstufe: 3, weil die Zeitpläne Modelle sind und keine vertraglichen Obergrenzen.
+- Zugang und Kosten, geprüft am 19. Oktober 2026: kostenlose Webnutzung; Pro rund 61 Euro im Monat bei jährlicher Zahlung, regulär rund 88 Euro, mit nur 1.000 Schnittstellenabfragen im Monat und einem Jahr Historie; Schnittstellen-Tarife ab rund 222 Euro im Monat.
+- Vorteile: übersichtliche Zeitpläne, gut zum Finden großer Freigabetermine.
+- Nachteile: Modelle eines Dritten; Pro reicht nicht für den maschinellen Abgleich aller Märkte, die Schnittstellen-Tarife sind teuer.
+- Begründung der Rolle: Plausibilisierung nach D-10; allein löst ein Anbietermodell eine Sperre nur aus, wenn das Ergebnis auch bei 50 Prozent Überschätzung gleich bliebe. Alternativen: Verträge und Vesting-Pläne direkt, die Freigabedaten von DefiLlama, die Webseite über den eingebauten Browser.
+- Erreichbarkeit und nächster Schritt: vorerst keiner.
+
+DefiLlama-Freigabedaten
+- Zweck: Freigabepläne als zweite Modellquelle.
+- Quellenstufe: 3.
+- Zugang und Kosten: ob in der freien Schnittstelle enthalten, ist ungeprüft.
+- Vorteile: zweite, frei zugängliche Modellquelle.
+- Nachteile: ebenfalls ein Modell.
+- Begründung der Rolle: Gegenprobe zu Tokenomist. Schritt des Anlegers: keiner; wird nach der Freischaltung geprüft.
+
+
+C 7. Daten direkt aus der Blockchain
+
+Etherscan
+- Zweck: Verträge, Kontostände, Transaktionen und Ereignisse auf Ethereum, auch die Aktualisierbarkeit eines Token-Vertrags, sein Eigentümer, eine Zeitsperre und die Prägerechte nach Regelkanon § 6 Absatz 3, und nach Anbieterangabe über 60 weiteren Blockchains derselben Technik, darunter viele Layer-2-Netze. Ein Layer-2-Netz ist eine Zusatzkette, die ihre Daten auf Ethereum absichert.
+- Quellenstufe: 1.
+- Zugang und Kosten: kostenloser Konnektor ohne Konto; für die Schnittstelle ein kostenloser Schlüssel, dessen Grenzen ungeprüft sind.
+- Vorteile: Primärbeleg mit Blockhöhe, wiederholbar; zeigt Prägerechte, Burns und Übertragungen unmittelbar.
+- Nachteile: deckt keine Bitcoin-, Tron-, Solana- oder Kaspa-Daten ab.
+- Begründung der Rolle: Für Vertragsrechte, Gesamtmenge und Burns gibt es keine bessere Quelle als die Kette selbst; das gilt auch für den Nachweis von Insider-Transfers nach Q-11.
+- Erreichbarkeit und nächster Schritt: Konnektor seit 21. Oktober 2026 verbunden und getestet; Schnittstelle nach Freischaltung von api.etherscan.io. Schritt des Anlegers: optional kostenlosen Schlüssel anlegen.
+
+Explorer weiterer Ketten
+- Zweck: Vertragsrechte, Mengen und Burns außerhalb der Ethereum-Familie, etwa Solscan für Solana, Suiscan für Sui, Nearblocks für Near, Hashscan für Hedera und Taostats für Bittensor.
+- Quellenstufe: 1 bei wiederholbarem Abruf.
+- Zugang und Kosten: ungeprüft.
+- Vorteile: Primärbeleg auch außerhalb von Ethereum.
+- Nachteile: uneinheitliche Schnittstellen und Grenzen.
+- Begründung der Rolle: Ein großer Teil der geprüften Coins liegt auf diesen Ketten; ohne eigenen Explorer bliebe dort nur die Angabe eines Datensammlers.
+- Erreichbarkeit und nächster Schritt: die Abrufbarkeit wird je Explorer geprüft.
+
+Blockchair
+- Zweck: Daten von Bitcoin, Bitcoin Cash, Litecoin und weiteren Ketten.
+- Quellenstufe: 1.
+- Zugang und Kosten: begrenzte kostenlose Nutzung, ungeprüft.
+- Vorteile: mehrere eigenständige Ketten unter einer Schnittstelle.
+- Nachteile: Grenzen der kostenlosen Nutzung ungeprüft. Alternative für Bitcoin: mempool.space.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von api.blockchair.com. Schritt des Anlegers: Domain freischalten.
+
+mempool.space
+- Zweck: Verteilung der Rechenleistung auf Mining-Pools bei Bitcoin, für die Widerstandsfähigkeit F7.
+- Quellenstufe: 1 bis 2.
+- Zugang und Kosten: frei.
+- Vorteile: frei und quelloffen.
+- Nachteile: nur Bitcoin.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von mempool.space. Schritt des Anlegers: Domain freischalten.
+
+Tronscan
+- Zweck: Tron-Daten wie verbrannte Gebühren und Emission.
+- Quellenstufe: 1.
+- Zugang und Kosten: freie Nutzung, Schlüssel empfohlen, ungeprüft.
+- Vorteile: Primärbeleg für Tron.
+- Nachteile: Grenzen ungeprüft.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von apilist.tronscanapi.com. Schritt des Anlegers: Domain freischalten.
+
+Kaspa-Schnittstelle
+- Zweck: Umlauf und Emission von Kaspa.
+- Quellenstufe: 1.
+- Zugang und Kosten: frei, ungeprüft.
+- Vorteile: Primärbeleg für eine Kette ohne Ethereum-Technik.
+- Nachteile: Funktionsumfang ungeprüft.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von api.kaspa.org. Schritt des Anlegers: Domain freischalten.
+
+Dune
+- Zweck: eigene Datenbankabfragen auf Blockchain-Daten, vor allem für Solana, etwa Rückkäufe von Handelsprotokollen.
+- Quellenstufe: 1 bis 2.
+- Zugang und Kosten: kostenloses Konto mit begrenztem Kontingent, ungeprüft; Konto und Schlüssel nötig.
+- Vorteile: beantwortet Fragen, für die es keine fertige Auswertung gibt.
+- Nachteile: Abfragen müssen geschrieben werden, was die Datenstrecke übernimmt. Alternativen: Solscan oder Helius für Solana, beide ungeprüft.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von api.dune.com und mit Schlüssel; später, wenn Solana-Kandidaten zu prüfen sind.
+
+
+C 8. Bewertungsdaten für Geldwerte
+
+Coin Metrics, Community-Schnittstelle
+- Zweck: MVRV, realisierter Wert und Umlauf für Bitcoin, Ethereum und weitere Coins.
+- Quellenstufe: 2.
+- Zugang und Kosten: frei, nach bisherigem Kenntnisstand ohne Schlüssel.
+- Vorteile: frei, maschinell abrufbar, mit offengelegter Methode.
+- Nachteile: Nicht jede Kennzahl ist für jeden Coin verfügbar; ob Litecoin, Bitcoin Cash und Kaspa abgedeckt sind, wird nach der Freischaltung geprüft. Der realisierte Wert ist ein Näherungswert.
+- Begründung der Rolle: Hauptkennzahl der Geldwert-Klassen. Alternative: veröffentlichte Werte von Glassnode als Hinweis, der Kurs zur 200-Wochen-Linie als Ersatzkennzahl.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von community-api.coinmetrics.io. Schritt des Anlegers: Domain freischalten.
+
+Glassnode
+- Zweck: MVRV und weitere Bewertungskennzahlen in hoher Qualität.
+- Quellenstufe: 2.
+- Zugang und Kosten: Einstiegstarif nach vorliegenden Angaben rund 44 Euro im Monat bei jährlicher Zahlung, Schnittstelle erst in höheren Tarifen, ungeprüft.
+- Vorteile: große Tiefe bei Bitcoin-Kennzahlen.
+- Nachteile: ungünstiges Preis-Leistungs-Verhältnis, solange Coin Metrics reicht.
+- Erreichbarkeit und nächster Schritt: keiner.
+
+
+C 9. Zuordnung von Wallets
+
+Arkham Intelligence
+- Zweck: Wallets und Adressen Projekten, Börsen oder Projektkassen zuordnen, etwa um Abflüsse aus einer Kasse zu erkennen oder für den F7-Prüfpunkt „zehn größte Wallets ohne Börsen“ die Börsenadressen herauszurechnen.
+- Quellenstufe: 3, Herkunft M.
+- Zugang und Kosten: Webnutzung mit kostenlosem Konto; die Schnittstelle ist nach Anbieterangaben nutzungsabhängig bepreist und beginnt bei rund 900 US-Dollar, rund 800 Euro im Monat, mit kostenlosem Testguthaben.
+- Vorteile: findet Zusammenhänge zwischen Adressen, die sonst verborgen blieben.
+- Nachteile: Zuordnungen sind Einschätzungen des Anbieters, keine Belege.
+- Begründung der Rolle: manuelle Hilfe zur Börsenzuordnung; für Insider-Transfers nach Q-11 nur ein Hinweis, nie der Nachweis. Alternative: Adressen aus der Projektdokumentation, Beschriftungen bei Etherscan.
+- Erreichbarkeit und nächster Schritt: keiner; nur bei Bedarf über den Browser.
+
+
+C 10. Governance
+
+Snapshot, Tally und die Foren der Projekte
+- Zweck: Beschlüsse über Gebühren, Emissionen und die Projektkasse.
+- Quellenstufe: 1 für den Beschluss, aber nicht für seine Ausführung.
+- Zugang und Kosten: frei; Tally verlangt für die Schnittstelle einen kostenlosen Schlüssel, ungeprüft.
+- Vorteile: zeigt verbindliche Beschlüsse mit Datum.
+- Nachteile: Ein Beschluss ist noch keine Ausführung; diese muss auf der Kette belegt werden.
+- Erreichbarkeit und nächster Schritt: Foren über Einzelabrufe; Snapshot maschinell nach Freischaltung von hub.snapshot.org. Schritt des Anlegers: Domain freischalten.
+
+GitHub-Projekte der Coins
+- Zweck: Entwicklungsaktivität und Vertragsquellcode.
+- Quellenstufe: 1 bis 2.
+- Zugang und Kosten: frei.
+- Vorteile: zeigt, ob ein Projekt noch entwickelt wird (Ausschlussgrund nach zwölf Monaten ohne Entwicklung).
+- Nachteile: Aktivität ist nicht gleich Qualität.
+- Erreichbarkeit und nächster Schritt: Rohdateien über raw.githubusercontent.com, siehe C 5.
+
+
+C 11. Sicherheit
+
+Prüfberichte der Projekte, englisch Audits
+- Zweck: bekannte Schwachstellen und deren Behebung.
+- Quellenstufe: 1 bis 2.
+- Zugang und Kosten: frei.
+- Vorteile: fachliche Prüfung des Codes.
+- Nachteile: Ein Prüfbericht gilt nur für den geprüften Stand.
+- Erreichbarkeit: Einzelabrufe.
+
+DefiLlama-Vorfallliste
+- Zweck: Hacks und Verluste je Protokoll.
+- Quellenstufe: 2.
+- Zugang und Kosten: Verfügbarkeit in der freien Schnittstelle ungeprüft.
+- Vorteile: zentrale Übersicht.
+- Nachteile: Vollständigkeit nicht garantiert. Alternative: Fachmedien als Hinweis.
+
+rekt.news und Fachmedien
+- Quellenstufe: 4, Hinweis auf Vorfälle.
+
+
+C 12. Regulierung und Wechselkurs
+
+Register der europäischen Wertpapier- und Marktaufsichtsbehörde ESMA zu MiCA
+- Zweck: zugelassene Anbieter und veröffentlichte Whitepaper nach MiCA, der europäischen Verordnung über Märkte für Kryptowerte.
+- Quellenstufe: 1.
+- Zugang und Kosten: frei.
+- Vorteile: amtlich.
+- Nachteile: nicht jeder Coin hat ein Whitepaper nach MiCA.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von www.esma.europa.eu. Schritt des Anlegers: Domain freischalten.
+
+EUR-Lex und Bundesanstalt für Finanzdienstleistungsaufsicht, kurz BaFin
+- Zweck: Rechtstexte, etwa die Geldwäscheverordnung AMLR, Anti-Money-Laundering Regulation, Verordnung (EU) 2024/1624. Nach Artikel 79 dürfen Kryptodienstleister ab dem 10. Juli 2027 keine Konten führen, die eine Anonymisierung ermöglichen, ausdrücklich auch für anonymisierende Coins. Daraus folgt nicht, dass jeder Coin mit einer zuschaltbaren Privatsphäre-Funktion unzulässig ist; für einen dauerhaften Ausschluss ist der konkret nachgewiesene Konflikt mit dem Handel in der Europäischen Union maßgeblich.
+- Quellenstufe: 1.
+- Zugang und Kosten: frei.
+- Vorteile: amtlicher Wortlaut.
+- Nachteile: Auslegung und Umsetzung durch die Börsen ergeben sich nicht aus dem Text allein.
+- Erreichbarkeit: nach Freischaltung von eur-lex.europa.eu; BaFin über Einzelabrufe.
+
+Europäische Zentralbank, kurz EZB
+- Zweck: Referenzkurs Euro zu US-Dollar für Umrechnungen.
+- Quellenstufe: 1.
+- Zugang und Kosten: frei.
+- Vorteile: einheitlicher, amtlicher Kurs je Stichtag.
+- Erreichbarkeit und nächster Schritt: nach Freischaltung von data-api.ecb.europa.eu. Schritt des Anlegers: Domain freischalten.
+
+
+C 13. Hinweisquellen
+
+Fachmedien, Börsenblogs, Analysehäuser, Chartanalysen Dritter, Listungsankündigungen
+- Zweck: Ereignisse und Neuzugänge finden, etwa einen Burn, eine Freigabe, einen Beschluss oder eine neue Listung; die Zahl selbst wird anschließend an der Primärquelle belegt. Beispiele: Fachmedien wie CoinDesk oder The Block, Analysehäuser wie Messari, das Abonnement STA Solutions, Listen neu erfasster Coins bei Datenanbietern.
+- Quellenstufe: 4.
+- Zugang und Kosten: überwiegend frei, einzelne Analysen kostenpflichtig.
+- Vorteile: schnell, finden Ereignisse früh.
+- Nachteile: keine nachprüfbaren Rohdaten.
+- Begründung der Rolle: nur Hinweis. Chartanalysen Dritter dienen zusätzlich als Vergleichsgröße im Modul V nach J 4; sie liefern nie einen Matrixwert.
+
+Derivatedaten, etwa Coinglass
+- Zweck: Finanzierungsraten und offene Positionen bei Terminkontrakten.
+- Zugang und Kosten: Schnittstelle kostenpflichtig ab rund 29 US-Dollar, rund 26 Euro im Monat.
+- Begründung der Rolle: kein Matrixdatum, weil kein Kriterium der Matrix sie verwendet. Nicht im Kanon.
+
+
+
+C 14. Welche Quelle für welchen Datenpunkt
+Für jeden Datenpunkt gilt eine Referenzquelle der höchsten verfügbaren Stufe und, wo nötig, eine unabhängige Gegenprobe.
+Universum und Handelbarkeit: Bitvavo. Begründung: Nur Bitvavo kann verbindlich sagen, was dort handelbar ist.
+Neuzugänge außerhalb des Bitvavo-Angebots: Ertragsradar über DefiLlama nach Teil I, Identität über CoinGecko. Begründung: Gesucht wird nach belegten Erträgen, nicht nach Bekanntheit.
+Identität: CoinGecko-Kennung, Blockchain und Vertragsadresse, mit DefiLlama als Gegenprobe. Begründung: Kürzel sind nicht eindeutig, und Projekte werden umbenannt, etwa Maker zu Sky, Matic zu Polygon und Maple zu Syrup.
+Kurs in Euro und Kursverlauf: Bitvavo, Gegenprobe DefiLlama und CoinGecko. Begründung: Gekauft wird auf Bitvavo; Kurse anderer Anbieter können abweichen.
+Chartwerte der Kaufprüfung, also Durchschnitte, Veränderungen, relative Stärke und Umsatz: berechnet aus Bitvavo-Kerzen nach Q-21. Orderbuch und Spread: Bitvavo nach Q-23. Begründung: Zeitpunkt und Liquidität werden dort gemessen, wo ausgeführt wird.
+Mengen: Vertrag und Dokumentation, Gegenprobe CoinGecko. Dabei werden fünf Größen getrennt geführt: Höchstmenge, Gesamtmenge, vertraglich mögliche Freigaben, tatsächlich bewegte Mengen und frei verfügbarer Umlauf nach Definition D-14. Begründung: Anbieter zählen gesperrte oder treuhänderisch gehaltene Token oft zum Umlauf; ein Kontostand im Explorer beweist noch keine freie Verfügbarkeit.
+Emission und Freigaben: Vertrag, Vesting-Plan, Beschluss; Gegenprobe Tokenomist und DefiLlama. Begründung: Deren Zeitpläne sind Modelle; das Gate verlangt nach Definition D-04 die vertraglich mögliche Menge.
+Gebühren, Umsatz und Nettogebühren: die Bestandteile von DefiLlama, aus denen die Nettogebühren nach den Definitionen D-01 und D-02 jedes Mal ausdrücklich hergeleitet werden; Gegenprobe Projektberichte. Begründung: Was DefiLlama Erträge nennt, enthält je nach Projekt Durchleitungen an Kapitalgeber oder Kosten der Hauptkette.
+Halter-Erträge und Wertrückfluss: DefiLlama mit geprüftem Abfrageskript; Gegenprobe Rückkauf- und Burn-Adressen auf der Blockchain. Jeder Ertragswert trägt das Feld wirtschaftlich begünstigter Token. Begründung: Halter-Erträge können abgeleiteten Token zufließen statt dem bewerteten, sie können modelliert sein, und Rückkäufe können gehalten statt verbrannt werden.
+Treasury-Bestände und -Abflüsse: Abfrage bekannter Adressen auf der Blockchain; Gegenprobe Berichte und Beschlüsse. Begründung: Erst die Transaktion zeigt, ob Token tatsächlich in Umlauf kamen. Ein Übertrag an die Treasury ist noch kein dauerhafter Wertrückfluss.
+Insider-Transfers nach Z7a: vom Projekt selbst veröffentlichte Adressen von Team, Investoren und Projektkasse, Übertragung im Explorer der Kette belegt; Zuordnungsdienste wie Arkham nur als Hinweis (Q-11). Begründung: Eine Anbieterzuordnung ist eine Einschätzung; eine Empfehlung, Aufträge zu löschen, soll nicht auf einer Vermutung beruhen.
+MVRV: Coin Metrics, sofern verfügbar. Begründung: frei, maschinell abrufbar, mit offengelegter Methode.
+Burn im Verhältnis zur Emission: Burn aus der Blockchain, Emission aus den Protokollparametern. Begründung: Gesammelte, aber noch nicht verbrannte Gebühren sind kein Burn, wie das Beispiel Polygon zeigt.
+Dezentralität, Sicherheit, Regulierung, Governance: Explorer, Pool-Statistiken, Prüfberichte, ESMA, EUR-Lex, BaFin, Abstimmungsplattformen. Begründung: Hier gibt es meist keine Aggregatoren mit nachvollziehbarer Methode; Medien bleiben Hinweise. Ein Entwurf ist kein Beschluss, und ein Beschluss ist noch keine Ausführung.
+Nutzung und Nachfrage: DefiLlama, etwa gebundenes Kapital und Handelsvolumen, nur als Hilfsindikator. Begründung: Solche Zahlen können durch Anreize oder Scheinhandel aufgebläht sein und beweisen keine zahlende Nachfrage.
+
+
+TEIL D. KENNZEICHNUNG JEDES ROHWERTS
+Jeder Rohwert trägt drei Kennzeichen. Begründung: Ein modellierter Wert kann unabhängig bestätigt sein, ein Primärwert dagegen unbestätigt. Eine einzige Skala könnte das nicht ausdrücken.
+
+
+D 1. Herkunft
+P, primär: Blockchain, Vertrag oder Beschluss. A, Aggregator mit offengelegter Methode, der misst. M, vom Anbieter modelliert oder geschätzt. S, Sekundärquelle. R, selbst berechnet; bei R werden die Kennzeichen der Eingangswerte mitgeführt, zum Beispiel: berechnet, Eingänge A und M, einfach belegt.
+Begründung für das Mitführen: Ein Multiplikator kann richtig gerechnet sein und trotzdem auf einem Modellwert beruhen. Das soll sichtbar bleiben.
+
+
+D 2. Prüfstatus
+V, bestätigt: durch eine tatsächlich unabhängige Quelle mit gleicher Definition und gleichem Zeitraum innerhalb der Toleranz. E, einfach belegt. W, Widerspruch: Die Abweichung übersteigt die Toleranz, auch nachdem Definition, Zeitraum und Bezugsmenge abgeglichen wurden.
+Begründung: Zwei Seiten, die beide dieselbe Vorquelle verwenden, bestätigen einander nicht, selbst wenn ihre Zahlen auf die Nachkommastelle übereinstimmen.
+
+
+D 3. Wertstatus
+TTM vollständig: zwölf abgeschlossene Monate liegen vor; ob gemessen oder modelliert, sagt das Herkunftskennzeichen.
+Junge Historie: Der Mechanismus läuft belegt kürzer als zwölf Monate; dann gelten nach Definition D-03 die letzten 90 vollen Tage mal vier, und die Belegsicherheit dieser Kennzahl ist höchstens B.
+Ausstehend: weniger als 90 volle Tage; die Hauptkennzahl bleibt leer, und die Wiedervorlage wird nach Regel Q-20 auf den 90. vollen Tag gesetzt.
+Messreihe unvollständig: Die Historie ist länger, aber einzelne Monate fehlen; das wird nie wie eine junge Historie behandelt.
+Null nachgewiesen: Der Mechanismus existiert, bringt aber nachweislich nichts ein; der Multiplikator wird mit 9999 eingetragen.
+Nicht messbar: Es gibt einen Ertrag, er lässt sich aber nicht zuordnen; das Feld bleibt leer, nie null.
+Nicht gelistet: Der Anbieter führt den Coin nicht; die nächste Quelle des Verzeichnisses wird befragt.
+Nicht anwendbar: Die Kennzahl passt methodisch nicht zur Klasse des Coins, etwa ein MVRV bei einem DeFi-Token oder eine Bewertungsnote bei Meme und Marke. Der Grund wird angegeben; das Feld zählt weder als Lücke noch als Null.
+Begründung: Fehlend, nicht messbar, nicht anwendbar und null sind verschiedene Aussagen mit verschiedenen Folgen. Eine Null bestraft, eine Lücke verlangt Klärung. Wer beides verwechselt, belohnt Datenmangel oder bestraft ihn zu Unrecht.
+
+
+D 4. Toleranzen
+Toleranzen sind Warnschwellen für die Plausibilitätsprüfung, keine Bewertungsschwellen.
+Kurse, zur selben Zeit abgerufen: höchstens 1 Prozent Abweichung, dazu Prüfung von Zeitpunkt und Handelsumsatz. Begründung: Gleichzeitige Kurse liquider Märkte unterscheiden sich kaum; größere Abweichungen deuten auf veraltete Kurse oder dünne Märkte.
+Mengen auf der Blockchain: exakt, bis auf Rundung. Begründung: Ein Vertrag liefert eine eindeutige Zahl; Abweichungen deuten auf falsche Dezimalstellen oder falsche Verträge.
+Gebühren und Erträge: ab 5 Prozent Warnung, ab 10 Prozent Klärungsfall. Begründung: Anbieter grenzen Gebühren unterschiedlich ab; kleine Abweichungen sind üblich, große deuten auf eine andere Definition.
+MVRV: höchstens 2 Prozent bei gleicher Methode und gleichem Stichtag, sonst Vergleich der Methoden. Begründung: Der realisierte Wert ändert sich langsam; größere Abweichungen kommen fast immer aus unterschiedlichen Berechnungsweisen.
+Vertragsrechte und Freigabe-Obergrenzen: keine Toleranz. Begründung: Ein Recht besteht oder besteht nicht.
+Vorrang vor allen Toleranzen hat die Schwellenrobustheit nach Regel Q-04. Begründung: Auch eine Abweichung von nur 4 Prozent kann eine Bewertungsschwelle überschreiten, etwa einen Multiplikator von 148 auf 154 heben und damit über die Grenze von 150.
+
+
+D 5. Richtschnur für die Belegsicherheit
+Maßgeblich bleibt die Definition der Belegsicherheit in der Matrix. Die Kennzeichen dienen als ihr Nachweis. Zusätzlich gilt als neue Definition D-20 eine gemeinsame Richtschnur, von der Erstbewertung und Zweitprüfung nur mit schriftlicher Begründung abweichen dürfen.
+A: Die entscheidungsrelevanten Werte stammen direkt aus einem maßgeblichen Primärbeleg mit wiederholbarem Abruf oder sind durch eine unabhängige Prüfung auf der Blockchain bestätigt. Die Übereinstimmung zweier Datenanbieter allein genügt für A nicht.
+B: überwiegend so, einzelne nur einfach belegt.
+C: Mindestens ein entscheidungsrelevanter Wert ist nur modelliert oder sekundär.
+D: Wesentliche Daten fehlen, oder ein Widerspruch ist nicht durch eine belegte Ober- oder Untergrenze entscheidungsneutral eingegrenzt.
+Begründung: Die Belegsicherheit war bisher der häufigste Grund für abweichende Ergebnisse zwischen Erst- und Zweitprüfung. Eine gemeinsame Richtschnur macht die Einstufung vergleichbar, die Begründungspflicht lässt Raum für Sonderfälle. Die Stufe A bleibt so streng wie in der ursprünglichen Definition, die Primärquellen und eine unabhängige Bestätigung auf der Blockchain verlangt.
+
+
+TEIL E. GÜLTIGKEITSREGELN Q-01 BIS Q-23
+
+Q-01, Identität zuerst. Kürzel, CoinGecko-Kennung, Blockchain und Vertragsadresse müssen übereinstimmen, bevor weitere Daten abgerufen werden. Eigenständige Coins einer eigenen Blockchain, etwa Bitcoin, Litecoin oder Kaspa, haben keine Vertragsadresse; an ihre Stelle tritt die eindeutige Kennung aus Blockchain und Coin. Existiert ein Token auf mehreren Blockchains, wird jede Vertragsadresse erfasst. Begründung: Ein falsch zugeordnetes Kürzel verfälscht jede folgende Zahl; beim Kürzel VELO wäre beinahe ein fremdes Projekt bewertet worden.
+
+Q-02, zeitliche Zusammengehörigkeit. Kurs und Menge für die voll verwässerte Bewertung stammen aus demselben Zeitpunkt; das MVRV aus demselben Bewertungszeitpunkt und mit vereinbarer Methode; die Abrufe aller übrigen Werte eines Coins liegen innerhalb von drei Tagen. Die drei Tage betreffen den Zeitpunkt der Abrufe, nicht die Beobachtungszeiträume, die je Kennzahl gelten, etwa zwölf Monate oder 200 Wochen. Begründung: Ein Kurs von heute mit einer Menge von vor drei Monaten ergibt eine Bewertung, die es nie gab.
+
+Q-03, Zeitraum. Es zählen zwölf abgeschlossene Kalendermonate; ist der Mechanismus jünger, gilt Definition D-03. Der Beginn ist das belegte Inkrafttreten, nicht der erste Wert, den ein Anbieter liefert. Monate, die nachweislich null ergaben, werden nicht zur Datenlücke umgedeutet. Begründung: Sonst ließe sich jede schwache Ertragsphase durch Umdeutung zur Lücke beschönigen.
+
+Q-04, Schwellenrobustheit. Ein Wert ist entscheidungsrelevant, wenn innerhalb seiner belegten Unsicherheit irgendeine Regelschwelle liegt: eine Klassengrenze des Qualitätsscores, jede Stufe des Bewertungsscores, die Mindestbewertung von 30, das Angebots-Gate oder ein Ausschlussgrund. Der Gesamtwert hat keine Schwelle; er zählt nur, wenn eine Rangfolge nach ihm über eine Auswahl entscheidet. Robust ist ein Wert, wenn alle zulässigen Werte zum selben Ergebnis führen; dann genügt eine belegte Ober- oder Untergrenze. Sonst wird gezielt nachgeprüft. Entscheidungsrelevante Werte brauchen einen Primärbeleg mit wiederholbarem Abruf, etwa mit Blockhöhe, oder einen bestätigten Wert. Gelingt beides nicht, wird der Wert mit seinem Kennzeichen verwendet, und die Belegsicherheit beträgt höchstens C (D-20); fehlt auch eine belegte Ober- oder Untergrenze und ändert der Wert das Ergebnis, gilt D. Begründung: So wird der Prüfaufwand genau dort eingesetzt, wo ein Fehler eine Entscheidung ändern würde.
+
+Q-05, Gegenprobe nur, wo nötig. Nicht entscheidungsrelevante Werte dürfen einfach belegt bleiben; das Kennzeichen bleibt sichtbar. Begründung: Verhältnismäßigkeit; Transparenz ersetzt hier die Doppelprüfung.
+
+Q-06, Widerspruch. Zuerst werden Definition, Zeitraum und Bezugsmenge abgeglichen. Bleibt der Widerspruch bestehen, werden beide Werte archiviert und es wird im ungünstigeren Fall entschieden; ist er entscheidungsrelevant, gilt der vorsichtigere Status. Begründung: Viele scheinbare Widersprüche verschwinden, sobald man gleiche Zeiträume und Definitionen vergleicht.
+
+Q-07, Herkunftsnachweis. Zu jedem Rohwert werden Quelle, Abrufzeit in koordinierter Weltzeit, Bezugszeitraum, Rohwert wie geliefert, Einheit und Währung, Umrechnung und die Prüfsumme der Rohdatei gespeichert. Begründung: Ohne diese Angaben lässt sich ein Wert weder nachprüfen noch später neu erheben. Die Prüfsumme beweist nur, dass eine Datei unverändert ist, nicht, dass ihr Inhalt stimmt; dafür sind die Kennzeichen und Gegenproben da.
+
+Q-08, keine Zahl aus Zusammenfassungen. Begründung: siehe Grundsatz 5.
+
+Q-09, Prüfung des Abfrageskripts. Sind DefiLlama-Erträge entscheidungsrelevant, werden Fundort, Dateipfad und Versionsstand des Skripts archiviert und die Zählweise vermerkt. Begründung: Skripte ändern sich; ein Verweis auf die jeweils neueste Fassung belegt nicht, wie eine frühere Zahl entstand.
+
+Q-10, Nachweis des Wertrückflusses. Ein Rückkauf zählt erst voll, wenn Verbrennen oder eine Sperre von mindestens zwölf Monaten belegt ist; ein Übertrag an die Treasury gilt als gehalten. Das gilt vorbehaltlich der Sonderregeln D-15 für Geldwerte und D-16 für gehaltene Rückkäufe. Begründung: Gehaltene Token können jederzeit wieder verkauft werden und sind daher kein dauerhafter Wertrückfluss.
+
+Q-11, Haltbarkeit. Kurse gelten einen Handelstag, und nur aus tatsächlich gehandelten Kurskerzen mit Zeitstempel. Gebühren und Erträge gelten einen Monat, Mengen und Freigaben drei Monate. Eine Freigabe, ein Beschluss, ein Sicherheitsvorfall oder ein Insider-Transfer machen frühere Prüfungen sofort ungültig. Ein Insider-Transfer gilt nur als nachgewiesen, wenn die Absenderadresse vom Projekt selbst als Adresse des Teams, der Investoren oder der Projektkasse veröffentlicht wurde und die Übertragung an eine Börse im Explorer der Kette belegt ist; Zuordnungen von Analyseanbietern sind nur ein Hinweis. Geprüft wird das für Coins mit offenen Aufträgen, eigenen Beständen oder Kandidatenstatus; die Schwelle von 1 Prozent des frei verfügbaren Umlaufs in 30 Tagen ist ein Startwert und wird am 22. April 2027 überprüft. Abgelaufene Werte werden vor einer Entscheidung neu erhoben. Begründung: Kurse veralten schnell, Ertragsreihen langsamer; Ereignisse können jede Prüfung über Nacht entwerten.
+
+Q-12, Vollständigkeit. Jeder Datenstand enthält alle Märkte des Stichtags, derzeit 427, mit genau einem Wertstatus je Pflichtkennzahl, und für jeden Markt werden alle in Frage kommenden Quellen abgefragt. Begründung: Grundsatz 7; die Coins 2Z und WOO wurden übersehen, weil sie nie einzeln abgefragt wurden.
+
+Q-13, wirtschaftliche Zuordnung. Jede Ertragskennzahl wird einem konkreten, investierbaren Token zugeordnet. Protokollfamilien, Governance-Token, abgeleitete Token und Betreiberfirmen werden getrennt erfasst. Begründung: Bei Convex fließt ein Teil der Erträge an abgeleitete Token und nicht an den bewerteten Token.
+
+Q-14, Unabhängigkeit der Gegenquelle. Bestätigt ist ein Wert nur durch eine Quelle mit eigener Herkunft oder eigener Berechnung. Begründung: siehe D 2.
+
+Q-15, Vergleichbarkeit. Gegenproben nur bei gleichem Zeitraum, gleicher Zeitzone, gleicher wirtschaftlicher Definition, gleicher Abdeckung der Blockchains und gleicher Einheit. Begründung: Nicht vergleichbare Werte erzeugen Scheinwidersprüche oder Scheinbestätigungen.
+
+Q-16, automatische Konsistenzprüfung. Monatssummen werden gegen Jahreswerte geprüft, Gebührenbestandteile gegen Gesamtgebühren, die voll verwässerte Bewertung gegen Kurs mal Menge, Burns gegen Transfers auf der Blockchain, dazu die Prüfung der Run-Rate nach Definition D-09. Begründung: Solche Prüfungen kosten nichts und finden Rechen- und Übertragungsfehler zuverlässig.
+
+Q-17, Historisierung. Änderungen an Quellen, Abfrageskripten und Beschlüssen sowie wiederholt fehlende Kennzahlen werden fortgeschrieben. Begründung: Nur so lässt sich prüfen, ob eine Kennzahl über zwei Wiedervorlagen unbestimmbar blieb, was nach Definition D-13 die Belegsicherheit auf D senkt.
+
+Q-18, Aktualität des Universums. Die Liste der Bitvavo-Euro-Märkte wird mindestens wöchentlich mit dem letzten Stand abgeglichen. Jeder neue Markt wird innerhalb von sieben Tagen vollständig abgefragt und erstbewertet. Eingestellte Märkte und Umbenennungen werden vermerkt; betrifft eine Einstellung einen eigenen Bestand, wird sie sofort gemeldet. Solange die Datenstrecke nicht automatisch läuft, wird der Abgleich bei jedem Arbeitsauftrag nachgeholt. Begründung: Bisher fiel ein neuer Markt erst beim nächsten Volllauf auf; Einzelheiten in Teil I 3.
+
+Q-19, Ertragsradar. Einmal im Monat werden die Protokolle mit Gebühren außerhalb des Bitvavo-Angebots nach den vier Bedingungen in Teil I 4 durchsucht: eigener investierbarer Token, nicht auf Bitvavo in Euro handelbar, Gebühren von mindestens 1 Million Euro im Jahr, notwendige Bedingung für eine Bewertungsnote über null erfüllt. Treffer werden vollständig bewertet, Ablehnungen mit Grund protokolliert. Begründung: Ein Neuling soll an seinen Erträgen erkannt werden, nicht an seiner Bekanntheit; Einzelheiten in Teil I 4.
+
+Q-20, Wiedervorlage junger Historie. Läuft ein Ertragsmechanismus kürzer als 90 volle Tage, erhält die Hauptkennzahl den Wertstatus ausstehend, und die Wiedervorlage wird auf den 90. vollen Tag nach dem belegten Inkrafttreten gesetzt. Begründung: Ohne festen Termin blieben junge Coins bis zur nächsten Quartalsprüfung unbewertet, obwohl die Mindesthistorie nach Definition D-03 erreicht ist.
+
+Q-21, Chartwerte aus Kerzen. Durchschnitte, Veränderungen, relative Stärke und Umsätze der Kaufprüfung werden aus abgeschlossenen Bitvavo-Kerzen in Euro berechnet, nie geschätzt; nur wenn der Abruf scheitert, werden Werte des Anlegers oder eines Bildschirmfotos mit dem Vermerk Nutzerwert verwendet. Die Kerze des laufenden Zeitraums wird verworfen. 200 Tage sind 200 Kalendertage, 200 Wochen sind 200 abgeschlossene Wochenkerzen. Fehlende Kerzen werden weder aufgefüllt noch interpoliert, und kein Kurs wird fortgeschrieben. Ein Abruffehler ist keine fehlende Kerze: Ein fehlgeschlagener oder unvollständiger Abruf wird wiederholt; misslingt auch die Wiederholung, ist der Wert nicht bestimmbar, und der Abruffehler wird im Protokoll vermerkt. Als fehlend gilt eine Kerze nur, wenn der Abruf vollständig gelang und für den Tag trotzdem keine Kerze geliefert wurde. Rechenweg: Fenster sind die N Kalendertage bis zum letzten abgeschlossenen Tag; n ist die Zahl der vorhandenen Kerzen; fehlen mehr als 5 Prozent von N, bei 200 Tagen also mehr als 10, bei 50 Tagen mehr als 2, ist der Wert nicht bestimmbar; sonst ist der Durchschnitt die Summe der n Schlusskurse geteilt durch n und wird als Durchschnitt über n von N Tagen ausgewiesen. Der Schlusskurs vor 30 oder 90 Tagen ist der des betreffenden Kalendertags oder, wenn dort keine Kerze besteht, der letzte vorhandene davor, höchstens drei Tage zurück. Tage vor der ersten Kerze eines Markts sind fehlende Historie, keine Lücke. Die relative Stärke über 90 Tage ist verbindlich definiert als (1 + Rendite des Coins) geteilt durch (1 + Rendite von Bitcoin) minus 1. Der Euro-Umsatz eines Tages wird aus der Schnittstelle genau übernommen, für die Historie als gehandelte Menge mal Schlusskurs angenähert und so vermerkt. Berechnete Werte tragen Herkunft R mit den Kennzeichen ihrer Eingänge. Einzelheiten in Teil J 2. Begründung: Abgelesene Werte sind weder wiederholbar noch prüfbar; Berechnen aus archivierten Rohdaten ist keine Schätzung, sondern strenger als das Ablesen. Ein technischer Abruffehler sagt nichts über den Markt; als Tag ohne Handel gezählt, würde er den mittleren Tagesumsatz zu Unrecht senken oder einen Durchschnitt unbestimmbar machen.
+
+Q-22, Quellenkanon und Abrufweg. Der Kanon dieser Verfassung umfasst neben den Quellen aus Teil C den schlüssellosen CoinGecko-Konnektor für Identität und Mengen zur Plausibilisierung, den Etherscan-Konnektor für Vertragsrechte, Gesamtmenge und Burns auf Ethereum-kompatiblen Ketten, die Explorer der übrigen Ketten und Arkham als manuelle Hilfe zur Börsenzuordnung. CoinMarketCap dient nur als Gegenprobe bei Widerspruch; Derivatedaten gehören nicht zum Kanon. Öffentliche Schnittstellen werden direkt abgerufen; Konnektoren von Drittentwicklern werden erst nach Prüfung von Herkunft und Wartung eingesetzt. Begründung: Ein direkter Abruf ist wiederholbar und frei von fremdem Code; ein ungeprüfter Konnektor wäre eine neue, unbekannte Fehlerquelle.
+
+Q-23, Orderbuch als Beobachtung. Zu jeder Kaufprüfung werden Spread, Kaufvolumen im Orderbuch bis 1 Prozent unter dem Mittelkurs und der rechnerische Abschlag beim Verkauf der größten geplanten Teilorder gegen das aktuelle Orderbuch erfasst. Diese Werte sind Warn- und Beobachtungsdaten, keine Sperre; ein Hinweis erfolgt, wenn der Abschlag 2 Prozent übersteigt. Jeder Orderbuchabruf wird als Momentaufnahme mit Abrufzeit in koordinierter Weltzeit, Folgenummer des Orderbuchs, Tiefe und zugrunde gelegter Auftragsgröße archiviert. Begründung: Ein ausreichender Tagesumsatz kann mit einem dünnen Orderbuch einhergehen; ob dieser Unterschied in der Praxis zählt, soll das Protokoll zeigen, bevor daraus eine Regel wird.
+
+
+TEIL F. DATENSTRECKE, DATENPAKET UND ABNAHME
+
+Die Datenstrecke läuft automatisiert in einer Rechenumgebung in der Cloud, in neun Schritten. Erstens: alle Bitvavo-Märkte des Stichtags laden, mit dem letzten Stand abgleichen und die Coins des Beobachtungsuniversums aus dem Ertragsradar hinzunehmen (Teil I). Zweitens: die Identität jedes Coins auflösen. Drittens: Kurse in Euro, Mengen und den EZB-Wechselkurs erheben. Viertens: Gebühren, Umsatz und Halter-Erträge als Monatsreihen über 24 Monate abrufen. Fünftens: MVRV und Wochenkurse für die 200-Wochen-Linie holen; für Kandidaten zusätzlich die Chartwerte und Orderbuchdaten nach Teil J. Sechstens: Blockchain-Prüfungen für Kandidaten und Grenzfälle durchführen. Siebtens: jeden Wert kennzeichnen und die Gültigkeitsregeln automatisch prüfen. Achtens: den Datenstand einfrieren, mit Versionskennung und Prüfsumme. Neuntens: das Datenpaket ausgeben.
+Begründung: Ein automatischer Ablauf ist wiederholbar und vollständig; Abfragen von Hand sind es nicht.
+
+Das Datenpaket enthält die Rohdaten wie geliefert, Tabellen als Excel- und CSV-Datei, ein Quellenregister, ein Datenwörterbuch und ein Prüfprotokoll der Regeln. Zu jedem Abruf gehören technische Angaben: Version der Schnittstelle, Versionsstand des Abfrageskripts, Blockchain und Vertrag, Blockhöhe, Dezimalstellen des Tokens und fehlgeschlagene Abfragen. Berechnete Kennzahlen wie Multiplikatoren sind erlaubt. Klassenzuordnung, Noten, Status und Ergebnisse der Erstbewertung sind nicht enthalten.
+Begründung: Die Zweitprüfung soll dieselben Daten sehen, aber unbeeinflusst von den Ergebnissen der Erstbewertung urteilen.
+
+Abnahmekriterien: alle Märkte des Stichtags und alle Coins des Beobachtungsuniversums ohne stille Auslassung; Listungsabgleich und Ertragsradar mit Protokoll; eindeutige Identität; Zwölf-Monats-Wert oder Ersatzwert nach Definition D-03 mit dokumentierter Berechnung; fehlend, nicht messbar und null sauber getrennt; voll verwässerte Bewertung nach D-05 und Umlauf nach D-14; jeder Rohwert mit Quelle, Abrufzeit und Bezugszeitraum; keine Ergebnisse der Erstbewertung im Paket; eingefrorener Stand mit Prüfsumme.
+
+Vor der Abnahme läuft ein Validierungslauf mit 32 Testfällen, deren Sollergebnis vorher feststeht und sich auf einen eingefrorenen Referenzstand bezieht. Begründung: Wer das Sollergebnis erst nach dem Lauf festlegt, misst nichts.
+Acht reale Fälle: Uniswap prüft die Neunzig-Tage-Regel mit Beginn am 29.12.2025. Convex prüft die wirtschaftliche Zuordnung, der Anteil des bewerteten Tokens muss als nicht messbar erscheinen. Sky prüft die getrennte Zählung von Rückkauf und Staking-Belohnung sowie eine Kursabweichung zu Bitvavo. Maple prüft modellierte gegen tatsächliche Rückkäufe, der Wert muss als modelliert und widersprüchlich erscheinen. VELO prüft die Identität, es muss Velo Labs zugeordnet werden. Canton prüft die Definition des Umlaufs, Prägung und Burn getrennt. Litecoin prüft die Geldwert-Klasse, das MVRV muss aus Coin Metrics kommen oder sauber als nicht gelistet erscheinen. Jupiter prüft eine Blockchain außerhalb von Ethereum, gehaltene Rückkäufe müssen als gehalten erscheinen.
+Zehn methodische Fälle, notfalls mit eigens erstellten Testdaten: ein Protokoll mit 70 Tagen Historie, das nicht hochgerechnet werden darf und eine Wiedervorlage am 90. Tag erhalten muss; eines mit 100 Tagen, das nach der Neunzig-Tage-Regel gerechnet wird; ein etabliertes Protokoll mit fehlenden Monaten, das als unvollständige Messreihe erscheint; ein nachgewiesener Nullertrag mit Multiplikator 9999; ein Multiplikator knapp um 150, der eine Nachprüfung auslöst; ein Layer-2-Netz, bei dem die Kosten der Hauptkette aus den Nettogebühren entfernt werden; ein Token auf mehreren Blockchains, der im Umlauf nur einmal zählt; eine änderbare Emission, die nach D-17 und D-19 ohne Doppelbestrafung behandelt wird; Freigaben, für die nur ein offizieller Rahmen bekannt ist und die nach D-10 linear begrenzt werden; ein starker Einbruch der Run-Rate, der eine Warnung erzeugt, aber den Score nicht ändert.
+Zwei Fälle zu Neuzugängen, mit eigens erstellten Testdaten: Erstens wird in die Bitvavo-Marktliste ein neuer Markt eingefügt und ein bestehender entfernt; der neue muss im Datenpaket vollständig abgefragt erscheinen, der entfernte als eingestellt vermerkt und, wenn er zu den Beständen gehört, gemeldet werden. Zweitens werden dem Ertragsradar drei Protokolle außerhalb von Bitvavo vorgelegt: eines mit eigenem Token, Gebühren über 1 Million Euro und erfüllter Bedingung, das aufgenommen werden muss; eines ohne eigenen Token und eines der Klasse DeFi mit dem 400-Fachen der Halter-Erträge, die beide mit ihrem Grund abgelehnt werden müssen.
+Zwölf Fälle zu Kurs-, Ausführungs- und Verkaufsregeln, seit dem 23. und 24. Oktober 2026, mit eigens erstellten Testdaten: Erstens relative Stärke bei negativen Renditen: Coin minus 50 Prozent, Bitcoin minus 20 Prozent, Soll minus 37,5 Prozent. Zweitens fehlende Kerzen: Im 200-Tage-Fenster fehlen 10 Tage, Soll ist ein Durchschnitt über 190 Schlusskurse mit dem Ausweis „190 von 200“; fehlen 11 Tage, Soll ist nicht bestimmbar. Drittens laufende Kerze: Eine Kerze mit Beginn am Abruftag muss verworfen werden. Viertens Orderbuch, mit vollständigem Testorderbuch: Kaufaufträge über 3.000 Euro bei 0,5 Prozent und über 5.000 Euro bei 3,0 Prozent unter dem Mittelkurs; eine Teilorder von 8.000 Euro muss einen mengengewichteten Abschlag von 2,06 Prozent und damit einen Hinweis, aber keine Sperre ergeben. Liegen die 5.000 Euro stattdessen bei 1,1 Prozent, beträgt der Abschlag 0,88 Prozent, und es gibt keinen Hinweis. Fünftens Kurslücke: Der Kurs eröffnet unter den Limits von Teilorder 2 und 3, und der Anleger bestätigt beide Ausführungen; beide werden gebucht, die Prüfmarke greift nicht mehr, und Ereignisvorbehalt und Wiederholung werden danach angewandt. Bestätigt der Anleger für Teilorder 3 nur eine Teilausführung, wird nur diese Menge gebucht, und der Rest bleibt offen. Ein Kurs unter dem Limit allein erzeugt keine Buchung. Sechstens Neusetzen nach der Prüfmarke: Liegt der Briefkurs unter dem ursprünglichen Limit, muss eine Limit-Order zum Briefkurs empfohlen werden, keine Marktorder. Siebtens wiederholtes Verkaufssignal A12: Die Bewertungsnote fällt auf null, steigt wieder und fällt erneut, ohne neuen Kauf; Soll ist genau eine Auslösung. Achtens Notfall vor Steuer: Ein vorgemerkter A12-Verkauf innerhalb der Haltefrist trifft auf einen nachgewiesenen Betrug; Soll ist der sofortige Abbau nach N1. Neuntens Verschlechterung ohne Kursanstieg: Der Wertrückfluss wird dauerhaft eingestellt, der Kurs steigt nicht; Soll ist kein A12-Signal, sondern Sofortprüfung nach N3 mit neuer Note F5 und neuem Status. Zehntens Überbewertung bei kleiner Position: Bewertungsnote null, Kurs plus 150 Prozent seit dem Bezugszeitpunkt, Position bei 40 Prozent der Obergrenze; Soll ist kein Verkauf und kein Zukauf. Elftens Zukauf bei Bestand: kleinste Grenze 2.000 Euro, Bestand 1.500 Euro, offene Kaufaufträge 300 Euro; Soll ist ein zulässiger Zukauf von 200 Euro. Zwölftens Abruffehler: Ein simulierter Abbruch der Kerzenabfrage muss eine Wiederholung auslösen und darf keine Lücke erzeugen; scheitert auch die Wiederholung, ist das Soll „nicht bestimmbar“ mit dem Vermerk Abruffehler.
+Begründung: Die realen Fälle prüfen die Fehler, die tatsächlich aufgetreten sind; die methodischen Fälle prüfen Regeln, für die es noch keinen realen Fehlerfall gab; die beiden Fälle zu Neuzugängen prüfen die Erweiterung nach Teil I, die zwölf Fälle zu Kursen und Ausführung die Rechen- und Ausführungsregeln nach Teil J, jeweils bevor sie im Ernstfall gebraucht werden.
+
+
+TEIL G. ROLLEN UND UMFANG DER ZWEITPRÜFUNG
+
+Es gibt drei Rollen. Die Datenerhebung und Erstbewertung betreibt die Datenstrecke, pflegt das Quellenverzeichnis und bewertet als Erste. Die Zweitprüfung bewertet unabhängig und blind auf demselben Datenstand und prüft die Daten nach festem Umfang nach. Der Anleger entscheidet über Aufnahme und Ausschluss von Quellen, über Regelfragen, über Kosten und über Käufe.
+Begründung: Wer nur die gelieferten Daten nachrechnet, übernimmt deren Fehler. Deshalb prüft die Zweitprüfung nicht nur die Bewertung, sondern auch einen festgelegten Teil der Daten selbst.
+
+Verlangt wird eine nachweisbare Prüfleistung mit Prüfprotokoll, keine bestimmte technische Ausstattung. Was die Zweitprüfung nicht unabhängig abrufen kann, bleibt als nicht bestätigt gekennzeichnet. Der Umfang hat fünf Ebenen:
+Erstens alle Datensätze automatisch: Vollständigkeit, auch des Listungsabgleichs, Identität, Einheiten, Zeiträume, Formeln, Wertebereiche und Herkunft.
+Zweitens alle entscheidungsrelevanten Werte der Kandidaten: eigene Kontrolle an der Primärquelle oder unabhängige Nachrechnung.
+Drittens mindestens 10 Prozent der übrigen Coins als geschichtete Zufallsstichprobe nach Klasse, Blockchain, Anbieter, Größe und Datenlücken, mit dokumentiertem Zufallsstartwert; die Ablehnungen des Ertragsradars bilden dabei eine eigene Schicht.
+Viertens alle Grenzfälle, bei denen ein plausibler Fehler eine Schwelle kreuzen könnte.
+Fünftens gezielte Testfälle je Datentyp.
+Begründung: Eine Zufallsstichprobe findet einzelne Fehler, aber keine systematischen. Würde etwa bei allen Layer-2-Netzen derselbe Rechenfehler gemacht, fände ihn nur ein gezielter Test. Der dokumentierte Zufallsstartwert macht die Stichprobe nachvollziehbar.
+
+Gegenstand der Zweitprüfung ist die Bewertung nach Stufe 1 der Matrix. Kurs-, Ausführungs- und Vergleichsdaten nach Teil J gehören nicht zum Datenpaket und nicht zu ihrem Prüfumfang; Material aus kostenpflichtigen Chartanalysen erreicht die Zweitprüfung nie.
+Abweichungen zwischen Erstbewertung und Zweitprüfung werden auf Daten, Definition oder Deutung zurückgeführt. Bis zur Klärung gilt der vorsichtigere Status. Ist die Ursache ein Datenfehler, entsteht ein neuer Datenstand.
+
+
+TEIL H. ERGÄNZUNGEN DER BEWERTUNGSMATRIX
+Mit dieser Verfassung wurden drei Definitionen der Matrix ergänzt. Sie sind in der Matrix ab Version 1.2.17 eingetragen.
+
+Klarstellung zu D-17. Ist die Emissionsrate änderbar, die Gesamtmenge aber vertraglich hart begrenzt, erhält die Tokenomics-Note F6 nicht automatisch null. Nach der Definition D-08 gilt dann die Restmenge bis zur Höchstmenge als in 36 Monaten möglich.
+Begründung: Eine harte Höchstmenge ist eine echte Obergrenze, auch wenn das Tempo der Ausgabe änderbar ist. Die Note null ist für den Fall gedacht, dass beliebig viele Token geprägt werden können. Die Klarstellung schreibt die bisherige Praxis fest und ändert keine Note.
+
+Zusatz zu D-19. Die Definition D-19 lautet: Ist die Emission vertraglich in ihrer Rate nicht begrenzt, aber per Governance, Validatoren oder Team änderbar, zählt im Zwölf-Monats-Gate die tatsächlich in den letzten zwölf Monaten emittierte Menge. Der Zusatz: D-19 ist eine begrenzte Sonderregel zur Freigabedefinition D-04 und gilt nur für den Emissionsanteil des Gates. Gezählt wird nur Emission, die dem frei übertragbaren Umlauf nach D-14 zufließt. Insider-Freigaben, Treasury-Verteilungen und Reserven bleiben nach D-04, D-10, D-11 und D-14 zu berücksichtigen. Die Tokenomics-Note nach D-08 und D-17 bleibt unberührt.
+Begründung: Ohne den Zusatz könnte D-19 so verstanden werden, als ersetze die tatsächliche Emission alle vertraglichen Freigaben. Das würde die Sperrprüfung des Gates aushöhlen.
+
+D-20, Richtschnur für die Belegsicherheit, wie in Teil D 5 beschrieben, mit Begründungspflicht bei Abweichung.
+
+
+TEIL I. NEUZUGÄNGE UND BEOBACHTUNG ÜBER BITVAVO HINAUS
+
+
+I 1. Zweck
+Dieser Teil stellt sicher, dass nicht nur bekannte und bereits erfolgreiche Coins geprüft werden, sondern auch Neulinge mit belegten Erträgen. Er schließt drei Lücken der Fassung 1.0.1. Erstens endete das Universum bei den Euro-Märkten von Bitvavo; ein Neuling, den Bitvavo noch nicht führt, blieb unsichtbar. Zweitens fiel ein neu gelisteter Markt erst beim nächsten Volllauf auf. Drittens erhielt ein junger Coin keinen festen Termin, an dem seine Bewertung nach Erreichen der Mindesthistorie nachgeholt wird.
+Begründung: Grundsatz 7 verlangt, dass ein Coin nur aufgrund von Daten ausscheidet, nie aufgrund einer Vermutung. Ein Coin, der gar nicht erfasst wird, scheidet aber stillschweigend aus. Gerade Neulinge sind davon betroffen, weil Bitvavo neue Coins in der Regel erst aufnimmt, wenn sie schon eine gewisse Bekanntheit haben.
+
+
+I 2. Zwei Universen
+Das Kernuniversum umfasst alle Euro-Märkte von Bitvavo am Stichtag und alle eigenen Bestände. Das Beobachtungsuniversum umfasst Coins, die nicht auf Bitvavo in Euro handelbar sind, aber über den Ertragsradar nach I 4 gefunden wurden, sowie Coins, deren Einzelabfrage der Anleger ausdrücklich wünscht.
+Für beide Universen gelten dieselben Quellen, Kennzeichen, Gültigkeitsregeln und Bewertungsregeln. Der einzige Unterschied: Ein Coin des Beobachtungsuniversums kann nicht gekauft werden, solange es keinen Euro-Markt auf Bitvavo gibt. Erfüllt er alle Voraussetzungen eines Kandidaten, lautet sein Status nach Regel 11 der Statusreihenfolge „Kandidat – derzeit nicht handelbar“.
+Ein Coin wechselt in das Kernuniversum, sobald Bitvavo ihn listet. Ein Zugang aus dem Ertragsradar verlässt das Beobachtungsuniversum, wenn er in zwei aufeinanderfolgenden Radarläufen die Aufnahmebedingungen nicht mehr erfüllt; seine bisherigen Daten bleiben archiviert. Ein Coin, dessen Einzelabfrage der Anleger verlangt hat, bleibt, bis der Anleger anders entscheidet.
+Begründung: Gleiche Regeln für alle verhindern, dass Neulinge bevorzugt oder benachteiligt werden. Die Zwei-Läufe-Regel verhindert, dass ein Coin wegen eines einzelnen schwachen Monats ständig hinein- und herausfällt.
+
+
+I 3. Wöchentlicher Listungsabgleich
+Nach Regel Q-18 wird die Liste der Bitvavo-Euro-Märkte mindestens einmal pro Woche mit dem letzten Stand verglichen. Für jeden neuen Markt wird innerhalb von sieben Tagen die vollständige Abfrage nach Grundsatz 7 durchgeführt und die Erstbewertung erstellt; erreicht er einen Kandidatenstatus, folgt die Zweitprüfung. Eingestellte Märkte und Umbenennungen werden vermerkt. Betrifft die Einstellung eines Marktes einen eigenen Bestand, wird das sofort gemeldet.
+Quelle: die Bitvavo-Schnittstelle, Stufe 1, kostenlos. Ankündigungen neuer Listungen in Medien oder auf der Bitvavo-Webseite sind nur Hinweise nach Stufe 4.
+Begründung: Eine Woche ist kurz genug, um eine frühe Gelegenheit nicht zu verpassen, und lang genug, damit erste Handelsdaten vorliegen. Ein Kauf in den ersten Wochen nach einer Listung ist ohnehin nur eingeschränkt möglich: Ohne 200 abgeschlossene Handelstage auf Bitvavo gilt der Trend Z3 als nicht erfüllt; dann gibt es nur die erste Teilorder, bei günstiger Bewertung drei Teilorders mit weiten Abständen. Die sofortige Meldung bei Einstellung eines Marktes ist nötig, weil ein Bestand vor dem Ende des Handels verkauft oder übertragen werden muss.
+
+
+I 4. Monatlicher Ertragsradar
+Nach Regel Q-19 wird einmal im Monat die Übersicht aller Protokolle mit Gebühren bei DefiLlama ausgewertet. Ein Protokoll wird in das Beobachtungsuniversum aufgenommen, wenn alle vier Bedingungen erfüllt sind:
+Erstens, es hat einen eigenen, investierbaren Token, dessen Identität nach Q-01 eindeutig festgestellt ist.
+Zweitens, dieser Token ist nicht auf Bitvavo in Euro handelbar; sonst gehört er bereits zum Kernuniversum.
+Drittens, seine Gebühren betragen im Zwölf-Monats-Wert oder nach der Neunzig-Tage-Regel der Definition D-03 mindestens 1 Million Euro im Jahr.
+Viertens, er erfüllt die notwendige Bedingung für eine Bewertungsnote über null: Die voll verwässerte Bewertung beträgt höchstens das 400-Fache der Nettogebühren bei Plattformen, höchstens das 150-Fache der Halter-Erträge bei DeFi und höchstens das 200-Fache des Umsatzes bei den Umsatzklassen Oracle, Compute, RWA und Gaming.
+Jeder Treffer wird vollständig abgefragt und bewertet. Jede Ablehnung wird mit ihrem Grund protokolliert.
+Begründung der vier Bedingungen: Ohne eigenen Token gibt es nichts zu kaufen. Die Untergrenze von 1 Million Euro trennt messbare Geschäftstätigkeit von Rauschen, Einmaleffekten und reinen Anreizprogrammen; sie ist bewusst niedrig gewählt, damit kein ertragsstarker Neuling übersehen wird, und wird nach den ersten drei Läufen anhand der Zahl der Treffer überprüft. Die vierte Bedingung ist die bestehende Schwelle der Matrix, unterhalb derer die Bewertungsnote ohnehin null wäre; sie übernimmt nichts Neues, sondern verhindert nur, dass offensichtlich überteuerte Coins Prüfaufwand binden.
+Begründung des Radars überhaupt: Er sucht nach Erträgen, nicht nach Bekanntheit. Ein Neuling fällt so dadurch auf, dass Nutzer für seine Dienste bezahlen, und nicht dadurch, dass über ihn berichtet wird.
+Quelle: DefiLlama, freie Schnittstelle, Stufe 2. Ob die freie Schnittstelle Gebühren, Erträge und Halter-Erträge aller Protokolle in einer Übersicht liefert, ist ungeprüft und wird beim ersten Test nach der Freischaltung geklärt. Listen neu erfasster Coins bei CoinGecko oder DefiLlama dienen als ergänzender Hinweis; ob CoinGecko eine solche Liste im kostenlosen Zugang anbietet, ist ungeprüft.
+
+
+I 5. Junge Coins
+Nach Regel Q-20 erhält die Hauptkennzahl eines Ertragsmechanismus, der kürzer als 90 volle Tage läuft, den Wertstatus „ausstehend“, und die Wiedervorlage wird auf den 90. vollen Tag nach dem belegten Inkrafttreten gesetzt. An diesem Tag legt die Datenstrecke den Coin automatisch erneut vor.
+Für Freigaben junger Token gelten die üblichen Regeln ohne Ausnahme: Liegt nur ein offizieller Rahmen vor, wird nach Definition D-10 gleichmäßig bis zum frühesten Enddatum verteilt, und die Belegsicherheit ist höchstens C.
+Begründung: Ohne festen Termin blieben junge Coins bis zur nächsten Quartalsprüfung unbewertet, obwohl die Mindesthistorie schon erreicht ist. Freigaben sind bei jungen Token meist besonders hoch; eine Ausnahme würde gerade das größte Risiko verdecken.
+
+
+I 6. Gleichbehandlung und Grenzen
+Neulinge werden mit denselben Regeln gemessen wie etablierte Coins. Die Matrix belohnt Belege, nicht Versprechen. Ein Neuling mit guter These, aber kurzer Erfolgsgeschichte landet daher meist auf der Optionsliste; sein Potenzial wird unter „Thesis Upside“ festgehalten. Wer früh setzen will, kann das außerhalb der Matrix nach Regel A6 des Regelkanons (§ 27) tun: nur bei gültigem Status Optionsliste, nach Einzelentscheidung mit dokumentierter These und Datum, bei geklärtem Angebots-Gate, Belegsicherheit A bis C, Euro-Markt auf Bitvavo, fest höchstens 5 Prozent je Position, bei Angebotswarnung 2,5 Prozent, und nach bestandener Kaufprüfung für A6.
+Grenzen: Der Ertragsradar findet keine Coins ohne messbare Erträge, keine Geldwerte und keine Coins der Klasse Meme und Marke. Das ist eine Grenze der Suchmethode, kein Urteil: Der Radar sucht nach Gebühren und kann Coins ohne messbare Erträge deshalb nicht finden. In der Matrix können solche Coins durchaus einen Status erreichen; bei Meme und Marke etwa entspricht der Gesamtwert der Qualitätsnote. Erfährt der Anleger aus einer Hinweisquelle von einem solchen Coin, kann er eine Einzelabfrage verlangen; der Coin wird dann in das Beobachtungsuniversum aufgenommen und nach denselben Regeln bewertet.
+Begründung: Eine eigene, mildere Messlatte für Neulinge würde genau die Fehler wiederholen, gegen die die Matrix gebaut ist: Ankündigungen statt Erträge, Modelle statt Verträge. Die Möglichkeit der Einzelabfrage hält den Weg für begründete Ausnahmen offen, ohne die Regeln aufzuweichen.
+
+
+I 7. Protokoll und Zweitprüfung
+Jeder Lauf protokolliert neue Märkte, eingestellte Märkte, Umbenennungen, Treffer des Radars und Ablehnungen mit Grund. Die Zweitprüfung prüft die Vollständigkeit des Listungsabgleichs im Rahmen der automatischen Prüfung aller Datensätze und bezieht die Ablehnungen des Radars in ihre Stichprobe ein.
+Begründung: Eine stille Ablehnung wäre derselbe Fehler wie ein übersehener Coin. Erst das Protokoll macht nachprüfbar, warum ein Protokoll nicht aufgenommen wurde.
+
+
+TEIL J. KURS-, AUSFÜHRUNGS- UND VERGLEICHSDATEN
+
+
+J 1. Zweck und Abgrenzung
+Dieser Teil regelt die Daten, die nicht die Bewertung eines Coins tragen, sondern den Zeitpunkt eines Kaufs, die Größe einer Position, die Ausführung von Aufträgen und den Vergleich mit Chartanalysen Dritter. Er gilt für die Stufen 2 und 3 der Matrix und für das Vergleichsmodul V. Er berührt weder den Bewertungskern noch die Zweitprüfung.
+Begründung: Bisher wurden solche Werte vom Anleger abgelesen oder geschätzt. Für die Kaufprüfung sind sie aber ebenso entscheidend wie Erträge für die Bewertung und brauchen deshalb dieselbe Sorgfalt.
+
+
+J 2. Kurskerzen und Chartwerte
+Grundlage sind die Tages-, Wochen- und, ergänzend, Vierstundenkerzen der Bitvavo-Schnittstelle für den Euro-Markt des Coins, nach Regel Q-21. Die wichtigsten Festlegungen: Es zählen nur abgeschlossene Kerzen; Tagesschluss ist 00:00 Uhr koordinierte Weltzeit. Kryptomärkte handeln an jedem Kalendertag; ein Tag ohne Kerze bedeutet, dass nicht gehandelt wurde, und wird nicht aufgefüllt; ein fehlgeschlagener Abruf ist dagegen kein Tag ohne Handel und wird nach Q-21 wiederholt. Ein Fenster mit mehr als 5 Prozent fehlenden Tagen ergibt keinen Wert; sonst wird über die vorhandenen Schlusskurse gemittelt und ihre Zahl ausgewiesen (Rechenweg in Q-21). Die Rohantworten werden mit Abrufzeit archiviert, die berechneten Werte tragen Herkunft R.
+Begründung: Aufgefüllte oder interpolierte Kurse würden einen Handel vortäuschen, den es nie gab, und gerade bei kleinen Coins Trend und Liquidität zu günstig darstellen. Die Grenze von 5 Prozent ist ein Startwert.
+
+
+J 3. Orderbuch und Ausführung
+Zu jeder Kaufprüfung werden nach Q-23 Spread, Kaufvolumen bis 1 Prozent unter dem Mittelkurs und der rechnerische Verkaufsabschlag der größten Teilorder erfasst, jeweils mit Abrufzeit und Folgenummer des Orderbuchs. Aufträge setzt und löscht ausschließlich der Anleger bei Bitvavo. Die Matrix gibt Empfehlungen; das Protokoll führt Empfehlung und bestätigte Ausführung getrennt, jeweils mit Zeit. Ein Schnittstellenschlüssel mit Handelsrechten wird nicht angelegt.
+Begründung: Eine automatische Orderverwaltung wäre ein erhebliches Sicherheitsrisiko und ist für eine Strategie mit wenigen, langfristigen Käufen nicht nötig. Die getrennte Protokollierung verhindert, dass eine bloß empfohlene Löschung als erledigt gilt.
+
+
+J 4. Vergleichsdaten des Moduls V
+Für den Vergleich mit dem Abonnement STA Solutions werden eigene Analysen zuerst mit Zeitstempel festgeschrieben; erst danach erfasst der Anleger die Aussage des Anbieters als eigene, knappe Auswertungsnotiz. Originalberichte werden nicht kopiert oder weitergegeben. Vor der eigenen Analyse bekannte Aussagen werden als vorbekannt markiert. Kursmarken in anderer Währung werden mit dem EZB-Referenzkurs des Stichtags umgerechnet; Kursquelle, Zeitrahmen und Kerzenschluss beider Seiten werden vermerkt. Vergleichsdaten gelangen nie in das Datenpaket der Zweitprüfung und nie in Noten oder Status. Die Stichprobe wird vor Beginn festgelegt, mit Herkunft dokumentiert (Zufallsziehung mit Startwert, Änderungen durch den Anleger gesondert vermerkt) und danach nicht nach Erfolg verändert.
+Begründung: Nur so bleibt der Vergleich prospektiv und unverzerrt, und unterschiedliche Börsen, Währungen und Zeitrahmen werden nicht mit echten Analyseunterschieden verwechselt.
+
+
+J 5. Was automatisiert werden kann
+Automatisierbar, sobald die Domains freigeschaltet und eine dauerhafte Ablage eingerichtet sind: Abruf und Archivierung der Kerzen, Umsätze und Orderbücher; Berechnung der Chartwerte und Prüfwerte Z1 bis Z5; die wöchentliche Gültigkeitsprüfung mit Empfehlungen; die tägliche Überwachung der Prüfmarke; Listungsabgleich und Ertragsradar; die Nachschau im Protokoll; die Kennzahlen des Vergleichsmoduls. Bis dahin werden dieselben Schritte über Einzelabrufe im Gespräch ausgeführt.
+Nicht automatisierbar oder bewusst dem Anleger vorbehalten: das Setzen, Ändern und Löschen von Aufträgen bei Bitvavo; die Eingabe der STA-Aussagen; die Wahl der Vergleichsstichprobe; die Zweitprüfung, die der Anleger im Prüfprojekt anstößt; jede Regeländerung, jede steuerliche Entscheidung und jeder Kauf und Verkauf. Szenarioanalysen nach Elliott oder Fibonacci kann die Erstbewertung vorschlagen; sie bleiben Deutungen und werden nur als festgeschriebenes Szenario verwendet.
+
+
+TEIL K. NÄCHSTE SCHRITTE
+Erstens: Freischaltung der Domains nach Anhang 1; der Etherscan-Konnektor ist seit dem 21. Oktober 2026 verbunden und getestet.
+Zweitens: dauerhafte Ablage für Skripte und Datenstände einrichten, nach Anhang 1 Teil 4.
+Drittens: CoinGecko-Konnektor einrichten, nach Anhang 1 Teil 5.
+Viertens: Test aller Zugänge und Bestätigung der als ungeprüft gekennzeichneten Preise und Grenzen, auch der Übersicht für den Ertragsradar und der Explorer weiterer Ketten.
+Fünftens: Validierungslauf mit 32 Testfällen und Abnahme der Datenstrecke.
+Sechstens: vollständiger Lauf über alle Bitvavo-Märkte nach Grundsatz 7 und erster Ertragsradar.
+Siebtens: maschinelle Nachprüfung aller bisherigen Kandidaten und Klärung der offenen Datenpunkte.
+Achtens: Zweitprüfung auf dem neuen Datenstand.
+Neuntens: Einrichtung der wiederkehrenden Läufe als geplante Aufgaben: wöchentlich Listungsabgleich und Gültigkeitsprüfung offener Kaufaufträge, monatlich Ertragsradar.
+Zehntens: Vergleichsmodul V vom 23. Oktober bis 15. Dezember 2026 führen und auswerten.
+
+
+ANHANG 1. ANLEITUNG ZUR FREISCHALTUNG
+
+Teil 1, Domains freischalten. Das geht nur im Webbrowser, nicht in der mobilen App. Ein Computer oder Tablet ist am einfachsten.
+Schritt 1: Öffne im Browser die Seite claude.ai und melde dich an.
+Schritt 2: Öffne die Einstellungen, englisch Settings, und dort den Bereich Fähigkeiten, englisch Capabilities.
+Schritt 3: Suche den Abschnitt zum Netzwerkzugriff der Codeausführung, etwa „Allow network egress“ oder „Allowed domains“, und schalte den Netzwerkzugriff ein, falls er aus ist.
+Schritt 4: Wird eine Liste erlaubter Domains angeboten, trage die Domains aus Anhang 2 einzeln ein und speichere. Eine Option, die die Standardliste der Paketquellen beibehält, bleibt eingeschaltet.
+Schritt 5: Bietet der Dialog nur die Wahl zwischen Paketquellen und allen Domains, ist „alle Domains“ für diesen Zweck vertretbar, weil die Datenstrecke nur öffentliche Daten liest. Die genaue Liste ist aber vorzuziehen, weil sie nur das erlaubt, was gebraucht wird.
+Ausweichweg, falls unter Fähigkeiten keine Domainliste erscheint: Öffne im Browser claude.ai/code und darin diese Sitzung. Tippe oben auf den kleinen Pfeil neben dem Sitzungstitel und wähle „Edit cloud environment“. Stelle bei „Network access“ die Stufe „Custom“ ein, setze den Haken bei „Also include default list of common package managers“ und trage die Domains aus Anhang 2 unter „Allowed domains“ ein, eine je Zeile. Laut Dokumentation gilt die Änderung für die laufende Sitzung innerhalb etwa einer Minute.
+Schritt 6: Gib danach in dieser Unterhaltung kurz Bescheid. Alle Zugänge werden dann getestet.
+
+Teil 2, Etherscan-Konnektor verbinden. In der Unterhaltung erscheint eine Karte „Etherscan“ mit einer Schaltfläche zum Verbinden. Tippe darauf und bestätige. Ein Konto ist nicht nötig. Falls die Karte nicht sichtbar ist: Einstellungen, dann Konnektoren, englisch Connectors, dort Etherscan suchen und verbinden. Anschließend muss der Konnektor in dieser Unterhaltung aktiviert sein; das ist im Menü der Werkzeuge beziehungsweise Konnektoren unter dem Eingabefeld zu sehen.
+
+Teil 3, optionale kostenlose Schlüssel, später. Für die Etherscan-Schnittstelle der Datenstrecke ist ein solcher Schlüssel nach bisherigem Kenntnisstand nötig; der Konnektor kommt ohne aus. CoinGecko Demo, Etherscan und Dune vergeben kostenlose Schlüssel nach einer Registrierung mit E-Mail-Adresse auf ihrer Webseite. Hinterlegt werden sie nicht im Chat, sondern als geschütztes Geheimnis, englisch Network secret, im selben Dialog „Edit cloud environment“ unter „Network secrets“, mit der Schaltfläche „Add secret“. Dort wird der Name des Dienstes, die zugehörige Domain und der Schlüssel eingetragen. Die Rechenumgebung sieht den Schlüssel danach nicht selbst; er wird erst beim Abruf ergänzt. Schlüssel immer nur mit Leserechten und für jeden Dienst getrennt anlegen.
+
+Teil 4, dauerhafte Ablage. Die Rechenumgebung ist flüchtig und wird nach längerer Inaktivität gelöscht, mit allen Skripten und Datenständen. Ein wiederkehrender Lauf startet zudem jedes Mal in einer neuen Sitzung und findet dort nichts vor. Beides verlangt einen dauerhaften Ablageort.
+Empfohlen: ein privates Repository bei GitHub, also ein nicht öffentlicher Projektordner. Schritt 1: Auf github.com ein kostenloses Konto anlegen, falls keines besteht. Schritt 2: Ein neues, privates Repository anlegen, etwa mit dem Namen krypto-matrix. Schritt 3: In den Einstellungen von claude.ai unter Konnektoren, englisch Connectors, GitHub verbinden und den Zugriff auf dieses Repository erlauben. Schritt 4: In der Unterhaltung den Namen des Repositorys nennen; Skripte, Matrix und Datenstände werden dann dort abgelegt.
+Alternative: ein Ordner auf dem eigenen Rechner, verbunden über die Claude-Desktop-App. Nachteil: Wiederkehrende Läufe funktionieren nur, wenn der Rechner eingeschaltet und die App geöffnet ist.
+Begründung: Ohne dauerhafte Ablage ist weder eine Automatik möglich noch nachvollziehbar, welcher Datenstand einer Entscheidung zugrunde lag. Die genauen Menübezeichnungen sind hier nicht geprüft.
+
+Teil 5, CoinGecko-Konnektor. Auf claude.ai im Browser: Einstellungen, dann Konnektoren, englisch Connectors, dann „Eigenen Konnektor hinzufügen“, englisch Add custom connector. Name: CoinGecko. Adresse: https://mcp.api.coingecko.com/mcp. Speichern; eine Anmeldung ist nicht nötig. Danach den Konnektor im Gespräch über das Werkzeugmenü unter dem Eingabefeld einschalten. Begründung: Er liefert die CoinGecko-Kennung für die Identitätsprüfung nach Q-01 ohne Schlüssel und ohne Freischaltung einer Domain. Die genauen Menübezeichnungen sind hier nicht geprüft.
+
+
+ANHANG 2. DOMAINLISTE
+api.bitvavo.com
+api.llama.fi
+coins.llama.fi
+raw.githubusercontent.com
+api.coingecko.com
+api.coinpaprika.com
+community-api.coinmetrics.io
+api.etherscan.io
+api.blockchair.com
+mempool.space
+apilist.tronscanapi.com
+api.kaspa.org
+hub.snapshot.org
+data-api.ecb.europa.eu
+www.esma.europa.eu
+eur-lex.europa.eu
+api.dune.com, erst zusammen mit einem Dune-Schlüssel sinnvoll.
+
+
+ÄNDERUNGSVERMERK
+Fassung 1.0 vom 20. Oktober 2026: Beschluss.
+Fassung 1.0.1 vom 20. Oktober 2026, technische Präzisierungen ohne Auswirkung auf Noten: Stufe A der Richtschnur D-20 an die ursprüngliche Definition angeglichen (Teil F 5); eigenständige Coins ohne Vertragsadresse in Q-01; Bezug der drei Tage in Q-02 auf den Abrufzeitpunkt; Bedeutung der Prüfsumme in Q-07; neuer Wertstatus „nicht anwendbar“ (Teil F 3); Wirkung der AMLR präzisiert (Teil D 9).
+Fassung 1.1 vom 21. Oktober 2026, Erweiterung ohne Auswirkung auf Noten: neuer Teil K, Neuzugänge und Beobachtung über Bitvavo hinaus, mit Kern- und Beobachtungsuniversum, wöchentlichem Listungsabgleich, monatlichem Ertragsradar und fester Wiedervorlage junger Coins; neue Regeln Q-18 bis Q-20; Grundsatz 7 und die Teile A 3, D 1, D 2, D 10, E, F 3, H und I entsprechend ergänzt; zwei neue Testfälle, zusammen 20; Anhang 1 um die dauerhafte Ablage ergänzt; der bisherige Teil K, Nächste Schritte, wird Teil L; zwei Hinweise auf Ergebnisse der Erstbewertung in Teil J und Teil L neutral gefasst, damit die Verfassung die Blindheit der Zweitprüfung nicht berührt.
+Fassung 1.2 vom 23. Oktober 2026, Erweiterung ohne Auswirkung auf Noten, passend zur Bewertungsmatrix 1.2.22: neuer Teil M, Kurs-, Ausführungs- und Vergleichsdaten; neue Regeln Q-21 Chartwerte aus Kerzen, Q-22 Quellenkanon und Abrufweg, Q-23 Orderbuch als Beobachtung; Teil D um CoinGecko-Konnektor, Rolle von CoinMarketCap, Explorer weiterer Ketten, Kosten der Arkham-Schnittstelle, Chartanalysen Dritter und Derivatedaten ergänzt; Teil A 3, E, H und I entsprechend ergänzt; elf neue Testfälle, zusammen 31; Teil L fortgeschrieben; Anhang 1 um den CoinGecko-Konnektor ergänzt.
+
+Ergänzung vom 23. Oktober 2026 abends, vor Freigabe, ohne Auswirkung auf Noten: Rechenweg für fehlende Kerzen und Bezugskurse in Q-21 ausdrücklich festgelegt, relative Stärke als verbindliche Definition gekennzeichnet; Dokumentation jedes Orderbuchabrufs in Q-23 und M 3; Festlegung der Vergleichsstichprobe in M 4; Testfall 2 an die Grenze von 10 Tagen angepasst, drei Testfälle ergänzt.
+Die Teilbezeichnungen in den Einträgen bis zur Fassung 1.2 beziehen sich auf die damalige Gliederung.
+Version 1.2.23 vom 24. Oktober 2026, ohne Auswirkung auf Noten: neu gegliedert, das Quellenverzeichnis steht jetzt vor den Gültigkeitsregeln und beschreibt jede Quelle einheitlich mit Zweck, Stufe, Zugang und Kosten, Vorteilen, Nachteilen, Begründung und Erreichbarkeit (bisherige Teile C, D und E jetzt Teil C; F wird D, G wird E, H wird F, I wird G, J wird H, K wird I, M wird J, L wird K). Einleitung und Rangfolge ergänzt: Wortlaut der Verfassung für Q-01 bis Q-23, Definitionen der Matrix vor der Verfassung, Excel-Datei als Rechenwerkzeug. Entscheidungen des Anlegers vom 24. Oktober 2026: Nachweisregel für Insider-Transfers in Q-11 und C 14; Abruffehler in Q-21 und J 2 von Lücken unterschieden, ein Testfall ergänzt, zusammen 32. Klarstellungen: I 3 zur Trendprüfung ohne 200-Tage-Historie an die Regel Z3 angeglichen; I 6 an die Regel A6 angeglichen; Artikel 79 der AMLR in C 12 genauer gefasst.
+Version 1.2.24 vom 24. Oktober 2026, ohne Auswirkung auf Noten: Bezug auf den neuen Regelkanon als verbindlichen Regeltext (Einleitung, A 2); I 6 an die neu gefasste Regel A6 angeglichen. Die Datenregeln Q-01 bis Q-23 sind unverändert.
+Version 1.2.25 vom 25. Oktober 2026, ohne Auswirkung auf Noten: gemeinsame Version mit dem fortgeschriebenen Regelkanon (Belegsicherheit und Gate-Warnung nach dem vorsichtigeren Wert beider Prüfungen, Höchstanteil außerhalb der Matrix); I 6 um das Datum der Einzelentscheidung nach A6 ergänzt. Die Datenregeln Q-01 bis Q-23 sind unverändert.
+Version 1.2.26 vom 27. Oktober 2026, ohne Auswirkung auf Noten: gemeinsame Version mit Regelkanon und Excel-Datei; die Datenregeln Q-01 bis Q-23 sind unverändert.
+Version 1.2.27 vom 28. Oktober 2026, ohne Auswirkung auf Noten: gemeinsame Version mit Regelkanon und Excel-Datei; die Datenregeln Q-01 bis Q-23 sind unverändert. Der Export der Börse ist ein Rohbeleg nach Q-07: Er wird unverändert mit Prüfsumme abgelegt; der Weg der Übernahme steht im Betriebsdokument Erstprüfung, Teil C 7.
+Version 1.2.28 vom 31. Oktober 2026, ohne Auswirkung auf Noten: gemeinsame Version mit Regelkanon und Excel-Datei; die Datenregeln Q-01 bis Q-23 sind unverändert. Sollte ein Prüfauftrag zu Chartkonstellationen nach Kanon § 34 später zu einer Regel führen, werden die Rechenwege der Indikatoren hier in Q-21 festgelegt.
+Version 1.2.29 vom 1. November 2026, ohne Auswirkung auf Noten, nach der Gegenprüfung durch die Zweitprüfung: Q-04 nennt den Gesamtwert nicht mehr als Schwelle und regelt, was gilt, wenn kein Primärbeleg gelingt; der Testfall zur Kurslücke verlangt bestätigte Ausführungen und enthält eine Teilausführung; der Testfall zum Orderbuch nennt das vollständige Testorderbuch; manuell aufgenommene Coins bleiben im Beobachtungsuniversum (I 2); die Begründung zu Coins ohne messbare Erträge im Ertragsradar ist berichtigt (I 6).
+Version 1.2.30 vom 1. November 2026, ohne Auswirkung auf Noten: gemeinsame Version mit Regelkanon und Excel-Datei; die Datenregeln Q-01 bis Q-23 sind unverändert.
+Version 1.2.31 vom 2. November 2026, ohne Auswirkung auf Noten: gemeinsame Version mit dem Regelkanon, der in § 6 Absatz 3 aktualisierbare Token-Verträge ohne Zeitsperre und ohne Abstimmung als Ausschlussgrund bestimmt; in C 7 ist der Zweck des Explorers um diese Vertragsrechte ergänzt. Die Datenregeln Q-01 bis Q-23 sind unverändert.
+
+Ende der Datenquellen-Verfassung, Version 1.2.31.

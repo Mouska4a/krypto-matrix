@@ -1,0 +1,447 @@
+REGELKANON DER KRYPTO-BEWERTUNGSMATRIX
+Version 1.2.31 vom 2. November 2026 · verbindliche Festlegungen · Bewertungskern Version 1.1 eingefroren seit 17. Oktober 2026 · ergebnisfrei
+
+
+EINLEITUNG: WOZU DIESER KANON DIENT
+
+Dieser Regelkanon enthält alle verbindlichen Festlegungen der Krypto-Investment-Strategie, und nur diese. Er sagt, was gilt, nicht warum. Die Gründe, Beispiele und die wirtschaftlichen Zusammenhänge erklärt die Gesamtdarstellung; sie ist bewusst ausführlich und für Laien geschrieben, aber nicht verbindlich. Wo die Gesamtdarstellung eine Regel anders oder ungenauer wiedergibt, gilt dieser Kanon.
+
+Der Kanon ist in Paragrafen gegliedert, abgekürzt §, und diese in nummerierte Absätze. Die eingeführten Kennungen bleiben erhalten: F1 bis F7 für die Qualitätskriterien, Z1 bis Z7 für die Prüfpunkte der Kaufprüfung, A1 bis A13 für die Depot- und Verkaufsregeln, N1 bis N6 für die Notfallregeln, V1 bis V8 für das Vergleichsmodul und D-01 bis D-20 für die Definitionen im Anhang. Die Datenregeln Q-01 bis Q-23 stehen im Wortlaut in der Datenquellen-Verfassung; der Kanon verweist auf sie.
+
+Sprachregeln für das Lesen: „mindestens“ und „höchstens“ schließen den genannten Wert ein, „mehr als“ und „weniger als“ schließen ihn aus. Prozentangaben werden in der Excel-Datei als Dezimalzahl geführt, 25 Prozent als 0,25. Ein Wert, der als „Startwert“ bezeichnet ist, gilt verbindlich, wird aber zu einem festen Termin überprüft (§ 35). Hinter jedem Paragrafen steht, wo die Gesamtdarstellung ihn erläutert.
+
+
+GLIEDERUNG
+
+- Teil 0. Geltung (§ 1 bis § 3)
+- Teil I. Stufe 1: Bewertung eines Coins (§ 4 bis § 16)
+- Teil II. Stufe 2: Kaufprüfung (§ 17 bis § 22)
+- Teil III. Stufe 3: Depot, Verkauf, Notfälle und Steuer (§ 23 bis § 30)
+- Teil IV. Protokoll, Erfolgskontrolle und Vergleich (§ 31 bis § 35)
+- Anhang. Definitionen D-01 bis D-20
+- Änderungsvermerk
+
+
+TEIL 0. GELTUNG
+
+
+§ 1 Regelwerk und Rangfolge
+(1) Das Regelwerk der Krypto-Investment-Architektur besteht aus drei Bausteinen: diesem Regelkanon, der Datenquellen-Verfassung und der Krypto-Bewertungsmatrix als Excel-Datei. Die Excel-Datei besteht aus der Arbeitsfassung der Erstprüfung und der daraus erzeugten Prüffassung mit fiktiven Test-Coins.
+(2) Angewandt wird das Regelwerk über zwei Betriebsdokumente, eines für die Erstprüfung und eines für die Zweitprüfung. Sie enthalten Anweisungen und Arbeitsabläufe, aber keine eigenen Regeln.
+(3) Die Gesamtdarstellung erklärt das Regelwerk. Sie ist nicht verbindlich und nennt den Stand des Kanons, den sie erklärt.
+(4) Rangfolge: Für die Regeln gilt dieser Kanon. Für die Datenregeln Q-01 bis Q-23 gilt der Wortlaut der Datenquellen-Verfassung. Die Definitionen D-01 bis D-20 im Anhang dieses Kanons gehen der Datenquellen-Verfassung vor.
+(5) Die Excel-Datei ist das Rechenwerkzeug. Weicht eine Formel vom Kanon ab, ist die Formel fehlerhaft und wird berichtigt; bis dahin wird nach dem Kanon entschieden. Für Coin-Daten, Bestände und Ergebnisse gilt der neueste Stand der Arbeitsfassung.
+(6) Weichen Gesamtdarstellung oder Betriebsdokumente vom Kanon ab, ist das ein Fehler dieser Dokumente.
+(7) Eine neuere Version geht einer älteren vor. Ein Widerspruch, der sich nach diesen Regeln nicht auflösen lässt, wird dem Anleger zur Entscheidung vorgelegt; nichts wird stillschweigend geändert.
+Erläuterung: Gesamtdarstellung, Einleitung und Anhang E.
+
+
+§ 2 Einfrieren, Änderungen, Zuständigkeiten
+(1) Der Bewertungskern ist seit dem 17. Oktober 2026 als Version 1.1 eingefroren. Zu ihm gehören die Gewichte und Klassengrenzen (§ 7), die Notenskalen F1 bis F7 (§ 7), die Punktschwellen und die Gewichtung der Bewertungsnote (§ 9), die Mindestbewertung von 30 (§ 14), die Schwellen des Angebots-Gates (§ 11), die Gewichtung des Gesamtwerts (§ 13), die Statusreihenfolge (§ 14) und die Definitionen D-01 bis D-20.
+(2) Der Kern wird nie im Einzelfall geändert. Ein auffälliges Ergebnis wird regelgerecht berechnet; die Auffälligkeit wird als Beobachtung mit fortlaufender Kennung K-01, K-02 und so weiter im Blatt „Kalibrierung“ der Arbeitsfassung festgehalten.
+(3) Jede Regeländerung bedarf der ausdrücklichen Entscheidung des Anlegers. Sie gilt für alle Coins. Mit ihr werden Kanon, Datenquellen-Verfassung (soweit betroffen), Arbeitsfassung, Prüffassung, beide Betriebsdokumente und die Gesamtdarstellung gemeinsam fortgeschrieben und erhalten eine gemeinsame neue Versionsnummer.
+(4) Kauf- und Verkaufsentscheidungen trifft ausschließlich der Anleger. Aufträge bei der Börse setzt, ändert und löscht nur er. Ein Schnittstellenschlüssel mit Handelsrechten wird nicht angelegt.
+(5) Keine Regel und keine Entscheidung hängt von einer Steuerberatung ab; ein Steuerberater ist nicht Teil des Investmentprozesses.
+Erläuterung: Gesamtdarstellung Kapitel 1.
+
+
+§ 3 Begriffe
+(1) Kryptodepot: Summe der Euro-Werte aller Kryptobestände des Anlegers.
+(2) Grundeinheit, kurz GE: 10 Prozent des Kryptodepots.
+(3) Kandidatenstatus: die Status Kernkandidat, Ergänzungskandidat und Satellit.
+(4) Erstbewertung und Zweitprüfung: die beiden unabhängigen Bewertungen nach § 16. Gültiger Status: der Status nach § 16 Absatz 4.
+(5) Positionen in der Matrix und außerhalb der Matrix: nach § 23 Absatz 2.
+(6) Teilkauf: einer der drei Limitaufträge nach § 20. Limitauftrag: Auftrag, der nur zum genannten Preis oder günstiger ausgeführt wird.
+(7) Bitvavo: die Börse, an der gekauft und verkauft wird; maßgeblich ist der Euro-Markt des Coins.
+(8) Datenstand: eingefrorene, datierte Gesamtheit aller abgerufenen Rohdaten nach der Datenquellen-Verfassung.
+(9) Freier Umlauf: nach D-14. Voll verwässerte Bewertung, kurz FDV: nach D-05. Jahreswert: nach D-03.
+
+
+TEIL I. STUFE 1: BEWERTUNG EINES COINS
+
+
+§ 4 Universum und Neuzugänge
+(1) Das Kernuniversum umfasst alle Euro-Märkte von Bitvavo am Stichtag und alle eigenen Bestände. Das Beobachtungsuniversum umfasst Coins ohne Euro-Markt auf Bitvavo, die der Ertragsradar findet oder deren Einzelprüfung der Anleger verlangt.
+(2) Für jeden Coin beider Universen werden alle in Frage kommenden Quellen abgefragt (Q-12). Ein Coin scheidet nur aufgrund von Daten aus, nie aufgrund einer Vermutung.
+(3) Listungsabgleich mindestens wöchentlich, Bewertung neuer Märkte binnen sieben Tagen, sofortige Meldung eingestellter Märkte mit eigenem Bestand (Q-18). Ertragsradar monatlich mit den vier Aufnahmebedingungen von Q-19. Wiedervorlage junger Ertragsmechanismen am 90. vollen Tag (Q-20).
+(4) Für beide Universen gelten dieselben Regeln.
+Erläuterung: Gesamtdarstellung Kapitel 4.
+
+
+§ 5 Klassen
+(1) Jeder Coin wird genau einer Klasse zugeordnet. Maßgeblich ist, womit das Projekt tatsächlich sein Geld verdient, nicht seine Selbstbeschreibung. Die Zuordnung wird begründet.
+(2) Klassen mit Hauptkennzahl und Kontrollkennzahl, jeweils mit dem Kennzahltyp nach § 9:
+- Geldwert-Asset: Hauptkennzahl MVRV (Typ Monetär); Kontrollkennzahl Kurs geteilt durch 200-Wochen-Durchschnitt (Typ Monetär-Trend).
+- Plattform mit Geldfunktion: MVRV (Monetär); Burn geteilt durch Emission (Deckungsquote).
+- Plattform, Layer 1 oder Layer 2: FDV geteilt durch Nettogebühren eines Jahres (Multiplikator Plattform); Burn geteilt durch Emission (Deckungsquote).
+- DeFi und Cashflow: FDV geteilt durch Halter-Erträge eines Jahres (Multiplikator Ertrag); Wachstum der Halter-Erträge über zwölf Monate (Wachstum).
+- Oracle, Daten und Infrastruktur: FDV geteilt durch Protokollumsatz eines Jahres (Multiplikator Umsatz); Anteil des Tokens am Protokollumsatz (Anteil).
+- Compute, künstliche Intelligenz und DePIN: FDV geteilt durch externen Serviceumsatz eines Jahres (Multiplikator Umsatz); externer Umsatz geteilt durch Token-Anreize (Deckungsquote).
+- RWA-Infrastruktur: FDV geteilt durch Protokollumsatz eines Jahres (Multiplikator Umsatz); Anteil des Tokens am Protokollumsatz (Anteil).
+- Gaming und Konsum: FDV geteilt durch Nettoumsatz mit Spielern eines Jahres (Multiplikator Umsatz); Umsatz geteilt durch Anreize an Spieler (Deckungsquote).
+- Meme und Marke: keine Kennzahl; die Bewertungsnote entfällt.
+(3) Nur bei Geldwert-Assets darf die Kontrollkennzahl die fehlende Hauptkennzahl ersetzen.
+Erläuterung: Gesamtdarstellung Kapitel 5.
+
+
+§ 6 Dauerhafte Ausschlussgründe
+(1) Ein Coin ist dauerhaft ausgeschlossen, wenn einer dieser Gründe vorliegt: a) Unzulässigkeit für den Handel in der Europäischen Union, insbesondere nach MiCA oder ab dem 10. Juli 2027 nach Artikel 79 der AMLR; b) Projekt eingestellt oder seit mehr als zwölf Monaten ohne Entwicklung; c) einseitig änderbare oder enteignungsfähige Token-Rechte, etwa eine unbegrenzte Prägung durch eine Firma; d) nachgewiesener Betrug oder Marktmanipulation durch das Team; e) F7 gleich null.
+(2) Der Grund wird angegeben und belegt. Eine zuschaltbare Privatsphäre-Funktion allein ist kein Ausschlussgrund nach a; maßgeblich ist der konkret nachgewiesene Konflikt mit dem Handel in der Europäischen Union.
+(3) Ein einseitig änderbares Token-Recht nach Absatz 1 Buchstabe c liegt auch vor, wenn der Vertrag des Tokens aktualisierbar ist, seine Programmlogik also ausgetauscht werden kann, und diese Änderung weder an eine Zeitsperre von mindestens 48 Stunden noch an eine Abstimmung der Tokenhalter gebunden ist. Als Abstimmung der Tokenhalter gilt auch die Entscheidung eines Gremiums, das von den Tokenhaltern gewählt wird und von ihnen abgewählt werden kann. Ein Prägerecht bis zu einer vertraglich festen Höchstmenge ohne Austausch der Programmlogik fällt nicht darunter; es wird über das Angebots-Gate und F6 erfasst (D-04, D-17). Eigenständige Coins ohne Token-Vertrag fallen nicht darunter; Änderungen ihres Protokolls bewertet F7. Nachgewiesen wird am Vertrag im Blockchain-Explorer: Aktualisierbarkeit, Eigentümer oder Berechtigte, Zeitsperre und Abstimmungsweg. Die Mindestdauer der Zeitsperre ist ein Startwert (§ 35).
+Erläuterung: Gesamtdarstellung Kapitel 8; Datenquellen-Verfassung C 12.
+
+
+§ 7 Qualitätsnote F1 bis F7
+(1) Jedes Kriterium erhält eine ganze Note von 0 bis 5. Bewertet wird nur der heute belegte Zustand; Geplantes und Erhofftes zählt nicht und wird gesondert als unbewertetes Potenzial (Thesis Upside) festgehalten.
+(2) Gewichte: F1 externer Bedarf 10 Prozent, F2 wirtschaftlicher Beleg 20, F3 Burggraben 15, F4 Token-Notwendigkeit 10, F5 Wertrückfluss 20, F6 Angebotsentwicklung 15, F7 Widerstandsfähigkeit 10.
+(3) Qualitätsnote = Summe aus Note mal Gewicht, geteilt durch 5, mal 100, kaufmännisch auf eine ganze Zahl gerundet. Sie wird nur berechnet, wenn alle sieben Noten vergeben sind.
+(4) Qualitätsklassen: A+ ab 85, A ab 75, B ab 65, C ab 55, Option ab 45, darunter D.
+(5) F1, externer Bedarf, gemessen am Markt außerhalb der Kryptowelt, nicht an der Nutzung des Projekts: 0 selbstbezogen; 1 unklare Nische; 2 realer, aber kleiner oder stagnierender Markt; 3 großer, etablierter Markt; 4 großer und deutlich wachsender Markt; 5 globaler Strukturmarkt mit hohem Wachstum. Obergrenzen nach D-18.
+(6) F2, wirtschaftlicher Beleg: 0 keine Aktivität; 1 nur Whitepaper oder Fahrplan; 2 Pilot, gering oder überwiegend durch Token-Belohnungen erkauft; 3 reale zahlende Nutzung nachgewiesen; 4 stark wachsender realer Umsatz, mindestens 20 Prozent im Jahr oder steigender Marktanteil; 5 großer, etablierter, vielfältiger Umsatz über mehrere Jahre, unter den drei Größten der Kategorie. Überwiegend durch Belohnungen erkaufte Nutzung höchstens 2. Partnerschaften, Absichtserklärungen und gebundenes Kapital sind kein Beleg. Umsätze zwischengeschalteter Firmen nach D-12.
+(7) F3, Burggraben: 0 austauschbar; 1 geringer Vorsprung; 2 Nischenführer, aber angreifbar; 3 klare Führung mit mindestens einem robusten Burggraben; 4 kategorieprägend mit mehreren Burggräben und stabilem oder steigendem Marktanteil; 5 Kategoriestandard, dessen Nachbau Jahre dauern würde. Ein Vorsprung, der nur auf Belohnungsprogrammen beruht, ist kein Burggraben.
+(8) F4, Token-Notwendigkeit: 0 bedeutungslos; 1 nur für Abstimmungen; 2 optional, etwa für Rabatte; 3 für Anbieter nötig; 4 Nutzer oder Anbieter müssen den Token erwerben oder sperren; 5 zwingend für jede Transaktion und nicht umgehbar. Geldwert-Assets erhalten immer 5.
+(9) F5, Wertrückfluss, als Quote des tatsächlich über Rückkauf, Burn, Ausschüttung oder dauerhafte Sperre beim Token angekommenen Anteils am Protokollumsatz der letzten zwölf abgeschlossenen Monate: 0 kein Zusammenhang; 1 nur geplant; 2 eingeführt, aber unter 10 Prozent oder nur mittelbar; 3 von 10 bis 30 Prozent; 4 über 30 bis 70 Prozent, aus Erträgen finanziert; 5 über 70 Prozent, im Vertrag verankert, proportional und ohne Abfluss an eine Firma. Obergrenzen: beschlossener Rückkauf ohne gemessenes Volumen höchstens 2; jederzeit durch Firma oder Abstimmung änderbar höchstens 4; in den letzten zwölf Monaten ausgesetzt höchstens 2; derzeit nicht laufend höchstens 1; unmessbare Aufteilung weiterer Einnahmen vorläufig höchstens 2 (D-07). Gehaltene Rückkäufe ohne Sperre von mindestens zwölf Monaten eine Stufe weniger (D-16). Nenner nach D-02, Vergütung der Netzbetreiber nach D-01. Geldwert-Assets nach D-15; dort darf F5 nicht höher sein als F2.
+(10) F6, Angebotsentwicklung über 36 Monate, als jährliche Wachstumsrate des freien Umlaufs nach D-08: 0 über 30 Prozent im Jahr oder unbegrenzt nach D-17; 1 über 15 bis 30 Prozent; 2 über 7 bis 15 Prozent oder Insider halten mehr als 40 Prozent der künftigen Freigaben; 3 über 3 bis 7 Prozent; 4 über 1 bis 3 Prozent und mindestens 70 Prozent der Höchstmenge im Umlauf; 5 höchstens 1 Prozent netto oder schrumpfend und mindestens 90 Prozent im Umlauf. Gezählt wird die vertraglich mögliche Menge (D-04). Ist bei Note 4 oder 5 die Bedingung zum Anteil der Höchstmenge im Umlauf nicht erfüllt, gilt die höchste Note, deren Bedingungen sämtlich erfüllt sind.
+(11) F7, Widerstandsfähigkeit: 0 existenzbedrohend; 1 starke Zentralisierung oder schwerer Vorfall in den letzten zwölf Monaten; 2 deutliche Abhängigkeit von einer Firma oder Stiftung; 3 solide mit Einzelrisiken; 4 robust, mehrjährig ohne schwere Vorfälle; 5 höchste Dezentralität, über fünf Jahre bewährt. Prüfliste mit Belegpflicht: Rechte zum Prägen, Ändern, Einfrieren und Aktualisieren der Verträge; Anteil der zehn größten Adressen ohne Börsen; Reichweite und Finanzierung der Projektkasse; einseitige Änderbarkeit von Emission, Gebühren oder Ausschüttungen; Brücken; sich selbst stützende Mechanismen. Ein existenzbedrohender sich selbst stützender Mechanismus ergibt 0.
+(12) Für F1, F3 und F7 wird mindestens ein Begründungssatz mit Quelle festgehalten.
+Erläuterung: Gesamtdarstellung Kapitel 6 und Anhang B.
+
+
+§ 8 Thesis Upside und Thesis Gap
+(1) Zu jedem Coin werden das unbewertete Potenzial (Thesis Upside), der noch fehlende Beweis (Thesis Gap), die Anlässe einer Neubewertung und das Datum der Wiedervorlage festgehalten.
+(2) Thesis Upside verändert keine Note.
+Erläuterung: Gesamtdarstellung Kapitel 8.
+
+
+§ 9 Bewertungsnote
+(1) Die Bewertungsnote, kurz VS, beträgt 0,6 mal Punkte der Hauptkennzahl plus 0,4 mal Punkte der Kontrollkennzahl, kaufmännisch gerundet.
+(2) Punkte je Kennzahltyp, jeweils 100, 80, 60, 40 und 20 Punkte, sonst 0. Bei „niedriger ist besser“ gilt die Stufe, wenn der Wert höchstens die Schwelle erreicht; bei „höher ist besser“, wenn er mindestens die Schwelle erreicht.
+- Monetär (MVRV), niedriger besser: 1; 1,5; 2,5; 3,5; 5.
+- Monetär-Trend (Kurs zu 200-Wochen-Durchschnitt), niedriger besser: 1; 1,5; 2; 3; 4.
+- Multiplikator Plattform, niedriger besser: 25; 50; 100; 200; 400.
+- Multiplikator Ertrag, niedriger besser: 10; 20; 40; 80; 150.
+- Multiplikator Umsatz, niedriger besser: 10; 25; 50; 100; 200.
+- Deckungsquote, höher besser: 1; 0,5; 0,25; 0,1; 0,05.
+- Anteil, höher besser: 0,5; 0,3; 0,15; 0,05; 0,01.
+- Wachstum, höher besser: 0,5; 0,2; 0; minus 0,2; minus 0,4.
+(3) Ergibt die Hauptkennzahl 0 Punkte, ist die Bewertungsnote 0.
+(4) Fehlt die Hauptkennzahl, bleibt die Bewertungsnote leer; nur bei Geldwert-Assets gilt dann die Kontrollkennzahl allein.
+(5) Fehlt nur die Kontrollkennzahl, gilt die Hauptkennzahl allein.
+(6) Ist ein Ertrag nachweislich null, wird der Multiplikator mit 9999 eingetragen; ist er nur nicht messbar, bleibt das Feld leer.
+(7) Bei Meme und Marke entfällt die Bewertungsnote.
+(8) Bewertungssignal für die Kaufprüfung (Z4): günstig ab 60, neutral ab 40, darunter teuer; bei Bitcoin bei vorhandenem MVRV: günstig bis 1,5, neutral bis 2,5, darüber teuer.
+Erläuterung: Gesamtdarstellung Kapitel 7 und Anhang B.
+
+
+§ 10 Zeitbasis der Kennzahlen
+(1) Jahreswerte, Junge Historie und Beginn nach D-03; Wachstum nach D-06; Run-Rate-Warnung nach D-09; Frist für Datenmangel nach D-13; FDV nach D-05.
+(2) Zwei aufeinanderfolgende Quartale mit einer Run-Rate-Abweichung nach D-09 außerhalb von plus oder minus 50 Prozent lösen eine sofortige Neubewertung aus.
+Erläuterung: Gesamtdarstellung Kapitel 7 und Anhang D.
+
+
+§ 11 Angebots-Gate
+(1) Maßstab ist das Wachstum des freien Umlaufs in den nächsten zwölf Monaten, Zuwachs genannt, und die Absorptionsquote: Rückkauf plus Burn plus neue Sperren von mindestens zwölf Monaten in diesem Zeitraum, geteilt durch die neu in Umlauf kommenden Token. Jeder Token wird nur einmal gezählt; jederzeit lösbares Staking ist keine Sperre.
+(2) Ergebnis in dieser Reihenfolge: Lässt sich der Zuwachs nicht bestimmen, lautet das Gate „offen“. Beträgt der Zuwachs mehr als 15 Prozent und die Absorptionsquote weniger als 25 Prozent oder ist sie nicht bestimmbar, lautet es „Investment-Sperre“. Beträgt der Zuwachs sonst mehr als 30 Prozent, lautet es „Warnung“. Sonst lautet es „ok“.
+(3) Mengen nach D-04, D-08, D-10, D-11, D-14 und D-19.
+(4) Eine Warnung halbiert die Positionsgrenze nach § 23 und die Grenze für Käufe nach A6 (§ 27).
+Erläuterung: Gesamtdarstellung Kapitel 3 und 8.
+
+
+§ 12 Belegsicherheit
+(1) Die Belegsicherheit, kurz EC, wird nach der Richtschnur D-20 in den Stufen A, B, C oder D festgelegt; Abweichungen von der Richtschnur nur mit schriftlicher Begründung.
+(2) Faktor für die Positionsgrenze in der Matrix: A 1, B 1, C 0,5, D 0. Belegsicherheit D lässt keine neuen Käufe zu; ein Bestand darf nach A3 gehalten werden.
+(3) Eine Kennzahl mit junger Historie hat höchstens Belegsicherheit B (D-03); ein Freigabeplan nur aus offiziellem Rahmen höchstens C (D-10).
+Erläuterung: Gesamtdarstellung Kapitel 8.
+
+
+§ 13 Gesamtwert
+(1) Gesamtwert, kurz IPS = 0,75 mal Qualitätsnote plus 0,25 mal Bewertungsnote, kaufmännisch gerundet. Fehlt die Bewertungsnote, bleibt er leer, außer bei Meme und Marke; dort entspricht er der Qualitätsnote.
+(2) Der Gesamtwert dient nur der Rangfolge innerhalb einer Statusgruppe. Er begründet keine Kaufberechtigung.
+Erläuterung: Gesamtdarstellung Kapitel 7.
+
+
+§ 14 Investmentstatus
+(1) Der Status folgt aus diesen zwölf Regeln; die erste zutreffende Regel gilt.
+1. Ein dauerhafter Ausschlussgrund nach § 6 liegt vor: „Ausschluss (permanent)“.
+2. Die sieben Noten F1 bis F7 sind nicht vollständig vergeben: „unvollständig“.
+3. F7 ist 0: „Ausschluss (permanent)“.
+4. Belegsicherheit D: „Keine Position – Daten klären“.
+5. F4 und F5 sind beide 0, oder die Qualitätsklasse ist D: „Kein Kandidat“.
+6. Gate „Investment-Sperre“: „Investment-Sperre bis Wiedervorlage“.
+7. Qualitätsklasse Option: „Optionsliste“.
+8. Die Klasse hat eine Kennzahl, und die Bewertungsnote ist leer: „Bewertung ausstehend“.
+9. Bewertungsnote unter 30: „Qualität ja – Bewertung abwarten“.
+10. Gate „offen“: „Angebot klären – kein Zukauf“.
+11. Kein Euro-Markt auf Bitvavo: „Kandidat – derzeit nicht handelbar“.
+12. Sonst nach Qualitätsklasse: A+ und A „Kernkandidat“, B „Ergänzungskandidat“, C „Satellit“.
+(2) Die Statusbezeichnungen werden im Wortlaut verwendet.
+Erläuterung: Gesamtdarstellung Kapitel 8.
+
+
+§ 15 Wiedervorlage und sofortige Neubewertung
+(1) Regelmäßige Wiedervorlage: Kernkandidaten halbjährlich; Ergänzungskandidaten, Satelliten, Optionsliste, „Bewertung ausstehend“ und „Angebot klären – kein Zukauf“ vierteljährlich; gesperrte Coins zum Ende ihrer stärksten Freigabephase; junge Historie nach Q-20.
+(2) Sofort neu bewertet wird bei: zwei Quartalen nach § 10 Absatz 2; zwei Quartalen sinkender Gebühren; Änderung der Tokenomics; Ende der letzten großen Insider-Freigabe; Änderung, Senkung oder Aussetzung des Wertrückflusses; neuem Freigabe- oder Emissionsplan; Insider-Transfer nach Absatz 3; Sicherheitsvorfall; entscheidungsrelevanter regulatorischer Änderung.
+(3) Ein Insider-Transfer liegt vor, wenn Token aus Beständen des Teams, der Investoren oder der Projektkasse außerhalb eines veröffentlichten Freigabeplans an eine Börse übertragen werden und diese Übertragungen innerhalb von 30 Tagen zusammen mindestens 1 Prozent des freien Umlaufs erreichen. Nachweis nach Q-11 nur über vom Projekt selbst veröffentlichte Adressen und den Beleg im Blockchain-Explorer; Zuordnungen von Analyseanbietern sind nur ein Hinweis. Geprüft wird für Coins mit offenen Aufträgen, eigenen Beständen oder Kandidatenstatus. Die Schwelle ist ein Startwert.
+(4) Bleibt der fehlende Beweis (Thesis Gap) bis zur zweiten Wiedervorlage offen, gilt A5.
+Erläuterung: Gesamtdarstellung Kapitel 11 und 14.
+
+
+§ 16 Zweitprüfung
+(1) Jeder Coin, dessen Erstbewertung einen Kandidatenstatus ergibt, wird von einer unabhängigen Zweitprüfung blind wiederholt. Die Zweitprüfung erhält diesen Kanon, die Datenquellen-Verfassung, den Coin und das eingefrorene Datenpaket, für Formelprüfungen die Prüffassung. Sie erhält nie Ergebnisse der Erstbewertung, die Arbeitsfassung, das Betriebsdokument der Erstprüfung, Protokoll, Tranchen, Kalibrierung, Änderungsprotokoll oder Material des Vergleichsmoduls.
+(2) Die Zweitprüfung prüft auch die Daten, im Umfang von Teil G der Datenquellen-Verfassung.
+(3) Ergebnis je Coin: eine Zeile mit Prüfdatum, F1 bis F7, Bewertungsnote, Belegsicherheit, Gate und Status.
+(4) Gültiger Status: das schriftlich festgehaltene Ergebnis nach Abgleich, sonst der vorsichtigere der beiden Status nach dieser Rangfolge, vom vorsichtigsten an: Ausschluss (permanent); Keine Position – Daten klären; unvollständig; Kein Kandidat; Investment-Sperre bis Wiedervorlage; Optionsliste; Bewertung ausstehend; Qualität ja – Bewertung abwarten; Angebot klären – kein Zukauf; Kandidat – derzeit nicht handelbar; Satellit; Ergänzungskandidat; Kernkandidat.
+(5) Jede Abweichung wird auf Daten, Definition oder Deutung zurückgeführt. Als abweichend gelten ein anderer Status, ein anderes Gate, eine andere Belegsicherheit, eine Abweichung der Qualitätsnote um mindestens 5 Punkte, eines Kriteriums um mindestens 2 Noten oder der Bewertungsnote um mindestens 20 Punkte. Ein Ergebnis nach Abgleich wird nur eingetragen, wenn die Abweichung schriftlich aufgelöst ist, durch Regel, Beleg oder belastbare Schranke nach Q-04.
+(6) Kaufprüfung und Depotregeln richten sich immer nach dem gültigen Status. Für den Faktor der Belegsicherheit nach § 12 Absatz 2 und die Halbierung bei Gate-Warnung nach § 11 Absatz 4 gilt der vorsichtigere Wert aus Erstbewertung und Zweitprüfung, bis die Abweichung schriftlich aufgelöst ist (Ergebnis nach Abgleich mit Begründung); danach gelten die nach dem Abgleich berichtigten Werte der Erstbewertung. Ebenso zählt eine Position mit dem Status „Qualität ja – Bewertung abwarten“ nur dann zur Matrix (§ 23 Absatz 2), wenn eine Zweitprüfung vorliegt, ihre Ergebniszeile nach Absatz 3 also mit Status eingetragen ist, und das Gate in beiden Prüfungen „ok“ oder „Warnung“ lautet; ohne Zweitprüfung liegt sie außerhalb der Matrix. Übergang: Bis zum 31. Dezember 2026 genügt ohne Zweitprüfung das Gate der Erstbewertung; die Zweitprüfung wird bis dahin nachgeholt.
+Erläuterung: Gesamtdarstellung Kapitel 9; Datenquellen-Verfassung Teil G.
+
+
+TEIL II. STUFE 2: KAUFPRÜFUNG
+
+
+§ 17 Anwendungsbereich und Kursdaten
+(1) Die Kaufprüfung gilt für Coins mit gültigem Kandidatenstatus nach Zweitprüfung und für Käufe außerhalb der Matrix nach § 27.
+(2) Alle Kurswerte werden nach Q-21 aus abgeschlossenen Tageskerzen des Euro-Markts von Bitvavo berechnet; ein fehlgeschlagener Abruf wird wiederholt und ist keine Lücke. Werte des Anlegers oder aus einem Bildschirmfoto nur, wenn der Abruf auch nach Wiederholung scheitert, mit dem Vermerk „Nutzerwert“.
+(3) Hat ein Markt weniger als 200 abgeschlossene Tage auf Bitvavo oder ist der 200-Tage-Durchschnitt nach Q-21 nicht bestimmbar, gilt der Trend des Coins als nicht erfüllt.
+(4) Der Marktfilter verlangt Kurs und 200-Tage-Durchschnitt von Bitcoin am Prüftag. Fehlen sie, ist das Ergebnis der Kaufprüfung „Werte fehlen“; das gilt nicht für Bitcoin selbst.
+Erläuterung: Gesamtdarstellung Kapitel 11.
+
+
+§ 18 Prüfpunkte Z1 bis Z5
+(1) Z1, Überhitzung: Der Kurs liegt höchstens 30 Prozent über dem 50-Tage-Durchschnitt, und die Veränderung über 30 Tage beträgt höchstens plus 100 Prozent.
+(2) Z2, Liquidität am Ausführungsort: Es gibt einen Euro-Markt auf Bitvavo mit dem Status „handelbar“; der Median des Tagesumsatzes der letzten 30 abgeschlossenen Tage auf Bitvavo beträgt mindestens 20.000 Euro; der Spread beträgt höchstens 1 Prozent. Der Umsatz aller Börsen ist kein Prüfmaß. Startwerte.
+(3) Z3, Trend und Gesamtmarkt: „Aufwärtstrend von Coin und Markt“ liegt vor, wenn der Kurs des Coins nicht unter seinem 200-Tage-Durchschnitt liegt und, außer bei Bitcoin, der Bitcoin-Kurs nicht unter dem 200-Tage-Durchschnitt von Bitcoin liegt. Die relative Stärke über 90 Tage, kurz RS90, beträgt (1 plus Kursveränderung des Coins) geteilt durch (1 plus Kursveränderung von Bitcoin) minus 1. Im Aufwärtstrend von Coin und Markt ist RS90 ein erforderlicher Wert nach § 19 Nummer 3; ein fehlender oder nicht bestimmbarer Wert gilt nie als nicht negativ.
+(4) Z4, Bewertungssignal nach § 9 Absatz 8.
+(5) Z5, Freigabefenster: kein Kauf von 30 Tagen vor bis 14 Tage nach der größten erfassten Freigabe. Maßgeblich ist das größte einzelne Freigabeereignis der nächsten zwölf Monate, gemessen am freien Umlauf; bei gleich großen Ereignissen das nächstliegende. Gleichmäßige laufende Freigaben fallen nicht darunter; sie erfassen das Gate und F6.
+(6) Ergänzend werden nach Q-23 das Kaufvolumen bis 1 Prozent unter dem Mittelkurs und der rechnerische Abschlag beim Verkauf der größten Teilposition erfasst. Übersteigt der Abschlag 2 Prozent, erscheint ein Hinweis; eine Sperre folgt daraus nicht. Startwert.
+Erläuterung: Gesamtdarstellung Kapitel 10 und 11.
+
+
+§ 19 Ergebnis der Kaufprüfung für Kandidaten
+Die erste zutreffende Regel gilt.
+1. Kandidatenstatus der Erstbewertung ohne Zweitprüfung: „Zweitprüfung fehlt“, kein Kauf.
+2. Gültiger Status ist kein Kandidatenstatus: kein Kauf als Kandidat; Käufe außerhalb der Matrix nur nach § 27.
+3. Erforderliche Werte fehlen: „Werte fehlen“.
+4. Ein Tag hat unter der Ungültigkeitsmarke eines Szenarios nach § 20 Absatz 4 geschlossen: kein Kauf.
+5. Z1 nicht erfüllt: kein Kauf, „überhitzt“.
+6. Z2 nicht erfüllt: kein Kauf, „Liquidität“.
+7. Im Freigabefenster nach Z5: kein Kauf.
+8. Aufwärtstrend von Coin und Markt: drei Teilkäufe; ist RS90 negativ, nur der erste Teilkauf.
+9. Sonst bei Bewertungssignal „günstig“: drei Teilkäufe mit weiten Abständen. Ohne Bewertungsnote, etwa bei Meme und Marke, gibt es kein Bewertungssignal; diese Nummer entfällt dann.
+10. Sonst: nur der erste Teilkauf.
+Erläuterung: Gesamtdarstellung Kapitel 11.
+
+
+§ 20 Teilkäufe
+(1) Gekauft wird mit bis zu drei Limitaufträgen, gültig bis zur Löschung, längstens 90 Tage. Anteile am zulässigen Zukauf nach § 21: 25, 35 und 40 Prozent.
+(2) Abstände unter dem Kurs am Prüftag: bei Aufwärtstrend von Coin und Markt 3, 8 und 15 Prozent, sonst 5, 15 und 30 Prozent.
+(3) Ein Auftrag zum Marktpreis wird nie empfohlen.
+(4) Ein Strukturmodell, etwa nach Elliott-Wellen, darf nur als festgeschriebenes Szenario verwendet werden: Hauptzählung, Alternative, Ungültigkeitsmarke, Zielzonen, Zeitstempel, ohne Eintrittswahrscheinlichkeiten ohne Beleg. Schließt ein Tag unter der Ungültigkeitsmarke, wird die Löschung der offenen Kaufaufträge empfohlen; verkauft wird nichts. Fibonacci-Zonen dürfen nur im Szenario stehen.
+Erläuterung: Gesamtdarstellung Kapitel 11 und 15.
+
+
+§ 21 Positionsgröße und zulässiger Zukauf
+(1) Die zulässige Position ist die kleinste dieser Grenzen: die geplante Gesamtposition; die Grenze nach § 23 Absatz 3 oder bei Käufen nach A6 die Grenze nach § 27 Absatz 5; die Liquiditätsobergrenze von 25 Prozent des Medians des Tagesumsatzes auf Bitvavo über 30 Tage (Startwert).
+(2) Zulässiger Zukauf = zulässige Position minus Bestand minus offene Kaufaufträge, mindestens null.
+(3) Die Teilkaufbeträge sind 25, 35 und 40 Prozent des zulässigen Zukaufs.
+Erläuterung: Gesamtdarstellung Kapitel 11.
+
+
+§ 22 Laufende Gültigkeitsprüfung Z7
+(1) Z7a, Ereignisvorbehalt: Bei einem Anlass nach § 15 Absatz 2 oder einem Wechsel des gültigen Status wird die sofortige Löschung aller offenen Teilkäufe des Coins empfohlen. Neue Teilkäufe erst nach abgeschlossener Wiedervorlage und neuer Kaufprüfung.
+(2) Z7b, Wiederholung: Mindestens alle sieben Tage (Startwert) wird die Kaufprüfung mit aktuellen Werten wiederholt. Weicht das Ergebnis vom gesetzten Plan ab, werden Löschung und Neusetzung nach dem neuen Ergebnis empfohlen; Bezugskurs ist der aktuelle Kurs, Restbetrag die geplante Position minus bereits Ausgeführtes. Ein neues Ergebnis „überhitzt“ ist kein Grund zur Löschung bestehender Aufträge.
+(3) Z7c, Prüfmarke: Die Prüfmarke ist der Mittelwert der Limits des zweiten und des dritten Teilkaufs. Schließt ein Tag (Bitvavo, 0 Uhr Weltzeit) darunter, solange der dritte Teilkauf offen ist, wird seine Löschung empfohlen, und binnen sieben Tagen (Startwert) folgt eine Kurzprüfung auf Anlässe nach Z7a und nach Z7b. Ohne Befund wird empfohlen, ihn wieder als Limitauftrag zu setzen, zum niedrigeren Wert aus ursprünglichem Limit und aktuellem Verkaufskurs, nach erneuter Prüfung von Spread und Orderbuch. Mit Befund oder ohne Kurzprüfung bleibt er gelöscht. Bis zum Abschluss der Kurzprüfung gehört er zum gesetzten Plan.
+(4) Z7d, Ausführung: Z7 liefert Empfehlungen. Gelöscht oder neu gesetzt ist ein Auftrag erst, wenn der Anleger dies bei Bitvavo ausgeführt und bestätigt hat; Empfehlung und Bestätigung werden getrennt protokolliert. Teilausführungen werden gebucht, der Rest bleibt offen. Bei Kurslücken gelten die Ausführungen; danach werden Z7a und Z7c angewandt. War eine empfohlene Löschung nicht mehr rechtzeitig möglich, wird nichts verkauft; für den Bestand gelten die Depotregeln.
+(5) Z7 löst nie einen Verkauf aus.
+Erläuterung: Gesamtdarstellung Kapitel 11.
+
+
+TEIL III. STUFE 3: DEPOT, VERKAUF, NOTFÄLLE UND STEUER
+
+
+§ 23 Positionsgrenzen
+(1) Maßgeblich ist der gültige Status nach § 16.
+(2) Zur Matrix zählen Positionen mit Kandidatenstatus und Positionen mit dem Status „Qualität ja – Bewertung abwarten“, deren Gate nach § 16 Absatz 6 „ok“ oder „Warnung“ lautet. Alle übrigen Positionen liegen außerhalb der Matrix.
+(3) Positionsgrenze in der Matrix = Grundeinheiten mal Faktor der Belegsicherheit nach § 12, bei Gate-Warnung halbiert, jeweils nach § 16 Absatz 6. Grundeinheiten: Kernkandidat 3, Ergänzungskandidat 2, Satellit 1; bei „Qualität ja – Bewertung abwarten“ nach Qualitätsklasse A+ und A 3, B 2, C 1, als Haltegrenze ohne Zukauf.
+(4) Außerhalb der Matrix: je Position höchstens 5 Prozent des Kryptodepots, ohne Faktor der Belegsicherheit; zusammen höchstens 20 Prozent (Höchstanteil). Der Höchstanteil gilt ab sofort für die Sperre nach A10 und für Käufe nach A6, auch während des Übergangs. Übergang: Ein bestehender Überhang wird nach A11 abgebaut, auf höchstens 35 Prozent bis 31. März 2027 und auf höchstens 20 Prozent bis 30. September 2027. Diese Abbauziele sind keine Grenzen für Käufe.
+(5) Daneben gilt die Liquiditätsobergrenze nach § 21 Absatz 1. Maßgeblich ist die kleinste Grenze. Über ihr wird nicht zugekauft; ein Zwangsverkauf folgt aus der Liquiditätsobergrenze nicht.
+(6) Gestakte Bestände werden mit ihrer verwässerungsbereinigten Staking-Rendite ausgewiesen: (1 plus Staking-Rendite) geteilt durch (1 plus Angebotswachstum) minus 1. Nur Belohnungen aus echten Gebühren gelten als Ertrag.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 24 Halte- und Abbauregeln A1 bis A5, A7, A8, A10, A11
+(1) A1, Ausschluss: vollständig abbauen binnen drei Monaten, bei Betrug oder Sicherheitsvorfall sofort.
+(2) A2, Kein Kandidat: abbauen binnen sechs Monaten, außer die Position wird mit schriftlicher These außerhalb der Matrix gehalten. Neukauf und Zukauf sind ausgeschlossen.
+(3) A3, Investment-Sperre, „Qualität ja – Bewertung abwarten“, „Bewertung ausstehend“, „Angebot klären – kein Zukauf“, „Keine Position – Daten klären“ und „Kandidat – derzeit nicht handelbar“: halten erlaubt, kein Zukauf. Optionsliste: halten erlaubt, Zukauf nur nach A6 (§ 27). Ein offenes Gate löst für sich keinen Zwangsverkauf aus.
+(4) A4, Kürzung: Übersteigt eine Position das 1,5-Fache ihrer Grenze nach § 23 Absatz 3 oder 4, wird sie auf die Grenze zurückgeführt.
+(5) A5, These: Ist der fehlende Beweis bei der zweiten Wiedervorlage noch offen, wird die Position halbiert.
+(6) A7, Gewinnmitnahme außerhalb der Matrix: ab plus 100 Prozent über dem Einstand die Hälfte verkaufen; bei Verlust kein Nachkauf.
+(7) A8: Es gibt keine Preis-Stops und kein Verlustbudget je Kauf. Das Verlustrisiko einer Position wird allein durch ihre Größe begrenzt; ein Totalverlust ist möglich.
+(8) A10: Erreicht oder überschreitet der Anteil außerhalb der Matrix den Höchstanteil von 20 Prozent nach § 23 Absatz 4 oder ist er nicht bestimmbar, gibt es keine Käufe außerhalb der Matrix, auch während des Übergangs; Abbau nach A2 und A4, steuerlich günstige Positionen zuerst.
+(9) A11, Abbaureihenfolge im Übergang bis zu den Abbauzielen nach § 23 Absatz 4: zuerst Ausschluss und Kein Kandidat, dann Positionen mit abgelaufener Haltefrist, dann Verluste innerhalb der Frist nur zur Verrechnung mit Gewinnen, dann die übrigen nach Fristablauf. Erlöse gehen nur nach bestandener Kaufprüfung in Kandidaten, sonst in eine Euro-Reserve.
+(10) Der Trend steuert nur den Kauf, nie den Verkauf, solange A13 nicht eingeführt ist.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 25 A12, Bewertungs-Teilverkauf
+(1) Auslöser: Eine Position, die zur Matrix zählt, hat die Bewertungsnote 0, obwohl diese zum Bezugszeitpunkt mindestens 30 betrug, und der Kurs liegt seit dem Bezugszeitpunkt mindestens 100 Prozent höher. Startwerte.
+(2) Folge: Rückführung auf die Hälfte der Grenze nach § 23 Absatz 3, nur aus Einheiten mit abgelaufener Haltefrist. Liegt die Position bereits darunter, wird nichts verkauft.
+(3) Bezugszeitpunkt ist die letzte Kaufprüfung mit Kauffreigabe, bei Altbeständen ohne Kaufprüfung die erste Bewertung nach der Matrix; Bezugskurs ist der Kurs dieses Datenstands.
+(4) Geprüft wird bei jeder Wiedervorlage und mindestens monatlich auf einem Datenstand nach Q-11. A12 löst je Bezugszeitpunkt nur einmal aus. Innerhalb der Haltefrist wird der Verkauf vorgemerkt und am ersten Tag nach Fristablauf ausgeführt, wenn die Bedingung dann noch besteht.
+(5) Reihenfolge: Notfallregeln vor A4 vor A12. A12 gilt nicht für Meme und Marke und nicht bei leerer Hauptkennzahl.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 26 A13, Schattenregel
+(1) Schließt eine Woche mit mindestens dem 2,5-Fachen des 200-Tage-Durchschnitts, wird das Signal „20 Prozent verkaufen“ protokolliert, nur aus Einheiten mit abgelaufener Haltefrist gedacht und höchstens einmal je 90 Tage. Es wird nicht ausgeführt.
+(2) Nachschau nach 14, 30, 60 und 90 Tagen. Erste Auswertung am 22. April 2027; eingeführt wird A13 nur durch ausdrückliche Entscheidung des Anlegers.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 27 A6, Spekulative Käufe außerhalb der Matrix
+(1) Ein Kauf außerhalb der Matrix ist nur nach ausdrücklicher Einzelentscheidung des Anlegers und mit dokumentierter Investmentthese zulässig. These und Datum der Entscheidung werden in der Kaufprüfung und im Protokoll festgehalten; ohne festgehaltenes Datum gibt es keine Freigabe.
+(2) Zulässig nur für Coins mit dem gültigen Status „Optionsliste“. Für Coins mit dem Status „Kein Kandidat“ ist ein Neukauf ausgeschlossen. Alle anderen Status ohne Kandidatenstatus sind ausgeschlossen.
+(3) Voraussetzungen, alle zugleich: kein dauerhafter Ausschlussgrund; keine Investment-Sperre; Angebots-Gate „ok“ oder „Warnung“ in der Erstbewertung und, falls vorhanden, in der Zweitprüfung, wobei ein offenes Gate nicht als geklärt gilt; Belegsicherheit A, B oder C in beiden Prüfungen; Euro-Markt auf Bitvavo; Anteil außerhalb der Matrix unter dem Höchstanteil nach A10; kein Nachkauf einer Verlustposition nach A7; bestandene Kaufprüfung nach Absatz 4.
+(4) Kaufprüfung für A6: § 17, Z1, Z2 und Z5 wie bei Kandidaten. Drei Teilkäufe mit den Abständen für den Aufwärtstrend nur, wenn Coin und Markt im Aufwärtstrend sind und RS90 nicht negativ ist; sonst nur der erste Teilkauf; die Abstände richten sich nach § 20 Absatz 2. Der Weg über das Bewertungssignal „günstig“ gilt für A6 nicht. Eine Zweitprüfung ist nicht erforderlich; liegt eine vor, gilt der gültige Status.
+(5) Grenze je Position: fest 5 Prozent des Kryptodepots, bei Gate-Warnung 2,5 Prozent, die Warnung nach § 16 Absatz 6; zusammen höchstens der Höchstanteil nach § 23 Absatz 4, die zulässige Position also höchstens so groß, dass der Anteil außerhalb der Matrix 20 Prozent nicht übersteigt; dazu die Liquiditätsobergrenze. Für bereits gehaltene Positionen außerhalb der Matrix gilt weiter § 23 Absatz 4.
+(6) Eine Freigabe nach A6 macht einen Coin nie zum Kandidaten und ändert weder Note noch Status.
+(7) Bereits gehaltene Positionen mit offenem Gate werden nach den Halte-, Wiedervorlage- und Abbauregeln behandelt; ein offenes Gate allein löst keinen Zwangsverkauf aus. A4 bleibt unberührt.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 28 Notfallregeln N1 bis N6
+(1) N1, nachgewiesener Betrug des Teams oder existenzbedrohender Sicherheitsvorfall: Ausschluss, Löschung der offenen Aufträge empfehlen, sofort abbauen; der steuerliche Aufschub entfällt.
+(2) N2, einseitig änderbare oder unbegrenzte Prägung durch eine Firma: Neubewertung binnen sieben Tagen; bestätigt sich der Ausschlussgrund, Abbau binnen drei Monaten; die Haltefrist wird nur abgewartet, wenn sie in weniger als 60 Tagen endet.
+(3) N3, dauerhafter Verlust des Wertrückflusses, abgeschafft oder länger als zwölf Monate ausgesetzt: Neubewertung, F5 neu, Status nach § 14, dann A2 oder A3.
+(4) N4, angekündigte Einstellung des Handels auf Bitvavo: sofort melden; Bestand vor Handelsende verkaufen oder auf eine eigene Wallet übertragen, nach Entscheidung des Anlegers; Löschung der offenen Aufträge empfehlen.
+(5) N5, Median des Tagesumsatzes unter 20.000 Euro oder Spread über 1 Prozent an zwei aufeinanderfolgenden Wochenprüfungen: kein Zukauf, Hinweis, Beobachtung; kein Zwangsverkauf.
+(6) N6, entscheidungsrelevante regulatorische Änderung: Neubewertung; bestätigt sich der Ausschlussgrund, Abbau nach A1, spätestens vor dem Wirksamwerden.
+(7) Notfallregeln gehen allen anderen Verkaufsregeln vor. Jeder Fall wird protokolliert.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 29 Verkauf nur nach Regeln
+Verkauft wird nur nach A1, A2, A4, A5, A7, A11, A12, N1 bis N6 oder nach freier Entscheidung des Anlegers. Jeder Verkauf wird vorher nach § 30 steuerlich geprüft und protokolliert.
+Erläuterung: Gesamtdarstellung Kapitel 12.
+
+
+§ 30 Steuer, A9 und A9a bis A9e
+(1) A9, vor jedem Verkauf: Haltefrist ein Jahr nach Paragraf 23 Einkommensteuergesetz und Randnummer 53 des Schreibens des Bundesministeriums der Finanzen vom 6. März 2025, Geschäftszeichen IV C 1 - S 2256/00042/064/043. Freigrenze: steuerfrei nur, wenn der Gesamtgewinn aller privaten Veräußerungsgeschäfte des Jahres weniger als 1.000 Euro beträgt. Endet die Frist in weniger als 60 Tagen und gibt es keinen dringenden Grund, wird möglichst danach verkauft.
+(2) Verwendungsreihenfolge: für die Haltefrist „zuerst angeschafft, zuerst veräußert“ (FIFO) nach Randnummer 61; die Matrix verwendet FIFO auch für die Höhe des Gewinns. Arbeitsannahme der Matrix, keine rechtliche Einordnung: Das gesamte Bitvavo-Konto ist eine Wallet. „Nur Einheiten mit abgelaufener Haltefrist“ heißt: Verkaufsmenge höchstens die Menge, deren Frist abgelaufen ist, gerechnet von den ältesten Käufen an.
+(3) A9a: Jeder Kauf wird im Blatt „Tranchen“ mit Datum, Wallet und Kennzeichen Alt- oder Neubestand geführt; der Bestand zum 31. Dezember 2026 wird bis 10. Januar 2027 aus dem Kontoauszug der Börse archiviert.
+(4) A9b: Bis zum Inkrafttreten einer gesetzlichen Neuregelung gilt das bisherige Recht. Danach richten sich die Haltefristbedingungen von A9, A11, A12 und A13 nach den Anwendungs- und Übergangsvorschriften des verkündeten Gesetzes; nach dem Referentenentwurf vom 30. September 2026 gälten sie nur noch für den Altbestand. Der Stichtag 31. Dezember 2026 für Alt- und Neubestand ist eine Arbeitsannahme nach diesem Entwurf und wird nach A9e an das Gesetz angepasst.
+(5) A9c: Käufe mit Freigabe werden nicht ohne sachlichen Grund in das Jahr 2027 verschoben; Käufe ohne Freigabe werden nicht aus Steuergründen vorgezogen. Steuerliche Erwägungen ändern keine Kaufprüfung.
+(6) A9d: Eine Trennung von Alt- und Neubestand in getrennte Wallets wird erst empfohlen, wenn das Gesetz verkündet, die Zuordnung geregelt und die technische Umsetzung bei Bitvavo geklärt ist.
+(7) A9e: Vor dem ersten Kauf 2027 wird der geltende Rechtsstand an amtlichen Quellen geprüft und eine Entscheidungsvorlage erstellt; Offenes wird mit der vorsichtigeren Annahme geführt. Der Gesetzgebungsstand wird bei jedem Depot-Check und jeder Wiedervorlage geprüft.
+Erläuterung: Gesamtdarstellung Kapitel 13.
+
+
+TEIL IV. PROTOKOLL, ERFOLGSKONTROLLE UND VERGLEICH
+
+
+§ 31 Protokoll und Tranchen
+(1) Im Blatt „Protokoll“ wird festgehalten: jede Kaufprüfung, jeder Kauf nach A6 mit These, jede Empfehlung und Bestätigung zu einem Auftrag, jede Löschung, Neusetzung und Ausführung, jeder Verkauf, jede Vormerkung nach A12, jedes Signal nach A13, jeder Notfall, jeder Statuswechsel und jeder Abruffehler bei Kursdaten.
+(2) Zu jedem Eintrag gehören Datum und Uhrzeit, Coin, Vorgang, Regel, Ergebnis und Begründung, Kurs, Limits, Betrag, gültiger Status, Bewertungsnote und Datenstand sowie eine Nachschau nach 90, 180 und 365 Tagen, bei gelöschten Aufträgen mit der Angabe, ob sie ausgeführt worden wären.
+(3) Jede Ausführung wird zusätzlich im Blatt „Tranchen“ gebucht.
+Erläuterung: Gesamtdarstellung Kapitel 14.
+
+
+§ 32 Erfolgskontrolle
+(1) Ausgewertet wird halbjährlich, erstmals am 22. April 2027, getrennt nach Auswahl, Zeitpunkt und ausgeführter Strategie nach Gebühren, im Vergleich mit dem bloßen Halten desselben Coins und mit Bitcoin.
+(2) Eine Rückrechnung mit heutigen Noten auf vergangene Kurse ist ausgeschlossen.
+(3) Über Änderungen aus der Auswertung entscheidet der Anleger.
+Erläuterung: Gesamtdarstellung Kapitel 14 und 17.
+
+
+§ 33 Vergleichsmodul V
+(1) Das Vergleichsmodul V läuft als Versuch vom 23. Oktober bis 15. Dezember 2026 außerhalb der drei Stufen. Es ändert keine Note, keinen Status, keine Kaufprüfung und keine Positionsgröße.
+(2) V1: Die eigene Analyse wird zuerst mit Zeitstempel festgeschrieben, erst danach wird die Aussage des Analysedienstes erfasst. Vorher bekannte Aussagen werden als vorbekannt markiert und zählen nicht als unabhängige Prognose.
+(3) V2: Die Stichprobe ist am 23. Oktober 2026 festgelegt; sie steht nur in der Arbeitsfassung, ihre Herkunft ist dort dokumentiert. Nach der Festlegung wird sie nicht nach Erfolg verändert.
+(4) V3: Je Eintrag Zeitpunkt, Horizont, Zeitrahmen, Kursquelle und Währung, Haupt- und Alternativszenario, Ziele, Unterstützungen, Widerstände, Ungültigkeitsmarke, Richtung, Änderungen mit Zeitstempel, „vorbekannt“ und „eindeutig überprüfbar“. Eindeutig überprüfbar ist ein Eintrag, wenn Zeitpunkt, Horizont, Hauptszenario, Richtung, mindestens ein Kursziel und die Ungültigkeitsmarke festgeschrieben sind.
+(5) V4: RSI, MACD, RS90, Zeitreihenmomentum über zwölf Wochen und Volumenbestätigung werden nur beobachtet.
+(6) V5: Auswertung je Signal nach Richtung, Zielen, Ungültigkeit und Kursentwicklung nach 14, 30, 60 und 90 Tagen; maßgeblich sind die ursprünglich festgeschriebenen Szenarien. Ob die Richtung eingetreten ist, wird am ersten Nachschaupunkt ab dem gewählten Horizont beurteilt, nicht vorher.
+(7) V6: wöchentlicher Eintrag; Zwischenbericht zum 15. Dezember 2026; offene 90-Tage-Prognosen werden bis März 2027 nachgeführt.
+(8) V7: Inhalte des Dienstes nur als eigene, knappe Notizen; keine Weitergabe von Originalberichten; nie im Datenpaket der Zweitprüfung.
+(9) V8: Kursmarken des Vergleichsmoduls wirken nie auf Aufträge.
+Erläuterung: Gesamtdarstellung Kapitel 15.
+
+
+§ 34 Nicht Bestandteil des Regelwerks
+Nicht verwendet werden: Auswahl nach Chartbild oder fremden Coin-Listen; RSI, MACD, Stochastik oder Fibonacci-Zonen als Entscheidungsregel; Preis-Stops und Verlustbudgets je Kauf; Aufträge zum Marktpreis; Derivatedaten; eine Rückrechnung mit heutigen Noten. Fremde Listen dürfen nur als Hinweis für das Beobachtungsuniversum oder als Vergleichsgröße im Modul V dienen. Eine Wiederaufnahme setzt einen neuen Beleg und eine Entscheidung des Anlegers voraus. Das gilt ebenso für Kauf- und Verkaufs-Setups, also Chartkonstellationen wie Divergenzen zwischen Kurs und RSI oder MACD, Formationen oder Ausbrüche: Sie wirken auf Kauf, Verkauf, Aufträge und Positionsgröße nur, soweit dieser Kanon sie ausdrücklich nennt. Vor einer Wiederaufnahme wird geprüft, ob eine vorab fest definierte Konstellation die Teilkäufe nach § 19 und § 20 nach Kosten und in einem getrennten Prüfzeitraum messbar verbessert.
+Erläuterung: Gesamtdarstellung Kapitel 15 und 16.
+
+
+§ 35 Startwerte und Überprüfung
+(1) Startwerte sind: Mindestumsatz und Spread nach Z2; Liquiditätsobergrenze von 25 Prozent; Lückenschwelle von 5 Prozent nach Q-21; Hinweisschwelle von 2 Prozent nach Q-23; Lage der Prüfmarke; Frist der Kurzprüfung; Rhythmus der Gültigkeitsprüfung; die Bedingungen von A12 und A13; die Schwelle für Insider-Transfers; die Wirkung von RS90; die Bedingungen von A6; die Mindestdauer der Zeitsperre nach § 6 Absatz 3.
+(2) Sie werden am 22. April 2027 und danach halbjährlich anhand des Protokolls überprüft. Über Änderungen entscheidet der Anleger.
+Erläuterung: Gesamtdarstellung Kapitel 14 und 17.
+
+
+ANHANG. DEFINITIONEN D-01 BIS D-20
+
+Die Definitionen gehören zum eingefrorenen Kern. Begründung und Anlass jeder Definition erläutert die Gesamtdarstellung in Anhang D.
+
+D-01, Vergütung der Netzbetreiber. Was Validatoren, Blockproduzenten oder Betreiber von Netzknoten erhalten, zählt in F5 nicht als Wertrückfluss, weder Gebühren noch Vorrangzuschläge noch Zusatzgewinne aus der Reihenfolge von Transaktionen. Als Wertrückfluss zählen nur Burn, Rückkauf, Ausschüttung an passive Halter und dauerhafte Sperren. Im Nenner von F5 bleibt diese Vergütung enthalten.
+
+D-02, Nenner von F5. Bezugsgröße ist der Protokollumsatz aller Produkte eines Projekts. Ausgangspunkt sind die Gesamtgebühren laut DefiLlama; abgezogen werden reine Durchleitungen an Kapitalgeber, also Einlagezinsen, Renditen von Anlagetresoren und Gebühren an Liquiditätsgeber, sowie an Dritte weitergereichte Fremdkosten, etwa Datengebühren einer Layer-2-Kette an ihre Hauptkette.
+
+D-03, Jahreswert. Jahreswerte sind die letzten zwölf vollständig abgeschlossenen Kalendermonate. Läuft ein Ertragsmechanismus noch keine zwölf Monate, gelten die letzten 90 vollen Tage mal vier, gekennzeichnet als junge Historie; die Belegsicherheit dieser Kennzahl ist höchstens B. Läuft er weniger als 90 volle Tage, ist der Wert ausstehend (Q-20). Beginn ist das belegte Inkrafttreten des Mechanismus, nicht der erste Wert eines Datenanbieters.
+
+D-04, Freigaben. Für Gate und F6 zählt die Menge, die nach Vertrag oder Freigabeplan höchstens frei werden kann. Angekündigte geringere Abrufe werden nur vermerkt.
+
+D-05, voll verwässerte Bewertung. Kurs mal Höchstmenge; ohne Höchstmenge Kurs mal heutige Gesamtmenge. Das Verhältnis von Marktkapitalisierung zu voll verwässerter Bewertung wird entsprechend gebildet.
+
+D-06, Wachstum. Das Wachstum über zwölf Monate vergleicht die letzten zwölf Monate mit den zwölf Monaten davor.
+
+D-07, keine Hochrechnung von Teilprodukten. Hat ein Projekt nachweislich weitere Einnahmen, deren Aufteilung zwischen Token und anderen Empfängern nicht messbar ist, wird der Anteil eines Teilprodukts nicht auf das ganze Projekt übertragen; F5 ist dann vorläufig höchstens 2, die Lücke wird dokumentiert. Nur angekündigte Einnahmen bleiben außer Betracht.
+
+D-08, Angebotswachstum in F6. F6 misst die jährliche Wachstumsrate zwischen dem heutigen freien Umlauf und dem Umlauf, der in 36 Monaten vertraglich höchstens möglich ist, einschließlich Emission: (möglicher Umlauf in 36 Monaten geteilt durch heutigen Umlauf) hoch ein Drittel, minus 1. Freigegebene, aber noch nicht verteilte Token gelten als möglicher Umlauf. Kurzfristige große Freigaben wirken nur im Gate.
+
+D-09, Run-Rate-Warnung. Run-Rate-Abweichung = letztes volles Quartal mal vier, geteilt durch den Zwölf-Monats-Wert, minus 1. Liegt sie über plus 50 oder unter minus 50 Prozent, erscheint ein Warnhinweis; die Punkte ändern sich nicht. Zwei solche Quartale in Folge lösen eine sofortige Wiedervorlage aus.
+
+D-10, Quellen für Freigaben. Erstens gilt der Vertrag oder der veröffentlichte Freigabeplan. Zweitens: Gibt es nur einen offiziellen Rahmen mit Zuteilung, Sperrfrist und Enddatum, wird die ausstehende Menge gleichmäßig bis zum frühesten genannten Enddatum verteilt, zuzüglich freigegebener, noch nicht abgerufener Token; eine Jahresangabe ohne Monat bedeutet den 31. Dezember; die Belegsicherheit ist höchstens C. Drittens: Fehlt jeder offizielle Rahmen, ist das Gate offen, bei Entscheidungsrelevanz mit Belegsicherheit D. Modelle von Datenanbietern dienen nur der Plausibilisierung; allein lösen sie eine Sperre nur aus, wenn das Ergebnis auch bei 50 Prozent Überschätzung gleich bliebe.
+
+D-11, Reserven ohne Verteilungsplan. Bei Reserven einer DAO, einer Stiftung oder eines Ökosystemtopfs ohne Plan zählt im Gate die in den letzten zwölf Monaten tatsächlich daraus verteilte Menge, nachgewiesen auf der Blockchain; ist nur ein Teilzeitraum belegt, gilt dessen Menge als Untergrenze. In F6 zählt die volle Reserve. Zuteilungen an Team, Investoren und Berater zählen immer mit der Vertragsobergrenze.
+
+D-12, Umsatz zwischengeschalteter Firmen. Umsätze von Betreiberfirmen, Betreibern von Teilnetzen oder Kuratoren zählen für F2 und die Bewertungsnote nur, soweit sie nachweislich über das Netzwerk erbracht oder abgerechnet werden, belegt durch Zahlungsflüsse auf der Blockchain oder geprüfte Angaben.
+
+D-13, Frist für Datenmangel. Bleibt eine vorgeschriebene Hauptkennzahl bei zwei aufeinanderfolgenden Wiedervorlagen unbestimmbar, obwohl die Mindesthistorie nach D-03 vorliegt, sinkt die Belegsicherheit auf D, gleich wer die Lücke verursacht. Ausgenommen sind eine noch nicht erreichte Mindesthistorie und ein nachweislich vorübergehender Ausfall einer Datenquelle.
+
+D-14, Umlauf. Umlauf sind nur frei übertragbare, wirtschaftlich verfügbare Token. Gesperrte, nach Plan freiwerdende, treuhänderisch gehaltene oder noch nicht beanspruchbare Token zählen bis zur Freigabe nicht, auch wenn ein Datenanbieter sie als umlaufend führt. Gestakte Token ohne Freigabeplan bleiben Umlauf, auch wenn ihre Rückgabe bis zu zwölf Monate dauert. Token in frei zugänglichen Liquiditätspools zählen zum Umlauf. Bei Brücken werden Ursprungstoken und ihre handelbaren Gegenstücke nur einmal gezählt; nur eine Überdeckung gilt als Reserve nach D-11.
+
+D-15, Wertrückfluss bei Geldwerten. Bei Geldwert-Assets ist der Maßstab für F5 die Stufe 5, kein Wertabfluss an eine Firma. Gebühren an Miner oder Validatoren ändern daran nichts. Ein laufender Wertabfluss, etwa ein Entwicklerfonds aus der Blockbelohnung, senkt F5 um mindestens 1.
+
+D-16, gehaltene Rückkäufe. Liegen zurückgekaufte Token in einer Projektkasse, einer Reserve, im protokolleigenen Staking oder in eigener Liquidität ohne vertragliche Sperre von mindestens zwölf Monaten, erhält F5 eine Stufe weniger, als die gemessene Quote ergäbe. Verbrannte oder mindestens zwölf Monate gesperrte Token zählen voll. Absichtserklärungen sind keine Sperre. Bestehende Obergrenzen gelten ohne weiteren Abzug.
+
+D-17, „unbegrenzt“ in F6. Die Note 0 wegen unbegrenzter Emission setzt voraus, dass die Emissionsrate vertraglich nicht begrenzt ist. Eine fest geregelte Emission ohne Höchstmenge wird nach D-08 über die Wachstumsrate bewertet; festgelegte Obergrenzen je Phase zählen. Ist die Gesamtmenge hart begrenzt, die Rate aber änderbar, gilt die Restmenge bis zur Höchstmenge als in 36 Monaten möglich.
+
+D-18, externer Bedarf nach Marktart. Handel, Derivate, dezentrale Börsen, Vermittler, Brücken und Staking-Derivate erhalten in F1 höchstens 3. Stablecoins, Zahlungsverkehr, Kredit, reale Vermögenswerte und institutionelle Abwicklung erhalten 4 bis 5 nach Marktgröße. Reine Ertrags- oder Stimmrechtsaufsätze auf andere Protokolle erhalten höchstens 1.
+
+D-19, Gate bei änderbarer Emission. Ist die Emissionsrate vertraglich nicht begrenzt, aber per Abstimmung, durch Validatoren oder vom Team änderbar, zählt im Gate die tatsächlich in den letzten zwölf Monaten ausgegebene Menge, nachgewiesen auf der Blockchain; wird eine Erhöhung beschlossen, gilt ab Beschluss die neue Rate für zwölf Monate. D-19 ist eine begrenzte Ausnahme von D-04, betrifft nur den Emissionsanteil des Gates und nur Emission, die dem freien Umlauf nach D-14 zufließt. Insider-Freigaben, Verteilungen aus der Projektkasse und Reserven bleiben nach D-04, D-10, D-11 und D-14 zu berücksichtigen; F6 bleibt unberührt.
+
+D-20, Richtschnur für die Belegsicherheit. A: Alle entscheidungsrelevanten Werte stammen direkt aus einem maßgeblichen Primärbeleg mit wiederholbarem Abruf oder sind durch eine unabhängige Prüfung auf der Blockchain bestätigt; die Übereinstimmung zweier Datenanbieter genügt nicht. B: überwiegend so, einzelne Werte nur einfach belegt. C: Mindestens ein entscheidungsrelevanter Wert ist nur modelliert oder stammt aus zweiter Hand. D: Wesentliche Daten fehlen, oder ein Widerspruch ist nicht durch eine belegte Ober- oder Untergrenze entschärft. Abweichungen nur mit schriftlicher Begründung.
+
+
+ÄNDERUNGSVERMERK
+
+Version 1.2.31 vom 2. November 2026, auf Entscheidung des Anlegers vom selben Tag: § 6 Absatz 3 neu. Ein aktualisierbarer Token-Vertrag ist ein einseitig änderbares Token-Recht und damit ein dauerhafter Ausschlussgrund nach § 6 Absatz 1 Buchstabe c, wenn die Änderung weder an eine Zeitsperre von mindestens 48 Stunden noch an eine Abstimmung der Tokenhalter gebunden ist; ein von den Tokenhaltern gewähltes und abwählbares Gremium gilt als Abstimmung; ein Prägerecht bis zur festen Höchstmenge ohne Austausch der Programmlogik wirkt nur über Gate und F6. Die Mindestdauer ist ein Startwert (§ 35). Anlass war ein Token, dessen Eigentümer die Programmlogik jederzeit austauschen und neue Token prägen kann. Bisher war offen, ob ein solches Recht unter § 6 Absatz 1 Buchstabe c fällt. Gewichte, Schwellen, Notenskalen, Definitionen und Statusreihenfolge sind unverändert; § 6 gehört nicht zum eingefrorenen Kern nach § 2 Absatz 1. In der Excel-Datei wurde die Kapazität des Erfassungsbogens erweitert; die Rechenweise ist unverändert.
+
+Version 1.2.30 vom 1. November 2026: keine Regeländerung. Berichtigungen der Excel-Datei nach der Prüfung der Prüffassung Version 1.2.29 durch die Zweitprüfung, damit die Formeln dem Kanon entsprechen: Für die Zuordnung zur Matrix nach § 16 Absatz 6 genügte ein bloß eingetragenes Gate der Zweitprüfung; jetzt gilt eine Zweitprüfung nur mit eingetragenem Status als vorliegend, und § 16 Absatz 6 sagt das ausdrücklich. Ergab die Kaufprüfung einen oder drei Teilkäufe, obwohl der zulässige Zukauf nach § 21 Absatz 2 null war, zeigte die Excel-Datei trotzdem eine Freigabe ohne Betrag; jetzt lautet das Ergebnis „Keine – kein zulässiger Zukauf“. Die Prüffassung enthält neue feste Testfälle für beide Berichtigungen, für einen Kauf im Freigabefenster Z5 und für einen Coin ohne Bewertungsnote mit Zweitprüfung.
+
+Version 1.2.29 vom 1. November 2026: Klarstellungen nach der Gegenprüfung des Regelkanons und der Datenquellen-Verfassung Version 1.2.28 durch die Zweitprüfung, auf Entscheidung des Anlegers vom selben Tag; Gewichte, Schwellen, Definitionen und Statusregeln unverändert. Eine Position mit dem Status „Qualität ja – Bewertung abwarten“ zählt nur mit Zweitprüfung zur Matrix (§ 16 Absatz 6, § 23 Absatz 2); bisher war offen, was ohne Zweitprüfung gilt, und die Excel-Datei rechnete sie zur Matrix. Damit fehlende Zweitprüfungen nachgeholt werden können, gilt bis zum 31. Dezember 2026 ein Übergang. Das Freigabefenster Z5 bezieht sich auf das größte einzelne Freigabeereignis der nächsten zwölf Monate (§ 18 Absatz 5). Ohne Bewertungsnote gibt es kein Bewertungssignal (§ 19 Nummer 9). A9b richtet sich nach Inkrafttreten und Übergangsvorschriften eines Gesetzes; der Stichtag für Alt- und Neubestand ist in der Excel-Datei ein Parameter (§ 30 Absatz 4). Berichtigt wurden außerdem zwei Testfälle und drei Textstellen der Datenquellen-Verfassung. Zwei Beobachtungen zu den eingefrorenen Definitionen D-04, D-10 und D-16 stehen ohne Änderung in der Kalibrierung.
+
+Version 1.2.28 vom 31. Oktober 2026: Klarstellung ohne Änderung von Noten, Status oder Rechenweise, auf Entscheidung des Anlegers vom selben Tag. § 34 nennt ausdrücklich Kauf- und Verkaufs-Setups, also Chartkonstellationen wie Divergenzen zwischen Kurs und RSI oder MACD; sie wirken nur, soweit der Kanon sie nennt, und vor einer Wiederaufnahme wird geprüft, ob eine fest definierte Konstellation die Teilkäufe nach § 19 und § 20 messbar verbessert. Anlass war die Frage, ob der Kurs solchen Konstellationen mit höherer Wahrscheinlichkeit folgt; die geprüfte Forschungslage stützt das nicht. Die Gesamtdarstellung erklärt Setups in einem neuen Kapitel 16; das bisherige Kapitel 16 ist jetzt Kapitel 17. Die Excel-Formeln sind unverändert.
+
+Version 1.2.27 vom 28. Oktober 2026: keine Regeländerung. Berichtigungen der Excel-Datei nach der Prüfung der Prüffassung Version 1.2.26 durch die Zweitprüfung und einer Gegenprüfung der Erstprüfung, jeweils damit die Formeln dem Kanon entsprechen: Die Sperre der Schattenregel A13 nach § 26 Absatz 1 berücksichtigt nur Protokolleinträge bis zum Berechnungsdatum; bisher konnte bei einer Nachrechnung für einen früheren Tag ein späterer Eintrag sperren. Ein Coin, der in der Kaufprüfung mehrfach erfasst ist, wird in allen seinen Zeilen gesperrt, bis nur eine Zeile übrig ist; bisher wurde er nur gemeldet, und Bestand und Grenze konnten entgegen § 21 Absatz 2 doppelt genutzt werden. „Eindeutig überprüfbar“ nach § 33 Absatz 4 verlangt in der Excel-Datei Zeitpunkt, Horizont, Kursziel und Ungültigkeitsmarke als Zahl, eine zulässige Richtung und mindestens ein Kursziel; bisher genügten ausgefüllte Felder, verlangt war aber stets das erste Kursziel. Für die Übernahme des Bitvavo-Exports in das Blatt „Tranchen“ (§ 31 Absatz 3, A9a) gibt es zusätzlich die Arten „Zugang ohne Kauf“ und „Abgang ohne Verkauf“; für sie werden weder Bestandsart noch Haltefrist berechnet, ihre steuerliche Einordnung wird gesondert geprüft. Die Prüffassung enthält für alle drei Berichtigungen feste Testfälle.
+
+Version 1.2.26 vom 27. Oktober 2026: keine Regeländerung. Berichtigungen der Excel-Datei nach der Nachprüfung der Prüffassung Version 1.2.25 durch die Zweitprüfung und einer Gegenprüfung der Erstprüfung: Die Anzeige des Höchstanteils außerhalb der Matrix lautet jetzt bei genau 20 Prozent wie § 24 Absatz 8 „Grenze erreicht“ (bisher nur Anzeige, die Kaufsperre selbst rechnete bereits richtig); alle Datumsprüfungen rechnen mit einem Berechnungsdatum, das leer das heutige Datum bedeutet und Nachrechnungen wiederholbar macht; Beträge in Hinweistexten erscheinen im deutschen Zahlenformat; ein mehrfach erfasster Coin in der Kaufprüfung wird gemeldet. Die Prüffassung enthält feste Testfälle für Käufe nach A6 mit und ohne Datum, A12 bei leerer Hauptkennzahl, A13 am 89. und 90. Tag und das Vergleichsmodul am Horizont. Neu im Betriebsdokument Erstprüfung ist ein Abschlussbericht nach dem Abgleich mit der Zweitprüfung; er ist ein Arbeitsverfahren und ändert keine Note, keinen Status und keine Kaufprüfung.
+
+Version 1.2.25 vom 25. Oktober 2026, aufgrund von Entscheidungen des Anlegers vom selben Tag: Für den Faktor der Belegsicherheit und die Halbierung bei Gate-Warnung gilt bis zur schriftlichen Auflösung einer Abweichung der vorsichtigere Wert aus Erstbewertung und Zweitprüfung; ebenso verlangt die Zuordnung von „Qualität ja – Bewertung abwarten“ zur Matrix ein Gate „ok“ oder „Warnung“ in beiden Prüfungen (§ 16 Absatz 6, § 23 Absatz 3, § 27 Absatz 5). Der Höchstanteil außerhalb der Matrix von 20 Prozent gilt sofort für A10 und für Käufe nach A6; 35 Prozent bis 31. März 2027 und 20 Prozent bis 30. September 2027 sind nur Abbauziele (§ 23 Absatz 4, § 24 Absatz 8 und 9); die bisherige Fassung „höchstens 35 Prozent bis 31. März 2027, höchstens 20 Prozent ab 30. September 2027“ war mehrdeutig.
+Klarstellungen ohne Regeländerung: A10 sperrt auch bei genau 20 Prozent und bei nicht bestimmbarem Anteil, passend zu „unter dem Höchstanteil“ in § 27 Absatz 3; ohne Datum der Einzelentscheidung keine Freigabe nach A6 (§ 27 Absatz 1); die Grenze nach A6 endet am Höchstanteil (§ 27 Absatz 5); RS90 ist im Aufwärtstrend ein erforderlicher Wert (§ 18 Absatz 3); Begriff „eindeutig überprüfbar“ und Zeitpunkt der Richtungsauswertung im Vergleichsmodul (§ 33 Absatz 4 und 6).
+Formelberichtigungen der Excel-Datei nach der Formelprüfung der Prüffassung vom 25. Oktober 2026: wirkungslose Prüfung des Höchstanteils bei Käufen nach A6; fehlende Prüfung des Datums der Einzelentscheidung (neue Spalte AR der Kaufprüfung); fehlende oder als Text eingetragene RS90 wurde als nicht negativ gewertet; A13 ohne Sperre von 90 Tagen; A12 trotz leerer Hauptkennzahl möglich; Ergebnis nach Abgleich auch ohne Begründung wirksam; Kurzform „Sperre“ der Zweitprüfung erzeugte eine Scheinabweichung; Richtungsauswertung im Vergleichsmodul vor dem Horizont; doppelte Eingabe des Median-Tagesumsatzes ohne Abgleich. Bewertungskern Version 1.1, Gewichte, Schwellen, Notenskalen und Statusreihenfolge unverändert.
+
+Version 1.2.24 vom 24. Oktober 2026: erste Fassung des Regelkanons nach Entscheidung des Anlegers. Der Kanon fasst die verbindlichen Festlegungen zusammen, die bis Version 1.2.23 in der erklärenden Gesamtdarstellung standen; die Gesamtdarstellung ist seither nur noch erläuternd.
+Neu gegenüber Version 1.2.23 aufgrund von Entscheidungen des Anlegers vom selben Tag: A6 neu gefasst (§ 27): nur Optionsliste, ausdrückliche Einzelentscheidung mit dokumentierter These, Gate „ok“ oder „Warnung“, Belegsicherheit A bis C, Euro-Markt auf Bitvavo, Kaufprüfung ohne den Weg „günstige Bewertung“, Grenze 5 Prozent, bei Warnung 2,5 Prozent; kein Neukauf bei „Kein Kandidat“; A6 macht nie zum Kandidaten; ein offenes Gate löst keinen Zwangsverkauf aus.
+Klarstellungen ohne Regeländerung, die sich bei der Ausformulierung ergaben und der Rechenweise der Excel-Datei entsprechen: Absorptionsquote nicht bestimmbar zählt als zu gering (§ 11 Absatz 2); Warnung erst bei mehr als 30 Prozent Zuwachs (§ 11 Absatz 2); Trend gilt bei Kurs gleich Durchschnitt als erfüllt (§ 18 Absatz 3); Rangfolge der Status für den gültigen Status und Abweichungsschwellen im Abgleich (§ 16); die bisher überlappend formulierten Notenbänder von F5 und F6 („10 bis 30“, „30 bis 70“) sind überschneidungsfrei abgegrenzt: Bei F5 gehören 10 Prozent zur Note 3, 30 Prozent zur Note 3 und 70 Prozent zur Note 4; bei F6 gehören 15 Prozent zur Note 2, passend zur Sperrschwelle des Gates von „mehr als 15 Prozent“, ebenso 30 Prozent zur Note 1, 7 Prozent zur Note 3, 3 Prozent zur Note 4 und 1 Prozent zur Note 5 (§ 7 Absatz 9 und 10). Neu geregelt, vom Anleger am 24. Oktober 2026 bestätigt: Erfüllt ein Coin bei F6 die Wachstumsrate der Note 4 oder 5, aber nicht deren Bedingung zum Umlaufanteil, gilt die höchste vollständig erfüllte Note, in der Regel Note 3; bisher war dieser Fall nicht geregelt. Formelberichtigung: Fehlende Bitcoin-Werte führten in der Excel-Datei bisher zu einem Aufwärtstrend des Markts; nach § 17 Absatz 4 gilt „Werte fehlen“.
+
+Ende des Regelkanons, Version 1.2.31.

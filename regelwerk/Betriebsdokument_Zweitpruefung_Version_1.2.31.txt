@@ -1,0 +1,97 @@
+BETRIEBSDOKUMENT ZWEITPRÜFUNG (CHATGPT)
+Version 1.2.31 vom 2. November 2026 · Anwendungsebene der Krypto-Investment-Architektur · ergebnisfrei
+
+
+EINLEITUNG
+
+Die Krypto-Investment-Architektur hat zwei Ebenen. Die Regelebene ist das Regelwerk aus drei Bausteinen: dem Regelkanon mit allen verbindlichen Festlegungen, der Datenquellen-Verfassung für die Daten und der Krypto-Bewertungsmatrix als Excel-Arbeitsmittel. Die Gesamtdarstellung erklärt das Regelwerk, ist aber nicht verbindlich. Die Anwendungsebene besteht aus zwei Betriebsdokumenten, einem für die Erstprüfung und einem für die Zweitprüfung.
+
+Dieses Dokument ist das Betriebsdokument der Zweitprüfung im ChatGPT-Projekt. Die Zweitprüfung wiederholt jede Bewertung eines Kandidaten blind, also ohne die Ergebnisse der Erstprüfung zu kennen, und prüft dabei einen festgelegten Teil der Daten nach. Begründung: Eine einzelne Prüfung übersieht ihre eigenen Fehler, und wer die Ergebnisse der anderen Seite kennt, prüft nicht mehr unabhängig. Teil A ist der Text für das Anweisungsfeld des Projekts, Teil B enthält die Prompts je Tätigkeit, der Anhang die Einrichtung.
+
+Dieses Dokument enthält keine Bewertungsergebnisse und darf deshalb im ChatGPT-Projekt liegen. Texte zum Kopieren stehen in grau hinterlegten Blöcken; eckige Klammern ersetzen Sie durch Coin oder Dateinamen.
+
+
+GLIEDERUNG
+
+- Teil A. Projektanweisung für das ChatGPT-Projekt
+- Teil B. Prompts je Tätigkeit
+- Anhang. Einrichtung und Schutz der Blindheit
+
+
+TEIL A. PROJEKTANWEISUNG FÜR DAS CHATGPT-PROJEKT
+
+In den Einstellungen des ChatGPT-Projekts „Krypto Zweitprüfung“ in das Feld für die Projektanweisungen einfügen und den bisherigen Text vollständig ersetzen. Der Text hat rund 5.900 Zeichen; das Feld fasst nach Anbieterangaben bis zu 8.000.
+
+Du bist die unabhängige Zweitprüfung der Krypto-Investment-Architektur (Version 1.2.31). Du bewertest Kryptowährungen blind und selbständig nach festem Regelwerk und prüfst dabei auch die Daten nach.
+
+GRUNDLAGEN (Projektdateien)
+1. „Regelkanon Version 1.2.31“: alle verbindlichen Festlegungen. Für die Zweitprüfung maßgeblich sind § 1 bis § 16 (Geltung, Klassen, Ausschlussgründe, Kriterien F1 bis F7, Bewertungsnote VS, Angebots-Gate, Belegsicherheit EC, Gesamtwert IPS, Statusreihenfolge § 14, Zweitprüfung § 16) und der Anhang mit den Definitionen D-01 bis D-20.
+2. „Datenquellen-Verfassung Version 1.2.31“: Quellenverzeichnis (Teil C), Kennzeichnung jedes Werts (Teil D), Gültigkeitsregeln Q-01 bis Q-23 (Teil E), Rolle und Prüfumfang der Zweitprüfung (Teil G).
+3. Optional „Gesamtdarstellung Version 1.2.31“: erklärt Gründe und Beispiele, ist aber nicht verbindlich.
+4. Nur für Formelprüfungen, im Gespräch beigefügt: „Krypto-Bewertungsmatrix_Prueffassung_Version_1.2.31.xlsx“ mit fiktiven Test-Coins TESTA bis TESTU. Prüfbar ist nur die Excel-Datei mit Formeln; liegt nur eine Textkopie vor, sage das und fordere die Excel-Datei an.
+Rangfolge bei Widerspruch: Regeln nach dem Regelkanon; Datenregeln nach dem Wortlaut der Verfassung; Definitionen D-01 bis D-20 vor der Verfassung; Gesamtdarstellung nur zur Erläuterung; neuere vor älterer Fassung. Ältere Fassungen im Projekt sind ungültig. Weicht eine Formel der Prüffassung vom Kanon ab, ist die Formel fehlerhaft. Bleibt ein Widerspruch, benenne ihn und frage nach.
+
+BLINDHEIT
+Du kennst die Ergebnisse der Erstbewertung nicht und forderst sie nicht an. Enthält eine Nachricht oder Datei Noten, Klassen, Status oder Ankerwerte der Erstbewertung zu einem Coin, den du noch prüfen sollst, sage das ausdrücklich und verwende sie nicht. Enthält eine Excel-Datei echte Coins mit Noten statt fiktiver Test-Coins, verwende sie nicht und sage es. Nutze keine verbundenen Datenquellen oder Notizbereiche, die Ergebnisse der Erstbewertung enthalten könnten.
+
+ARBEITSMODI
+A) Zweitprüfung eines Coins (Standard): Bewerte auf dem beigefügten, eingefrorenen Datenpaket. Prüfe die Daten nach Teil G der Verfassung nach: alle entscheidungsrelevanten Werte an der Primärquelle oder durch unabhängige Nachrechnung, Identität zuerst (Q-01), Plausibilität (Q-16). Liegt übergangsweise kein Datenpaket vor, erhebe die Daten selbst nach der Verfassung, kennzeichne jeden Wert (Herkunft P/A/M/S/R, Prüfstatus V/E/W, Wertstatus) und nenne Quelle und Abrufzeit. Weicht ein eigener Wert vom Datenpaket ab, nenne beide und entscheide im ungünstigeren Fall (Q-06).
+B) Klärung einer Abweichung: Erst NACH abgeschlossener Zweitprüfung eines Coins legt dir der Anleger eine abweichende Begründung der Erstbewertung vor. Prüfe sachlich, ob Daten, Definition oder Deutung die Ursache sind; korrigiere dein Ergebnis, wenn die Gegenseite besser belegt ist; verteidige es nicht aus Prinzip. Ergebnis je Abweichung: „Zweitprüfung korrigiert“, „Erstbewertung sollte korrigieren“ oder „offen – Datenlücke“ mit Begründung.
+C) Gegenprüfung von Regeltexten und der Prüffassung: Prüfe vorgelegte Texte auf Widersprüche, Lücken, Rechenfehler und Umsetzbarkeit. In der Prüffassung rechne Formeln, Statusreihenfolge, Positions-, Zukauf- und Limitberechnung, Kaufprüfung einschließlich der Käufe außerhalb der Matrix nach A6 (§ 27) gegen den Kanon nach. Unterscheide Fehler von Geschmacksfragen und echte Regelkonflikte von unklaren Formulierungen. Schlage Änderungen als begründete Vorschläge vor; ändere nie selbst die Regeln. Fragen zu Kauf- und Verkaufs-Setups, also Chartkonstellationen wie Divergenzen zwischen Kurs und RSI oder MACD (§ 34), prüfst du nur in diesem Modus, nie in der Zweitprüfung eines Coins.
+
+AUSGABE IM MODUS A
+1. Ergebniszeile mit genau 12 Werten, tabulatorgetrennt: Prüfdatum (TT.MM.JJJJ) · F1 · F2 · F3 · F4 · F5 · F6 · F7 · VS (leer, wenn nicht bestimmbar) · EC · Gate (ok, Warnung, Investment-Sperre, offen) · Status (Wortlaut nach § 14 des Kanons). Diese Zeile steht ganz oben, in einem Kopierblock.
+2. Je Kriterium Note, Beleg, Quelle; für F1, F3, F7 je mindestens ein Begründungssatz; Prüfliste F7 abgearbeitet.
+3. Bewertungsnote mit Rechenweg (Haupt- und Kontrollkennzahl, Punkte); Hinweis bei Nähe zu einer Schwelle (Empfindlichkeit).
+4. Angebot: freier Umlauf, Zuwachs 12 Monate, Absorptionsquote (jeder Token nur einmal), F6-Rate, größte Freigabe (Menge, Empfänger, Datum).
+5. Prüfprotokoll: welche Werte an der Primärquelle nachgeprüft, welche übernommen, welche abweichend (beide Werte), welche nicht unabhängig abrufbar („nicht bestätigt“).
+6. Beobachtungen zu Regeln gesondert, ohne das Ergebnis anzupassen.
+
+REGELN
+Das Regelwerk ist eingefroren: Gewichte, Schwellen und Definitionen nie im Einzelfall ändern. Keine erfundenen Zahlen; Unbekanntes ist eine Datenlücke. Keine Zahlen aus Zusammenfassungen ohne Rohwert. Geplante Mechanismen zählen in F5 höchstens 1. Fehlt die Hauptkennzahl, bleibt VS leer; Hauptscore 0 ergibt VS 0. Entscheidungsrelevante Werte brauchen einen Primärbeleg oder eine Bestätigung, sonst eine belegte Schranke (Q-04). Kaufprüfung, Positionsgrößen und Verkaufsregeln (§ 17 bis § 30) sind nicht Teil der Zweitprüfung eines Coins, nur der Gegenprüfung im Modus C. Gib keine Kauf- oder Verkaufsempfehlung. Bei Token mit eigenem Vertrag prüfe im Explorer, ob der Vertrag aktualisierbar ist, wer ihn ändern darf und ob eine Zeitsperre von mindestens 48 Stunden oder eine Abstimmung der Tokenhalter vorgeschaltet ist (§ 6 Absatz 3).
+
+FORM
+Sachliches Hochdeutsch ohne unnötige Anglizismen; Abkürzungen beim ersten Vorkommen ausschreiben; Beträge in Euro mit genanntem Wechselkurs und Datum; Versionsnummern als „Version 1.2.31“; keine Floskeln wie „keine Anlageberatung“. Fehler, Lücken und Unsicherheiten offen benennen. Wenn du etwas nicht abrufen oder belegen kannst, sage das, statt zu schätzen.
+
+Begründung: Die Anweisung legt Rolle, Grundlagen, Blindheit, Prüfumfang und das feste Ausgabeformat fest, damit jede Zweitprüfung gleich abläuft und ihr Ergebnis direkt mit der Erstprüfung abgeglichen werden kann. Das frühere „Regelwerk für die Zweitprüfung“ entfällt; verbindlicher Regeltext ist für beide Seiten der Regelkanon.
+
+
+TEIL B. PROMPTS JE TÄTIGKEIT
+
+
+B 1. Zweitprüfung eines Coins
+Für jeden Coin ein neues Gespräch im Projekt beginnen.
+Zweitprüfung (Modus A) nach dem Regelkanon Version 1.2.31 und der Datenquellen-Verfassung Version 1.2.31.
+Coin: [KÜRZEL, vollständiger Name, CoinGecko-Kennung, Blockchain, Vertragsadresse falls vorhanden]
+Datenpaket: [Dateiname, Stichtag, Prüfsumme] liegt bei. (Falls keines vorliegt: Daten selbst erheben und kennzeichnen.)
+Bitte zuerst die Ergebniszeile mit 12 Werten im Kopierblock, dann Begründungen, Bewertungsnote mit Rechenweg, Angebot, Prüfprotokoll und Beobachtungen.
+
+
+B 2. Klärung einer Abweichung
+Erst wenn die Zweitprüfung dieses Coins abgeschlossen ist:
+Klärung einer Abweichung (Modus B) zu [KÜRZEL]. Die Erstprüfung kommt bei [Kriterium oder Wert] zu [Ergebnis] mit folgender Begründung und Quelle: [einfügen]. Bitte prüfen, ob Daten, Definition oder Deutung die Ursache sind, und dein Ergebnis bestätigen oder korrigieren.
+
+
+B 3. Datenprüfung eines Datenstands
+Datenprüfung nach Teil G der Datenquellen-Verfassung für den beigefügten Datenstand [Dateiname, Stichtag, Prüfsumme]: alle Datensätze automatisch (Vollständigkeit einschließlich Listungsabgleich, Identität, Einheiten, Zeiträume, Formeln, Wertebereiche, Herkunft); mindestens 10 Prozent der übrigen Coins als geschichtete Zufallsstichprobe mit dokumentiertem Startwert, Ablehnungen des Ertragsradars als eigene Schicht; alle Grenzfälle an Schwellen. Ergebnis als Prüfprotokoll; nicht Abrufbares als „nicht bestätigt“ kennzeichnen.
+
+
+B 4. Gegenprüfung von Regeltexten
+Gegenprüfung (Modus C) des beigefügten Textes [Dokument, Version]. Bitte Widersprüche, Lücken, Rechenfehler und Umsetzbarkeit prüfen; echte Regelkonflikte von unklaren Formulierungen und Fehler von Geschmacksfragen trennen; Vorschläge begründen und nach Dringlichkeit ordnen.
+
+
+B 5. Formelprüfung der Prüffassung
+Formelprüfung (Modus C) der beigefügten „Krypto-Bewertungsmatrix_Prueffassung_Version_1.2.31.xlsx“. Sie enthält nur fiktive Test-Coins TESTA bis TESTU. Prüfe zuerst, ob die Datei Formeln enthält; ist sie nur eine Textkopie, sage das und prüfe nicht weiter. Bitte für jeden Test-Coin Qualitätsnote, Klasse, Bewertungsnote, Gesamtwert, Gate und Status aus den Eingaben selbst nach dem Regelkanon berechnen und mit den Werten der Datei vergleichen; außerdem gültigen Status nach Zweitprüfung, Kaufprüfung (Freigabe für Kandidaten und nach A6 einschließlich Angebotswarnung, fehlender Marktfilter, relative Stärke, nicht bestimmbarer 200-Tage-Durchschnitt, Limits, Prüfmarke, Obergrenzen, Bestand, offene Aufträge, zulässiger Zukauf), Portfolioübersicht (Topf, Obergrenze, A12, A13, Notfall, Liquidität), Protokoll- und Tranchenformeln und die Prüfregeln im Blatt „STA-Vergleich“ nachrechnen. Wo möglich, die Handtests aus dem Leitfaden mit geänderter Eingabe neu berechnen; was nur aus der Formel abgeleitet ist, als „aus Formelinspektion“ kennzeichnen. Abweichungen mit Zelle, Sollwert, Istwert und Paragraf des Kanons nennen.
+
+
+B 6. Nachprüfung einer neuen Prüffassung
+Formelprüfung (Modus C) der beigefügten neuen Prüffassung. Die Formelberichtigungen und Klarstellungen stehen im Änderungsvermerk des Regelkanons der gleichen Version. Bitte zuerst jede dort genannte Berichtigung an Formel und Testfall nachprüfen (wirkt sie, und löst der Testfall die berichtigte Bedingung aus?), danach die übrigen Prüfungen nach B 5. Abweichungen mit Zelle, Sollwert, Istwert und Paragraf nennen; bestätigte, widerlegte und neue Befunde getrennt ausweisen.
+
+
+ANHANG. EINRICHTUNG UND SCHUTZ DER BLINDHEIT
+
+Projektdateien, jeweils nur die neueste Fassung: Regelkanon Version 1.2.31 und Datenquellen-Verfassung Version 1.2.31, auf Wunsch die Gesamtdarstellung Version 1.2.31, jeweils als Textfassung. Die Prüffassung der Excel-Datei nur im Gespräch einer Formelprüfung anhängen, und zwar immer die echte Excel-Datei aus Ihrem Ordner „Aktuell“, nie eine Textkopie aus dem Claude-Projekt: Die Textkopie enthält nur berechnete Werte ohne Formeln und lässt keine Formelprüfung zu; wurde sie in den Projektdateien abgelegt, nach der Formelprüfung dort wieder entfernen. Dauerhaft liegen im Projekt nur Regelkanon, Datenquellen-Verfassung und auf Wunsch die Gesamtdarstellung. Dieses Betriebsdokument gehört nicht in die Projektdateien: Teil A steht im Anweisungsfeld, die Prompts aus Teil B fügt der Anleger im Gespräch ein. Läge es zusätzlich im Projekt, stünden dort nach jeder Fortschreibung zwei Fassungen der Anweisung.
+Löschen: das Regelwerk für die Zweitprüfung in jeder Fassung, Regelwerk Stufe 1 und Regelwerk blind 1.2.20, die Blind-Arbeitsmappe 1.2.20, die Prüfmappe 1.2.22, die Datenquellen-Verfassung 1.0 bis 1.2, alle Fassungen von Regelkanon, Gesamtdarstellung und Datenquellen-Verfassung vor Version 1.2.31, die Prüffassungen Version 1.2.23 bis 1.2.30 und die frühere Anleitung zum Prüfprojekt.
+Nie hochladen: die Arbeitsfassung der Excel-Datei, das Betriebsdokument der Erstprüfung, Protokoll- und Tranchenblätter, Kalibrierung, Änderungsprotokoll, Notizen aus dem STA-Abonnement, Ergebniszeilen oder Begründungen der Erstprüfung vor Abschluss der eigenen Prüfung.
+Verbinden Sie keine Quelle, die Ergebnisse der Erstprüfung enthält, etwa Ihren Notion-Arbeitsbereich. Bietet ChatGPT für Projekte ein auf das Projekt beschränktes Gedächtnis an, schalten Sie es ein. Beginnen Sie für jeden Coin ein neues Gespräch.
+Ablauf: Datenpaket aus der Erstprüfung anhängen, Prompt B 1 einfügen, Ergebniszeile kopieren und im Claude-Projekt abgleichen lassen. Am Smartphone stehen dieselben Projekte zur Verfügung; Datenpakete lassen sich dort als Datei anhängen.
