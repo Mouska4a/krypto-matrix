@@ -1,0 +1,541 @@
+ERSTBEWERTUNGEN DER NEUEN ANWÄRTER VOM 2. NOVEMBER 2026
+Siebzehn Coins aus der Vorprüfung des Bitvavo-Universums, mit Stand der Zweitprüfung vom 3. November 2026
+Zusammenfassung der vier Einzelberichte vom 2. November 2026 (Regelwerk Version 1.2.30); Hinweise zum Stand nach Regelwerk Version 1.2.31 in Teil 1
+
+
+EINLEITUNG
+
+Die Vorprüfung vom 2. November 2026 hat aus den 260 bis dahin nie geprüften Coins des Bitvavo-Universums diejenigen herausgefiltert, die nach den Regeln überhaupt eine Bewertungsnote über null erreichen können. Siebzehn davon sind am selben Tag vollständig bewertet worden; dieser Bericht fasst die vier Einzelberichte dazu in einem Dokument zusammen.
+
+Eine Erstbewertung beurteilt jeden Coin nach zwei Größen. Die Qualitätsnote von 0 bis 100 fasst sieben Kriterien zusammen: Bedarf außerhalb der Kryptowelt (F1), wirtschaftlicher Beleg (F2), Vorsprung vor Konkurrenten (F3), Notwendigkeit des Tokens (F4), Rückfluss des erwirtschafteten Werts an die Tokenhalter (F5), Entwicklung der Tokenmenge (F6) und Widerstandsfähigkeit (F7). Die Bewertungsnote von 0 bis 100 misst den Preis im Verhältnis zum Ertrag oder, bei Geldwerten wie Bitcoin, im Verhältnis zum durchschnittlichen Einstandspreis der Halter. Dazu kommen das Angebots-Gate, das bei stark wachsender Tokenmenge sperrt, und die Belegsicherheit von A bis D, die angibt, wie gut die Zahlen belegt sind. Aus allem folgt nach festen Regeln der Status, etwa „Satellit“ als kleinster Kaufkandidat, „Optionsliste“ für einen Kauf nur nach Einzelentscheidung oder „Kein Kandidat“.
+
+Ein Kandidatenstatus berechtigt noch nicht zum Kauf. Vorher muss eine unabhängige Zweitprüfung den Coin blind, also ohne Kenntnis dieser Ergebnisse, nachbewerten, und beide Ergebnisse werden abgeglichen.
+
+
+GLIEDERUNG
+
+Teil 1: Gesamtergebnis, Stand vom 3. November 2026 und offene Punkte.
+Teil 2: Gruppe 1 mit Osmosis, Livepeer, OpenEden, USD.AI, Scroll und Linea.
+Teil 3: Axis Robotics, den am 21. Oktober 2026 neu gelisteten Markt.
+Teil 4: Gruppe 2 mit Fuel, Katana, Merlin Chain, Definitive und Aevo.
+Teil 5: Die fünf Coins mit Klassenfrage: XRP, Stellar, DigiByte, Verge und Ethereum Classic.
+Die Einfügezeilen für den Erfassungsbogen sind hier weggelassen; sie sind in der Arbeitsfassung Version 1.2.31 eingetragen (Zeilen 104 bis 120) und im GitHub-Archiv gesichert.
+
+
+TEIL 1. GESAMTERGEBNIS, STAND UND OFFENE PUNKTE
+
+1.1 ERGEBNIS IN KÜRZE
+
+Von den siebzehn Coins erreichen zwei den Status „Satellit“: XRP und Stellar (XLM), beide als Geldwert-Asset mit Qualitätsnote 58, Klasse C, Bewertungsnote 100 beziehungsweise 88, Belegsicherheit C und Gate ok. Auf die Optionsliste kommen Osmosis (Qualitätsnote 52), DigiByte (53), Verge (54) und Ethereum Classic (49). Elf Coins erhalten „Kein Kandidat“: Livepeer, OpenEden, USD.AI, Scroll, Linea, Axis Robotics, Fuel, Katana, Merlin Chain, Definitive und Aevo.
+
+Das gemeinsame Muster: Fast alle Anwärter sind im Verhältnis zu ihren Erträgen günstig bewertet, scheitern aber an der Qualität. Meist kommt beim Token vom erwirtschafteten Wert wenig an (F5), die Tokenmenge wächst in den nächsten Jahren stark (F6), oder die Erträge sind zuletzt eingebrochen. Die Vorprüfung hat nur ausgeschlossen, was rechnerisch chancenlos war; über die Anlagequalität entscheidet erst die Erstbewertung.
+
+Wiedervorlage: Satelliten und Optionsliste vierteljährlich, also am 2. Februar 2027 (XRP, Stellar, Osmosis, DigiByte, Verge, Ethereum Classic). Für „Kein Kandidat“ gibt es keine regelmäßige Wiedervorlage, nur eine Neubewertung bei Anlass.
+
+1.2 STAND DER ZWEITPRÜFUNG VOM 3. NOVEMBER 2026
+
+XRP: Die Zweitprüfung hat am 3. November 2026 nur ein vorläufiges Ergebnis geliefert. Sie vergab allein F4 (Note 5, wie die Erstbewertung) und ließ die übrigen Noten offen, weil das Datenpaket nur Markt- und Mengendaten enthielt; Status „unvollständig“, Belegsicherheit D, Gate offen. Die Bewertungsnote 100 für ein Geldwert-Asset hat sie bestätigt. Bis zum Abschluss gilt nach Kanon § 16 Absatz 4 der vorsichtigere Status „unvollständig“; ein Kauf ist nicht möglich. Ein Nachtrag mit Primärdaten aus dem XRP Ledger liegt seit dem 3. November 2026 vor: 31,1 Milliarden XRP in 99 Treuhandverträgen, frühestmögliche Freigabe 1 Milliarde je Monat, in den letzten dreizehn Monaten jeweils 700 Millionen wieder für 31 bis 35 Monate gesperrt. Damit stützt sich das Gate „ok“ der Erstbewertung jetzt auf Primärdaten statt auf Fachberichte.
+
+Stellar: Die Zweitprüfung steht noch aus. Das Datenpaket wurde am 3. November 2026 um eine Blockchain-Prüfung ergänzt und als „Datenpaket_XLM_2026-11-03.zip“ neu ausgegeben; es ersetzt das Paket vom 2. November 2026. Die Blockchain-Daten bestätigen Gate ok (Abflüsse der Stiftung rund 9,8 Prozent des Umlaufs in zwölf Monaten) und F6 Note 2 (rund 12 Prozent Wachstum im Jahr).
+
+Optionsliste: Für Osmosis, DigiByte, Verge und Ethereum Classic ist keine Zweitprüfung vorgeschrieben (Kanon § 16 Absatz 1). Ein Kauf ist nur nach A6 möglich und derzeit gesperrt, weil der Anteil außerhalb der Matrix über dem Höchstanteil von 20 Prozent liegt (A10).
+
+1.3 WAS SICH SEIT DEN EINZELBERICHTEN GEÄNDERT HAT
+
+Regelwerk Version 1.2.31: Auf Ihre Entscheidung vom 2. November 2026 hin gilt Kanon § 6 Absatz 3. Ein aktualisierbarer Token-Vertrag ist ein dauerhafter Ausschlussgrund, wenn eine Änderung weder an eine Zeitsperre von mindestens 48 Stunden noch an eine Abstimmung der Tokenhalter gebunden ist. Die in Teil 3, Abschnitt 3.5, beschriebene Vorlage ist damit entschieden. Für Axis Robotics steht die Prüfung nach dem neuen Absatz noch aus, weil offen ist, ob der Eigentümervertrag eine Zeitsperre hat. Am Ergebnis für Sie ändert das nichts, denn ein Kauf ist in beiden Fällen ausgeschlossen. Die fünf Coins der Klassenfrage haben eigene Blockchains und sind nicht betroffen.
+
+Die übrigen Einzelberichte gelten unverändert. Wo sie von „Version 1.2.30“ sprechen, ist der Regelstand ihres Erstellungstags gemeint.
+
+1.4 OFFENE PUNKTE
+
+Erstens: Abschluss der Zweitprüfung von XRP und Zweitprüfung von Stellar, danach Abgleich und Abschlussbericht.
+Zweitens: Prüfung der Token-Verträge der bisherigen Kandidaten und Bestände nach § 6 Absatz 3, zuerst POL und SKY, sowie von Axis Robotics.
+Drittens: Erstbewertung der übrigen siebzehn Anwärter aus der Vorprüfung.
+Viertens: Wiedervorlage der bestehenden Kandidaten aus dem Oktober vor dem 17. November 2026.
+Fünftens: Vorschlag zur Fortschreibung der Betriebsdokumente: Datenpakete für Kandidaten stets mit Blockchain-Prüfung und Quellenregister; die Zweitprüfung erhebt fehlende Belege selbst, auch wenn ein Datenpaket vorliegt. Entscheidung offen.
+
+
+
+TEIL 2. GRUPPE 1: OSMOSIS, LIVEPEER, OPENEDEN, USD.AI, SCROLL, LINEA
+
+Osmosis (OSMO), Livepeer (LPT), OpenEden (EDEN), USD.AI (CHIP), Scroll (SCR), Linea (LINEA) Stand: 2. November 2026, Regelwerk Version 1.2.30, Modus A (Neubewertung) Datenstand: Abruf 2. November 2026, 19:30 bis 20:10 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh_2026-11-02
+
+2.1 KURZÜBERSICHT
+
+Ergebnis in einem Satz: Keiner der sechs Coins wird Kandidat. Fünf erhalten den Status „Kein Kandidat“, Osmosis kommt auf die Optionsliste. Eine Zweitprüfung ist damit nicht nötig, denn sie ist nach Kanon § 16 Absatz 1 nur bei einem Kandidatenstatus vorgeschrieben.
+
+Osmosis: Qualitätsnote 52, Klasse Option; Bewertungsnote höchstens 24; Gesamtwert höchstens 45; Belegsicherheit C; Angebots-Gate offen; Status „Optionsliste“.
+Livepeer: Qualitätsnote 38, Klasse D; Bewertungsnote 12; Gesamtwert 32; Belegsicherheit C; Gate „Investment-Sperre“; Status „Kein Kandidat“.
+OpenEden: Qualitätsnote 37, Klasse D; Bewertungsnote 24; Gesamtwert 34; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+USD.AI: Qualitätsnote 31, Klasse D; Bewertungsnote 0; Gesamtwert 23; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+Scroll: Qualitätsnote 25, Klasse D; Bewertungsnote 40; Gesamtwert 29; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+Linea: Qualitätsnote 36, Klasse D; Bewertungsnote höchstens 40; Gesamtwert höchstens 37; Belegsicherheit C; Gate offen; Status „Kein Kandidat“.
+
+Der gemeinsame Grund: Alle sechs haben eine Bewertung, die im Verhältnis zu den Erträgen niedrig ist. Daran sind sie in der Vorprüfung nicht gescheitert. Sie scheitern an der Qualität, vor allem an zwei Kriterien: Beim Token kommt vom erwirtschafteten Wert wenig oder nichts an (F5, Wertrückfluss), und die Menge der Token wächst in den nächsten Jahren stark (F6, Angebotsentwicklung). Bei vier der sechs sind außerdem die Erträge im letzten Quartal stark eingebrochen. Die Vorprüfung hat damit getan, was sie soll: Sie hat nur ausgeschlossen, was rechnerisch chancenlos war. Ob der günstige Preis auch eine gute Anlage bedeutet, entscheidet erst die Erstbewertung.
+
+Positionsgrenzen: Für die fünf Coins mit „Kein Kandidat“ ist ein Neukauf ausgeschlossen (A2). Für Osmosis gilt als Optionsliste ein Kauf nur nach A6, also nach Ihrer Einzelentscheidung mit These, höchstens 5 Prozent des Kryptodepots. Ein solcher Kauf ist derzeit aus zwei Gründen gesperrt: Das Angebots-Gate ist offen, und Ihr Anteil außerhalb der Matrix liegt mit rund 69 Prozent über dem Höchstanteil von 20 Prozent (A10).
+
+
+2.2 OSMOSIS (OSMO)
+
+Identität: Osmosis, eigene Blockchain im Cosmos-Netz, Coin „uosmo“; CoinGecko-Kennung „osmosis“; Kurs Bitvavo 0,039888 Euro, Gegenprobe CoinGecko 0,0398 Euro.
+
+Klasse: DeFi und Cashflow. Osmosis ist zwar eine eigene Blockchain, verdient sein Geld aber fast vollständig als dezentrale Börse: Gebühren für Tauschgeschäfte, sogenannte Taker-Gebühren. Die Gebühren der Kette selbst betrugen in zwölf Monaten nur rund 17.000 Euro. Nach Kanon § 5 Absatz 1 zählt, womit das Projekt sein Geld verdient. Deshalb ist es keine Plattform, wie die Vorprüfung noch angenommen hatte.
+
+F1 Bedarf, Note 3: Handel und dezentrale Börsen erhalten nach D-18 höchstens 3. Bewertet wird der Markt, nicht der Marktanteil von Osmosis.
+F2 Beleg, Note 3: Reale zahlende Nutzung ist belegt. Die Gesamtgebühren der Börse betrugen in den zwölf Monaten November 2025 bis Oktober 2026 rund 2,37 Millionen Euro, die beim Protokoll verbleibenden Erträge rund 815.000 Euro. Gegenüber dem Vorjahr sind die Erträge aber um 85 Prozent gefallen. Note 2 wäre vertretbar; am Status ändert das nichts.
+F3 Burggraben, Note 2: Führend unter den Börsen im Cosmos-Netz, aber angreifbar und mit sinkender Bedeutung.
+F4 Token-Notwendigkeit, Note 4: Wer die Kette betreibt, muss OSMO einsetzen. Gebühren können Nutzer auch in anderen Coins zahlen.
+F5 Wertrückfluss, Note 2, vorläufig: Seit dem Netz-Update Version 31 vom 3. November 2025 (Beschluss Nummer 990) werden 70 Prozent der in OSMO gezahlten Taker-Gebühren automatisch verbrannt. Von den Gebühren in anderen Coins gehen nach Beschluss 1052 vom Oktober 2026 47,5 Prozent an die Staker und 52,5 Prozent in Rückkauf und Verbrennung. Ein Anteil von mehr als 30 Prozent der Erträge wäre damit wahrscheinlich, was Note 4 ergäbe. Die tatsächlich verbrannte Menge ist aber nicht gemessen; DefiLlama weist für Osmosis keine Halter-Erträge aus, und die einzige Zahl, rund 11.500 verbrannte OSMO am Tag, stammt aus einem Beschlusstext vom August 2025. Nach Kanon § 7 Absatz 9 gilt für einen beschlossenen Mechanismus ohne gemessenes Volumen höchstens Note 2.
+F6 Angebotsentwicklung, Note 2: Die Ausgabe neuer OSMO wurde mit Beschluss 1053 zum 26. Oktober 2026 eingestellt, ist aber per Abstimmung wieder änderbar. Die Höchstmenge von 1 Milliarde OSMO ist hart begrenzt. Nach D-17 gilt deshalb die Restmenge bis zur Höchstmenge als in 36 Monaten möglich. Der freie Umlauf beträgt rund 749 Millionen; einschließlich Gemeinschaftskasse und gesperrter Entwicklerzuteilung könnten bis zu 1 Milliarde umlaufen. Das ergibt rund 10 Prozent Wachstum im Jahr und damit Note 2. Auch ohne die Restmenge bliebe es bei Note 2.
+F7 Widerstandsfähigkeit, Note 3: seit 2021 in Betrieb, viele unabhängige Netzbetreiber, ein Vorfall mit Verlusten im Juni 2022 liegt mehr als zwölf Monate zurück. Abhängigkeit von der Entwicklerfirma Osmo Labs. Die Prüfliste ist nicht vollständig abgearbeitet; offen sind die Anteile der zehn größten Adressen und die Reichweite der Gemeinschaftskasse.
+
+Qualitätsnote: (3 mal 10 plus 3 mal 20 plus 2 mal 15 plus 4 mal 10 plus 2 mal 20 plus 2 mal 15 plus 3 mal 10) geteilt durch 5 ergibt 52, Klasse Option.
+
+Bewertungsnote: Die Hauptkennzahl ist die voll verwässerte Bewertung geteilt durch die Halter-Erträge. Die Bewertung beträgt 0,039888 Euro mal 1 Milliarde gleich 39,9 Millionen Euro. Die Halter-Erträge sind nicht gemessen, aber nach oben begrenzt: Sie können nicht höher sein als die gesamten Erträge von 815.000 Euro. Der Multiplikator ist also mindestens das 49-Fache; das ergibt höchstens 40 Punkte. Die Kontrollkennzahl, das Wachstum der Halter-Erträge, ergibt 0 Punkte: Die Erträge sind um 85 Prozent gefallen, und selbst wenn der Anteil der Halter sich verdoppelt hätte, bliebe der Rückgang über 40 Prozent. Bewertungsnote damit höchstens 0,6 mal 40 gleich 24. Diese Obergrenze genügt nach Q-04, weil jeder zulässige Wert unter der Mindestbewertung von 30 bleibt.
+
+Angebots-Gate: offen. Die neue Ausgabe der letzten zwölf Monate, die nach D-19 zählt, lag je nach Quelle bei 14,6 bis 33 Millionen OSMO, also 2 bis 4 Prozent des Umlaufs. Nicht gemessen sind die Auszahlungen aus der Gemeinschaftskasse in den letzten zwölf Monaten (D-11). Eine Sperre käme nur, wenn daraus zusätzlich mehr als rund 80 Millionen OSMO verteilt worden wären; das ist unwahrscheinlich, aber nicht belegt.
+
+Belegsicherheit C: Mehrere entscheidungsrelevante Werte stammen aus zweiter Hand (Beschlusstexte, Fachmedien), die Halter-Erträge sind nicht gemessen.
+
+Status nach § 14: Regel 7, „Optionsliste“.
+
+Empfindlichkeit: Ist die Verbrennung auf der Kette belegt und liegt sie über 30 Prozent der Erträge, steigt F5 auf 4 und die Qualitätsnote auf 60, Klasse C. Der Status wäre dann „Qualität ja – Bewertung abwarten“, weil die Bewertungsnote unter 30 bleibt. Kandidat wird Osmosis also auch dann nicht, solange die Erträge nicht wieder steigen.
+
+Run-Rate: Das dritte Quartal 2026 mal vier liegt 55 Prozent unter dem Zwölfmonatswert, das Vorquartal 58 Prozent darunter. Damit liegen zwei Quartale in Folge außerhalb von minus 50 Prozent. Nach D-09 und § 10 Absatz 2 wäre das ein Anlass zur sofortigen Neubewertung, der hier mit der Erstbewertung zusammenfällt.
+
+Unbewertetes Potenzial: Seit dem 26. Oktober 2026 zahlt Osmosis die Staker nur noch aus Erträgen, nicht mehr aus neuen Token. Steigt der Handel wieder, kommt ein größerer Anteil beim Token an.
+Fehlender Beweis: gemessene Verbrennung über zwölf Monate; Erholung der Erträge.
+Wiedervorlage: vierteljährlich nach § 15, also bis 2. Februar 2027; früher, sobald die Verbrennung auf der Kette gemessen ist.
+
+
+2.3 LIVEPEER (LPT)
+
+Identität: Livepeer, Token auf Arbitrum und Ethereum; CoinGecko-Kennung „livepeer“; Kurs Bitvavo 1,2052 Euro.
+
+Klasse: Compute, künstliche Intelligenz und DePIN. Livepeer ist ein Netz für Videoverarbeitung und Bildberechnung mit künstlicher Intelligenz; Kunden zahlen in Ether für Rechenleistung.
+
+Berichtigung gegenüber der Vorprüfung: Die Vorprüfung hatte eine Höchstmenge von 38,7 Millionen LPT angenommen (CoinPaprika). LPT hat aber keine Höchstmenge; die Gesamtmenge beträgt nach CoinGecko 49,7 Millionen. Die beiden Angaben widersprechen sich; nach Grundsatz 4 gilt der ungünstigere Wert.
+
+F1 Bedarf, Note 5: globaler Markt für Rechenleistung und Videoverarbeitung, wie bei Render und Bittensor in der Kalibrierung.
+F2 Beleg, Note 2: Kunden zahlten in zwölf Monaten rund 593.000 Euro, 22 Prozent mehr als im Vorjahr. Den Betreibern fließt aber über neue Token ein Vielfaches davon zu, rund 15 Millionen Euro im Jahr. Die Nutzung ist damit überwiegend durch Belohnungen getragen.
+F3 Burggraben, Note 2: Nischenführer für dezentrale Videoverarbeitung, angreifbar.
+F4 Token-Notwendigkeit, Note 4: Betreiber müssen LPT einsetzen, um Aufträge zu erhalten.
+F5 Wertrückfluss, Note 0: Die Gebühren gehen an die Betreiber und über deren Anteil an die Delegierenden. Das ist nach D-01 Vergütung der Netzbetreiber und kein Wertrückfluss. Es gibt keinen Rückkauf und keine Verbrennung. DefiLlama zählt die gesamten Gebühren als Halter-Erträge; das widerspricht D-01 und wird nicht übernommen.
+F6 Angebotsentwicklung, Note 0: Die Ausgabe beträgt nach den Protokollparametern 0,056 Prozent je Runde, bei rund 411 Runden im Jahr etwa 26 Prozent jährlich. Sie passt sich nach der Stake-Quote an und hat keine vertragliche Obergrenze (D-17).
+F7 Widerstandsfähigkeit, Note 3: seit 2018 in Betrieb, ohne schweren Vorfall; Abhängigkeit von der Livepeer-Stiftung und der Firma Livepeer Inc.
+
+Qualitätsnote: (50 plus 40 plus 30 plus 40 plus 0 plus 0 plus 30) geteilt durch 5 ergibt 38, Klasse D.
+
+Bewertungsnote: Bewertung 1,2052 Euro mal 49,7 Millionen gleich 59,9 Millionen Euro, das 101-Fache des Umsatzes von 593.000 Euro; das ergibt 20 Punkte. Die Kontrollkennzahl, externer Umsatz geteilt durch Token-Anreize, liegt bei 0,04 und ergibt 0 Punkte. Bewertungsnote 12. Mit der niedrigeren Mengenangabe wären es 24; beides liegt unter 30.
+
+Angebots-Gate: Investment-Sperre. Zuwachs rund 26 Prozent bei einer Absorption von null.
+
+Status: Regel 5, „Kein Kandidat“, weil die Qualitätsklasse D ist.
+
+Empfindlichkeit und Beobachtung zu einer Regel: Würde man den Anteil der Delegierenden an den Gebühren als Ausschüttung an passive Halter werten, stiege F5 auf bis zu 4 und die Qualitätsnote auf 54, Klasse Option. Wegen der Sperre lautete der Status dann „Investment-Sperre bis Wiedervorlage“. Kandidat würde Livepeer in keinem Fall. Die Abgrenzung in D-01 zwischen Netzbetreibern und Delegierenden ist für Netze mit Delegation nicht ausdrücklich geregelt. Ich schlage vor, das als Beobachtung K in die Kalibrierung aufzunehmen; eine Änderung wäre eine Regelentscheidung von Ihnen.
+
+Run-Rate: drittes Quartal minus 17 Prozent, Vorquartal minus 39 Prozent; keine Warnung.
+
+
+2.4 OPENEDEN (EDEN)
+
+Identität: OpenEden, Token auf Ethereum und BNB Chain; CoinGecko-Kennung „openeden“; Kurs Bitvavo 0,050714 Euro.
+
+Klasse: RWA-Infrastruktur. OpenEden gibt tokenisierte Staatsanleihen aus (TBILL) und einen daran gekoppelten Dollar-Token (USDO).
+
+F1 Bedarf, Note 5: Tokenisierte reale Vermögenswerte erhalten nach D-18 4 bis 5 nach Marktgröße; wie bei Ondo in der Kalibrierung.
+F2 Beleg, Note 3: reale zahlende Nutzung, Protokollerträge rund 571.000 Euro in zwölf Monaten. Die Gesamtgebühren sind um 58 Prozent gefallen, weil der Dollar-Token USDO stark geschrumpft ist.
+F3 Burggraben, Note 1: viele Wettbewerber, darunter große Vermögensverwalter; geringer Vorsprung.
+F4 Token-Notwendigkeit, Note 2: EDEN dient für Staking, Abstimmungen und mögliche Gebührennachlässe; für die Produkte ist er nicht nötig.
+F5 Wertrückfluss, Note 1: Ein Rückkauf mit Verbrennung steht in der Projektdokumentation nur als mögliche künftige Verwendung, ausdrücklich „vorbehaltlich rechtlicher Prüfung“. Staking-Belohnungen aus neuen Token sind kein Wertrückfluss.
+F6 Angebotsentwicklung, Note 0: Rund 400 Millionen von 1 Milliarde EDEN laufen um. Team und Berater (20 Prozent) und Investoren (18 Prozent) werden nach einer Sperrfrist über 24 Monate freigegeben, die Gemeinschaftszuteilung (38,5 Prozent) ohne veröffentlichten Plan. In 36 Monaten ist praktisch die gesamte Menge möglich; das sind über 30 Prozent Wachstum im Jahr.
+F7 Widerstandsfähigkeit, Note 2: deutliche Abhängigkeit von der Ausgeberfirma.
+
+Qualitätsnote: (50 plus 60 plus 15 plus 20 plus 20 plus 0 plus 20) geteilt durch 5 ergibt 37, Klasse D.
+
+Bewertungsnote: Bewertung 50,7 Millionen Euro, das 89-Fache der Protokollerträge; 40 Punkte. Der Anteil des Tokens an den Erträgen ist null; 0 Punkte. Bewertungsnote 24.
+
+Angebots-Gate: offen. Der Beginn der Freigaben für Team und Investoren ist nicht genau belegt; nach dem veröffentlichten Rahmen wäre eine Sperre wahrscheinlich.
+
+Status: Regel 5, „Kein Kandidat“.
+
+Hinweis zu den Daten: Die Erträge der Staatsanleihe-Tokens führt DefiLlama erst ab Juni 2026 als Protokollerträge; vorher nur als Gebühren. Der Zwölfmonatswert ist deshalb eher zu niedrig. Am Status ändert das nichts, weil er an der Qualitätsnote hängt und nicht an der Bewertung.
+
+
+2.5 USD.AI (CHIP)
+
+Identität: USD.AI, Token auf Arbitrum, Ethereum und Base; CoinGecko-Kennung „chip-2“; Kurs Bitvavo 0,035776 Euro; erste Kursdaten April 2026.
+
+Klasse: DeFi und Cashflow. USD.AI vergibt Kredite an Betreiber von Rechenzentren für künstliche Intelligenz, besichert mit Grafikprozessoren, und finanziert sie über einen Dollar-Token. Es verdient also mit Kreditzinsen. Die Vorprüfung hatte es als Umsatzklasse geführt; nach § 5 Absatz 1 ist es ein Kreditprotokoll.
+
+F1 Bedarf, Note 5: Kredit erhält nach D-18 4 bis 5; wie Maple in der Kalibrierung.
+F2 Beleg, Note 3: reale Zinszahlungen von Kreditnehmern; Protokollerträge 6,8 Millionen Euro in zwölf Monaten. Davon stammen allerdings rund 2,6 Millionen Euro aus einem einzigen Tag, dem 4. Juni 2026; das dritte Quartal mal vier liegt 67 Prozent unter dem Zwölfmonatswert.
+F3 Burggraben, Note 1: junges Nischenangebot.
+F4 Token-Notwendigkeit, Note 1: CHIP dient für Abstimmungen; weitere Funktionen sind nicht belegt.
+F5 Wertrückfluss, Note 0: DefiLlama weist null Halter-Erträge aus; ein Rückkauf ist nicht belegt.
+F6 Angebotsentwicklung, Note 0: 2 Milliarden von 10 Milliarden CHIP laufen um. Team und Investoren erhalten ein Drittel nach zwölf Monaten und den Rest über weitere 24 Monate; dazu kommen Gemeinschaftszuteilung und Reserve. In 36 Monaten ist fast die gesamte Menge möglich.
+F7 Widerstandsfähigkeit, Note 2: junges Protokoll mit Kreditrisiko einzelner großer Schuldner und Abhängigkeit vom Gründerteam.
+
+Qualitätsnote: (50 plus 60 plus 15 plus 10 plus 0 plus 0 plus 20) geteilt durch 5 ergibt 31, Klasse D.
+
+Bewertungsnote: Die Halter-Erträge sind nachweislich null; der Multiplikator wird nach § 9 Absatz 6 mit 9999 eingetragen, Bewertungsnote 0. Auch als Umsatzklasse gerechnet wären es nur 24 gewesen.
+
+Angebots-Gate: offen; Anteile von Team und Investoren und das genaue Datum des Startzeitpunkts sind nicht veröffentlicht. Die erste große Freigabe ist voraussichtlich im April 2027 fällig.
+
+Status: Regel 5, „Kein Kandidat“. Dieses Ergebnis ist robust: Selbst mit den günstigsten vertretbaren Noten bliebe die Qualitätsnote unter 45.
+
+
+2.6 SCROLL (SCR)
+
+Identität: Scroll, Ethereum-Zusatznetz, Token auf Scroll; CoinGecko-Kennung „scroll“; Kurs Bitvavo 0,017953 Euro.
+
+Klasse: Plattform, Layer 1 oder Layer 2.
+
+F1 Bedarf, Note 4: wie Arbitrum und Starknet in der Kalibrierung.
+F2 Beleg, Note 2: Gebühren von rund 199.000 Euro in zwölf Monaten, 70 Prozent weniger als im Vorjahr. Rund 113.000 Euro der Nettoerträge entfielen auf wenige Tage Anfang April 2026; seit Juli 2026 sind die Nettoerträge praktisch null.
+F3 Burggraben, Note 1.
+F4 Token-Notwendigkeit, Note 1: Die Gebühren werden in Ether gezahlt; SCR dient heute nur für Abstimmungen. Rollen beim Erzeugen von Beweisen und bei der Reihung der Transaktionen sind angekündigt, aber nicht in Betrieb.
+F5 Wertrückfluss, Note 0: Die Einnahmen des Netzes gehen nicht an die Tokenhalter.
+F6 Angebotsentwicklung, Note 0: Rund 190 Millionen von 1 Milliarde laufen um; Investoren, Kernteam und Stiftung werden über vier Jahre ab Oktober 2024 freigegeben.
+F7 Widerstandsfähigkeit, Note 2: zentraler Betreiber der Transaktionsreihung.
+
+Qualitätsnote 25, Klasse D. Bewertungsnote 40: Bewertung 18,0 Millionen Euro, das 104-Fache der Nettogebühren von 173.000 Euro, 40 Punkte; eine Kontrollkennzahl ist nicht bestimmbar, weil es weder Verbrennung noch Ausgabe neuer Token gibt, deshalb gilt die Hauptkennzahl allein (§ 9 Absatz 5). Ohne die Erträge der wenigen Apriltage wäre die Bewertung das rund 300-Fache.
+
+Run-Rate: drittes Quartal minus 98 Prozent; Warnung nach D-09.
+Status: Regel 5, „Kein Kandidat“.
+
+
+2.7 LINEA (LINEA)
+
+Identität: Linea, Ethereum-Zusatznetz von Consensys, Token auf Linea und Ethereum; CoinGecko-Kennung „linea“; Kurs Bitvavo 0,0020335 Euro.
+
+Klasse: Plattform, Layer 1 oder Layer 2.
+
+F1 Bedarf, Note 4. F2 Beleg, Note 2: Gebühren rund 887.000 Euro in zwölf Monaten, 71 Prozent weniger als im Vorjahr, Aktivität stark durch Belohnungsprogramme getragen. F3 Burggraben, Note 2: Vertrieb über MetaMask, sonst austauschbar.
+F4 Token-Notwendigkeit, Note 0: Die Gebühren werden in Ether gezahlt, und LINEA hat keine Stimmrechte.
+F5 Wertrückfluss, Note 1: Seit dem 4. November 2025 soll der Überschuss nach Kosten zu 20 Prozent als Ether und zu 80 Prozent als LINEA verbrannt werden. Auf der Ethereum-Kette ist das nachprüfbar: Die Verbrennungsadresse hat zwischen dem 5. November und dem 2. Dezember 2025 in fünf Vorgängen zusammen rund 38 Millionen LINEA vernichtet. Danach gab es bis heute nur noch einen Vorgang am 10. März 2026 über 378 Millionen LINEA, dessen Herkunft nicht belegt ist; aus den laufenden Erträgen stammt er wahrscheinlich nicht, denn sein Wert entspräche schon zum heutigen Kurs fast den gesamten Jahresgebühren, von denen noch die Kosten der Hauptkette abgehen. Der laufende Mechanismus ist damit seit elf Monaten praktisch nicht in Betrieb, vermutlich weil die Kosten die Gebühren übersteigen. Nach § 7 Absatz 9 höchstens Note 1.
+F6 Angebotsentwicklung, Note 2: rund 24,5 von 72 Milliarden laufen um; der Ökosystemfonds (75 Prozent) wird über zehn Jahre verteilt, die Consensys-Zuteilung ist fünf Jahre gesperrt.
+F7 Widerstandsfähigkeit, Note 2: deutliche Abhängigkeit von Consensys.
+
+Qualitätsnote 36, Klasse D. Bewertungsnote höchstens 40: Die Bewertung von 146 Millionen Euro ist mindestens das 165-Fache der Gebühren; DefiLlama zieht die Kosten für die Hauptkette nicht ab, die Nettogebühren sind also niedriger und der Multiplikator höher.
+
+Angebots-Gate: offen; nach dem Verteilrahmen des Ökosystemfonds wäre eine Sperre wahrscheinlich.
+Status: Regel 5, „Kein Kandidat“.
+
+
+2.8 DATENLÜCKEN, PRÜFAUFTRÄGE UND KENNZEICHEN
+
+Osmosis: gemessene Verbrennung über zwölf Monate auf der Kette (Prüfauftrag, entscheidet über F5 2 oder 4); Auszahlungen der Gemeinschaftskasse in zwölf Monaten (entscheidet über das Gate); Prüfliste F7. Kennzeichen: Erträge A/E/zwölf Monate vollständig; Halter-Erträge nicht gelistet, Obergrenze R aus A; Verbrennungsanteile P (Beschluss)/E; tatsächliche Verbrennung S/E; Menge M/E.
+Livepeer: Widerspruch bei der Gesamtmenge (CoinGecko 49,7 Millionen, CoinPaprika 38,7 Millionen), gelöst nach dem ungünstigeren Wert, Status unberührt. Kennzeichen: Gebühren A/E/vollständig; Menge M/W; Ausgabe P (Parameterangabe der Dokumentation, Stand 1. Juli 2026)/E.
+OpenEden: genaue Freigabedaten; Erträge der Anleihe-Tokens vor Juni 2026. Kennzeichen: Erträge A/E/Messreihe unvollständig; Zuteilung S/E.
+USD.AI: Anteile von Team und Investoren, Startdatum der Freigaben. Kennzeichen: Erträge A/E/vollständig; Halter-Erträge A/E/null nachgewiesen.
+Scroll: aktueller freier Umlauf; Freigabeplan nur aus zweiter Hand.
+Linea: Herkunft der Verbrennung vom 10. März 2026; Kosten der Hauptkette. Kennzeichen: Verbrennung P/V (Etherscan, Blockhöhen 23730380 bis 24628939); Gebühren A/E/vollständig.
+
+Selbstprüfung nach Teil C 5: Netzbetreiber-Vergütung nicht als Wertrückfluss gezählt (Livepeer, Osmosis-Staker nur in der Empfindlichkeit); keine Werte von 30 Tagen hochgerechnet; Anbieter-Umlauf nicht ungeprüft übernommen; Arithmetik nachgerechnet; Identität je Coin über Kürzel, Kennung, Netz und Vertrag geprüft; Abweichungen von der Vorprüfung offen benannt (Klasse bei Osmosis und USD.AI, Menge bei Livepeer).
+
+Vergleich mit der Kalibrierung: Arbitrum kam mit Qualitätsnote 48 auf die Optionsliste, Starknet mit 44 auf D, Ondo mit 40 auf D. Scroll und Linea liegen darunter, weil ihre Gebühren viel kleiner sind und ihr Token keinen Zweck hat; OpenEden liegt nahe bei Ondo. Osmosis liegt mit 52 knapp unter Injective (59), vor allem wegen des noch nicht gemessenen Wertrückflusses.
+
+
+2.9 QUELLEN
+
+DefiLlama, Gebühren und Erträge: https://api.llama.fi/summary/fees/osmosis-dex, /osmosis, /livepeer, /openeden, /usd-ai, /scroll, /linea (jeweils mit dataType dailyFees, dailyRevenue, dailyHoldersRevenue, dailySupplySideRevenue)
+CoinGecko, Mengen: https://api.coingecko.com/api/v3/coins/osmosis, /livepeer, /openeden, /chip-2, /scroll, /linea
+Bitvavo, Kurse: https://api.bitvavo.com/v2/ticker/price
+Osmosis Beschluss 990: https://osmosis.valopers.com/proposals/990
+Osmosis Beschluss 967: https://osmosis.valopers.com/proposals/967
+Osmosis Beschlüsse 1052 und 1053 (Hinweis): https://www.hokanews.com/2026/10/osmosis-ends-osmo-inflation-shifting.html und https://www.gncrypto.news/news/osmosis-ends-osmo-inflation-after-91-percent-governance-vote/
+Livepeer Protokollparameter: https://docs.livepeer.org/network/reference/protocol-parameters.md
+OpenEden Token-Funktionen: https://docs.openeden.com/openeden-foundation/eden/token-utility
+OpenEden Zuteilung (zweite Hand): https://www.bitget.cloud/price/openeden/whitepaper
+USD.AI Tokenomics: https://docs.usd.ai/governance/tokenomics
+Scroll Zuteilung (zweite Hand): https://www.kucoin.com/research/project-reports/scroll-scr
+Linea Verbrennung: https://docs.linea.build/protocol/burn
+Linea Tokenomics: https://linea.build/blog/linea-tokenomics
+Etherscan, Verbrennungsadresse Linea: https://etherscan.io/address/0x5Ad9369254F29b724d98F6ce98Cb7bAD729969F3
+
+
+TEIL 3. AXIS ROBOTICS
+
+Stand: 2. November 2026, Regelwerk Version 1.2.30, Modus A (Neubewertung eines neuen Markts nach Q-18) Datenstand: Abruf 2. November 2026, 20:20 bis 20:40 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh
+
+3.1 KURZURTEIL
+
+Status: „Kein Kandidat“. Qualitätsnote 19, Klasse D. Bewertungsnote leer, weil kein Umsatz belegt ist. Gesamtwert leer. Belegsicherheit C. Angebots-Gate: Investment-Sperre. Ein Neukauf ist ausgeschlossen; Sie halten den Coin nicht.
+
+Zusätzlich liegt ein möglicher dauerhafter Ausschlussgrund vor, den ich Ihnen zur Entscheidung vorlege (Abschnitt 3.5; inzwischen entschieden, siehe Teil 1.3). Am Ergebnis für Sie ändert er nichts, denn kaufen lässt sich der Coin in beiden Fällen nicht.
+
+Zur Frist: Der Markt AXIS-EUR handelt bei Bitvavo seit dem 21. Oktober 2026, nicht erst seit dem 2. November. Aufgefallen ist er erst beim Listungsabgleich am 2. November, weil seit dem vorigen Abgleich im Oktober keiner mehr stattgefunden hatte. Nach Q-18 hätte die Erstbewertung bei wöchentlichem Abgleich bis etwa 28. Oktober vorliegen sollen. Die Lücke liegt im fehlenden wöchentlichen Abgleich, nicht in der Bewertung; sie spricht dafür, den Abgleich als geplante Aufgabe einzurichten.
+
+
+3.2 IDENTITÄT
+
+Bitvavo führt „Axis Robotics“ mit Netz Base. CoinGecko führt unter der Kennung „axis-robotics“ genau einen Vertrag auf Base: 0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea. Kurs Bitvavo 0,107483 Euro, CoinGecko 0,1079 Euro, Abweichung 0,4 Prozent. CoinPaprika kennt den Coin noch nicht. Bei DefiLlama gibt es ein Protokoll „Axis“, das ist aber ein anderes Projekt aus dem Bereich Basis-Handel ohne Bezug zu Axis Robotics; es wurde nicht zugeordnet.
+
+Klasse: Compute, künstliche Intelligenz und DePIN. Axis Robotics sammelt Trainingsdaten für Roboter: Freiwillige steuern Roboter in Simulationen, daraus entstehen Datensätze für Modelle künstlicher Intelligenz. Verdient werden soll mit dem Verkauf dieser Daten.
+
+
+3.3 BEGRÜNDUNG F1 BIS F7
+
+F1 Bedarf, Note 4: Trainingsdaten für Robotik und sogenannte physische künstliche Intelligenz sind ein großer, deutlich wachsender Markt außerhalb der Kryptowelt.
+F2 Beleg, Note 1: Es gibt Aktivität, nach Angaben des Projekts über 94.000 Mitwirkende und 2,1 Millionen aufgezeichnete Abläufe bis Juli 2026. Die Mitwirkenden werden aber mit Punkten und Token belohnt; zahlende Abnehmer der Daten und Umsätze sind nicht belegt. Das einzige Umsatzziel ist ein Fahrplanwert von 1 Million Dollar wiederkehrendem Jahresumsatz bis Ende 2026.
+F3 Burggraben, Note 1.
+F4 Token-Notwendigkeit, Note 1: AXIS dient als Belohnung für Mitwirkende; eine Pflicht, den Token zu erwerben oder zu sperren, ist nicht belegt.
+F5 Wertrückfluss, Note 0: kein Rückkauf, keine Verbrennung aus Erträgen, keine Ausschüttung.
+F6 Angebotsentwicklung, Note 0: Von 1 Milliarde AXIS liefen beim Start 165 Millionen um (16,5 Prozent). Die übrigen 835 Millionen sollen nach einer Fachveröffentlichung in 35 Monatsraten von November 2026 bis September 2029 frei werden. Diese Reihenfolge ist aber nicht durch den Vertrag erzwungen; eine Mehrfachunterschrift von vier aus sechs Berechtigten kann den gesamten Bestand jederzeit abziehen. Nach D-04 zählt die vertraglich mögliche Menge. Das sind weit über 30 Prozent Wachstum im Jahr.
+F7 Widerstandsfähigkeit, Note 1: Auf der Base-Kette selbst geprüft: Der Token ist ein aktualisierbarer Vertrag. Der Eigentümer, ein Vertrag mit der Adresse 0x811915f1cc3fc50ead05a845c9302520bbca4e6a, angelegt vom selben Absender wie der Token, kann neue Token prägen (bis zur Höchstmenge), und er kann die Programmlogik des Tokens jederzeit austauschen. Damit ließe sich auch die Höchstmenge aufheben. Die Eigentümerschaft wurde seit der Erstellung nicht abgegeben. Das ist starke Zentralisierung.
+
+Qualitätsnote: (4 mal 10 plus 1 mal 20 plus 1 mal 15 plus 1 mal 10 plus 0 plus 0 plus 1 mal 10) geteilt durch 5 ergibt 19, Klasse D.
+
+Bewertungsnote: Die Hauptkennzahl ist die voll verwässerte Bewertung geteilt durch den externen Umsatz. Die Bewertung beträgt 0,107483 Euro mal 1 Milliarde gleich 107,5 Millionen Euro. Ein Umsatz ist weder bei DefiLlama gelistet noch an anderer Stelle belegt. Er ist nicht nachweislich null, sondern nicht messbar; das Feld bleibt nach § 9 Absatz 6 leer. Selbst wenn das Umsatzziel von rund 0,9 Millionen Euro erreicht würde, läge der Multiplikator beim 120-Fachen und ergäbe höchstens 20 Punkte.
+
+
+3.4 ANGEBOT
+
+Freier Umlauf rund 165 Millionen AXIS. Zuwachs in zwölf Monaten nach D-04: bis zu 835 Millionen, weil die Freigaben nicht vertraglich gebunden sind; nach dem veröffentlichten Plan allein immer noch rund 250 Millionen bis Oktober 2027, das sind rund 150 Prozent des Umlaufs. Absorption: keine. Gate: Investment-Sperre, robust in beiden Rechnungen. Größte Einzelfreigabe: Monatsraten ab November 2026, rund 20 Millionen AXIS aus dem Ökosystemtopf; ab Oktober 2027 rund 25 Millionen je Monat mit Team und Investoren.
+
+Kursverlauf auf Bitvavo als Information: Erster Tagesschluss am 21. Oktober 2026 bei 0,245 Euro, heute 0,107 Euro, also minus 56 Prozent in zwölf Tagen.
+
+
+3.5 MÖGLICHER DAUERHAFTER AUSSCHLUSSGRUND, VORLAGE ZUR ENTSCHEIDUNG
+
+Kanon § 6 Absatz 1 Buchstabe c schließt Coins mit „einseitig änderbaren oder enteignungsfähigen Token-Rechten, etwa einer unbegrenzten Prägung durch eine Firma“ dauerhaft aus. Bei AXIS kann der Eigentümer die Programmlogik des Tokens jederzeit austauschen. Nach dem Wortlaut ist das ein einseitig änderbares Token-Recht.
+
+Ich habe den Ausschluss trotzdem nicht gesetzt, aus zwei Gründen. Erstens enthält die Kalibrierung dafür keinen Ankerfall; bisher wurde bei keinem Coin geprüft, ob sein Token-Vertrag aktualisierbar ist. Aktualisierbare Verträge sind verbreitet, auch bei bekannten Projekten. Würde ich die Regel nur hier anwenden, wären gleiche Fälle ungleich behandelt. Zweitens ist das Ergebnis für Sie dasselbe: Weder „Kein Kandidat“ noch „Ausschluss (permanent)“ erlaubt einen Kauf, und Sie halten den Coin nicht.
+
+Vorschlag als Beobachtung für die Kalibrierung: Auslegung von § 6 Absatz 1 c für aktualisierbare Token-Verträge. Drei Möglichkeiten:
+Erstens, jeder aktualisierbare Vertrag unter Kontrolle eines Teams ist ein Ausschlussgrund. Folge: sehr streng, voraussichtlich viele Ausschlüsse, auch bei bisherigen Kandidaten, die erst geprüft werden müssten.
+Zweitens, ein Ausschlussgrund nur, wenn die Aktualisierung ohne Zeitsperre und ohne Abstimmung der Tokenhalter möglich ist. Sonst wirkt das Recht nur in F7. Folge: unterscheidet Projekte mit Schutzmechanismen von solchen ohne.
+Drittens, aktualisierbare Verträge wirken grundsätzlich nur in F7 und nie als Ausschluss. Folge: einfachste Lösung, aber die Regel § 6 c liefe für diesen Fall leer.
+Ich würde vorsichtig die zweite Möglichkeit empfehlen, weil sie dem Zweck der Regel am nächsten kommt. Für jede Möglichkeit wäre eine Prüfung der bisherigen Kandidaten nötig. Das ist eine Regelfrage nach Modus K; ohne Ihre Entscheidung ändere ich nichts.
+
+
+3.6 DATENLÜCKEN UND KENNZEICHEN
+
+Umsatz: nicht gelistet, nicht belegt. Zuteilung und Freigabeplan: Sekundärquelle (S/E). Höchstmenge, Prägerecht, Aktualisierbarkeit und Eigentümer: P/V (Etherscan, Base, Block 49772806). Umlauf: M/E (CoinGecko). Offen: ob der Eigentümervertrag eine Mehrfachunterschrift mit Zeitsperre ist.
+
+Wiedervorlage: keine regelmäßige Wiedervorlage bei „Kein Kandidat“. Neubewertung bei Anlass, etwa ersten belegten Umsätzen oder Abgabe der Eigentümerrechte.
+
+
+3.7 QUELLEN
+
+Bitvavo: https://api.bitvavo.com/v2/assets?symbol=AXIS und https://api.bitvavo.com/v2/AXIS-EUR/candles?interval=1d
+CoinGecko: https://api.coingecko.com/api/v3/coins/axis-robotics
+Etherscan (Base): https://basescan.org/address/0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea
+Tokenomics, Freigaben und Mehrfachunterschrift (Sekundärquelle): https://phemex.com/academy/axis-robotics-robotics-data-token-base
+Tokenverkauf (Sekundärquelle): https://www.bitrue.com/blog/axis-robotics-tokenomics
+
+
+TEIL 4. GRUPPE 2: FUEL, KATANA, MERLIN CHAIN, DEFINITIVE, AEVO
+
+Fuel (FUEL), Katana (KAT), Merlin Chain (MERL), Definitive (EDGE), Aevo (AEVO) Stand: 2. November 2026, Regelwerk Version 1.2.30, Modus A (Neubewertung) Datenstand: Abruf 2. November 2026, 20:20 bis 20:50 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh
+
+4.1 KURZÜBERSICHT
+
+Ergebnis: Keiner der fünf wird Kandidat; alle fünf erhalten den Status „Kein Kandidat“. Eine Zweitprüfung ist nicht nötig.
+
+Fuel: Qualitätsnote 29, Klasse D; Bewertungsnote leer; Gate ok; „Kein Kandidat“.
+Katana: Qualitätsnote 31, Klasse D; Bewertungsnote höchstens 24; Gesamtwert 29; Gate Investment-Sperre; „Kein Kandidat“.
+Merlin Chain: Qualitätsnote 35, Klasse D; Bewertungsnote 20; Gesamtwert 31; Gate Investment-Sperre; „Kein Kandidat“.
+Definitive: Qualitätsnote 40, Klasse D; Bewertungsnote 52; Gesamtwert 43; Gate Investment-Sperre; „Kein Kandidat“.
+Aevo: Qualitätsnote 43, Klasse D; Bewertungsnote 20; Gesamtwert 37; Gate ok; „Kein Kandidat“, knapp unter der Optionsliste.
+
+Belegsicherheit bei allen fünf C.
+
+Das Muster ist dasselbe wie in Gruppe 1: Die drei Zusatznetze Fuel, Katana und Merlin haben Token ohne Wertrückfluss, und bei Katana und Merlin sind die Gebühren im Jahresverlauf eingebrochen. Definitive und Aevo haben echte Rückkäufe, scheitern aber an großen Freigaben (Definitive) beziehungsweise an einem Sicherheitsvorfall und fehlenden Ertragsdaten (Aevo).
+
+Zwei Berichtigungen gegenüber der Vorprüfung: Fuel hat keine Höchstmenge, die Menge wächst um rund 3 Prozent im Jahr; die Gesamtmenge beträgt 10,6 Milliarden statt 10 Milliarden. Und die Gebührenreihe von Fuel beginnt bei DefiLlama erst im März 2026; sie ist also kein Zwölfmonatswert.
+
+
+4.2 FUEL (FUEL)
+
+Identität: Fuel Network, Ethereum-Zusatznetz „Fuel Ignition“; CoinGecko-Kennung „fuel-network“; Kurs Bitvavo 0,0006534 Euro, CoinGecko 0,000652 Euro. Klasse: Plattform, Layer 1 oder Layer 2.
+
+F1 4, wie Arbitrum. F2 2: Gebühren von rund 961.000 Euro seit März 2026, also in acht Monaten; die Messreihe ist unvollständig, Nettoerträge weist DefiLlama mit null aus. F3 1. F4 3: Die Gebühren werden in Ether gezahlt; FUEL wird von den Betreibern der Transaktionsreihung eingesetzt. F5 0: Die Gebühren erreichen die Tokenhalter nicht. F6 0, vorläufig: Die Ausgabe von 3 Prozent im Jahr wird nach der Dokumentation „von den Betreibern der Reihung festgelegt“; eine vertragliche Obergrenze ist nicht belegt, deshalb nach D-17 Note 0. Wäre die Rate vertraglich begrenzt, ergäbe sich Note 3. F7 2.
+
+Qualitätsnote 29, Klasse D; mit F6 3 wären es 38. Bewertungsnote leer, weil die Nettogebühren nicht messbar und die Messreihe kürzer als zwölf Monate ist. Gate ok: Selbst wenn alle noch nicht umlaufenden 0,87 Milliarden und die Ausgabe eines Jahres frei würden, wären es rund 12 Prozent. Status: „Kein Kandidat“.
+
+
+4.3 KATANA (KAT)
+
+Identität: Katana, Zusatznetz von Polygon und GSR; CoinGecko-Kennung „katana-network-token“; Kurs Bitvavo 0,003397 Euro. Klasse: Plattform.
+
+F1 4. F2 2: Gebühren rund 329.000 Euro in zwölf Monaten, zwei Drittel davon im April und Mai 2026; das dritte Quartal mal vier liegt 82 Prozent unter dem Jahreswert. Die Aktivität wird stark über Belohnungen in KAT gesteuert. F3 1. F4 2: KAT ist nicht das Gebührenmittel (das ist Ether) und regelt keine Netzänderungen; gesperrt als vKAT soll er über die Verteilung von Belohnungen abstimmen. F5 1: Ein Anteil an Pool-Gebühren für vKAT-Halter ist angekündigt, ein laufender Rückfluss ist nicht belegt; die Einnahmen aus der Reihung fließen in eigene Liquidität des Netzes. F6 0: 3,36 von 10 Milliarden laufen um; an jedem Jahrestag der Übertragbarkeit ab März 2027 werden rund 1,67 Milliarden frei. F7 2.
+
+Qualitätsnote 31, Klasse D. Bewertungsnote höchstens 24: Bewertung 34,0 Millionen Euro, mindestens das 103-Fache der Gebühren, 40 Punkte; keine Verbrennung, Kontrollkennzahl 0. Gate: Investment-Sperre, Freigabe im März 2027 rund 50 Prozent des Umlaufs. Status: „Kein Kandidat“.
+
+
+4.4 MERLIN CHAIN (MERL)
+
+Identität: Merlin Chain, Zusatznetz für Bitcoin; CoinGecko-Kennung „merlin-chain“; Kurs Bitvavo 0,025292 Euro. Klasse: Plattform.
+
+F1 4. F2 2: Gebühren rund 201.000 Euro in zwölf Monaten, seit April 2026 nur noch rund 2.000 Euro im Monat; drittes Quartal minus 90 Prozent. F3 1. F4 3: MERL dient für Gebühren auf einer Unterkette und zum Einsatz durch die Betreiber. F5 0. F6 2: 1,43 von 2,1 Milliarden laufen um; die restlichen Freigaben laufen bis April 2028, rund 14 Prozent im Jahr. F7 2.
+
+Qualitätsnote 35, Klasse D. Bewertungsnote 20: Bewertung 53,1 Millionen Euro, das 264-Fache der Gebühren, 20 Punkte; Kontrollkennzahl nicht bestimmbar, weil es weder Ausgabe noch Verbrennung gibt. Gate: Investment-Sperre, rund 30 Prozent Zuwachs in zwölf Monaten ohne Absorption. Status: „Kein Kandidat“.
+
+
+4.5 DEFINITIVE (EDGE)
+
+Identität: Definitive, Handelsplattform und Zusammenführer von Börsen; Token auf Base; CoinGecko-Kennung „definitive“; Kurs Bitvavo 0,066583 Euro. Klasse: DeFi und Cashflow.
+
+F1 3: Handel, nach D-18 höchstens 3. F2 3: Gebühren 2,71 Millionen Euro in zwölf Monaten, reale zahlende Nutzung. F3 2. F4 2: Staking senkt die eigenen Handelsgebühren.
+F5 2: Seit dem 1. Oktober 2025 fließen 20 Prozent der Erträge an EDGE: 10 Prozent in Rückkäufe zur Verringerung des Umlaufs, 10 Prozent in Rückkäufe, die als gestakte EDGE verteilt werden, davon 2,5 Prozent an alle Staker und 7,5 Prozent an Staker nach ihrem eigenen Handelsvolumen. Die letzten 7,5 Prozent sind eher ein Nachlass für Handelnde als ein Rückfluss an passive Halter. Die Zahlen bei DefiLlama sind aus dem angekündigten Anteil berechnet, nicht gemessen; ob die zurückgekauften Token verbrannt oder gehalten werden, ist nicht belegt. Nach § 7 Absatz 9 und D-16 deshalb Note 2.
+F6 0: 274 Millionen von 1 Milliarde laufen um; Team (27 Prozent) und Investoren (14,5 Prozent) werden seit dem Frühjahr 2026 über 24 Monate freigegeben, dazu kommen Gemeinschaftsbelohnungen von 33 Prozent ohne Plan. F7 2: Abhängigkeit von der Betreiberfirma.
+
+Qualitätsnote 40, Klasse D. Bewertungsnote 52: Bewertung 66,6 Millionen Euro, das 123-Fache der Halter-Erträge von 541.000 Euro, 20 Punkte; das Wachstum der Halter-Erträge ergibt 100 Punkte. Beobachtung dazu: Das Wachstum von über 900 Prozent entsteht nur, weil der Mechanismus erst am Ende des Vorjahreszeitraums begann. Regelgerecht gerechnet; die Note überzeichnet aber die Lage. Am Status ändert das nichts. Gate: Investment-Sperre, rund 207 Millionen Freigaben in zwölf Monaten gegen 274 Millionen Umlauf. Status: „Kein Kandidat“.
+
+
+4.6 AEVO (AEVO)
+
+Identität: Aevo, Börse für Optionen und Termingeschäfte, früher Ribbon Finance; Token auf Ethereum; Kurs Bitvavo 0,017459 Euro. Klasse: DeFi und Cashflow.
+
+F1 3: Derivate, nach D-18 höchstens 3. F2 2: DefiLlama führt für Aevo keine Gebühren; der einzige wirtschaftliche Beleg sind aus Gebühren bezahlte Rückkäufe von rund 1 Million AEVO im Monat, das sind rund 210.000 Euro im Jahr. Dem stehen Handelsbelohnungen von rund 1 Million AEVO alle zwei Wochen gegenüber. Ohne Ertragsdaten ist eine überwiegend selbst getragene Nutzung nicht belegt. F3 1. F4 2: Staking für Belohnungen und Nachlässe.
+F5 2: Rückkäufe werden seit 2026 verbrannt; das Projekt meldet bis September 2026 insgesamt 77 Millionen verbrannte AEVO, davon 69 Millionen in einem Vorgang im Januar 2026, dessen Herkunft aus Erträgen nicht belegt ist. Weil die Erträge selbst unbekannt sind, lässt sich der Anteil nicht berechnen (D-07), deshalb vorläufig höchstens 2.
+F6 4: Rund 93 Prozent der Höchstmenge laufen um, die Freigabepläne sind abgeschlossen; die Verbrennung wirkt dem entgegen.
+F7 1: Im Dezember 2025 wurden die alten Ribbon-Tresore des Projekts nach einer Änderung der Preisquelle um rund 2,7 Millionen Dollar ausgenutzt. Das ist ein schwerer Vorfall in den letzten zwölf Monaten.
+
+Qualitätsnote 43, Klasse D. Empfindlichkeit: Mit F2 3 wären es 47 und damit Optionsliste; mit F7 2 statt 1 ebenfalls 45. Beides setzt Belege voraus, die fehlen: belastbare Ertragszahlen und, für F7, dass der Vorfall die heutige Börse nicht betrifft. Bewertungsnote 20: Bewertung höchstens 17,5 Millionen Euro bei rund 210.000 Euro Verbrennung im Jahr, das 83-Fache, 20 Punkte; Kontrollkennzahl nicht bestimmbar. Gate ok: Freigaben abgeschlossen, Verteilungen aus der Gemeinschaftskasse rund 3 Prozent im Jahr. Status: „Kein Kandidat“.
+
+
+4.7 DATENLÜCKEN UND KENNZEICHEN
+
+Fuel: Obergrenze der Ausgabe im Vertrag; Nettogebühren; Gebührenreihe vor März 2026. Katana: Start des vKAT-Rückflusses; Kosten der Hauptkette. Merlin: keine. Definitive: gemessene Rückkäufe auf Base und deren Verbleib. Aevo: Erträge der Börse; Herkunft der Verbrennung vom Januar 2026; aktuelle Gesamtmenge nach Verbrennung (Datenanbieter widersprechen sich).
+Kennzeichen: Gebühren A/E/vollständig (Fuel: Messreihe unvollständig); Halter-Erträge Definitive M/E; Verbrennung Aevo S/E; Mengen M/E; Zuteilungen S/E.
+
+
+4.8 QUELLEN
+
+DefiLlama: https://api.llama.fi/summary/fees/fuel-ignition, /katana, /merlin, /definitive (jeweils mit dataType dailyFees, dailyRevenue, dailyHoldersRevenue)
+CoinGecko: https://api.coingecko.com/api/v3/coins/fuel-network, /katana-network-token, /merlin-chain, /definitive
+Bitvavo: https://api.bitvavo.com/v2/ticker/price
+Fuel Tokenomics: https://docs.fuel.network/docs/fuel-token-overview/tokenomics/
+Katana Token: https://katana.network/blog/the-network-is-katana-the-token-is-kat
+Merlin Tokenomics (zweite Hand): https://bitget.cloud/news/detail/12560603970180
+Definitive Rückkäufe: https://docs.definitive.fi/edge/edge-rewards-flywheel
+Definitive Start und Zuteilung: https://blog.definitive.fi/definitive-edge-is-live-dd1e19a8cfb9
+Aevo Verbrennung Januar 2026: https://www.kucoin.com/news/flash/aevo-burns-6-9-of-total-aevo-supply-announces-lp-fee-distribution-in-2026
+Aevo Meldungen 2026 (Hinweis): https://coinmarketcap.com/cmc-ai/aevo/latest-updates/
+Aevo Umlauf: https://www.tokenomist.ai/aevo-exchange und https://app.tokenomics.com/tokenomics/aevo/unlocks
+Aevo Vorfall Dezember 2025: https://www.theblock.co/post/382461/aevos-legacy-ribbon-dov-vaults-exploited-for-2-7-million-following-oracle-upgrade
+
+
+TEIL 5. DIE FÜNF COINS MIT KLASSENFRAGE: XRP, STELLAR, DIGIBYTE, VERGE, ETHEREUM CLASSIC
+
+XRP, Stellar (XLM), Ethereum Classic (ETC), DigiByte (DGB), Verge (XVG) Stand: 2. November 2026, Regelwerk Version 1.2.30 (die Fortschreibung auf Version 1.2.31 betrifft diese Coins nicht, weil sie keine Token-Verträge haben) Datenstand: Abruf 2. November 2026, 22:25 bis 22:45 Uhr Weltzeit; Rohdaten mit Prüfsummen im Ordner roh
+
+5.1 KURZÜBERSICHT
+
+Erstmals seit Oktober ergibt die Erstbewertung wieder Kandidaten: XRP und Stellar erreichen den Status Satellit. Kaufen lassen sie sich noch nicht. Nach Kanon § 19 Nummer 1 ist vorher die blinde Zweitprüfung nötig; die beiden Datenpakete dafür liegen bei.
+
+XRP: Geldwert-Asset; Qualitätsnote 58, Klasse C; Bewertungsnote 100; Gesamtwert 69; Belegsicherheit C; Gate ok; Status Satellit, Zweitprüfung fehlt.
+Stellar: Geldwert-Asset; Qualitätsnote 58, Klasse C; Bewertungsnote 88; Gesamtwert 66; Belegsicherheit C; Gate ok; Status Satellit, Zweitprüfung fehlt.
+DigiByte: Geldwert-Asset; Qualitätsnote 53, Klasse Option; Bewertungsnote 100; Gesamtwert 65; Belegsicherheit B; Gate ok; Status Optionsliste.
+Verge: Geldwert-Asset; Qualitätsnote 54, Klasse Option; Bewertungsnote 100; Gesamtwert 66; Belegsicherheit C; Gate ok; Status Optionsliste.
+Ethereum Classic: Plattform; Qualitätsnote 49, Klasse Option; Bewertungsnote 0; Gesamtwert 37; Belegsicherheit B; Gate ok; Status Optionsliste.
+
+Positionsgrenze für XRP und Stellar nach der Zweitprüfung: Satellit 1 Grundeinheit mal Faktor 0,5 für Belegsicherheit C, also 5 Prozent des Kryptodepots, beim heutigen Depot von rund 40.000 Euro etwa 2.000 Euro je Coin, zusätzlich begrenzt durch die Liquiditätsobergrenze. Für die drei Coins der Optionsliste ist ein Kauf nur nach A6 möglich und derzeit wegen des Anteils außerhalb der Matrix gesperrt (A10).
+
+
+5.2 DIE KLASSENFRAGE UND IHRE BEGRÜNDUNG
+
+Diese fünf Coins verdienen kein Geld mit Gebühren. Die Netze sind entweder für sehr niedrige Gebühren gebaut oder werden kaum genutzt. Als Plattform gemessen scheiden alle aus; als Geldwert gemessen sind alle günstig. Die Klasse entscheidet also über das Ergebnis. Ich habe die Werte schon in der Vorprüfung gesehen; deshalb ist die Begründung hier besonders wichtig, und sie richtet sich nach der Bauart des Netzes, nicht nach dem Ergebnis.
+
+Maßstab nach Kanon § 5 und Blatt „Bewertung je Klasse“: Geldwert-Asset ist ein Coin, der selbst das Produkt ist, als Zahlungsmittel oder Wertaufbewahrung, ohne Ertragsmodell. Plattform ist eine Blockchain, deren Wert vor allem aus der Nutzung als Rechen- und Abwicklungsplattform kommt und die dafür Gebühren erhebt. Plattform mit Geldfunktion setzt voraus, dass der Token in großem Umfang als Sicherheit oder Reserve gehalten wird; das ist für keinen der fünf belegt.
+
+DigiByte und Verge: reine Zahlungsnetze mit Arbeitsnachweis (Proof of Work), ohne Programmplattform. Sie gleichen Litecoin und Bitcoin Cash, die in der Kalibrierung Geldwert-Assets sind. Eindeutig Geldwert-Asset.
+
+XRP und Stellar: Beide Netze sind als Zahlungsnetze gebaut. Die Gebühren sind absichtlich ein winziger Schutz gegen Missbrauch, sie werden vernichtet beziehungsweise stillgelegt, und das Netz verdient nichts daran. Der Coin selbst ist als Brückenwährung zwischen Währungen gedacht und wird als Anlage gehalten. Ein Gebührenmultiplikator würde ein Geschäftsmodell messen, das es nach der Bauart nicht gibt. Deshalb Geldwert-Asset. Einwand: Beide Netze bieten auch Plattformfunktionen, etwa ausgegebene Stablecoins und eine eigene Börse. Dieser Einwand ist ernst zu nehmen; die Zweitprüfung soll die Klasse blind und unabhängig beurteilen.
+
+Ethereum Classic: eine Programmplattform wie Ethereum, deren Token als Gebührenmittel dient. Ihr Geschäftsmodell sind Gebühren; dass kaum jemand sie nutzt, macht sie nicht zum Zahlungsmittel. Deshalb Plattform. Für den Status ist das hier ohne Folge, weil Ethereum Classic in beiden Klassen auf der Optionsliste landet.
+
+
+5.3 XRP
+
+Identität: eigene Blockchain XRP Ledger, Coin XRP; CoinGecko-Kennung „ripple“; Kurs Bitvavo 1,11511 Euro.
+
+F1 Bedarf, Note 4: Zahlungsverkehr nach D-18, wie Litecoin in der Kalibrierung.
+F2 Beleg, Note 3: reale Nutzung für Zahlungen, Stablecoins und Tokenisierung ist belegt; Umsätze der Firma Ripple zählen nach D-12 nicht.
+F3 Burggraben, Note 3: größte Liquidität unter den Zahlungscoins, gefestigte rechtliche Lage in den Vereinigten Staaten nach Ende des Verfahrens der Börsenaufsicht, eingeführte Bankverbindungen.
+F4 Token-Notwendigkeit, Note 5: bei Geldwert-Assets immer 5.
+F5 Wertrückfluss, Note 3: Maßstab nach D-15 ist Stufe 5. Die Firma Ripple verkauft laufend XRP aus ihrem Treuhandbestand; das ist ein laufender Wertabfluss an eine Firma und senkt die Note um 1 auf 4. Zudem darf F5 nicht höher sein als F2, also 3.
+F6 Angebotsentwicklung, Note 1: Umlauf 63,35 Milliarden von 99,99 Milliarden. Aus der Treuhand können jeden Monat bis zu 1 Milliarde frei werden; in 36 Monaten ist nach D-04 praktisch die gesamte Restmenge möglich. Das sind rund 16 Prozent im Jahr. Empfindlichkeit: Bei 15 Prozent oder weniger wäre es Note 2.
+F7 Widerstandsfähigkeit, Note 2: deutliche Abhängigkeit von Ripple, das rund ein Drittel der Menge hält und die empfohlene Liste der Netzbetreiber prägt; seit 2012 ohne schweren Vorfall.
+
+Qualitätsnote: (40 plus 60 plus 45 plus 50 plus 60 plus 15 plus 20) geteilt durch 5 ergibt 58, Klasse C. Empfindlichkeit: Mit F3 2 wären es 55, weiterhin C; mit F2 2 und damit F5 2 wären es 50, Optionsliste.
+
+Bewertungsnote: MVRV 0,846 (Coin Metrics, 1. November 2026), höchstens 1, also 100 Punkte. Kurs geteilt durch den Durchschnitt der letzten 200 Wochenkerzen bei Bitvavo (2. Januar 2023 bis 26. Oktober 2026, lückenlos): 1,11511 Euro durch 1,1412 Euro gleich 0,977, also 100 Punkte. Bewertungsnote 100. Hinweis: Das MVRV rechnet die Treuhandbestände mit; die Kontrollkennzahl bestätigt aber dasselbe Bild.
+
+Angebots-Gate: ok, mit Vorbehalt. Zuwachs in zwölf Monaten nach D-04 bis zu 12 Milliarden, das sind 18,9 Prozent des Umlaufs. Ripple sperrt den Großteil der monatlich frei werdenden Menge seit Jahren wieder in neue Treuhandverträge mit mehr als zwölf Monaten Laufzeit; nach Fachberichten kommen netto nur 200 bis 300 Millionen im Monat in Umlauf. Das entspricht einer Absorption von rund 70 bis 80 Prozent; die Grenze für die Sperre liegt bei 25 Prozent. Ich behandle das wie die gemessene Verbrennung bei PancakeSwap in der Kalibrierung. Vorbehalt: Die Wiedersperrung ist freiwillig und nicht vertraglich. Wer sie nicht anrechnet, kommt nach § 11 Absatz 2 zur Investment-Sperre. Das ist eine Deutungsfrage, die im Abgleich mit der Zweitprüfung zu klären ist.
+
+Belegsicherheit C: Die Treuhandzahlen stammen aus Fachberichten, nicht aus einer eigenen Abfrage des Ledgers.
+
+Status: Regel 12, Satellit. Zweitprüfung erforderlich.
+
+
+5.4 STELLAR (XLM)
+
+Identität: eigene Blockchain Stellar, Coin XLM; CoinGecko-Kennung „stellar“; Kurs Bitvavo 0,14645 Euro.
+
+F1 4, Zahlungsverkehr. F2 3: belegte Nutzung für Zahlungen und ausgegebene Werte wie Stablecoins und tokenisierte Fonds. F3 2: Nischenführer, angreifbar. F4 5. F5 3: Die Stellar-Stiftung verteilt laufend Coins aus ihrem Bestand, das senkt die Note auf 4; dazu die Grenze F2 gleich 3. F6 2: Umlauf 35,26 Milliarden von 50,00 Milliarden; der Bestand der Stiftung von 14,47 Milliarden zählt nach D-11 in F6 voll; das ergibt 12,3 Prozent im Jahr. F7 2: Abhängigkeit von der Stiftung; ein Netzstillstand 2019 liegt weit zurück.
+
+Qualitätsnote: (40 plus 60 plus 30 plus 50 plus 60 plus 30 plus 20) geteilt durch 5 ergibt 58, Klasse C. Empfindlichkeit: Mit F2 2 wären es 50, Optionsliste.
+
+Bewertungsnote: Hier gibt es einen Widerspruch in den Daten. Coin Metrics rechnet mit einer Menge von 104,5 Milliarden, also einschließlich der 55,4 Milliarden, die 2019 auf ein gesperrtes Konto übertragen und damit vernichtet wurden; die Stellar-Stiftung nennt 50,0 Milliarden. Das MVRV von 1,31 ist dadurch verzerrt. Nach Grundsatz 4 gilt der ungünstigere zulässige Wert: 1,31 liegt unter 1,5 und ergibt 80 Punkte; ohne die vernichteten Coins läge es niedriger und ergäbe 80 oder 100 Punkte. Kurs geteilt durch 200-Wochen-Durchschnitt: 0,14645 durch 0,1704 gleich 0,859, also 100 Punkte. Bewertungsnote 0,6 mal 80 plus 0,4 mal 100 gleich 88.
+
+Angebots-Gate: ok. Die Stiftung hat nach einer Fachauswertung in den 90 Tagen bis Juni 2026 rund 700 Millionen XLM eingesetzt, aufs Jahr gerechnet höchstens rund 2,8 Milliarden oder 8 Prozent des Umlaufs. Eine Sperre käme erst bei mehr als 15 Prozent.
+
+Belegsicherheit C: Widerspruch beim MVRV, Ausgaben der Stiftung aus zweiter Hand.
+
+Status: Regel 12, Satellit. Zweitprüfung erforderlich.
+
+
+5.5 DIGIBYTE (DGB)
+
+Identität: eigene Blockchain DigiByte, Arbeitsnachweis mit fünf Verfahren; CoinGecko-Kennung „digibyte“; Kurs Bitvavo 0,0028308 Euro. Entwicklung aktiv: letzte Änderung im Hauptverzeichnis am 7. Oktober 2026.
+
+F1 4. F2 2: geringe tatsächliche Zahlungsnutzung. F3 1. F4 5. F5 2: keine Abflüsse an eine Firma, aber höchstens gleich F2. F6 4: Umlauf 18,54 von 21 Milliarden (88 Prozent); die Ausgabe sinkt monatlich um 1 Prozent, in zwölf Monaten kamen 3,1 Prozent hinzu, über 36 Monate rund 2,4 Prozent im Jahr. F7 2: wie Bitcoin Cash wegen der geringen Rechenleistung angreifbar; die Bewertung von rund 60 Millionen Euro macht einen Angriff billig.
+
+Qualitätsnote 53, Klasse Option. Empfindlichkeit: Mit F7 3 wären es 55, Klasse C. Bewertungsnote 100: MVRV 0,25 (100 Punkte), Kurs zu 200-Wochen-Durchschnitt 0,396 (100 Punkte). Gate ok. Belegsicherheit B. Status: Regel 7, Optionsliste.
+
+
+5.6 VERGE (XVG)
+
+Identität: eigene Blockchain Verge, Zahlungsnetz mit zuschaltbarer Privatsphäre; CoinGecko-Kennung „verge“; Kurs Bitvavo 0,001946 Euro. Entwicklung aktiv: letzte Änderung am 1. November 2026. Die zuschaltbare Privatsphäre allein ist nach § 6 Absatz 2 kein Ausschlussgrund.
+
+F1 4. F2 2. F3 1. F4 5. F5 2. F6 5: 16,52 von 16,56 Milliarden laufen um, fast keine neue Ausgabe. F7 1: Verge wurde 2018 zweimal und im Februar 2021 durch Mehrheitsangriffe auf die Rechenleistung erfolgreich angegriffen, zuletzt mit einer Umschreibung von rund 200 Tagen Historie; die Schwäche besteht fort.
+
+Qualitätsnote 54, Klasse Option. Bewertungsnote 100: Coin Metrics führt kein MVRV; als Geldwert-Asset gilt die Kontrollkennzahl allein, Kurs zu 200-Wochen-Durchschnitt 0,451, also 100 Punkte. Gate ok. Belegsicherheit C (nur Ersatzkennzahl). Status: Regel 7, Optionsliste.
+
+
+5.7 ETHEREUM CLASSIC (ETC)
+
+Identität: eigene Blockchain Ethereum Classic; CoinGecko-Kennung „ethereum-classic“; Kurs Bitvavo 6,2476 Euro. Klasse: Plattform.
+
+F1 5: wie alle eigenständigen Programmplattformen der Kalibrierung. F2 2: Gebühren von nur rund 6.600 Euro in zwölf Monaten. F3 1. F4 5: Ether Classic ist zwingendes Gebührenmittel. F5 0: Die Gebühren gehen an die Miner (D-01), es gibt keine Verbrennung. F6 4: Umlauf 158,7 von 210,7 Millionen (75 Prozent), Zuwachs 2,9 Prozent in zwölf Monaten, sinkend. F7 3: Mehrheitsangriffe 2020, seither deutlich höhere Rechenleistung und kein Vorfall.
+
+Qualitätsnote 49, Klasse Option. Bewertungsnote 0: Bewertung 1,32 Milliarden Euro, das rund 200.000-Fache der Gebühren. Als Geldwert-Asset gerechnet wäre die Qualitätsnote 54 und die Bewertungsnote 100; der Status bliebe Optionsliste. Gate ok. Belegsicherheit B. Status: Regel 7, Optionsliste.
+
+
+5.8 NÄCHSTE SCHRITTE
+
+Erstens: Zweitprüfung für XRP und Stellar im ChatGPT-Projekt anstoßen, mit den beiliegenden Datenpaketen. Die Datenpakete enthalten nur Rohwerte mit Quelle, keine Klasse, keine Noten und keinen Status.
+Zweitens: Nach Eingang den Abgleich (Prompt B 8) und, falls der Status bestätigt wird, die Kaufprüfung (Prompt B 4).
+Drittens: Zu klären im Abgleich bei XRP: Anrechnung der Wiedersperrung im Gate.
+Wiedervorlage: Satelliten und Optionsliste vierteljährlich, also bis 2. Februar 2027.
+
+
+5.9 QUELLEN
+
+Coin Metrics, MVRV und Menge: https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=xrp,xlm,etc,dgb&metrics=CapMVRVCur,SplyCur,PriceUSD
+Bitvavo, Wochenkerzen und Kurse: https://api.bitvavo.com/v2/[KÜRZEL]-EUR/candles?interval=1W und https://api.bitvavo.com/v2/ticker/price
+CoinGecko, Umlauf: https://api.coingecko.com/api/v3/coins/ripple, /stellar, /ethereum-classic, /digibyte, /verge
+Stellar-Stiftung, Mengen: https://dashboard.stellar.org/api/v2/lumens
+Stellar-Mandat 2019: https://stellar.org/foundation/mandate/2019
+Ausgaben der Stiftung (Hinweis): https://dev.to/mrnasdog/stellar-xlm-inflation-analysis-zero-protocol-mint-sdf-deploys-are-the-only-flow-180g
+XRP-Treuhand (Hinweis): https://www.kucoin.com/news/flash/ripple-approaches-10th-xrp-escrow-unlock-of-2026
+Entwicklung Verge und DigiByte: https://github.com/vergecurrency/verge und https://github.com/DigiByte-Core/digibyte
+
+
+
+Ende des Berichts.
