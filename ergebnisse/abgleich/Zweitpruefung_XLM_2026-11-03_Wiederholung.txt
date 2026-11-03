@@ -1,0 +1,421 @@
+```
+03.11.2026	5	3	3	5	0	2	2	0	C	ok	Optionsliste
+```
+
+# Unabhängige Zweitprüfung: Stellar (XLM)
+
+Prüfdatum: 03.11.2026\
+Datenstichtag: 02.11.2026, ergänzende Blockchain-Daten vom 03.11.2026\
+Regelgrundlage: Regelkanon und Datenquellen-Verfassung, jeweils Version 1.2.31
+
+Die Ergebniszeile ist meine eigenständige Bewertung. Die Belegsicherheit C berücksichtigt insbesondere die noch nicht abschließend nachgewiesene wirtschaftliche Verfügbarkeit der Stiftungsbestände und die fehlende vollständige Bestätigung der tatsächlichen Verteilung an Dritte.
+
+Die übermittelte ZIP-Datei ist lesbar. Ihre SHA-256-Prüfsumme stimmt exakt mit dem angegebenen Wert überein:
+
+`9c2f7fdf0f20d729fcfdd474be6a2df0599b4966931ce74107c14b1972050f35`
+
+Das Datenpaket enthält keine erkennbaren Noten, Klassen oder Status der Erstbewertung. Die Blindheit ist damit gewahrt.
+
+## 1. Gesamtbewertung
+
+Qualitätsnote FQS
+
+# 51/100
+
+Klasse Option
+
+Bewertungsnote VS
+
+# 0/100
+
+Plattformkennzahl
+
+Gesamtwert IPS
+
+# 38/100
+
+Gerundet
+
+Einordnung: Stellar weist reale wirtschaftliche Nutzung im Zahlungsverkehr und bei tokenisierten Vermögenswerten auf. Die wesentliche Schwäche innerhalb dieser Bewertungsmatrix ist die geringe wirtschaftliche Wertabschöpfung durch XLM im Verhältnis zur Bewertung des gesamten Tokenbestands. Hinzu kommt die erhebliche Abhängigkeit von der Stellar Development Foundation (SDF).
+
+Die Einstufung als Optionsliste folgt aus der Qualitätsklasse, nicht aus einer Investment-Sperre. Die Unterscheidung ist für die Anwendung der Statusreihenfolge nach § 14 wesentlich.
+
+## 2. Klassenzuordnung nach § 5
+
+Zwei Klassen kommen sachlich in Betracht.
+
+| Merkmal                      | Plattform mit Geldfunktion            | Plattform, Layer 1                         |
+| ---------------------------- | ------------------------------------- | ------------------------------------------ |
+| Hauptkennzahl                | Marktwert zu realisiertem Wert (MVRV) | Voll verwässerte Bewertung / Nettogebühren |
+| Kontrollkennzahl             | Burn / Emission                       | Burn / Emission                            |
+| Wirtschaftlicher Schwerpunkt | Geldwert und monetäre Nutzung         | Zahlungs- und Abwicklungsinfrastruktur     |
+| Ergebnis                     | MVRV methodisch ungeklärt             | Hauptkennzahl berechenbar                  |
+
+Entscheidung: Plattform, Layer 1.
+
+Stellar stellt Infrastruktur für Zahlungen, Stablecoins und die Ausgabe beziehungsweise Abwicklung tokenisierter Vermögenswerte bereit. XLM ist dabei der native Netzwerktoken. Die wirtschaftliche Tätigkeit besteht nicht primär darin, dass XLM selbst als knappes Geldwert-Asset gehalten wird.
+
+Die alternative Klasse „Plattform mit Geldfunktion“ ist aufgrund der Zahlungsfunktion vertretbar. Sie wäre aber mit einem methodisch problematischen MVRV konfrontiert: Coin Metrics erfasst in seiner Angebotsreihe rund 104,5 Milliarden XLM, obwohl die wirksame Gesamtmenge nach Abzug der 2019 vernichteten Einheiten nur rund 50 Milliarden beträgt. Eine unbereinigte Übernahme des MVRV von 1,308 wäre deshalb nicht ausreichend abgesichert.
+
+Diese Abweichung wird nicht durch eine selbst geschätzte MVRV-Korrektur ersetzt.
+
+## 3. Qualitätskriterien F1 bis F7
+
+| Kriterium                 | Note | Gewichteter Beitrag |
+| ------------------------- | ---- | ------------------- |
+| F1 Externer Bedarf        | 5    | 10                  |
+| F2 Wirtschaftlicher Beleg | 3    | 12                  |
+| F3 Burggraben             | 3    | 9                   |
+| F4 Token-Notwendigkeit    | 5    | 10                  |
+| F5 Wertrückfluss          | 0    | 0                   |
+| F6 Angebotsentwicklung    | 2    | 6                   |
+| F7 Widerstandsfähigkeit   | 2    | 4                   |
+| Summe                     |      | 51                  |
+
+### F1 – Externer Bedarf: 5/5
+
+Grenzüberschreitender Zahlungsverkehr, institutionelle Abwicklung, Stablecoins und die Tokenisierung realer Vermögenswerte gehören zu globalen Strukturmärkten.
+
+Die Stellar Development Foundation berichtet für das zweite Quartal 2026 über 11,4 Milliarden US-Dollar Stablecoin-Transfervolumen und einen Bestand tokenisierter realer Vermögenswerte von mehr als 3 Milliarden US-Dollar. Das sind Hinweise auf die tatsächliche Relevanz dieser Märkte, nicht allein auf ein theoretisches Einsatzgebiet.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://stellar.org\&sz=32)
+
+stellar.org+1
+
+
+
+F1 bewertet ausdrücklich die Größe und das Wachstum des externen Marktes, nicht Stellars eigenen Marktanteil. Die Obergrenze nach D-18 steht der Note 5 bei Zahlungsverkehr und institutioneller Abwicklung nicht entgegen.
+
+Belegkennzeichnung: P/E für ursprüngliche Projektberichte; die Größenangaben sind nicht unabhängig als vollständige Blockchain-Aggregation bestätigt.
+
+### F2 – Wirtschaftlicher Beleg: 3/5
+
+Stellar besitzt eine nachgewiesene wirtschaftliche Nutzung. Zu den produktiven Anwendungen zählen tokenisierte Fonds, Stablecoin-Transfers und Zahlungsabwicklung.
+
+Die öffentlich dokumentierten Anwendungen von Franklin Templeton, Spiko und weiteren Emittenten belegen mehr als bloße Absichtserklärungen.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://stellar.org\&sz=32)
+
+Real-world asset (RWA) tokenization+1
+
+
+
+Das Datenpaket weist allerdings lediglich 517.853 US-Dollar an Stellar-Netzwerkgebühren über 365 Tage aus. Diese Zahl belegt zahlende Netzwerknutzung, ist aber im Verhältnis zum abgewickelten Vermögen gering.
+
+Die Note 4 verlangt stark wachsenden realen Umsatz von mindestens 20 Prozent jährlich oder steigenden Marktanteil. Zwar liegen Hinweise auf stark steigende Zahlungs- und Vermögensvolumina vor, jedoch keine hinreichend abgeglichene Gebührenhistorie oder ein belastbarer Marktanteilsvergleich für die strengere Einstufung.
+
+Deshalb F2 = 3, nicht 4.
+
+Belegkennzeichnung: Gebühren A/E, Nutzungsnachweise P/E, Wertstatus Gebührenreihe: Zwölf-Monats-Aggregat vorhanden; Monatsprüfung noch nicht vollständig bestätigt.
+
+### F3 – Burggraben: 3/5
+
+Stellars Wettbewerbsvorteile bestehen in seiner langjährigen Betriebsdauer, der auf regulierte Finanzanwendungen ausgerichteten Architektur, bestehenden institutionellen Integrationen und dem gewachsenen Netzwerk von Emittenten und Dienstleistern.
+
+Die Kombination aus technischer Infrastruktur, Liquidität und institutionellen Anbindungen ist nicht kurzfristig vollständig nachzubilden.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://stellar.org\&sz=32)
+
+stellar.org+1
+
+
+
+Eine kategorieprägende Stellung mit mehreren dauerhaft abgesicherten Burggräben und nachgewiesen stabilem oder steigendem Marktanteil ist damit aber noch nicht hinreichend belegt. Insbesondere fehlt ein methodisch vergleichbarer Marktanteilsvergleich mit konkurrierenden Zahlungs- und Abwicklungsnetzen.
+
+F3 = 3 ist deshalb die höchste derzeit ausreichend vertretbare Note.
+
+Belegkennzeichnung: P/E und S/E; Wettbewerbsvergleich nicht bestätigt.
+
+### F4 – Token-Notwendigkeit: 5/5
+
+XLM ist der native Token des Stellar-Netzes. Netzwerkgebühren und die erforderlichen Kontoreserven werden in XLM entrichtet beziehungsweise vorgehalten.
+
+Damit besteht eine unmittelbare technische Notwendigkeit für die Nutzung des Netzes. Andere auf Stellar ausgegebene Vermögenswerte ersetzen diese Basisfunktion nicht.
+
+Die zwingende Gebührenfunktion erfüllt den Wortlaut der höchsten Stufe nach § 7 Absatz 8.
+
+Beleg: [Stellar-Entwicklerdokumentation](https://developers.stellar.org/?utm_source=chatgpt.com). Herkunft P/E.
+
+### F5 – Wertrückfluss: 0/5
+
+Hier ist zwischen einer notwendigen Nutzung von XLM und einer wirtschaftlichen Beteiligung der Tokenhalter zu unterscheiden.
+
+Nach dem Regelkanon zählen nur tatsächlich wirksame Rückkäufe, Verbrennungen, Ausschüttungen an passive Halter oder dauerhafte Sperren. Die Vergütung von Netzbetreibern ist nach D-01 ausdrücklich kein Wertrückfluss.
+
+Für den Bewertungszeitraum ist kein belastbarer, anteiliger Rückfluss der ausgewiesenen Netzwerkgebühren an XLM-Halter nachgewiesen. Insbesondere ist die Ansammlung von Gebühren im Gebührenpool nicht mit einer endgültigen Tokenverbrennung gleichzusetzen.
+
+Daher F5 = 0. Das bedeutet nicht, dass das Netzwerk wirtschaftlich bedeutungslos wäre, sondern dass der nach § 7 Absatz 9 verlangte Rückfluss nicht nachgewiesen ist.
+
+Belegkennzeichnung: Gebühren A/E, Gebührenpool P/E, dauerhafter Wertrückfluss nicht nachgewiesen.
+
+### F6 – Angebotsentwicklung: 2/5
+
+Der detaillierte Rechenweg folgt in Abschnitt 5.
+
+Entscheidend ist, dass die SDF-Bestände nicht bereits vollständig zum heutigen freien Umlauf gezählt werden, soweit sie wirtschaftlich noch als Projektreserve gehalten werden.
+
+Für die 36-Monats-Betrachtung gilt dagegen die gesamte noch verfügbare Reserve als potenziell umlauffähig.
+
+Das ergibt eine jährliche Wachstumsrate von rund 12,35 Prozent und damit die Note 2 nach § 7 Absatz 10.
+
+### F7 – Widerstandsfähigkeit: 2/5
+
+Stellar besitzt eine langjährige Betriebsgeschichte und ein eigenständiges Konsensverfahren. Der technische Betrieb ist nicht von einem einzelnen Token-Vertrag abhängig. Die Stiftung berichtet über eine hohe historische Verfügbarkeit und institutionell betriebene Validatoren.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://stellar.org\&sz=32)
+
+Q1 2026: Execution at network scale+1
+
+
+
+Dem stehen die umfangreichen Stiftungsbestände und die wirtschaftliche Abhängigkeit von der Stellar Development Foundation gegenüber.
+
+Die Prüfliste nach § 7 Absatz 11 ergibt:
+
+| Prüfpunkt                         | Feststellung                                                                                                         |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Prägerechte                       | Keine laufende reguläre XLM-Emission im Datenpaket belegt                                                            |
+| Änderungsrechte                   | Änderungen des Netzwerkprotokolls möglich; kein einzelner aktualisierbarer XLM-Vertrag                               |
+| Einfrieren                        | Kontrollen für ausgegebene Vermögenswerte sind von der nativen XLM-Funktion zu unterscheiden                         |
+| Zehn größte Adressen ohne Börsen  | Nicht vollständig unabhängig bestätigt                                                                               |
+| Projektkasse                      | Rund 14,47 Milliarden XLM laut SDF-Dashboard; erhebliche Konzentration                                               |
+| Finanzierung                      | Finanzierung aus vorhandenen XLM-Beständen; Reichweite ohne belastbaren Ausgabenplan nicht bestimmt                  |
+| Gebühren und Ausschüttungen       | Protokollabhängige Änderungen möglich; kein fest verankerter Halter-Ertrag                                           |
+| Brücken                           | Brückenrisiken betreffen verbundene Anwendungen; kein Nachweis einer existenziellen Abhängigkeit des XLM-Basisnetzes |
+| Sich selbst stützende Mechanismen | Kein existenzbedrohender Mechanismus nachgewiesen                                                                    |
+| Validatoren                       | Mehrjährige Betriebsfähigkeit belegt; konkrete Einfluss- und Quorumverteilung noch nicht vollständig geprüft         |
+
+Die Abhängigkeit von einer zentralen Stiftung erfüllt unmittelbar die Beschreibung der Note 2.
+
+F7 = 2. Ein dauerhafter Ausschlussgrund nach § 6 ist auf Grundlage der geprüften Informationen nicht nachgewiesen.
+
+## 4. Bewertungsnote VS – Rechenweg
+
+### Hauptkennzahl: Voll verwässerte Bewertung / jährliche Nettogebühren
+
+XLM-Kurs, 02.11.2026
+
+0,14645 €
+
+Wirksame Gesamtmenge
+
+50,002 Mrd. XLM
+
+Voll verwässerte Bewertung
+
+7,323 Mrd. €
+
+Jährliche Gebühren
+
+461.708 €
+
+Umrechnung: 1 € = 1,1216 US-Dollar, Referenzkurs des Datenpakets vom 02.11.2026.
+
+Die ausgewiesenen Gebühren werden zunächst als Obergrenze der für den Plattformmultiplikator ansetzbaren Nettogebühren verwendet. Nicht nachgewiesene zusätzliche Einnahmen werden nicht hinzugerechnet.
+
+\\[ FDV=50{,}0018\ \text{Mrd.}\times0{,}14645 \\]
+
+\\[ FDV\approx7{,}323\ \text{Mrd. Euro} \\]
+
+\\[ \text{Multiplikator}\approx \frac{7.322.762.679}{461.708} \approx15.860 \\]
+
+Der Multiplikator liegt damit weit über der höchsten Bewertungsschwelle von 400 nach § 9 Absatz 2.
+
+Hauptkennzahl: 0 Punkte.
+
+### Kontrollkennzahl: Burn / Emission
+
+Das Datenpaket weist keine laufende reguläre Neuemission von XLM aus. Eine für den Bewertungszeitraum belastbare Burn-Rate, die mit dieser Emission vergleichbar wäre, ist ebenfalls nicht nachgewiesen.
+
+Eine Division von null durch null ist nicht definiert. Deshalb erhält die Kontrollkennzahl den Wertstatus nicht bestimmbar, nicht einen künstlich eingesetzten Wert von null oder eins.
+
+Das ändert die Bewertungsnote nicht: Nach § 9 Absatz 3 gilt bei null Punkten der Hauptkennzahl zwingend:
+
+\\[ \boxed{VS=0} \\]
+
+### Empfindlichkeit und alternative Klasse
+
+Die Hauptkennzahl ist gegenüber kleineren Gebührenabweichungen robust. Selbst eine Verzehnfachung der ausgewiesenen Gebühren ergäbe noch einen Multiplikator von rund 1.586 und damit null Punkte.
+
+Für die alternative Klasse „Plattform mit Geldfunktion“ wäre die Hauptkennzahl MVRV derzeit methodisch ungeklärt. Der Wert 1,308 von Coin Metrics darf wegen des abweichenden Mengenbegriffs nicht ohne Bereinigung als bestätigte Bewertungsgrundlage verwendet werden. Eine eigenständige Bewertungsnote für diese Klasse bleibt daher leer.
+
+### Gesamtwert IPS
+
+\\[ IPS=0{,}75\times51+0{,}25\times0 \\]
+
+\\[ \boxed{IPS=38} \\]
+
+Nach § 13 ist dieser Wert ausschließlich eine Rangordnungskennzahl innerhalb der jeweiligen Statusgruppe.
+
+## 5. Angebot, Gate und F6
+
+### 5.1 Freier Umlauf nach D-14
+
+Das Datenpaket unterscheidet die folgenden Größen:
+
+| Position               | XLM         |
+| ---------------------- | ----------- |
+| Wirksame Gesamtmenge   | 50,002 Mrd. |
+| Freier Umlauf laut SDF | 35,259 Mrd. |
+| SDF-Mandatsbestand     | 14,473 Mrd. |
+| Upgrade-Reserve        | 0,259 Mrd.  |
+| Gebührenpool           | 0,011 Mrd.  |
+
+Der veröffentlichte Mandatsbestand stimmt größenordnungsmäßig mit den im Datenpaket untersuchten Stiftungskonten überein. Die SDF-Mandatsseite liefert dafür einen zusätzlichen ursprünglichen Beleg.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://stellar.org\&sz=32)
+
+SDF Mandate+1
+
+
+
+Für die Berechnung übernehme ich den freien Umlauf von 35,259 Milliarden XLM als vorläufigen Bezugswert.
+
+Dabei gilt die folgende Abgrenzung:
+
+- Frei verfügbare XLM bei gewöhnlichen Nutzern und in handelbaren Liquiditätspools zählen zum Umlauf.
+- Noch nicht verteilte Stiftungskassen und zweckgebundene Reserven zählen nicht automatisch zum freien Umlauf.
+- Bereits ausgezahlte, wirtschaftlich verfügbare Stiftungstoken zählen auch dann zum Umlauf, wenn ihre Empfänger sie noch nicht verkauft haben.
+- Der Gebührenpool wird nicht als frei verfügbarer Umlauf behandelt.
+- Die 2019 auf das unzugängliche Konto übertragenen XLM zählen weder als wirksame Gesamtmenge noch als mögliche künftige Freigabe.
+
+Offener Punkt: Die wirtschaftliche Verfügbarkeit sämtlicher SDF-Konten ist nicht einzeln nachgewiesen. Insbesondere sind „Hot“-Konten technisch beweglich. Technische Übertragbarkeit allein beweist aber noch nicht, dass ihre Bestände wirtschaftlich bereits verteilt wurden.
+
+Die Abgrenzung bleibt deshalb mit Belegsicherheit C versehen.
+
+### 5.2 Gate – Zuwachs der nächsten zwölf Monate
+
+Das Paket enthält eine Auswertung von 12.019 Zahlungsvorgängen der 13 veröffentlichten SDF-Konten.
+
+| Zahlungsstrom                                   | Menge          |
+| ----------------------------------------------- | -------------- |
+| Interne Übertragungen zwischen den 13 Konten    | 8,395 Mrd. XLM |
+| Übertragungen an Konten außerhalb dieser Gruppe | 3,475 Mrd. XLM |
+| Rückflüsse von außerhalb                        | 0,217 Mrd. XLM |
+
+Interne Übertragungen dürfen nicht als neue Freigaben gezählt werden. Bei den externen Abflüssen ist jedoch nicht vollständig geklärt, welcher Anteil tatsächlich an unabhängige wirtschaftliche Empfänger ging.
+
+Als konservative Berechnung aus den erfassten Abflüssen:
+
+\\[ \text{Zuwachs}= \frac{3{,}475}{35{,}259}\times100 \\]
+
+\\[ \boxed{9{,}86\\%} \\]
+
+Die Verwendung des Bruttoabflusses vermeidet, dass mögliche Rückflüsse vorschnell mit künftigen Freigaben verrechnet werden.
+
+Einschränkung: Der nachgewiesene Zahlungszeitraum beginnt erst am 02.11.2025 und umfasst nicht sämtliche denkbaren Bewegungsarten. Die 3,475 Milliarden XLM sind daher keine abschließend bestätigte Obergrenze sämtlicher Reservenausschüttungen.
+
+### 5.3 Absorptionsquote
+
+Ein belastbar nachgewiesenes Volumen an künftigen Rückkäufen, endgültigen Verbrennungen oder neuen Sperren von mindestens zwölf Monaten liegt nicht vor.
+
+Daher:
+
+Absorptionsquote: nicht bestimmbar.
+
+Ein Wert von null wäre nur gerechtfertigt, wenn das vollständige Ausbleiben entsprechender Vorgänge belegt wäre.
+
+### 5.4 Gate-Entscheidung nach § 11 Absatz 2
+
+Bei einem Zuwachs von 9,86 Prozent und nicht bestimmbarer Absorptionsquote lautet das rechnerische Gate:
+
+ok
+
+Die kritische Grenze von mehr als 15 Prozent wäre erst bei einem Zuwachs von mehr als rund 5,289 Milliarden XLM überschritten.
+
+Es besteht somit ein Abstand von rund 1,814 Milliarden XLM zur Sperrschwelle, bezogen auf die erfassten Abflüsse.
+
+Das Gate „ok“ ist allerdings nur vorläufig belastbar, solange die Vollständigkeit der erfassten Stiftungsabflüsse nicht nachgewiesen ist. Sollte die fehlende Erfassung zusätzliche Freigaben oberhalb dieses Abstands ermöglichen, müsste das Gate gemäß Q-04 und § 11 erneut entschieden werden. Das ist ein wesentlicher offener Prüfpunkt.
+
+### 5.5 F6 – mögliche Angebotsentwicklung über 36 Monate
+
+Nach D-08 zählt bei der 36-Monats-Betrachtung die gesamte Menge, die vertraglich höchstens frei werden kann.
+
+Da die derzeitigen Stiftungsreserven grundsätzlich verteilt werden können und keine neue reguläre XLM-Emission erforderlich ist, verwende ich die wirksame Gesamtmenge als Obergrenze:
+
+\\[ \text{CAGR}\_{36}= \left(\frac{50{,}0018}{35{,}2593}\right)^{1/3}-1 \\]
+
+\\[ \boxed{12{,}35\\%\ \text{pro Jahr}} \\]
+
+Das liegt im Notenband über 7 bis 15 Prozent.
+
+F6 = 2.
+
+Die Bewertung verwendet somit bewusst unterschiedliche Horizonte und Mengenregeln: Beim Gate gilt die historische Verteilung nach D-11, bei F6 die gesamte potenziell freiwerdende Reserve nach D-08.
+
+### 5.6 Größte einzelne Freigabe
+
+| Merkmal   | Ergebnis                                               |
+| --------- | ------------------------------------------------------ |
+| Menge     | Nicht bestimmbar                                       |
+| Empfänger | Nicht bestimmbar                                       |
+| Datum     | Nicht bestimmbar                                       |
+| Ursache   | Kein verbindlicher einzelner Freigabeplan nachgewiesen |
+
+Die Stiftung kann Bestände im Rahmen ihres Mandats einsetzen. Daraus folgt aber kein belegbarer zukünftiger Einzeltermin.
+
+Die größte historische Übertragung ist nicht mit der größten zukünftigen Freigabe gleichzusetzen.
+
+## 6. Prüfprotokoll
+
+Die folgende Tabelle unterscheidet ausdrücklich die archivierten Rohdaten des Datenpakets von den in dieser Zweitprüfung zusätzlich eingesehenen Quellen.
+
+| Prüfgegenstand                  | Ergebnis                                                                                        | Kennzeichnung                    |
+| ------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------- |
+| ZIP-Prüfsumme                   | Exakt bestätigt                                                                                 | R/V                              |
+| Identität XLM / Stellar         | Plausibel, mit Projektunterlagen abgeglichen                                                    | P/E                              |
+| Wirksame Gesamtmenge            | 50,002 Mrd. XLM, Blockchain-Abgleich im Paket dokumentiert                                      | P/E                              |
+| SDF-Konten                      | 13 veröffentlichte Konten; Zuordnung extern nachvollzogen                                       | P/E                              |
+| SDF-Zahlungsströme              | Im Paket ausgewertet; keine vollständige unabhängige Nachrechnung aller 12.019 Vorgänge         | R/E                              |
+| Freier Umlauf                   | 35,259 Mrd. XLM, wirtschaftliche Abgrenzung teilweise offen                                     | P/E                              |
+| MVRV                            | Mengenabweichung erkannt; Bereinigung nicht möglich                                             | A/W                              |
+| 200-Wochen-Durchschnitt         | 0,170428 €, aus archivierten Kerzen berechnet                                                   | R/E                              |
+| Gebühren                        | 517.853 USD, DefiLlama-Aggregat im Paket                                                        | A/E                              |
+| Gebührenmultiplikator           | Unabhängig nachgerechnet                                                                        | R/E                              |
+| Burn / Emission                 | Kontrollquote nicht bestimmbar                                                                  | P/E, Wertstatus nicht bestimmbar |
+| Institutionelle Nutzung         | Ursprüngliche Projektberichte zusätzlich eingesehen                                             | P/E                              |
+| Adresskonzentration             | SDF-Bestände bekannt, Top-10-Verteilung nicht vollständig                                       | P/E, teilweise offen             |
+| Validatoren                     | Konsensverfahren und historische Entwicklung belegt, konkrete Machtverteilung nicht vollständig | P/E                              |
+| Regulatorische Ausschlussgründe | Kein konkreter Ausschlussgrund nachgewiesen; keine vollständige amtliche Einzelfallbestätigung  | E                                |
+
+Wichtige Einschränkung des Prüfprotokolls: Die im Paket als P/V bezeichneten Blockchain-Daten wurden hier nicht sämtlich erneut direkt bei Horizon abgerufen. Die enthaltenen Transaktionsdaten sind daher in meiner eigenen Prüfung nicht durchgehend V, sondern E. Die Prüfung erfüllt insoweit noch nicht vollständig die Anforderung aus Teil G der Datenquellen-Verfassung.
+
+Für einen abschließenden Datenabgleich wären insbesondere drei Nachprüfungen erforderlich: eine erneute vollständige Abfrage der Stiftungsabflüsse einschließlich anderer Bewegungsarten, die wirtschaftliche Zuordnung der größten Empfänger und eine unabhängige Bestimmung der aktuellen Validatoren- beziehungsweise Quorumkonzentration.
+
+## 7. Statusentscheidung nach § 14
+
+Die Qualitätsnote beträgt 51 Punkte und liegt damit in der Klasse Option (45 bis unter 55 Punkte).
+
+Die Statusreihenfolge führt zu folgendem Ergebnis:
+
+- Kein dauerhafter Ausschlussgrund nachgewiesen.
+- Alle sieben Noten vergeben.
+- F7 ist nicht null.
+- Belegsicherheit C, nicht D, unter der vorläufigen Annahme, dass die ungeklärten Freigaben die Gate-Schwelle nicht überschreiten.
+- F4 und F5 sind nicht beide null.
+- Kein nachgewiesenes Investment-Sperr-Gate.
+- Qualitätsklasse Option.
+
+Damit greift § 14 Absatz 1 Nummer 7:
+
+Status: Optionsliste.
+
+Eine spätere Klärung der Freigabedaten kann allerdings eine strengere Belegsicherheit und damit einen vorsichtigeren Status erforderlich machen.
+
+## 8. Beobachtungen zum Regelwerk
+
+Diese Beobachtungen verändern das Ergebnis nicht.
+
+K-01 – Historische Bruttoabflüsse sind keine bestätigte Obergrenze. D-11 erlaubt die Verwendung tatsächlicher Reserveverteilungen. Wenn die zugrunde liegende Kontenerfassung unvollständig ist, entsteht jedoch eine erhebliche Unsicherheit für die Gate-Entscheidung. Q-04 verlangt dann eine belastbare Schranke. Bei Stellar ist diese Frage noch nicht abschließend geklärt.
+
+K-02 – Bewertungskennzahl und wirtschaftlicher Netzwerkwert. Der Plattformmultiplikator bestraft bei Stellar die sehr geringen Netzwerkgebühren, obwohl erhebliche wirtschaftliche Werte abgewickelt werden. Das ist kein Rechenfehler, sondern eine Folge der verbindlichen Bewertungsdefinition. Eine Änderung wäre eine allgemeine Regelentscheidung und darf nicht für XLM vorgenommen werden.
+
+K-03 – Unterschied zwischen technischer und wirtschaftlicher Verfügbarkeit. Die Stiftung verfügt über technisch bewegliche Konten. D-14 verlangt jedoch wirtschaftliche Verfügbarkeit. Die Zuordnung kann bei großen Stiftungsreserven erheblichen Einfluss auf F6 und das Gate haben.
+
+## 9. Offene Nachweise und Wiedervorlage
+
+Der wesentliche fehlende Beweis ist nicht, ob Stellar tatsächlich genutzt wird. Das ist hinreichend dokumentiert. Offen bleibt vielmehr, wie vollständig die wirtschaftlichen Ausschüttungen der Stiftung erfasst sind und wie stark die Governance- und Validatorenstruktur tatsächlich konzentriert ist.
+
+Als nächster Prüftermin bietet sich nach § 15 die vierteljährliche Wiedervorlage Anfang Februar 2027 an. Eine neue erhebliche Stiftungsfreigabe, Änderung der Tokenomics oder ein Sicherheitsvorfall würde eine frühere Prüfung auslösen.
+
+Abschlussurteil: Stellar erreicht auf dem eingefrorenen Datenstand eine Qualitätsnote von 51, eine Bewertungsnote von 0 und den Status „Optionsliste“. Das Ergebnis ist rechnerisch nachvollziehbar, aber wegen der nicht vollständig bestätigten Reservebewegungen und Sicherheitsstruktur noch nicht als vollständig abgeschlossene Datenzweitprüfung im Sinne von Teil G zu betrachten.
