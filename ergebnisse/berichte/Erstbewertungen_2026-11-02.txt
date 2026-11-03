@@ -5,7 +5,7 @@ Zusammenfassung der vier Einzelberichte vom 2. November 2026 (Regelwerk Version 
 
 EINLEITUNG
 
-Die Vorprüfung vom 2. November 2026 hat aus den 260 bis dahin nie geprüften Coins des Bitvavo-Universums diejenigen herausgefiltert, die nach den Regeln überhaupt eine Bewertungsnote über null erreichen können. Siebzehn davon sind am selben Tag vollständig bewertet worden; dieser Bericht fasst die vier Einzelberichte dazu in einem Dokument zusammen.
+Die Vorprüfung vom 2. November 2026 hat aus den 260 bis dahin nie geprüften Coins des Bitvavo-Universums diejenigen herausgefiltert, die nach den Regeln überhaupt eine Bewertungsnote über null erreichen können. Von den 34 Anwärtern, die sie weitergeleitet hat, sind sechzehn am selben Tag vollständig bewertet worden, dazu der neu entdeckte Markt Axis Robotics, zusammen siebzehn Coins; dieser Bericht fasst die vier Einzelberichte dazu in einem Dokument zusammen. Achtzehn Anwärter sind noch nicht bewertet: die sechzehn grenznahen Fälle Grove, Tria, Sport.Fun, Treehouse, o1.exchange, Solstice, SoSoValue, Derive, Enzyme, Threshold, Superform, Immunefi, Frax, Swell, API3 und Re Protocol sowie Magic Eden und Tensor aus der Nacherhebung.
 
 Eine Erstbewertung beurteilt jeden Coin nach zwei Größen. Die Qualitätsnote von 0 bis 100 fasst sieben Kriterien zusammen: Bedarf außerhalb der Kryptowelt (F1), wirtschaftlicher Beleg (F2), Vorsprung vor Konkurrenten (F3), Notwendigkeit des Tokens (F4), Rückfluss des erwirtschafteten Werts an die Tokenhalter (F5), Entwicklung der Tokenmenge (F6) und Widerstandsfähigkeit (F7). Die Bewertungsnote von 0 bis 100 misst den Preis im Verhältnis zum Ertrag oder, bei Geldwerten wie Bitcoin, im Verhältnis zum durchschnittlichen Einstandspreis der Halter. Dazu kommen das Angebots-Gate, das bei stark wachsender Tokenmenge sperrt, und die Belegsicherheit von A bis D, die angibt, wie gut die Zahlen belegt sind. Aus allem folgt nach festen Regeln der Status, etwa „Satellit“ als kleinster Kaufkandidat, „Optionsliste“ für einen Kauf nur nach Einzelentscheidung oder „Kein Kandidat“.
 
@@ -50,7 +50,7 @@ Die übrigen Einzelberichte gelten unverändert. Wo sie von „Version 1.2.30“
 
 Erstens: Abschluss der Zweitprüfung von XRP und Zweitprüfung von Stellar, danach Abgleich und Abschlussbericht.
 Zweitens: Prüfung der Token-Verträge der bisherigen Kandidaten und Bestände nach § 6 Absatz 3, zuerst POL und SKY, sowie von Axis Robotics.
-Drittens: Erstbewertung der übrigen siebzehn Anwärter aus der Vorprüfung.
+Drittens: Erstbewertung der übrigen achtzehn Anwärter aus der Vorprüfung (siehe Einleitung).
 Viertens: Wiedervorlage der bestehenden Kandidaten aus dem Oktober vor dem 17. November 2026.
 Fünftens: Vorschlag zur Fortschreibung der Betriebsdokumente: Datenpakete für Kandidaten stets mit Blockchain-Prüfung und Quellenregister; die Zweitprüfung erhebt fehlende Belege selbst, auch wenn ein Datenpaket vorliegt. Entscheidung offen.
 
