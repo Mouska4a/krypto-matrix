@@ -1,0 +1,19 @@
+ABGLEICH XRP MIT DER ZWEITPRÜFUNG – ZWISCHENSTAND (Modus E)
+Stand: 03.11.2026, Regelwerk Version 1.2.31
+
+Erstbewertung (02.11.2026): F1 4, F2 3, F3 3, F4 5, F5 3, F6 1, F7 2; Qualitätsnote 58 (C); Bewertungsnote 100; Belegsicherheit C; Gate ok; Status Satellit.
+Zweitprüfung (03.11.2026, vorläufig): F4 5, übrige Noten leer; Bewertungsnote leer (bedingt 100 für Geldwert-Asset); Belegsicherheit D; Gate offen; Status unvollständig.
+
+Abweichungen nach § 16 Absatz 5: Status, Gate, Belegsicherheit. Noten nicht vergleichbar (sechs leer). Übereinstimmend: F4 5; Bewertungsnote 100 bei Geldwert-Asset; Rechenwerte MVRV 0,846 und Kurs zu 200-Wochen-Durchschnitt 0,977.
+Gültiger Status bis zur Auflösung: unvollständig (§ 16 Absatz 4); für Grenzen gilt Belegsicherheit D (§ 16 Absatz 6). Kein Kauf. Kein Ergebnis nach Abgleich eingetragen.
+
+Ursachen:
+1. Daten (Erstprüfung): Das Datenpaket vom 02.11.2026 enthielt nur Markt- und Mengendaten, keine Blockchain-Prüfung nach Teil F Schritt 6 der Verfassung und kein Quellenregister für F1 bis F3 und F7; Treuhandangaben nur aus zweiter Hand.
+2. Verfahren (Zweitprüfung): Teil A, Modus A, verlangt eigene Erhebung nur ohne Datenpaket; die Zweitprüfung ließ deshalb Noten leer statt Belege selbst zu erheben.
+3. Gate: Die Zweitprüfung hielt den Zuwachs für nicht bestimmbar. Primärdaten des XRP Ledgers (Ledger 108096366, Nachtrag vom 03.11.2026): 99 Treuhandverträge mit zusammen 31,1 Mrd. XRP, ohne Bedingung und Verfallsfrist; frühestmögliche Freigabe je 1 Mrd. am Ersten jedes Monats vom 01.12.2026 bis 01.06.2029, Rest 0,1 Mrd. am 01.07.2029; in den nächsten zwölf Monaten 12 Mrd. Vom 01.11.2025 bis 03.11.2026 je Monat 1 Mrd. freigegeben und 0,7 Mrd. in neue Treuhandverträge mit 31 bis 35 Monaten Laufzeit gesperrt, keine Abbrüche. Absorption gemessen 70 Prozent (Schwelle 25 Prozent). Umlauf nach D-14 zwischen 63,35 Mrd. (CoinGecko) und 64,8 Mrd. (Ledger: Gesamtmenge 99,986 Mrd. minus Treuhand 31,1 Mrd. minus 4,1 Mrd. freie Guthaben der Ripple zugeordneten Konten); Zuwachs 18,5 bis 18,9 Prozent. Ergebnis der Erstbewertung „ok“ damit auf Primärdaten bestätigt; die Zuordnung der Konten zu Ripple bleibt Hinweis (XRPSCAN, Q-11).
+4. F6: mögliche Menge in 36 Monaten die gesamte Treuhand; Rate 15,6 bis 16,4 Prozent, Note 1 bestätigt. Nur wenn die freien Ripple-Guthaben als Umlauf zählten (68,9 Mrd.), ergäben sich 13,2 Prozent und Note 2 (Qualitätsnote 61).
+5. Berechtigte Hinweise der Zweitprüfung: D-03 verlangt zwölf abgeschlossene Kalendermonate statt rollierender 365 Tage (für Geldwert-Assets ohne Folge auf die Bewertungsnote); Klasse zwischen Geldwert-Asset und Plattform mit Geldfunktion, beide mit MVRV als Hauptkennzahl.
+Belegsicherheit der Erstbewertung bleibt C (Kontenzuordnung zweiter Hand, MVRV nur aus einer Quelle).
+
+Nächster Schritt: Nachtrag zum Datenpaket und Nachforderung in dasselbe Gespräch der Zweitprüfung; danach Abgleich fortsetzen.
+Vorschlag (Entscheidung des Anlegers offen): Betriebsdokumente ergänzen – Datenpakete für Kandidaten stets mit Blockchain-Prüfung und Quellenregister; Zweitprüfung erhebt fehlende Belege zu Kriterien selbst, auch wenn ein Datenpaket vorliegt.

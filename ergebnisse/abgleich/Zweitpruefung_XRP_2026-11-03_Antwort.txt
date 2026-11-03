@@ -1,0 +1,154 @@
+03.11.2026				5					D	offen	unvollständig
+
+
+12 tabulatorgetrennte Felder. Leere Felder: F1, F2, F3, F5, F6, F7 und VS. Vorläufiger Prüfstand.
+Zweitprüfung XRP – Version 1.2.31
+Stichtag: 02.11.2026
+Prüfdatum: 03.11.2026
+Prüfgegenstand: XRP, XRP Ledger, CoinGecko-Kennung ripple
+
+Die SHA-256-Prüfsumme des hochgeladenen ZIP-Archivs stimmt exakt mit der angegebenen Prüfsumme e653c51cf2ec48029e513c7911a84e93f66235686a9401a27ac0c2b33c5dec3a überein.
+
+Das Archiv enthält zehn Dateien, darunter neun Rohdaten-Dateien beziehungsweise Datenauszüge. Es enthält keine erkennbaren Noten oder Statuswerte der Erstbewertung. Die Blindheit ist damit gewahrt.
+
+Vorläufiges Ergebnis: Das Paket ermöglicht die Nachrechnung der monetären Bewertungskennzahlen, aber noch keine vollständige regelkonforme Einstufung der Angebotsentwicklung und Widerstandsfähigkeit. Besonders kritisch ist die Unterscheidung zwischen der nahezu vollständig existierenden XRP-Gesamtmenge und dem tatsächlich freien Umlauf einschließlich der Ripple-Treuhandbestände.
+
+Die Belegsicherheit D und der Status „unvollständig“ bezeichnen den derzeitigen Nachweisstand, nicht einen nachgewiesenen fundamentalen Ausschlussgrund. Nach § 14 greift „unvollständig“ vor „Keine Position – Daten klären“.
+1. Kriterien F1 bis F7
+Kriterium	Note	Begründung und Beleglage
+F1 – Externer Bedarf	offen	Zahlungsverkehr und internationale Abwicklung sind nach D-18 grundsätzlich für Noten 4–5 zugelassen. Das Paket belegt aber weder die Größe des tatsächlich adressierten Marktes noch dessen Wachstum ausreichend.
+F2 – Wirtschaftlicher Beleg	offen	Gebühren sind dokumentiert. Es fehlt jedoch die Trennung zwischen tatsächlicher zahlender Nutzung, wirtschaftlichem Zahlungsvolumen und gegebenenfalls anreizgetriebener Aktivität.
+F3 – Burggraben	offen	Die langjährige Marktpräsenz und vorhandene Zahlungsinfrastruktur sind Indizien. Eine robuste Führungsposition und stabile Marktanteile sind nicht unabhängig belegt.
+F4 – Token-Notwendigkeit	5	XRP ist die native Einheit für Transaktionsgebühren auf dem XRP Ledger. Die Gebühren werden auf Protokollebene in XRP erhoben.  xrpl.org+1
+F5 – Wertrückfluss	offen	Die Gebührenvernichtung ist protokollseitig bestätigt. Die vollständige, periodenrichtige Burn-Menge und der maßgebliche Umsatznenner müssen noch geprüft werden.
+F6 – Angebotsentwicklung	offen	Die Gesamtmenge ist bekannt, aber der mögliche freie Umlauf in 36 Monaten nach D-08 ist nicht belegt.
+F7 – Widerstandsfähigkeit	offen	Das Konsensverfahren und die Protokolländerungen sind dokumentiert. Die erforderliche Prüfung der größten Adressen, Projektkasse und Zentralisierungsrisiken fehlt.
+
+Einordnung der wichtigsten Kriterien
+F1: XRP adressiert mit Zahlungsverkehr und institutioneller Abwicklung einen großen externen Markt. Die Existenz dieses Marktes ist jedoch nicht gleichbedeutend mit nachgewiesener Nachfrage nach XRP. Für die Abgrenzung zwischen F1 = 3, 4 und 5 fehlen belastbare Marktgrößen und Wachstumsbelege.
+
+F3: Der XRP Ledger verfügt über eine langjährige Infrastruktur und ein eigenes Konsensverfahren. Ob daraus mehrere robuste, schwer nachzubildende Wettbewerbsvorteile entstehen, erfordert den Vergleich mit konkurrierenden Abwicklungsnetzen. Ein Marktanteilsnachweis liegt nicht vor.
+
+F7: Protokolländerungen werden über Validatorabstimmungen mit einer Zustimmungsschwelle von mehr als 80 Prozent über zwei Wochen aktiviert. Das ist ein belegter Schutzmechanismus, beweist aber allein keine hinreichende Dezentralisierung. 
+
+xrpl.org
+
+F7-Pflichtprüfliste
+Prüfpunkt nach § 7 Absatz 11	Ergebnis
+Prägerechte	Höchstmenge von 100 Milliarden XRP durch Protokolldokumentation bestätigt
+Änderungsrechte	Validatorabstimmung als Verfahren bestätigt
+Einfrieren von XRP	Keine allgemeine Einfrierberechtigung für native XRP aus den geprüften Protokollunterlagen ersichtlich; technische Gegenprüfung offen
+Aktualisierbare Token-Verträge	Nicht anwendbar auf natives XRP
+Zehn größte Adressen ohne Börsen	Nicht bestätigt
+Projektkasse: Reichweite und Finanzierung	Nicht bestätigt
+Einseitige Änderung von Emission, Gebühren oder Ausschüttungen	Gebührenänderungen unterliegen einem Abstimmungsverfahren; vollständige Rechteprüfung offen
+Brückenrisiken	Nicht vollständig geprüft
+Sich selbst stützende Mechanismen	Kein existenzbedrohender Mechanismus nachgewiesen; Prüfung nicht abgeschlossen
+
+Ein dauerhafter Ausschlussgrund nach § 6 ist damit nicht nachgewiesen. Seine vollständige Prüfung ist noch offen.
+2. Bewertungsnote VS – Rechenweg
+Für XRP kommen insbesondere die Klassen „Geldwert-Asset“ und „Plattform mit Geldfunktion“ in Betracht. Die Zuordnung ist anhand der tatsächlichen wirtschaftlichen Funktion zu entscheiden.
+
+Die Rohdaten ermöglichen folgende monetäre Berechnung:
+Hauptkennzahl – Marktwert zu realisiertem Wert (MVRV)
+0,84629
+Coin Metrics, 01.11.2026 · 100 Punkte nach § 9
+
+Kontrollkennzahl – Kurs / 200-Wochen-Durchschnitt
+0,97714
+1,11511 € / 1,14119655 € · 100 Punkte
+
+Für die Klasse Geldwert-Asset ergibt sich:
+\[
+VS=0{,}6\times100+0{,}4\times100=\boxed{100}
+\]
+
+Dieser Wert ist rechnerisch aus dem Datenpaket bestätigt. Er gilt als bedingte Bewertungsnote für die Klasse Geldwert-Asset. Bei der Klasse „Plattform mit Geldfunktion“ wäre stattdessen die Deckungsquote Burn/Emission die Kontrollkennzahl. Die Klassenzuordnung ist noch nicht hinreichend abgeschlossen, weshalb VS in der vorläufigen Ergebniszeile leer bleibt.
+
+Die 200-Wochen-Berechnung habe ich aus den 200 abgeschlossenen Wochenkerzen eigenständig wiederholt. Der Durchschnitt stimmt mit dem Datenpaket überein.
+
+Die Hauptkennzahl liegt unter der günstigsten Schwelle von 1. Die Kontrollkennzahl liegt mit 0,97714 knapp unter 1. Eine Erhöhung des Kursverhältnisses über 1 würde die Kontrollkennzahl von 100 auf 80 Punkte und bei sonst gleichen Bedingungen die VS von 100 auf 92 senken. Diese Schwellenempfindlichkeit ist zu protokollieren.
+3. Angebot und Angebots-Gate
+Höchstmenge
+100 Mrd. XRP
+
+Gesamtmenge laut CoinGecko
+99,986 Mrd.
+
+Gemeldeter Umlauf
+63,351 Mrd.
+
+Anteil an Höchstmenge
+63,35 %
+
+
+CoinGecko-Rohwerte des eingefrorenen Datenpakets. Der gemeldete Umlauf ist nicht als freier Umlauf nach D-14 unabhängig bestätigt.
+Die offizielle Dokumentation bestätigt, dass die ursprünglichen 100 Milliarden XRP bereits geschaffen wurden und die Ripple-Treuhand über das XRP Ledger abgewickelt wird. 
+
+xrpl.org+1
+
+Erforderlicher Angebotswert	Prüfstand
+Freier Umlauf nach D-14	Nicht bestätigt
+Zuwachs nächste 12 Monate	Nicht bestimmbar
+Absorptionsquote	Nicht bestimmbar
+F6-Rate über 36 Monate	Nicht bestimmbar
+Größte Freigabe	Bis zu 1 Mrd. XRP monatlich als historischer Rahmen beschrieben; konkretes Ereignis nicht bestätigt
+Empfänger	Ripple-bezogene Treuhandempfänger; einzelne Adressen nicht geprüft
+Nächstes Freigabedatum	Nicht unabhängig bestätigt
+
+Der ursprüngliche Treuhandmechanismus sieht monatliche Freigaben von bis zu einer Milliarde XRP vor. Nicht verwendete Mengen können erneut gesperrt werden. 
+
+xrpl.org
+
+Die Angabe aus dem Paket, Ripple bringe netto lediglich 200–300 Millionen XRP monatlich in Umlauf, ist eine Sekundärangabe und keine belegte vertragliche Obergrenze. Sie darf daher die nach D-04 mögliche Freigabe nicht ersetzen.
+
+Gate: offen. Eine Investment-Sperre ist auf dieser Grundlage nicht nachgewiesen, kann aber ohne Prüfung der Freigaben auch nicht ausgeschlossen werden.
+4. Wirtschaftliche Kennzahlen und Wertrückfluss
+Aus dem archivierten DefiLlama-Auszug ergeben sich:
+Kennzahl	Wert
+Gebühren, 365 Tage	281.712 USD
+Umgerechnet mit 1 € = 1,1216 USD	251.170 €
+Gebühren, 30 Tage	27.744 USD
+Voll verwässerte Bewertung bei 1,11511 €	111,511 Mrd. €
+FDV / ausgewiesene Jahresgebühren	ca. 443.965
+
+Der Multiplikator ist eine Kontrollrechnung, nicht die vorgeschriebene Hauptkennzahl der beiden monetären Klassen. Er darf nicht ersatzweise zur Bestimmung der VS verwendet werden.
+
+Der DefiLlama-Auszug bezeichnet die Gebühren des XRP Ledger als vollständig verbrannt. Das stimmt mit der offiziellen Protokollbeschreibung überein. 
+
+xrpl.org
+
+Die exakte, für F5 relevante Quote erfordert allerdings eine Prüfung des Gebührenumfangs und der periodenrichtigen Burn-Mengen. Die aus dem Paket vorliegende Gebührenübersicht verwendet ein rollierendes 365-Tage-Fenster; D-03 verlangt die letzten zwölf abgeschlossenen Kalendermonate.
+5. Prüfprotokoll
+Prüfung	Ergebnis
+SHA-256 des ZIP-Archivs	Bestätigt, exakte Übereinstimmung
+Prüfsummen der neun Rohdateien	Bestätigt
+Identität XRP / ripple / XRP Ledger	Plausibel und mit offizieller Protokolldokumentation abgeglichen
+Bitvavo-Wochenkerzen	200 abgeschlossene Wochen eigenständig nachgerechnet
+MVRV	Rohwert im Coin-Metrics-Auszug gefunden; erneuter unabhängiger Schnittstellenabruf nicht erfolgt
+XRP-Gesamtmenge	CoinGecko und Coin Metrics größenordnungsmäßig konsistent, aber unterschiedliche Stichtage
+Gebühren	Archivierter DefiLlama-Wert vorhanden; eigenständige Transaktionssummierung nicht erfolgt
+Burn-Mechanismus	Offizielle Protokollregel bestätigt
+Treuhandfreigaben	Historischer Mechanismus bestätigt; aktuelle Mengen und Termine nicht unabhängig bestätigt
+Freier Umlauf	Nicht bestätigt
+F7-Adressen und Projektkasse	Nicht bestätigt
+Bitvavo-Euro-Markt	Im archivierten Marktdatensatz vorhanden; kein erneuter Liveabruf
+Vollständigkeit des Gesamtuniversums	Nicht prüfbar aus diesem Einzelcoin-Paket
+
+Kennzeichnung: Die Coin-Metrics-Werte sind A/E, die CoinGecko-Mengen M/E und die nachgerechneten Kennzahlen R mit den jeweiligen Eingangskennzeichen. Die offiziellen Protokollregeln sind Primärbelege (P/E); ihre konkrete Ausführung zum Stichtag wurde nicht überall auf der Blockchain bestätigt.
+
+Die Prüfung erfüllt damit noch nicht den gesamten Umfang nach Teil G der Datenquellen-Verfassung. Insbesondere die entscheidungsrelevanten Angebots- und Governance-Daten benötigen eine unabhängige Nachprüfung.
+6. Beobachtungen zu Regeln und Wiedervorlage
+K-01 – Geldwertklasse und Wertrückfluss. XRP zeigt, weshalb eine monetäre Bewertung und eine Umsatzbewertung unterschiedliche Aussagen liefern können. Die monetäre Kennzahl ergibt bei Zuordnung als Geldwert-Asset 100 Punkte, während die ausgewiesenen Netzwerkgebühren im Verhältnis zur voll verwässerten Bewertung sehr gering sind. Das ist keine Rechenabweichung und rechtfertigt keine Änderung der eingefrorenen Gewichte.
+
+K-02 – Treuhand und Angebotsrisiko. Eine feste Höchstmenge verhindert zusätzliche Prägung, aber nicht die Ausweitung des freien Umlaufs durch die Freigabe bereits existierender Token. D-08 und D-14 müssen deshalb getrennt von der Gesamtmenge angewandt werden.
+
+Thesis Upside: Zunehmende Nutzung von XRP als Zahlungs- und Abwicklungseinheit außerhalb rein kryptointerner Transaktionen.
+
+Thesis Gap: Nachweis tatsächlicher zahlender Nachfrage nach XRP, verlässliche Abgrenzung des freien Umlaufs, aktuelle Treuhandfreigaben und die vollständige F7-Prüfung.
+
+Wiedervorlage: Nach Beschaffung der fehlenden Primärdaten; anschließend erneute Festlegung der sieben Noten, der Klasse, der Bewertungsnote und des Status.
+Abschließender Prüfvermerk
+Die vorläufige Zweitprüfung ist bewusst nicht durch geschätzte Noten vervollständigt worden. Die wesentliche Erkenntnis aus dem Datenpaket ist eine rechnerisch sehr niedrige monetäre Bewertung nach MVRV und Kursdurchschnitt bei gleichzeitig unzureichend belegter Angebotsentwicklung.
+
+Eine endgültige Ergebniszeile nach § 16 Absatz 3 kann erst nach Klärung der offenen Kriterien und des Angebots-Gates festgeschrieben werden.
