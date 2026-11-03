@@ -1,0 +1,7 @@
+PRÜFNOTIZ ERSTPRÜFUNG XLM, 03.11.2026 (nicht für die Zweitprüfung)
+Blockchain-Daten (Horizon, Ledger 65291245) zur Gegenprobe der Erstbewertung vom 02.11.2026:
+Umlauf nach D-14: total_coins 105.443,9 Mio. minus gesperrtes Konto GALAXYVOID 55.442,1 Mio. = 50.001,8 Mio.; minus 13 veröffentlichte Stiftungskonten 14.415,9 Mio. = 35.585,9 Mio. XLM (CoinGecko 35.258,3 Mio.).
+Gate nach D-11: in zwölf Monaten an andere Konten abgeflossen 3.475,0 Mio. (brutto, Rückflüsse 216,8 Mio. nicht abgezogen) = 9,8 Prozent des Umlaufs; unter 15 Prozent, Gate ok bestätigt (bisher Sekundärwert rund 8 Prozent).
+F6 nach D-08 mit voller Reserve: (50.001,8 / 35.585,9) hoch ein Drittel minus 1 = 12,0 Prozent im Jahr, Note 2 bestätigt.
+MVRV: Bereinigung um GALAXYVOID ohne CapRealUSD nicht belegbar; Wert 1,31 und 80 Punkte nach Grundsatz 4 bleiben.
+Belegsicherheit: Stiftungsabflüsse jetzt P/V; MVRV weiterhin nur eine Quelle mit bekanntem Mengenwiderspruch; C bleibt.
