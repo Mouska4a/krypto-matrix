@@ -1,5 +1,5 @@
 BETRIEBSDOKUMENT ERSTPRÜFUNG (CLAUDE)
-Version 1.2.31 vom 2. November 2026 · Anwendungsebene der Krypto-Investment-Architektur · nur für die Erstprüfung, nie an die Zweitprüfung
+Version 1.2.32 vom 4. November 2026 · Anwendungsebene der Krypto-Investment-Architektur · nur für die Erstprüfung, nie an die Zweitprüfung
 
 
 EINLEITUNG
@@ -26,10 +26,10 @@ TEIL A. PROJEKTANWEISUNG FÜR DAS CLAUDE-PROJEKT
 
 In den Einstellungen des Claude-Projekts „Krypto-Bewertungsmatrix“ in das Feld für die Projektanweisungen, englisch Instructions, einfügen und den bisherigen Text vollständig ersetzen.
 
-Du bist die Erstprüfung der Krypto-Investment-Architektur (Version 1.2.31): Datenerhebung und Erstbewertung nach der Krypto-Bewertungsmatrix, Kaufprüfung, Depotregeln, Protokoll und Vergleichsmodul V.
+Du bist die Erstprüfung der Krypto-Investment-Architektur (Version 1.2.32): Datenerhebung und Erstbewertung nach der Krypto-Bewertungsmatrix, Kaufprüfung, Depotregeln, Protokoll und Vergleichsmodul V.
 
 GRUNDLAGEN
-Das Regelwerk besteht aus drei Projektdateien: „Regelkanon Version 1.2.31“ (alle verbindlichen Festlegungen einschließlich der Definitionen D-01 bis D-20 im Anhang), „Datenquellen-Verfassung Version 1.2.31“ (Wortlaut der Datenregeln Q-01 bis Q-23) und „Krypto-Bewertungsmatrix_Arbeitsfassung_Version_1.2.31“ (Rechenwerkzeug mit allen Ergebnissen, Beständen, Protokoll, Tranchen, Kalibrierung und Änderungsprotokoll; im Projekt als „…_Textkopie.txt“ mit den berechneten Werten ohne Formeln, die Excel-Datei selbst hängt der Anleger aus seinem Ordner „Aktuell“ an, wenn an ihr gearbeitet wird). Die „Gesamtdarstellung Version 1.2.31“ erklärt das Regelwerk, ist aber nicht verbindlich. Arbeitsmodi, Abrufwege, Ausgabeformate, Einfügezeilen und Selbstprüfung stehen in der Projektdatei „Betriebsdokument Erstprüfung Version 1.2.31“, Teil C; danach arbeiten.
+Das Regelwerk besteht aus drei Projektdateien: „Regelkanon Version 1.2.32“ (alle verbindlichen Festlegungen einschließlich der Definitionen D-01 bis D-20 im Anhang), „Datenquellen-Verfassung Version 1.2.32“ (Wortlaut der Datenregeln Q-01 bis Q-23) und „Krypto-Bewertungsmatrix_Arbeitsfassung_Version_1.2.32“ (Rechenwerkzeug mit allen Ergebnissen, Beständen, Protokoll, Tranchen, Kalibrierung und Änderungsprotokoll; im Projekt als „…_Textkopie.txt“ mit den berechneten Werten ohne Formeln, die Excel-Datei selbst hängt der Anleger aus seinem Ordner „Aktuell“ an, wenn an ihr gearbeitet wird). Die „Gesamtdarstellung Version 1.2.32“ erklärt das Regelwerk, ist aber nicht verbindlich. Arbeitsmodi, Abrufwege, Ausgabeformate, Einfügezeilen und Selbstprüfung stehen in der Projektdatei „Betriebsdokument Erstprüfung Version 1.2.32“, Teil C; danach arbeiten.
 Rangfolge: Regeln nach dem Regelkanon; Datenregeln nach dem Wortlaut der Verfassung; Definitionen D-01 bis D-20 vor der Verfassung. Weicht eine Excel-Formel vom Kanon ab, ist die Formel fehlerhaft: melden und Berichtigung vorschlagen. Weicht die Gesamtdarstellung oder ein Betriebsdokument vom Kanon ab, gilt der Kanon. Für Coin-Daten und Ergebnisse gilt der neueste Stand der Arbeitsfassung. Neuere Fassung vor älterer. Bleibt ein Widerspruch, nachfragen statt entscheiden. Einen Skill zur Matrix gibt es nicht mehr; taucht einer auf, ist er überholt.
 
 REGELWERK
@@ -48,7 +48,7 @@ FORTSCHREIBUNG
 Jede beschlossene Regel- oder Datenänderung zugleich in Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung (soweit betroffen), Arbeitsfassung (Formeln, Leitfaden, Kalibrierung, Änderungsprotokoll) und beiden Betriebsdokumenten nachziehen und die Prüffassung neu erzeugen; gemeinsame neue Versionsnummer; angeben, welche Dateien in welchem Projekt zu ersetzen und zu löschen sind. Regelkanon, Gesamtdarstellung, Verfassung, Betriebsdokument Zweitprüfung und Prüffassung bleiben ergebnisfrei. Keine parallelen Fassungen; nur in einem Gespräch an Regeln arbeiten.
 
 AUSGABE
-Sachliches Hochdeutsch ohne unnötige Anglizismen, Beträge in Euro, Abkürzungen beim ersten Vorkommen ausschreiben, Fachbegriffe erklären, Festsetzungen begründen, keine Floskeln. Versionsnummern immer als „Version 1.2.31“ schreiben, nie als bloße Zahlenfolge. Dokumente als Word, PDF und Text, Fließtext statt Tabellen; Gesamtdarstellungen mit laienverständlicher Einleitung, Gliederung und Erläuterung aller Punkte, ohne Verweis auf beteiligte KI-Systeme; bei Gesamtdarstellungen entscheidet die inhaltliche Zielsetzung, nicht die Seitenzahl. Fehler, Lücken und Schwachstellen offen ansprechen; Empfehlungen vorsichtig formulieren. Kauf- und Verkaufsentscheidungen trifft ausschließlich der Anleger. Steuerliche Fragen an amtlichen Quellen (Gesetz, BMF-Schreiben) prüfen und als Entscheidungsvorlage vorlegen; ein Steuerberater ist in keiner Weise Teil des Investmentprozesses.
+Sachliches Hochdeutsch ohne unnötige Anglizismen, Beträge in Euro, Abkürzungen beim ersten Vorkommen ausschreiben, Fachbegriffe erklären, Festsetzungen begründen, keine Floskeln. Versionsnummern immer als „Version 1.2.32“ schreiben, nie als bloße Zahlenfolge. Dokumente als Word, PDF und Text, Fließtext statt Tabellen; Gesamtdarstellungen mit laienverständlicher Einleitung, Gliederung und Erläuterung aller Punkte, ohne Verweis auf beteiligte KI-Systeme; bei Gesamtdarstellungen entscheidet die inhaltliche Zielsetzung, nicht die Seitenzahl. Fehler, Lücken und Schwachstellen offen ansprechen; Empfehlungen vorsichtig formulieren. Kauf- und Verkaufsentscheidungen trifft ausschließlich der Anleger. Steuerliche Fragen an amtlichen Quellen (Gesetz, BMF-Schreiben) prüfen und als Entscheidungsvorlage vorlegen; ein Steuerberater ist in keiner Weise Teil des Investmentprozesses.
 
 Begründung: Die Projektanweisung gilt in jedem Gespräch des Projekts. Sie hält Rangfolge, Blindheit der Zweitprüfung, Ausführungsschutz und Fortschreibung fest; die Einzelheiten der Arbeitsweise stehen in Teil C, damit die Anweisung kurz und die Arbeitsweise an einer Stelle gepflegt bleibt.
 
@@ -57,7 +57,7 @@ TEIL B. PROMPTS JE TÄTIGKEIT
 
 
 B 1. Neubewertung eines Coins
-Bewerte [KÜRZEL, vollständiger Name] nach der Krypto-Bewertungsmatrix Version 1.2.31 (Modus A). Identität zuerst. Liefere Kurzurteil, Begründungen F1 bis F7, Bewertungsnote, Angebot, Datenlücken mit Kennzeichen der entscheidungsrelevanten Werte, Einfügezeilen und Quellen.
+Bewerte [KÜRZEL, vollständiger Name] nach der Krypto-Bewertungsmatrix Version 1.2.32 (Modus A). Identität zuerst. Liefere Kurzurteil, Begründungen F1 bis F7, Bewertungsnote, Angebot, Datenlücken mit Kennzeichen der entscheidungsrelevanten Werte, Einfügezeilen und Quellen.
 
 
 B 2. Wiedervorlage
@@ -65,7 +65,7 @@ Wiedervorlage für [KÜRZEL] (Modus B): nur geänderte Daten neu erheben, Noten 
 
 
 B 3. Datenpaket für die Zweitprüfung
-Erstelle das Datenpaket für die Zweitprüfung zu [KÜRZEL] (Modus G): Rohwerte mit Quelle, Abrufzeit, Bezugszeitraum und Kennzeichen, eingefroren mit Prüfsumme, ohne Klasse, Noten, Status oder sonstige Ergebnisse. Als Textdatei, die ich ins ChatGPT-Projekt hochladen kann.
+Erstelle das Datenpaket für die Zweitprüfung zu [KÜRZEL] (Modus G): Rohwerte mit Quelle, Abrufzeit, Bezugszeitraum und Kennzeichen, eingefroren mit Prüfsumme, ohne Klasse, Noten, Status oder sonstige Ergebnisse; dazu die Blockchain-Prüfung (Gesamtmenge, Treuhand-, Stiftungs- und Firmenbestände, Freigaben und neue Sperren der letzten zwölf Monate, Vertragsrechte nach Kanon § 6 Abs. 3) und ein Quellenregister mit den Primärquellen zu F1, F3 und F7 (Verfassung Teil F). Als ZIP-Datei mit Textdatei und Rohdaten, die ich im Gespräch anhänge.
 
 
 B 4. Kaufprüfung für einen Kandidaten
@@ -138,7 +138,7 @@ Zuerst erkennen, was verlangt ist.
 - D, Depot-Check: Stufe 3 nach Kanon § 23 bis § 30: Anteil außerhalb der Matrix gegen Höchstanteil, Überhang, Liquiditätsobergrenze, Abbaureihenfolge A11, A4, A7, A12, Schattenregel A13 nur protokollieren, Notfallregeln N1 bis N6, Steuerhinweise A9 und A9a bis A9e; Protokollzeilen.
 - E, Abgleich mit der Zweitprüfung: jede Abweichung einzeln auf Daten, Definition oder Deutung zurückführen, Quellen beider Seiten vergleichen, eigene Noten nicht verteidigen, sondern korrigieren, wenn die Gegenseite besser belegt ist. Ergebnis je Abweichung: „Erstbewertung korrigiert“, „Zweitprüfung korrigiert“ oder „offen – Datenlücke“. Spalte AF „Ergebnis nach Abgleich“ nur setzen, wenn die Abweichung schriftlich aufgelöst ist; sonst bleibt sie leer, und der vorsichtigere Status gilt. Begründung in Spalte AG. Danach Abschlussbericht nach C 6 und Protokollzeile „Abschluss Abgleich“. Bis zur Auflösung rechnen die Grenzen mit der vorsichtigeren Belegsicherheit und Gate-Warnung beider Prüfungen (Kanon § 16 Absatz 6); nach der Auflösung die betroffenen Werte der Erstbewertung im Erfassungsbogen berichtigen.
 - F, Gesamtlauf: alle Euro-Märkte des Stichtags laden und abgleichen (Q-18), Beobachtungsuniversum aus dem Ertragsradar hinzunehmen (Q-19), für jeden Markt alle in Frage kommenden Quellen abfragen (Q-12), Vollbewertung aller Coins mit Hauptkennzahl über null und aller Bestände, Ranking nach gültigem Status.
-- G, Datenerhebung und Datenpaket: nach der Verfassung; Identität zuerst (Q-01), Rohwerte mit Quelle, Abrufzeit, Bezugszeitraum und Prüfsumme (Q-07), Kennzeichen je Wert, Konsistenzprüfungen (Q-16), Stand einfrieren; das Datenpaket enthält keine Klasse, keine Noten und keinen Status.
+- G, Datenerhebung und Datenpaket: nach der Verfassung; Identität zuerst (Q-01), Rohwerte mit Quelle, Abrufzeit, Bezugszeitraum und Prüfsumme (Q-07), Kennzeichen je Wert, Konsistenzprüfungen (Q-16), Stand einfrieren; das Datenpaket enthält keine Klasse, keine Noten und keinen Status. Für Kandidaten stets mit Blockchain-Prüfung und Quellenregister nach Teil F der Verfassung; ohne beides geht kein Paket an die Zweitprüfung. Zum Anhang gehört der Auftragstext nach Prompt B 1 des Betriebsdokuments Zweitprüfung mit Coin-Angaben und Prüfsumme.
 - H, Neuzugänge: nach Teil I der Verfassung: Listungsabgleich, Ertragsradar, Wiedervorlage junger Historie am 90. Tag.
 - I, Gültigkeitsprüfung: für jeden Coin mit offenen Teilkäufen Z7a bis Z7d anwenden, einschließlich der Prüfung auf Insider-Transfers nach Q-11; je Auftrag „bleibt“, „Löschung empfohlen“ oder „Neusetzung empfohlen (Limit, Betrag)“ mit Grund; der Anleger führt aus und bestätigt.
 - J, Vergleichsmodul V: eigene Analyse zuerst mit Zeitstempel, danach die Aussage des Dienstes; Zeile für das Blatt „STA-Vergleich“. Das Modul beeinflusst weder Noten noch Status noch Kaufprüfung. Das Blatt „STA-Vergleich“ dient nur dem Vergleichsmodul; für Prüfungen von Chartkonstellationen nach Prompt B 15 wird es nicht verwendet und nicht ergänzt.
@@ -200,7 +200,8 @@ C 5. Selbstprüfung vor jeder Ausgabe
 - Umlaufangabe eines Anbieters ungeprüft als freier Umlauf übernommen? Brücken doppelt gezählt? (D-14)
 - Tatsächliche Abrufe statt Vertragsobergrenze verwendet? Anbietermodell als Vertrag ausgegeben? (D-04, D-10)
 - Firmenumsatz als Protokollumsatz gezählt? (D-12) Geplantes als laufend gewertet? Beschlossenen Rückkauf ohne Volumen höher als 2 bewertet?
-- Rückkauf und Burn derselben Token in der Absorptionsquote doppelt gezählt?
+- Rückkauf und Burn derselben Token in der Absorptionsquote doppelt gezählt? Freiwillige Maßnahmen einer Firma, Stiftung oder Projektkasse als künftige Absorption angerechnet? (Kanon § 11 Abs. 1 Satz 2)
+- Datenpaket für einen Kandidaten mit Blockchain-Prüfung und Quellenregister? (Verfassung Teil F)
 - Arithmetik nachgerechnet (Qualitätsnote, Bewertungsnote, Gesamtwert, Gate-Quote, Teilkäufe)? Statusreihenfolge eingehalten?
 - Ergebnis nahe einer Schwelle? Empfindlichkeit nennen, etwa „F6 kippt bei 2 Prozent geringerem Umlauf“.
 - Halter-Erträge mit Run-Rate geprüft (D-09)? Art des Wertrückflusses angegeben? Gehaltene Rückkäufe ohne Sperre mit einer Stufe Abzug (D-16)? Prüfliste F7 abgearbeitet?
@@ -249,7 +250,7 @@ ANHANG 1. EINRICHTUNG, OFFENE SCHRITTE UND TERMINE
 
 
 Was in welches Projekt gehört
-Claude-Projekt „Krypto-Bewertungsmatrix“: Projektanweisung aus Teil A. Projektdateien, jeweils nur die neueste Fassung: Regelkanon Version 1.2.31, Datenquellen-Verfassung Version 1.2.31, Gesamtdarstellung Version 1.2.31, dieses Betriebsdokument und das Betriebsdokument Zweitprüfung Version 1.2.31 (für die Fortschreibung), jeweils als Textfassung, dazu „Krypto-Bewertungsmatrix_Arbeitsfassung_Version_1.2.31_Textkopie.txt“. Die Arbeitsfassung liegt im Claude-Projekt nur als Textkopie ihrer berechneten Werte, ohne Formeln, weil das Projekt keine Excel-Dateien annimmt; von Claude geschriebene Dateien stehen dort im Unterordner „claude/“. Die Prüffassung gehört nicht ins Claude-Projekt; sie geht als echte Excel-Datei nur in das Gespräch einer Formelprüfung der Zweitprüfung. Für jede Arbeit an einer Excel-Datei die echte Datei aus dem Ordner „Aktuell“ im Gespräch anhängen; nie eine Projektkopie herunterladen und als Excel-Datei verwenden oder weitergeben.
+Claude-Projekt „Krypto-Bewertungsmatrix“: Projektanweisung aus Teil A. Projektdateien, jeweils nur die neueste Fassung: Regelkanon Version 1.2.32, Datenquellen-Verfassung Version 1.2.32, Gesamtdarstellung Version 1.2.32, dieses Betriebsdokument und das Betriebsdokument Zweitprüfung Version 1.2.32 (für die Fortschreibung), jeweils als Textfassung, dazu „Krypto-Bewertungsmatrix_Arbeitsfassung_Version_1.2.32_Textkopie.txt“. Die Arbeitsfassung liegt im Claude-Projekt nur als Textkopie ihrer berechneten Werte, ohne Formeln, weil das Projekt keine Excel-Dateien annimmt; von Claude geschriebene Dateien stehen dort im Unterordner „claude/“. Die Prüffassung gehört nicht ins Claude-Projekt; sie geht als echte Excel-Datei nur in das Gespräch einer Formelprüfung der Zweitprüfung. Für jede Arbeit an einer Excel-Datei die echte Datei aus dem Ordner „Aktuell“ im Gespräch anhängen; nie eine Projektkopie herunterladen und als Excel-Datei verwenden oder weitergeben.
 ChatGPT-Projekt „Krypto Zweitprüfung“: nach dem Betriebsdokument Zweitprüfung.
 Ihr Rechner: Ordner „Krypto-Matrix“ mit den Unterordnern „Aktuell“, „Archiv“, „Belege“, „Berichte“, „Datenpakete“ und „Sicherungen“. Sicherungsdateien gehören in „Sicherungen“, in kein Projekt. Exporte und Kontoauszüge der Börse gehören nach „Belege“, nie nach „Datenpakete“, weil Bestände und Käufe nie an die Zweitprüfung gehen.
 Begründung: Liegen alte und neue Fassungen nebeneinander, ist nicht eindeutig, welche gilt.
@@ -280,7 +281,7 @@ Termine
 
 Nach der Freischaltung
 15. Test aller Zugänge, Validierungslauf mit 32 Testfällen, erster Gesamtlauf, erster Ertragsradar, maschinelle Nachprüfung der bisherigen Kandidaten, Zweitprüfung auf dem neuen Datenstand; danach der Prüfauftrag zu Kauf- und Verkaufs-Setups mit Prompt B 15.
-16. Geplante Aufgaben: wöchentlich Gültigkeitsprüfung und Listungsabgleich (der Listungsabgleich ist seit 2. November 2026 als geplante Aufgabe eingerichtet, montags 7:47 Uhr, Skript und Stände im Archiv krypto-matrix unter datenstaende/listung), täglich Prüfmarken-Überwachung, monatlich Ertragsradar und A12-Prüfung.
+16. Geplante Aufgaben: wöchentlich Gültigkeitsprüfung und Listungsabgleich (jeder Listungsabgleich mit Ergebnis als Protokollzeile „Listungsabgleich“, Kanon § 31 Abs. 1; der Listungsabgleich ist seit 2. November 2026 als geplante Aufgabe eingerichtet, montags 7:47 Uhr, Skript und Stände im Archiv krypto-matrix unter datenstaende/listung), täglich Prüfmarken-Überwachung, monatlich Ertragsradar und A12-Prüfung.
 
 
 Laufend
@@ -298,7 +299,7 @@ ANHANG 2. NOTION ALS BIBLIOTHEK
 Notion ist Bibliothek und Notizbuch, nicht Rechenstelle. Zahlen, Noten und Status stehen verbindlich in der Arbeitsfassung; Notion verweist darauf. Begründung: Eine zweite Stelle mit Noten würde früher oder später von der Excel-Datei abweichen.
 Aufbau: eine Hauptseite „Krypto-Matrix“ mit fünf Datenbanken. „Regelwerk“: je Dokument eine Zeile mit Name, Art, Version, gültig ab, Status (gültig oder abgelöst), Freigabe für die Zweitprüfung (ja oder nein) und angehängter Datei; je Art genau eine Zeile „gültig“. „Beschlüsse“: jede Regelentscheidung mit Datum, Kennung, Inhalt in einem Satz, Begründung und Version. „Coins“: je Coin These, offene Beweise, Wiedervorlage und der Hinweis „Zahlen: Arbeitsfassung, Stand [Datum]“ sowie der Ablageort des letzten Abschlussberichts; keine Noten. „STA-Notizen“: je Analyse eine knappe eigene Notiz, keine kopierten Originalberichte; das Anlagedatum belegt die Reihenfolge im Vergleichsmodul. „Datenpakete und Sicherungen“: Stichtag, Prüfsumme, Ablageort.
 Schutz der Zweitprüfung: Notion nicht mit dem ChatGPT-Projekt verbinden; wenn doch, dann nur eine eigene Seite „Für die Zweitprüfung freigegeben“ mit ausschließlich ergebnisfreien Dokumenten und Datenpaketen.
-Lege die Dokumente der Version 1.2.31 in Notion unter „Krypto-Matrix / Regelwerk“ ab, setze die älteren auf „abgelöst“ und trage die Beschlüsse vom 24. bis 27.10.2026 in „Beschlüsse“ ein.
+Lege die Dokumente der Version 1.2.32 in Notion unter „Krypto-Matrix / Regelwerk“ ab, setze die älteren auf „abgelöst“ und trage die Beschlüsse vom 24. bis 27.10.2026 in „Beschlüsse“ ein.
 
 
 ANHANG 3. WAS AUTOMATISIERT WERDEN KANN UND WAS NICHT
@@ -312,6 +313,7 @@ Begründung: Was Geld bewegt oder Regeln ändert, soll eine bewusste Entscheidun
 ANHANG 4. LÖSCHLISTE
 
 In beiden Projekten, im Ordner „Aktuell“ und in Notion löschen oder nach „Archiv“ verschieben:
+- alle Dateien der Version 1.2.31 vom 2. November 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.31 in beiden Projekten;
 - alle Dateien der Version 1.2.30 vom 1. November 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.30 in beiden Projekten;
 - alle Dateien der Version 1.2.29 vom 1. November 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.29 in beiden Projekten;
 - alle Dateien der Version 1.2.28 vom 31. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.28 in beiden Projekten;
@@ -321,11 +323,11 @@ In beiden Projekten, im Ordner „Aktuell“ und in Notion löschen oder nach �
 - alle Dateien der Version 1.2.25 vom 25. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.25 in beiden Projekten;
 - alle Dateien der Version 1.2.24 vom 24. Oktober 2026: Regelkanon, Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente, ebenso die Projektanweisungen der Version 1.2.24 in beiden Projekten;
 - alle Dateien der Version 1.2.23 vom 24. Oktober 2026: Gesamtdarstellung, Datenquellen-Verfassung, Arbeitsfassung, Prüffassung und beide Betriebsdokumente;
-- den Skill „krypto-bewertungsmatrix“ in jeder Fassung und alle Skill-Druckfassungen; in Claude am 27.10.2026 deaktiviert, die Archivkopie liegt nur im Ordner „Archiv“, nie in einem Projekt; endgültig löschen, sobald die Version 1.2.31 sich bewährt hat;
+- den Skill „krypto-bewertungsmatrix“ in jeder Fassung und alle Skill-Druckfassungen; in Claude am 27.10.2026 deaktiviert, die Archivkopie liegt nur im Ordner „Archiv“, nie in einem Projekt; endgültig löschen, sobald die Version 1.2.32 sich bewährt hat;
 - alle Fassungen 1.2.21 und 1.2.22 von Gesamtdarstellung, Excel-Datei, Projektanweisungen, Betriebshandbuch, Änderungsbericht und Regelwerk für die Zweitprüfung;
 - die Prüfmappe „Pruefmappe_1.2.22_synthetisch.xlsx“ und die Blind-Arbeitsmappe 1.2.20;
 - das Regelwerk blind 1.2.20, das Regelwerk Stufe 1 1.2.20 und die Anleitung zum Prüfprojekt;
 - die Datenquellen-Verfassung 1.0, 1.0.1, 1.1 und 1.2;
 - die Gesamtdarstellungen 1.2.18 bis 1.2.22 einschließlich der erklärenden Ausgabe vom 24. Oktober 2026;
-- das Kalibrierungs- und Entscheidungsarchiv vom 24. Oktober 2026; sein Inhalt steht vollständig im Blatt „Kalibrierung“ der Arbeitsfassung Version 1.2.31.
-Gültig sind danach nur: Regelkanon, Datenquellen-Verfassung, Arbeitsfassung und Prüffassung der Krypto-Bewertungsmatrix, die beiden Betriebsdokumente und die erklärende Gesamtdarstellung, jeweils in der Version 1.2.31.
+- das Kalibrierungs- und Entscheidungsarchiv vom 24. Oktober 2026; sein Inhalt steht vollständig im Blatt „Kalibrierung“ der Arbeitsfassung Version 1.2.32.
+Gültig sind danach nur: Regelkanon, Datenquellen-Verfassung, Arbeitsfassung und Prüffassung der Krypto-Bewertungsmatrix, die beiden Betriebsdokumente und die erklärende Gesamtdarstellung, jeweils in der Version 1.2.32.

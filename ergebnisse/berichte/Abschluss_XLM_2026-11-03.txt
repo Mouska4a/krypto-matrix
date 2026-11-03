@@ -1,0 +1,70 @@
+ABSCHLUSSBERICHT STELLAR (XLM) NACH DEM ABGLEICH MIT DER ZWEITPRÜFUNG
+Stand: 3. November 2026, Regelwerk Version 1.2.32; Kursdaten bis zur Tageskerze vom 3. November 2026 (Bitvavo, abgerufen 4. November 2026)
+
+
+1. ERGEBNIS
+
+Gültiger Status: „Qualität ja – Bewertung abwarten“. Klasse Plattform; Qualitätsnote 62, Klasse C; Bewertungsnote 0; Gesamtwert 47; Belegsicherheit C; Angebots-Gate ok. Positionsgrenze für Zukauf: 0 Euro, weil die Bewertungsnote unter 30 liegt. Sie halten XLM nicht.
+
+Erst- und Zweitprüfung stimmen nach der Klärung in Klasse, Bewertungsnote, Belegsicherheit, Gate und Status überein. Die Erstbewertung vom 2. November hatte Stellar als Geldwert-Asset mit Bewertungsnote 88 und als Satellit geführt; nach dem Abgleich und Ihrer Entscheidung vom 3. November ist sie berichtigt.
+
+
+2. FUNDAMENTDATEN
+
+Klasse Plattform: Stellar ist ein Netz für Zahlungen und für die Ausgabe und Abwicklung von Stablecoins und tokenisierten Werten wie Geldmarktfonds. XLM dient vor allem zur Bezahlung der Netzgebühren und für die Mindestreserven der Konten; der übertragene Wert ist überwiegend nicht XLM selbst.
+
+Erträge: Netzgebühren in 365 Tagen bis 2. November 2026 517.853 US-Dollar, rund 462.000 Euro (DefiLlama, A/E). Wertrückfluss: Alle Gebühren gehen in den Gebührentopf des Protokolls, auf den niemand Zugriff hat; Bestand 10,97 Millionen XLM (Horizon, P/V). Das zählt als dauerhafte Sperre; weil die Netzbetreiber das durch eine Protokolländerung ändern könnten, ist F5 auf 4 begrenzt.
+
+Bewertung: voll verwässert rund 7,32 Milliarden Euro beim Kurs von 0,14645 Euro (Gesamtmenge 50,0 Milliarden XLM nach Abzug der 2019 auf ein gesperrtes Konto übertragenen 55,4 Milliarden). Multiplikator rund das 15.860-Fache der Jahresgebühren; Punkte gibt es erst ab dem 400-Fachen. Die Kontrollkennzahl Verbrennung geteilt durch Neuausgabe ist nicht bestimmbar, weil es keine Neuausgabe gibt.
+
+Angebot (Horizon, Ledger 65291245, P/V): freier Umlauf 35,26 Milliarden XLM; die Stellar-Stiftung hält in 13 selbst veröffentlichten Konten 14,42 Milliarden. In den zwölf Monaten bis 3. November 2026 flossen höchstens 3,48 Milliarden an andere Konten, also höchstens 9,9 Prozent des Umlaufs; Rate über 36 Monate bei voller Verteilung der Reserve 12,3 Prozent im Jahr. Einen festen Freigabeplan gibt es nicht.
+
+
+3. EINORDNUNG
+
+Stärken: großer Markt für Zahlungsverkehr und Tokenisierung (F1 4), belegte zahlende Nutzung durch Zahlungsanbieter und Fondsgesellschaften (F2 3), XLM für jede Transaktion zwingend (F4 5), vollständige Sperre der Gebühren (F5 4). Schwächen: Nischenführer mit starker Konkurrenz (F3 2), große Reserve der Stiftung (F6 2), deutliche Abhängigkeit von der Stiftung (F7 2).
+
+Nähe zu Schwellen: keine. Die Bewertungsnote bleibt bei jedem realistischen Kurs bei 0; selbst die zehnfachen Gebühren ergäben noch das 1.586-Fache. Die Qualitätsnote liegt mit 62 sicher in Klasse C.
+
+Vergleich mit Ankerwerten: Wie bei anderen genutzten Plattformen mit absichtlich minimalen Gebühren entsteht der Abstand zwischen Nutzung und Bewertung nicht aus fehlender Aktivität, sondern daraus, dass das Netz an der Nutzung kaum verdient (Kalibrierung K-38 und K-39).
+
+
+4. ABGLEICH
+
+Die erste Zweitprüfung arbeitete ohne den Regelkanon Version 1.2.31 und wurde wiederholt. Die Wiederholung kam auf Plattform, Qualitätsnote 51, Bewertungsnote 0, Gate ok, Optionsliste, mit F5 = 0.
+
+Klasse, Ursache Deutung: Die Erstbewertung hatte Stellar nach seiner Bauart als Zahlungsnetz eingeordnet. Nach § 5 Absatz 1 zählt aber, womit das Netz tatsächlich Wert schafft; aufgelöst durch Ihre Entscheidung vom 3. November 2026 zugunsten der Plattform.
+
+F5, Ursache Deutung: Die Zweitprüfung wertete den Gebührentopf zunächst nicht als Wertrückfluss. Nach der Klärungsfrage mit der Primärquelle der Stiftung hat sie auf 4 korrigiert, weil § 7 Absatz 9 dauerhafte Sperren ausdrücklich mitzählt.
+
+Gate, Ursache Daten: zunächst „offen“, weil die Vollständigkeit der Stiftungsabflüsse unklar war; aufgelöst durch die Obergrenze aus allen Vorgängen der 13 Stiftungskonten.
+
+Verbleibende Abweichung: Qualitätsnote 62 gegen 67 aus F1 (4 gegen 5) und F3 (2 gegen 3), Deutung; ohne Folge für den Status, weil die Bewertungsnote unter 30 in beiden Fällen zu „Qualität ja – Bewertung abwarten“ führt.
+
+
+5. AUSBLICK
+
+Bewertung zum heutigen Kurs: Bewertungssignal „teuer“, übersetzt eher überbewertet; Multiplikator rund 15.860, 0 Punkte. Als Rechnung bei unveränderten Gebühren: „neutral“ erst ab einem Kurs von höchstens rund 0,0018 Euro, „günstig“ ab höchstens rund 0,0009 Euro, also nach einem Rückgang um rund 99 Prozent. Realistischer Weg zu einer Bewertungsnote wären um ein Vielfaches höhere Gebühren.
+
+Kursantrieb, Deutung nach den festen Anzeichen: RS90 minus 22,1 Prozentpunkte (XLM +2,2 Prozent, Bitcoin +24,3 Prozent über 90 Tage), Gleichlauf mit Bitcoin 0,74. Über zwölf Monate fiel der Kurs um 40 Prozent; die Gebühren der letzten 30 Tage liegen aufs Jahr gerechnet 11 Prozent unter dem Jahreswert. Kurs 15 Prozent unter dem 50-Tage-Durchschnitt und 9 Prozent unter dem 200-Tage-Durchschnitt; mittlerer Tagesumsatz bei Bitvavo 30 Prozent unter den 90 Tagen davor. Einordnung: marktgetrieben, mit deutlicher relativer Schwäche; kein Anzeichen von Hype.
+
+Unbewertetes Potenzial: tokenisierte Fonds, Stablecoins und Auszahlungsnetze. Fehlender Beweis: eine Gebührenbasis, die mit der Nutzung wächst. Anlässe einer Neubewertung: Gebühren auf mehr als das Zwanzigfache, eine Änderung des Gebührentopfs, eine Änderung des Stiftungsmandats. Wiedervorlage vierteljährlich, 2. Februar 2027.
+
+
+6. EINSTIEGSSZENARIO
+
+Keine Kauffreigabe, weil die Bewertungsnote unter 30 liegt; ein Kauf nach A6 kommt nur für die Optionsliste in Betracht und scheidet aus. Frühester Anlass für eine neue Prüfung ist die Wiedervorlage oder ein deutlicher Anstieg der Gebühren.
+
+
+7. AUSSTIEGSSZENARIO
+
+Entfällt; Sie halten XLM nicht.
+
+
+8. DATENLÜCKEN, PRÜFAUFTRÄGE UND QUELLEN
+
+Lücken: Gebühren nur als 365-Tage-Wert, ohne Monatsreihe nach D-03 (ohne Folge beim 15.860-Fachen); wirtschaftliche Empfänger der Stiftungsabflüsse nicht zugeordnet, deshalb Obergrenze verwendet; zehn größte Adressen ohne Börsen und die Verteilung der Validatoren nicht erhoben.
+
+Quellen: Horizon, https://horizon.stellar.org (Ledger, Konten, Zahlungen und Operationen der Stiftungskonten; Rohdaten im Datenpaket vom 3. November 2026 und in ergebnisse/abgleich). Stiftungskonten: https://stellar.org/foundation/mandate. Gebührentopf: https://developers.stellar.org/docs/learn/fundamentals/lumens. Bitvavo: https://api.bitvavo.com/v2/XLM-EUR/candles?interval=1d. DefiLlama: https://api.llama.fi/overview/fees. Mengen: https://dashboard.stellar.org/api/v2/lumens.
+
+Protokoll: Zeile „Abschluss Abgleich“ vom 3. November 2026 mit Kursantrieb „marktgetrieben (Deutung)“.

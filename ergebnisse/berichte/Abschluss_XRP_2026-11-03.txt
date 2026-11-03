@@ -1,0 +1,66 @@
+ABSCHLUSSBERICHT XRP NACH DEM ABGLEICH MIT DER ZWEITPRÜFUNG
+Stand: 3. November 2026, Regelwerk Version 1.2.32; Kursdaten bis zur Tageskerze vom 3. November 2026 (Bitvavo, abgerufen 4. November 2026)
+
+
+1. ERGEBNIS
+
+Gültiger Status: „Investment-Sperre bis Wiedervorlage“. Qualitätsnote 61, Klasse C; Bewertungsnote 100 zum Stichtag, beim Kurs vom 3. November 92; Gesamtwert 71; Belegsicherheit C; Angebots-Gate Investment-Sperre. Positionsgrenze: 0 Euro, ein Kauf ist ausgeschlossen. Sie halten XRP nicht.
+
+Erst- und Zweitprüfung stimmen in Klasse, Bewertungsnote, Belegsicherheit und Status überein. Die Erstbewertung vom 2. November hatte das Gate auf „ok“ gesetzt und XRP als Satellit geführt; nach dem Abgleich und Ihrer Entscheidung vom 3. November ist sie berichtigt.
+
+
+2. FUNDAMENTDATEN
+
+Klasse Geldwert-Asset: XRP ist der eigene Coin des XRP Ledger und dient als Zahlungs- und Brückenwährung zwischen Währungen; die Netzgebühren werden vernichtet, die Firma Ripple verdient an ihnen nichts. Gebühren in 365 Tagen bis 2. November 2026: 281.712 US-Dollar, rund 251.000 Euro (DefiLlama, A/E); für ein Geldwert-Asset ist das nicht die Bewertungsgrundlage.
+
+Bewertung: MVRV, also Marktwert geteilt durch den realisierten Wert, 0,846 am 1. November 2026 (Coin Metrics, A/E); Kurs geteilt durch den Durchschnitt der letzten 200 Wochenkerzen 0,977 am Stichtag (Bitvavo, R aus P). Voll verwässerte Bewertung beim Kurs von 1,14238 Euro rund 114 Milliarden Euro.
+
+Angebot, Primärdaten des XRP Ledger (Ledger 108096366, P/V): Gesamtmenge 99,986 Milliarden XRP. 31,1 Milliarden liegen in 99 Treuhandverträgen der Ripple zugeordneten Konten, ohne Bedingung und ohne Verfallsfrist. Ab 1. Dezember 2026 kann jeden Monatsersten 1 Milliarde frei werden, bis 1. Juni 2029, der Rest von 0,1 Milliarden am 1. Juli 2029. Freier Umlauf nach D-14 68,9 Milliarden, einschließlich der frei übertragbaren Ripple-Guthaben von 4,1 Milliarden. Zuwachs in zwölf Monaten höchstens 12 Milliarden, 17,4 Prozent; Rate über 36 Monate 13,2 Prozent im Jahr. Größte Einzelfreigabe 1 Milliarde XRP am 1. Dezember 2026 an Ripple.
+
+
+3. EINORDNUNG
+
+Stärken: großer Zahlungsmarkt (F1 4), belegte zahlende Nutzung (F2 3), größte Liquidität unter den Zahlungscoins und geklärte Rechtslage in den Vereinigten Staaten (F3 3), Coin für jede Transaktion zwingend (F4 5). Schwächen: deutliche Abhängigkeit von Ripple, das rund ein Drittel der Menge hält und die empfohlene Liste der Netzbetreiber prägt (F7 2), und das große Angebot aus der Treuhand (F6 2). Der Wertrückfluss F5 ist bei Geldwert-Assets auf die Höhe von F2 begrenzt (3).
+
+Nähe zu Schwellen: Die Kontrollkennzahl lag am Stichtag mit 0,977 knapp unter 1; beim Kurs vom 3. November liegt sie knapp darüber, die Bewertungsnote sinkt dadurch von 100 auf 92, ohne Folge für den Status. Der Zuwachs von 17,4 Prozent liegt 2,4 Punkte über der Sperrschwelle von 15 Prozent; erst ein Umlauf von mehr als 80 Milliarden XRP brächte ihn darunter.
+
+Vergleich mit Ankerwerten: Litecoin und Bitcoin Cash sind ebenfalls Geldwert-Assets mit Bewertungsnote 100, aber ohne große Freigaben; ihr Gate ist „ok“. Den Unterschied macht allein die Treuhand.
+
+
+4. ABGLEICH
+
+Erstbewertung 58, 100, C, Gate ok, Satellit; Zweitprüfung 56, 100, C, Investment-Sperre, Investment-Sperre bis Wiedervorlage. Die erste Fassung der Zweitprüfung war unvollständig, weil das Datenpaket nur Markt- und Mengendaten enthielt; erst der Nachtrag mit den Ledgerdaten ermöglichte ein vollständiges Ergebnis.
+
+Gate, Ursache Deutung: Ripple hat in den letzten zwölf Monaten jeweils 70 Prozent der freigegebenen Menge wieder für 31 bis 35 Monate gesperrt. Die Erstbewertung rechnete das als Absorption der kommenden zwölf Monate an, die Zweitprüfung nicht, weil keine Pflicht dazu besteht. Aufgelöst durch Ihre Entscheidung vom 3. November 2026 und den neuen Satz 2 in § 11 Absatz 1: Freiwillige Maßnahmen zählen erst nach ihrem Vollzug. Damit gilt die Investment-Sperre.
+
+F6, Ursache Definition: Die Zweitprüfung rechnet die frei übertragbaren Ripple-Guthaben nach D-14 zum Umlauf; die Erstbewertung ist berichtigt (F6 von 1 auf 2, Qualitätsnote von 58 auf 61).
+
+Verbleibende Abweichung: F1 4 gegen 3 und F3 3 gegen 2, zusammen 5 Punkte in der Qualitätsnote. F1 folgt D-18, das Zahlungsverkehr den Noten 4 bis 5 zuordnet; F3 ist Deutung. Für den Status ohne Folge, weil die Sperre in beiden Fällen greift.
+
+
+5. AUSBLICK
+
+Bewertung zum heutigen Kurs: Bewertungssignal „günstig“, übersetzt eher unterbewertet; Bewertungsnote 92 beim Kurs von 1,14238 Euro. Als Rechnung bei unveränderter Kontrollkennzahlbasis und unverändertem realisierten Wert: Das Signal wechselt ab rund 2,28 Euro auf „neutral“ und ab rund 3,42 Euro auf „teuer“. Vorbehalt: Belegsicherheit C; das MVRV stammt aus einer einzigen Quelle.
+
+Kursantrieb, Deutung nach den festen Anzeichen: RS90, die relative Stärke gegenüber Bitcoin über 90 Tage, beträgt 0,1 Prozentpunkte (XRP +24,4 Prozent, Bitcoin +24,3 Prozent), der Gleichlauf der Tagesveränderungen mit Bitcoin 0,88. Über zwölf Monate fiel der Kurs um 43 Prozent, während die Gebühren der letzten 30 Tage aufs Jahr gerechnet 18 Prozent über dem Jahreswert liegen. Kurs 7 Prozent unter dem 50-Tage-Durchschnitt, 3 Prozent über dem 200-Tage-Durchschnitt; der mittlere Tagesumsatz bei Bitvavo stieg in 30 Tagen um 24 Prozent gegenüber den 90 Tagen davor, ohne Sprung. Einordnung: marktgetrieben. Die Einordnung wirkt nicht auf Note, Status oder Kaufprüfung.
+
+Unbewertetes Potenzial: Nachfrage über börsengehandelte Fonds und Bankanbindungen. Fehlender Beweis: zahlende Nutzung von XRP als Brückenwährung in nennenswertem Umfang. Anlässe einer sofortigen Neubewertung: eine vertragliche Verpflichtung von Ripple zur Wiedersperrung, ein neuer Treuhand- oder Freigabeplan, ein MVRV über 2,5. Freigabetermine: monatlich ab 1. Dezember 2026. Wiedervorlage nach § 15 Absatz 1 zum Ende der stärksten Freigabephase, 1. Juli 2029.
+
+
+6. EINSTIEGSSZENARIO
+
+Keine Kauffreigabe, weil der gültige Status eine Investment-Sperre ist; ein Kauf nach A6 ist nur für die Optionsliste möglich und scheidet ebenfalls aus. Frühester Anlass für eine neue Prüfung ist eine vertragliche Änderung der Treuhand.
+
+
+7. AUSSTIEGSSZENARIO
+
+Entfällt; Sie halten XRP nicht.
+
+
+8. DATENLÜCKEN, PRÜFAUFTRÄGE UND QUELLEN
+
+Lücken: Zuordnung der Konten zu Ripple nur über XRPSCAN (Hinweis nach Q-11); keine vollständige Liste der zehn größten Adressen ohne Börsen; Betreiber der empfohlenen Validatoren nicht erhoben; MVRV nur aus einer Quelle; Gebühren als 365-Tage-Wert statt zwölf Kalendermonaten (D-03), für Geldwert-Assets ohne Folge.
+
+Quellen: XRP Ledger, öffentliche Schnittstelle https://xrplcluster.com (ledger, account_info, account_objects, account_tx; Rohdaten im Nachtrag zum Datenpaket vom 3. November 2026). Coin Metrics: https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=xrp&metrics=CapMVRVCur,SplyCur,PriceUSD. Bitvavo: https://api.bitvavo.com/v2/XRP-EUR/candles?interval=1d und interval=1W. DefiLlama: https://api.llama.fi/overview/fees. Kontenliste: https://api.xrpscan.com/api/v1/names/well-known. Abgleich und Zweitprüfung: Archiv krypto-matrix, ergebnisse/abgleich.
+
+Protokoll: Zeile „Abschluss Abgleich“ vom 3. November 2026 mit Kursantrieb „marktgetrieben (Deutung)“.
